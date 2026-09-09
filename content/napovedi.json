@@ -1,0 +1,32 @@
+{
+  "posodobljeno": "2026-09-09",
+  "napovedi": [
+    {
+      "id": "p-2026-09-09-fsd-rollout",
+      "claim": "FSD Supervised bo v Sloveniji na avtih (OTA) pred 28. 9. 2026.",
+      "narejena": "2026-09-09",
+      "horizont": "2026-09-28",
+      "status": "open",
+      "watch_id": "fsd-slovenia",
+      "razsodba": null
+    },
+    {
+      "id": "p-2026-09-09-starship-14",
+      "claim": "Starship Flight 14 poleti najkasneje 30. 9. 2026 (NET 15. 9. drži kot tla, ne kot datum).",
+      "narejena": "2026-09-09",
+      "horizont": "2026-09-30",
+      "status": "open",
+      "watch_id": "starship-next",
+      "razsodba": null
+    },
+    {
+      "id": "p-2026-09-09-tcmv",
+      "claim": "TCMV 6. 10. 2026 ne bo dal FSD Supervised za vseh 27 držav (premalo prebivalstva v šestih odobrenih).",
+      "narejena": "2026-09-09",
+      "horizont": "2026-10-06",
+      "status": "open",
+      "watch_id": "fsd-slovenia",
+      "razsodba": null
+    }
+  ]
+}

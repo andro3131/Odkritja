@@ -1,0 +1,374 @@
+:root {
+  --bg: #0a0c10;
+  --bg-elev: #12161d;
+  --bg-card: #161b24;
+  --bg-card-hover: #1c2330;
+  --paper: #ece7dc;
+  --muted: #8b95a1;
+  --amber: #e6b325;
+  --amber-dim: rgba(230, 179, 37, 0.14);
+  --mint: #6ee7c5;
+  --coral: #e07a5f;
+  --line: rgba(230, 179, 37, 0.16);
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-sans: "Figtree", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --nav-h: 64px;
+  --max: 880px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--paper);
+  line-height: 1.55;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(230, 179, 37, 0.07), transparent 50%),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(110, 231, 197, 0.05), transparent 45%);
+  z-index: 0;
+}
+
+a { color: var(--amber); text-decoration: none; }
+a:hover { color: var(--mint); }
+
+.wrap {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+
+header.top {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(10, 12, 16, 0.86);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+
+.top-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  height: var(--nav-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  color: var(--paper);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.brand strong {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.brand span {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+nav.links {
+  display: flex;
+  gap: 0.15rem;
+  flex-wrap: wrap;
+}
+
+nav.links a {
+  font-size: 0.85rem;
+  color: var(--muted);
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+}
+
+nav.links a:hover,
+nav.links a.active {
+  color: var(--bg);
+  background: var(--amber);
+}
+
+.hero {
+  padding: 2.2rem 0 1.4rem;
+}
+
+.hero .meta {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--mint);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0.4rem 0 0.6rem;
+}
+
+.hero p.lede {
+  color: var(--muted);
+  max-width: 40rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+}
+
+.filters button {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.filters button:hover,
+.filters button.on {
+  border-color: var(--amber);
+  color: var(--amber);
+  background: var(--amber-dim);
+}
+
+.search {
+  width: 100%;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  color: var(--paper);
+  padding: 0.7rem 0.9rem;
+  border-radius: 8px;
+}
+
+.search:focus {
+  outline: 1px solid var(--amber);
+}
+
+.cards { display: grid; gap: 1rem; }
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.15rem 1.2rem 1.05rem;
+}
+
+.card:hover { background: var(--bg-card-hover); }
+
+.card .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.55rem;
+}
+
+.pill {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.45rem;
+  border-radius: 4px;
+  background: var(--amber-dim);
+  color: var(--amber);
+}
+
+.pill.status-paper { color: var(--mint); background: rgba(110, 231, 197, 0.1); }
+.pill.status-uradno { color: var(--amber); }
+.pill.status-govorica { color: var(--coral); background: rgba(224, 122, 95, 0.12); }
+.pill.status-napoved { color: var(--paper); background: rgba(236, 231, 220, 0.08); }
+.pill.status-open { color: var(--amber); }
+.pill.status-hit { color: var(--mint); background: rgba(110, 231, 197, 0.12); }
+.pill.status-miss { color: var(--coral); background: rgba(224, 122, 95, 0.12); }
+.pill.status-partial { color: var(--paper); }
+.pill.status-zapadlo { color: var(--coral); }
+
+.stars {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-left: auto;
+}
+
+.card h2 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 0.55rem;
+}
+
+.card .body {
+  color: #c9c3b6;
+  font-size: 0.98rem;
+}
+
+.card .why {
+  margin-top: 0.7rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+  color: var(--mint);
+}
+
+.card .why::before {
+  content: "Zakaj · ";
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.viri {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.viri a {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+}
+
+.empty, .napaka {
+  color: var(--muted);
+  padding: 2rem 0;
+}
+
+.watch-status {
+  color: #c9c3b6;
+  margin: 0.4rem 0 0.6rem;
+}
+
+.watch-next {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--amber);
+}
+
+.zgodovina {
+  margin-top: 0.8rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--line);
+  list-style: none;
+}
+
+.zgodovina li {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+.zgodovina time {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--amber);
+  margin-right: 0.4rem;
+}
+
+.claim {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  margin: 0.4rem 0 0.6rem;
+}
+
+.razsodba {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.inbox-hint {
+  margin-top: 2.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.inbox-hint code {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--amber);
+}
+
+footer.foot {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.kalendar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.kalendar a, .kalendar button {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  border: 1px solid var(--line);
+  background: var(--bg-card);
+  color: var(--paper);
+  padding: 0.35rem 0.55rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.kalendar a.on, .kalendar button.on {
+  background: var(--amber);
+  color: var(--bg);
+  border-color: var(--amber);
+}
+
+@media (max-width: 640px) {
+  .brand span { display: none; }
+  nav.links a { padding: 0.3rem 0.45rem; font-size: 0.78rem; }
+  .card h2 { font-size: 1.18rem; }
+}

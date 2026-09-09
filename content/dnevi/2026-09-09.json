@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-09",
+  "naslov_dneva": "FSD v Sloveniji, Starship 14, Astra, genomski atlas in Navier–Stokes",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-09-09-fsd-slovenia",
+      "date": "2026-09-09",
+      "teme": ["tesla"],
+      "naslov": "FSD Supervised odobren v Sloveniji — rollout še ni tu",
+      "povzetek_sl": "Tesla Europe je 7. 9. 2026 na X sporočila, da je FSD Supervised odobren v Sloveniji. To je šesta EU država po Nizozemski, Litvi, Estoniji, Danski in Belgiji. Rollout strankam se »začne kmalu« — to ni datum. Sistem ostane nadzorovan: voznik mora biti zraven, to ni avtonomija. V EU od junija 2026 ni več enkratnega nakupa, samo naročnina (približno 99 € na mesec). Hardware običajno HW4. Naslednji resen datum za cel blok je TCMV glasovanje 6. 10. 2026; šest držav nima dovolj prebivalstva za kvalificirano večino.",
+      "zakaj_je_vazno": "Prvič, da je to tvoja cesta, ne forum. Drugič, odobritev ≠ gumb v avtu.",
+      "status": "uradno",
+      "zaupanje": 5,
+      "watch_id": "fsd-slovenia",
+      "viri": [
+        {
+          "tip": "web",
+          "handle": null,
+          "naslov": "Tesla FSD Supervised approved in Slovenia",
+          "url": "https://www.notateslaapp.com/news/4660/tesla-fsd-supervised-approved-in-slovenia-launching-soon"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-starship-14",
+      "date": "2026-09-09",
+      "teme": ["spacex"],
+      "naslov": "Starship Flight 14: NET 15. 9., prvi orbitalni profil",
+      "povzetek_sl": "SpaceX meri na Flight 14 ne prej kot 15. 9. 2026. To je planning marker (FCC/FAA), ne potrjen launch window. Hardware: Booster 21 (33-motor static fire 28. 8.) in Ship 41. Cilj je prva orbitalna trajektorija in približno 20 operativnih Starlink V3. Tower catch ladje je po poročilih prestavljen. FAA odobritev profila do zdaj ni bila javno razglašena. Starship datumi se redno premikajo — 15. 9. beri kot tla.",
+      "zakaj_je_vazno": "Če res gre v orbito z payloadom, ni več samo suborbitalni spektakel.",
+      "status": "govorica",
+      "zaupanje": 3,
+      "watch_id": "starship-next",
+      "viri": [
+        {
+          "tip": "web",
+          "handle": "SpaceX",
+          "naslov": "Starship Flight 14 Wikipedia / Space.com static fire",
+          "url": "https://en.wikipedia.org/wiki/Starship_flight_test_14"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-gpt6-astra",
+      "date": "2026-09-09",
+      "teme": ["ai"],
+      "naslov": "GPT-6 Astra je zunaj (3.–4. 9.)",
+      "povzetek_sl": "OpenAI je 3. 9. predstavil GPT-6 Astra, API gpt-6-astra je sledil 4. 9. Rollout gre na Plus, Pro, Business, Enterprise in Azure/Bedrock. OpenAI v safety overview pravi, da je to prvi model na Critical pragu za kibernetske sposobnosti — to pomeni ostrejše notranje zaščite, ne da je orodje za napad. Cene API so visoke (reda 10 $/1M vhod, 50 $/1M izhod po poročilih). Knowledge cutoff: 30. 4. 2026. To ni notranji model, ki so ga kasneje omenili pri Navier–Stokes.",
+      "zakaj_je_vazno": "Novi frontier je izdelek, ne leak. Kritični cyber prag je ločena novica od benchmarkov.",
+      "status": "uradno",
+      "zaupanje": 5,
+      "watch_id": "gpt6-astra",
+      "viri": [
+        {
+          "tip": "web",
+          "handle": "OpenAI",
+          "naslov": "GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-alphagenome",
+      "date": "2026-09-09",
+      "teme": ["ai", "medicina"],
+      "naslov": "AlphaGenome Atlas: 9 milijard predvidenih mutacij",
+      "povzetek_sl": "Google DeepMind je objavil AlphaGenome Atlas — predvidene učinke spremembe vsake črke v človeškem genomu (plus kratke indels). Metrika AVI naj bi ločila škodljive od benignih variant v kliničnih bazah. Broad Institute je atlas že uporabil za prioritizacijo nekodirajoče variante pri hudi epilepsiji. Podatki so prosto za nekomercialno rabo, v duhu AlphaFold baze. To ni diagnostika, je zemljevid za raziskovalce.",
+      "zakaj_je_vazno": "Genom brez beljakovin (98 %) je bil temen. Atlas da eno številko na vsako točko — z vsemi pastmi modela.",
+      "status": "paper",
+      "zaupanje": 4,
+      "watch_id": "alphagenome-atlas",
+      "viri": [
+        {
+          "tip": "web",
+          "handle": "Nature",
+          "naslov": "DeepMind genome atlas",
+          "url": "https://www.nature.com/articles/d41586-026-02835-4"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-navier-stokes",
+      "date": "2026-09-09",
+      "teme": ["ai", "fizika"],
+      "naslov": "OpenAI trdi dokaz Navier–Stokes — Clay nagrada verjetno ne",
+      "povzetek_sl": "8. 9. 2026 je OpenAI objavil, da je notranji sistem (močnejši od Astre, ~10 000 agentov) dokazal končno-časovno singularnost za 3D Navier–Stokes z zunanjo silo, plus formalizacijo v Lean. Millennium prize zahteva neforsirane enačbe; zato Clay milijon verjetno ostane. NYU-jev Buckmaster in Alpöge očitata dirko po njunem koraku. To je velik korak v matematičnem AI in hkrati spor o zaslugah. Ne piši »rešen millennium problem«.",
+      "zakaj_je_vazno": "Loči: fizika tekočin, nagrada, in kdo je sploh dokazal kaj.",
+      "status": "govorica",
+      "zaupanje": 3,
+      "watch_id": "navier-stokes",
+      "viri": [
+        {
+          "tip": "web",
+          "handle": "OpenAI",
+          "naslov": "On the Navier–Stokes Millennium Prize Problem",
+          "url": "https://openai.com/index/navier-stokes-solution/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-rentosertib",
+      "date": "2026-09-09",
+      "teme": ["medicina", "ai"],
+      "naslov": "Rentosertib: Phase III za IPF teče",
+      "povzetek_sl": "Rentosertib (nekdaj ISM001-055) je TNIK inhibitor Insilica, tarča in molekula iz njunega Pharma.AI. Phase IIa (71 bolnikov, Kitajska) je 2025 izšla v Nature Medicine: 60 mg QD je v 12 tednih dvignila FVC, placebo je padel. Julija 2026 so sprožili Phase III (NCT07687459): 320 bolnikov, 52 tednov, primarni izid letni upad FVC, predviden konec oktober 2029. To ni zdravilo na polici. Je pa resen test, ali AI-odkrita tarča preživi veliko študijo.",
+      "zakaj_je_vazno": "IPF ima slabo prognozo. Če Phase III drži, je to prvi resni late-stage dokaz za generativni drug discovery.",
+      "status": "uradno",
+      "zaupanje": 5,
+      "watch_id": "rentosertib",
+      "viri": [
+        {
+          "tip": "web",
+          "handle": "Insilico",
+          "naslov": "Phase III initiation",
+          "url": "https://insilico.com/news/xmjsn4l091-insilico-initiates-phase-iii-clinical-tr"
+        },
+        {
+          "tip": "web",
+          "handle": null,
+          "naslov": "NCT07687459",
+          "url": "https://clinicaltrials.gov/study/NCT07687459"
+        }
+      ]
+    }
+  ]
+}

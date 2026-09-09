@@ -1,0 +1,106 @@
+{
+  "posodobljeno": "2026-09-09",
+  "teme": [
+    {
+      "id": "fsd-slovenia",
+      "naslov": "FSD v Sloveniji",
+      "teme": ["tesla"],
+      "status_sl": "Odobreno 7. 9. 2026 (Tesla EMEA). Rollout strankam še ni začel — HW4, nadzorovan voznik, naročnina ~99 €/mesec. Naslednji datum: TCMV glasovanje 6. 10. 2026 za cel EU.",
+      "zadnja_sprememba": "2026-09-07",
+      "naslednje_pricakovano": "OTA rollout v dneh/tednih; TCMV 6. 10. 2026",
+      "zgodovina": [
+        {
+          "date": "2026-09-07",
+          "text": "Tesla Europe: FSD Supervised odobren v Sloveniji, šesta EU država. Rollout soon."
+        }
+      ]
+    },
+    {
+      "id": "starship-next",
+      "naslov": "Starship Flight 14",
+      "teme": ["spacex"],
+      "status_sl": "NET 15. 9. 2026, prvi poskus orbitalne trajektorije. Booster 21 + Ship 41, ~20 Starlink V3. FAA odobritev še ni javna. Datum je tla, ne obljuba.",
+      "zadnja_sprememba": "2026-09-02",
+      "naslednje_pricakovano": "NET 15. 9. 2026 (FAA + hardware)",
+      "zgodovina": [
+        {
+          "date": "2026-08-28",
+          "text": "33-motor static fire Super Heavy B21 za Flight 14."
+        },
+        {
+          "date": "2026-09-02",
+          "text": "FCC/FAA planning marker 15. 9.; orbitalni profil, tower catch ladje prestavljen."
+        }
+      ]
+    },
+    {
+      "id": "gpt6-astra",
+      "naslov": "GPT-6 Astra",
+      "teme": ["ai"],
+      "status_sl": "Izdan 3.–4. 9. 2026 (ChatGPT Plus/Pro + API gpt-6-astra). OpenAI ga označi kot Critical za kibernetsko sposobnost. Spremljamo rollout, cene in ali notranji model za NS sploh pride ven.",
+      "zadnja_sprememba": "2026-09-04",
+      "naslednje_pricakovano": "širši dostop + morebitni Pro nivo",
+      "zgodovina": [
+        {
+          "date": "2026-09-03",
+          "text": "OpenAI predstavi GPT-6 Astra; safety overview: Critical cyber threshold."
+        }
+      ]
+    },
+    {
+      "id": "alphagenome-atlas",
+      "naslov": "AlphaGenome Atlas",
+      "teme": ["ai", "medicina"],
+      "status_sl": "DeepMind atlas predvidenih učinkov ~9 milijard točkovnih mutacij (AVI score). Prosto za nekomercialno rabo. Čakamo, kdo ga začne uporabljati v kliniki.",
+      "zadnja_sprememba": "2026-09-08",
+      "naslednje_pricakovano": "preprint + prvi klinični primeri (Broad/epilepsija že omenjen)",
+      "zgodovina": [
+        {
+          "date": "2026-09-08",
+          "text": "Nature: AlphaGenome Atlas — vsaka možna črka v človeškem genomu."
+        }
+      ]
+    },
+    {
+      "id": "navier-stokes",
+      "naslov": "Navier–Stokes",
+      "teme": ["ai", "fizika"],
+      "status_sl": "OpenAI 8. 9. trdi dokaz finite-time singularity za forsiran 3D NS (Lean). Clay nagrada verjetno ne velja (unforced vs forced). Spor o zaslugah z Buckmaster/Alpöge. Ne mešati z rešeno Millennium prize.",
+      "zadnja_sprememba": "2026-09-08",
+      "naslednje_pricakovano": "strokovni pregled dokaza + Clay stališče",
+      "zgodovina": [
+        {
+          "date": "2026-09-08",
+          "text": "OpenAI blog: rešitev NS existence/smoothness; notranji model, 10k agentov."
+        }
+      ]
+    },
+    {
+      "id": "rentosertib",
+      "naslov": "Rentosertib",
+      "teme": ["medicina", "ai"],
+      "status_sl": "Insilico TNIK inhibitor za IPF, AI-načrtovan. Phase IIa v Nature Medicine 2025; Phase III (NCT07687459) sprožen julij 2026, start ~30. 8. 2026, konec ~okt 2029, 320 bolnikov na Kitajskem.",
+      "zadnja_sprememba": "2026-07-07",
+      "naslednje_pricakovano": "rekrutacija Phase III; vmesni podatki šele čez leta",
+      "zgodovina": [
+        {
+          "date": "2025-06-03",
+          "text": "Nature Medicine: Phase IIa GENESIS-IPF, 71 bolnikov."
+        },
+        {
+          "date": "2026-07-07",
+          "text": "Insilico: začetek Phase III."
+        }
+      ]
+    },
+    {
+      "id": "semaglutid",
+      "naslov": "Semaglutid",
+      "teme": ["medicina"],
+      "status_sl": "GLP-1 (Ozempic/Wegovy) ostaja standard. Spremljamo nove indikacije (srce, jetra, Alzheimer), generike in zaloge — brez dnevnega spama.",
+      "zadnja_sprememba": "2026-09-09",
+      "naslednje_pricakovano": "novi izidi / regulatorne odločitve",
+      "zgodovina": []
+    }
+  ]
+}
