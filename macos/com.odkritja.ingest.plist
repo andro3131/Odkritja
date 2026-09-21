@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.vremenko.ingest</string>
+  <string>com.odkritja.ingest</string>
   <key>WorkingDirectory</key>
   <string>/Users/andrejmezan/Documents/Andrej_Codespaces/Odkritja</string>
   <key>ProgramArguments</key>
@@ -19,8 +19,8 @@
     <integer>0</integer>
   </dict>
   <key>StandardOutPath</key>
-  <string>/tmp/vremenko-ingest.log</string>
+  <string>/tmp/odkritja-ingest.log</string>
   <key>StandardErrorPath</key>
-  <string>/tmp/vremenko-ingest.err</string>
+  <string>/tmp/odkritja-ingest.err</string>
 </dict>
 </plist>

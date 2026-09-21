@@ -1,4 +1,4 @@
-# Vremenko · MEMORY
+# Odkritja · MEMORY
 
 > Handoff. Zadnja posodobitev: **2026-09-09**.
 
@@ -27,7 +27,7 @@ GitHub secrets z istimi imeni za Action.
 ## Cron
 
 - GitHub Action `daily.yml` — 05:00 UTC = 07:00 CEST
-- Fallback: `macos/com.odkritja.ingest.plist` (label `com.vremenko.ingest`) → `launchctl load`
+- Fallback: `macos/com.odkritja.ingest.plist` → `launchctl load`
 
 ## Odprto
 

@@ -232,4 +232,4 @@ async function initArhiv() {
   }
 }
 
-window.Vremenko = { initDanes, initSpremljam, initNapovedi, initArhiv };
+window.Odkritja = { initDanes, initSpremljam, initNapovedi, initArhiv };

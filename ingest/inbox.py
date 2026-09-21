@@ -51,7 +51,7 @@ def parse_inbox() -> list[dict[str, Any]]:
 
 def fetch_title(url: str, timeout: int = 12) -> str:
     try:
-        req = Request(url, headers={"User-Agent": "VremenkoRadar/1.0"})
+        req = Request(url, headers={"User-Agent": "OdkritjaRadar/1.0"})
         with urlopen(req, timeout=timeout) as resp:
             html = resp.read(80_000).decode("utf-8", errors="ignore")
         m = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)

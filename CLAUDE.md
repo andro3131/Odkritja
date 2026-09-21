@@ -1,4 +1,4 @@
-# Vremenko — pravila
+# Odkritja — pravila
 
 Osebni dnevni radar (medicina, AI, SpaceX, Tesla, robotika, fizika).
 **Ni news feed.** 8–15 kartic na dan, vir obvezen, watchlist živi tedne.
