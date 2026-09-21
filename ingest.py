@@ -84,7 +84,7 @@ def watch_ids() -> list[str]:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Odkritja dnevni ingest")
+    ap = argparse.ArgumentParser(description="Vremenko dnevni ingest")
     ap.add_argument("--no-x", action="store_true", help="Preskoči x_search")
     ap.add_argument("--dry", action="store_true", help="Ne piši datotek")
     ap.add_argument("--date", help="YYYY-MM-DD (privzeto danes LJ)")
@@ -93,7 +93,7 @@ def main() -> int:
     day = date.fromisoformat(args.date) if args.date else today_lj()
     DNEVI.mkdir(parents=True, exist_ok=True)
 
-    print(f"== Odkritja ingest {day.isoformat()} ==")
+    print(f"== Vremenko ingest {day.isoformat()} ==")
     rss = fetch_rss()
     print(f"RSS: {len(rss)}")
     inbox = enrich_inbox(parse_inbox())

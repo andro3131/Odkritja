@@ -1,4 +1,4 @@
-# Odkritja
+# Vremenko
 
 Osebni dnevni radar: medicina, AI, SpaceX, Tesla. Statična stran + Python ingest.
 
