@@ -1,0 +1,263 @@
+{
+  "date": "2026-09-22",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-09-22-rbs-attention-radius-bounded-sparse-prefill-for-long-context",
+      "date": "2026-09-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "povzetek_sl": "arXiv:2609.20971v1 Announce Type: new \nAbstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly relevant token among many irrelevant ones. We call this failure mode mean dilution and propose RBS-Attention, a training-free sparse-prefill method with two complementary selection branches. A centroid base branch captures average relevance, while a rescue branch uses the maximum key-block radius and its prompt-, layer-, and head-dependent distribution to identify blocks at risk of underestimation. Independently thresholding the two branches and combining their masks controls the contribution of rescue blocks while preserving regular block-sparse FlashAttention execution. On H100 GPUs, RBS-Attention achieves 20.65$\\times$ standalone prefill-attention speedup, 11.92$\\times$ vLLM prefill-attention speedup, and 5.97$\\times$ end-to-end time-to-first-token speedup at 128K on Qwen3-30B-A3B-Instruct-2507-FP8. On the dense Qwen3-32B model, it obtains 88.65 overall RULER accuracy versus 89.52 for dense",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+          "url": "https://arxiv.org/abs/2609.20971"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-attention-aware-routing-coupling-routing-and-attention-in-mo",
+      "date": "2026-09-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "povzetek_sl": "arXiv:2609.20974v1 Announce Type: new \nAbstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router with temporal and spectral features extracted from a sliding window of attention weights that represent a summary of the model's contextual state, disentangled from the hidden state. Keeping the base transformer entirely frozen, we train only the routing parameters, isolating routing as the sole variable. AAR improves GSM8K by +3.37 pp over a routing-only SFT baseline on OLMoE. Beyond performance, we show that routing and attention form a coupled circuit: routing changes at layer l propagate through the residual stream to amplify attention sinks at layer l+1, reshaping attention without any direct update to the attention mechanism itself. Further, AAR reduces long diverging generation, with incorrect answers getting shorter, while correct answers remain unchanged in length. Finally, AAR is strongly depth-sensitive: applying it indiscriminately across layers can degrade factual retrieval, whereas mathemati",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+          "url": "https://arxiv.org/abs/2609.20974"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-calr-causal-latent-revision-for-robust-diffusion-reasoning",
+      "date": "2026-09-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "povzetek_sl": "arXiv:2609.20981v1 Announce Type: new \nAbstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent Revision (CaLR), a framework that reformulates reasoning as constrained latent optimization. By adopting a causal topology matrix (CTM) from an expert model and implicit differentiation, CaLR performs gradient-guided ``thought revision\" to enforce logical consistency, enabling dynamic self-correction of intermediate steps during parallel generation. Empirically, CaLR achieves SOTA DLM performance on complex benchmarks, surpassing strong AR baselines and demonstrating superior robustness in constrained tasks like Sudoku.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+          "url": "https://arxiv.org/abs/2609.20981"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-lora-enhanced-contrastive-learning-with-sas-vision-transform",
+      "date": "2026-09-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "povzetek_sl": "arXiv:2609.21061v1 Announce Type: new \nAbstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transformer (ViT) models to underwater SAS ATR using a three-stage parameter-efficient framework. Stage 1 uses Low-Rank Adaptation (LoRA) while freezing the ViT backbone, bridging the gap between natural-image pretraining and underwater acoustic propagation. Stage 2 uses hard-negative mining to strengthen the decision boundary against acoustic mimics, including rocks and sediment formations resembling man-made targets. Stage 3 uses Supervised Contrastive Learning (SupCon) to separate target and clutter representations. We evaluate at-sea SAS data using a mission-level geographic split, compare all arms at 85 percent test recall, and repeat each comparison over three random seeds. LoRA accounts for the primary effect, increasing area under the precision-recall curve (AUPRC) from 0.300 to 0.679 +/- 0.027 using the same frozen backbone. Rank 4 achieves this result while training only 0.26 percent",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+          "url": "https://arxiv.org/abs/2609.21061"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-detecting-hallucination-in-llms-tracing-the-topological-sign",
+      "date": "2026-09-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+      "povzetek_sl": "arXiv:2609.21096v1 Announce Type: new \nAbstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural patterns indicating information bottlenecks in attention graphs. We then introduce a method that captures both semi-local and global information-flow characteristics of attention heads associated with hallucinated responses. We evaluate our approach extensively across several LLMs and established benchmarks. Empirical results demonstrate that our proposed single-pass approach provides consistent improvements over existing attention-based and multi-response baselines across two hallucination-detection benchmarks, while achieving competitive performance across diverse LLM architectures. Further analysis reveals that impaired context sharing among tokens during causal generation is strongly associated with hallucination occurrences in LLMs. In particular, hallucinated responses are consistently characterized by an over-reliance on self-attention, diffused context retrieval from earlier tokens, or information over-sq",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+          "url": "https://arxiv.org/abs/2609.21096"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-decoupling-internal-representational-changes-and-causal-impo",
+      "date": "2026-09-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "povzetek_sl": "arXiv:2609.21113v1 Announce Type: new \nAbstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we investigate how fine-tuning alters internal representations in LLMs, including attention patterns and layer-wise activations, and examine whether these changes are linked to task-relevant components identified by EAP (e.g., attention heads and logit-level activations) that drive task performance. We find that EAP-identified components are concentrated within specific layers, indicating a degree of functional localisation in how models internalise task-specific behavior. Notably, the distribution of these components across layers is largely uncorrelated with the layers undergoing the most substantial representational changes during fine-tuning. Furthermore, we observe that overlap in EAP-identified components across tasks does not translate into cross-task performance transfer if the tasks are different in nature (e.g. classification vs. generative tasks). More specifically, fine-tuning on one task can lead to a degradation of performa",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+          "url": "https://arxiv.org/abs/2609.21113"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-tinycenn-lm-quality-gated-conversion-of-pretrained-attention",
+      "date": "2026-09-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+      "povzetek_sl": "arXiv:2609.21139v1 Announce Type: new \nAbstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framework using CeNN-inspired cellular-recurrent layers with bounded local processing, compact recurrent memory, routing, fusion, and accept-or-rollback validation. Three implementations are studied: Integrated Memory, MemoryFusion, and PDelta3-GDN2-CLVR+Local32. Strict PDelta3 conversion accepts a layer only when representation and NLL criteria pass fixed thresholds. On SmolLM2-135M, layers 0-2 are accepted with cumulative $\\Delta\\mathrm{NLL}=+0.01209$, while layer 3 is rejected despite acceptable NLL because representation fidelity fails. On Qwen3.5-0.8B, full-attention layers 3, 7, and 11 are accepted with final $\\Delta\\mathrm{NLL}=+0.02073$. Integrated Memory keeps perplexity within $-0.07\\%$ to $+0.93\\%$ while reducing total cache by up to $6.01\\%$. A sampled 200-item downstream sanity check gives $28.5\\%$--$32.0\\%$ overall accuracy for converted Qwen releases. The results support conservative, quality-gated",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+          "url": "https://arxiv.org/abs/2609.21139"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-clinician-grounded-quality-assurance-for-ai-assisted-psychia",
+      "date": "2026-09-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
+      "povzetek_sl": "arXiv:2609.21149v1 Announce Type: new \nAbstract: Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clinical standards for quality assurance. Because clinicians may use different intake styles, evaluation for this task must (1) support comparison across interviewing approaches, (2) minimize clinician burden, and (3) measure clinically relevant performance for health systems deploying these technologies. We present a clinician-grounded evaluation platform built around a memory-augmented patient simulator for open-ended AI interviewing, InterviewPlayground. We created interactive patients using InterviewPlayground with our expert-authored vignettes, constructed a simulated intake platform for the interviews, and designed evaluation modalities relevant to intake. In a pilot of 6 clinicians in a 25-minute assessment compared to a GPT-based LLM intake interviewer, the LLM recovered more of the clinically relevant items embedded in the patient vignettes (88.0% vs. 38.9%), but made more clinical inferences not based on the interview (56.8% vs. 27.8%), and characterized identified safety concern",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
+          "url": "https://arxiv.org/abs/2609.21149"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-choreo-every-humanoid-skill-as-a-trajectory",
+      "date": "2026-09-22",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "CHOREO: Every Humanoid Skill as a Trajectory",
+      "povzetek_sl": "arXiv:2609.22274v1 Announce Type: new \nAbstract: Recent advances in humanoid robotics have produced diverse skills through reinforcement learning, motion imitation, and generative modeling. Yet these capabilities remain siloed because they are built around incompatible representations, interfaces, and controllers. We present CHOREO, a framework for training-free composition of heterogeneous humanoid skills. Our key observation is that, regardless of how a skill is learned, it can ultimately be expressed as an executable motion trajectory. Based on this observation, CHOREO converts each capability into SkillMotion, a unified representation that combines motion states, contacts, semantics, and boundary conditions. Skills are composed through direct continuation, cubic Hermite blending, or validated bridge motions, without retraining source models or updating models at test time. On Unitree G1 in MuJoCo, CHOREO organizes 2,950 admitted SkillMotion assets derived from heterogeneous sources and achieves 95.4\\% sequence success across 130 multi-action tasks, including 93.8\\% success on eight-action sequences. These results demonstrate that executable trajectories provide a scalable inter",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CHOREO: Every Humanoid Skill as a Trajectory",
+          "url": "https://arxiv.org/abs/2609.22274"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-d3dwa-adaptive-weight-and-prediction-horizon-for-dynamic-win",
+      "date": "2026-09-22",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "D3DWA: Adaptive Weight and Prediction-Horizon for Dynamic Window Approach via Dueling Double Deep Q-Network",
+      "povzetek_sl": "arXiv:2609.22276v1 Announce Type: new \nAbstract: The Dynamic Window Approach (DWA) is widely used for local navigation, but its performance depends strongly on parameters that are typically fixed before navigation. In particular, the appropriate prediction horizon can vary with local free space: longer horizons support efficient motion in open areas, whereas shorter horizons help preserve feasible motions in narrow or cluttered regions. This paper proposes D3DWA, an adaptive DWA framework based on a Dueling Double Deep Q-Network (D3QN), which jointly selects the DWA evaluation weights and prediction horizon from a continuous navigation state at every control step while retaining DWA's trajectory generation and collision checking. In eight simulated environments, including unseen layouts, D3DWA reached every goal. Real-robot experiments further showed that D3DWA completed all three tested configurations, including a constrained case in which the weights-only variant timed out. These results demonstrate the benefit of jointly adapting the evaluation weights and prediction horizon. Additional material is available at https://mertcookimg.github.io/d3dwa/",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "D3DWA: Adaptive Weight and Prediction-Horizon for Dynamic Window Approach via Dueling Double Deep Q-Network",
+          "url": "https://arxiv.org/abs/2609.22276"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-devigrasp-robust-visual-mobile-grasping-for-quadruped-manipu",
+      "date": "2026-09-22",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "DeViGrasp: Robust Visual Mobile Grasping for Quadruped Manipulators under Degraded Perception",
+      "povzetek_sl": "arXiv:2609.22278v1 Announce Type: new \nAbstract: Quadruped manipulators enable mobile grasping in complex environments, yet their whole-body control policies remain vulnerable to unreliable onboard visual perception. Existing methods are typically developed under relatively reliable observations and have not systematically examined how occlusion, segmentation-mask dropout, depth noise, and target-localization jitter affect grasp reasoning and target tracking. To address this gap, we introduce DeViGrasp-Bench, a benchmark for mobile grasping under degraded vision that incorporates controlled visual degradations, seen and unseen objects, multiple difficulty levels, and complex terrains, and evaluates task success, execution efficiency, and action smoothness. We further propose DeViGrasp-Net, a teacher--student framework that combines state-conditioned grasp reasoning with reliability-aware temporal target estimation. The privileged teacher attends to offline grasp candidates conditioned on object, robot, end-effector, and task states, while the deployable student fuses dual-view segmented-depth observations with current, memory, and recovery target hypotheses through Target Hold Memo",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "DeViGrasp: Robust Visual Mobile Grasping for Quadruped Manipulators under Degraded Perception",
+          "url": "https://arxiv.org/abs/2609.22278"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-order-a-fictitious-world-benchmark-for-domain-adaptive-embod",
+      "date": "2026-09-22",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "ORDER: A Fictitious-World Benchmark for Domain-Adaptive Embodied AI",
+      "povzetek_sl": "arXiv:2609.22285v1 Announce Type: new \nAbstract: Adapting language models to new domains via continual pre-training raises a basic evaluation problem: if the training corpus overlaps with what the model already knows, performance gains cannot be cleanly attributed to new learning rather than pre-existing knowledge. This matters most for knowledge-intensive, task-light (KHTL) robot deployments - pharmaceutical dispensing, hazardous-material handling, facility-specific protocols, where the physical task is simple but the governing rules are proprietary and safety-critical, and where extensive live testing is costly or unsafe. We introduce ORDER (Ontology-driven Decision-making for Embodied Reasoning), a benchmark built on a fictitious world: a 342,069-token synthetic corpus defining a self-consistent physics that cannot appear in any model's pre-training data. ORDER pairs a 500-question knowledge test (ORDER-BENCH) with a harder compositional task, ORDER-SPATIAL: ordering objects for safe manipulation across both familiar and entirely novel scenes. GPT-4.1 without adaptation scores below chance on ORDER-SPATIAL (Kendall's tau = 0.441), showing its priors actively conflict with the in",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ORDER: A Fictitious-World Benchmark for Domain-Adaptive Embodied AI",
+          "url": "https://arxiv.org/abs/2609.22285"
+        }
+      ]
+    }
+  ]
+}

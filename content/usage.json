@@ -1,4 +1,14 @@
 {
   "cap_usd_na_dan": 0.15,
-  "dnevi": []
+  "dnevi": [
+    {
+      "date": "2026-09-22",
+      "skipped": true,
+      "reason": "ni XAI_API_KEY",
+      "calls": 0,
+      "posts_est": 0,
+      "estimated_usd": 0.0,
+      "handles": []
+    }
+  ]
 }
