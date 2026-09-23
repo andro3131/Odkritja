@@ -1,0 +1,263 @@
+{
+  "date": "2026-09-23",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-09-23-do-synthetic-personas-predict-real-audience-response-a-sim-t",
+      "date": "2026-09-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "povzetek_sl": "arXiv:2609.25010v1 Announce Type: new \nAbstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But is that prediction actually valid against real behaviour - and does the persona machinery help? We present a sim-to-real validity study using the Upworthy Research Archive - thousands of headline A/B tests on shared real traffic, with measured click-through - as held-out ground truth. We compare a ten-persona panel, grounded in the real audience's demographics, against a no-persona zero-shot baseline that simply asks the model how likely a typical reader is to click. Two findings stand out. First, ground-truth reliability is the binding constraint: most A/B tests have no statistically distinguishable winner, so validity can only be measured on the reliable subset (n = 399). Second, and counter to the persona-simulation premise, persona conditioning degrades predictive validity: the no-persona baseline ranks variants markedly better (Kendall {\\tau} = 0.361, a medium effect; top-1 accuracy 49.2%) than the pe",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Base",
+          "url": "https://arxiv.org/abs/2609.25010"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-do-existing-preconditioners-improve-biomedical-tabular-found",
+      "date": "2026-09-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "povzetek_sl": "arXiv:2609.25013v1 Announce Type: new \nAbstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimization and preconditioning strategies on biomedical fine-tuning remains largely unexplored. In this work, we present a comprehensive empirical investigation of five AdamW-based preconditioning strategies for fine-tuning TabPFN v2.5 on 59 biomedical datasets spanning Alzheimer's disease, breast cancer, schizophrenia, significant memory concern (SMC), KEEL biomedical datasets, and UCI biomedical benchmarks. The evaluation considers predictive performance, computational efficiency, and statistical significance analysis. Experimental results demonstrate that the original AdamW optimizer consistently achieves the best overall performance and statistical ranking, while existing curvature-aware preconditioners fail to provide reliable improvements across diverse biomedical learning scenarios. The findings suggest that generic preconditioning approaches may not adequately capture the optimization characteristics o",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+          "url": "https://arxiv.org/abs/2609.25013"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-4dgs-jepa-temporally-compositional-joint-embedding-predictio",
+      "date": "2026-09-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+      "povzetek_sl": "arXiv:2609.25036v1 Announce Type: new \nAbstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predictive dynamics. We propose 4DGS-JEPA, a Gaussian-native joint-embedding predictive architecture for causal multi-horizon prediction over dynamic Gaussian scenes. The model uses a hierarchical scene-, motion-group-, and Gaussian-level representation together with a horizon-conditioned transition operator that supports both direct prediction and recursive rollout. Its central principle is temporal composition: different chronological transition paths reaching the same future endpoint should produce compatible predictive states. Endpoint and multi-horizon path supervision anchor these predictions to future target embeddings, while a selective geometry decoder and geometry-level composition ground the learned dynamics in consistent group motion and Gaussian geometry without requiring complete future appearance reconstruction. We further introduce a hybrid correspondence mechanism that combines persistent canoni",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+          "url": "https://arxiv.org/abs/2609.25036"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-an-accurate-and-interpretable-hyper-graph-neural-network-for",
+      "date": "2026-09-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "povzetek_sl": "arXiv:2609.25088v1 Announce Type: new \nAbstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while interpretable models accept degraded predictive power. We argue that this trade-off is not inherent. Graph neural net- works offer a structural foundation for extracting interpretable, explainable representations without compromising discriminative ability. Furthermore, current methods typically rely on a single imaging modality, underutilizing the complementary information available across multi-modal MRI and clinical metadata. We propose a multi-modal framework that inte- grates three components to address both objectives simultaneously: (1) a sheaf hypergraph neural network that captures higher-order relationships among tissue patches through direc- tional, asymmetric message passing; (2) a concept bottleneck layer that compresses learned representations into clinically grounded concepts, enforcing ante-hoc interpretability; and (3) an extension sufficiency test (EST) regularizer that penalizes unfaithful e",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+          "url": "https://arxiv.org/abs/2609.25088"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-ovis-embedding-pushing-the-frontiers-of-universal-omni-modal",
+      "date": "2026-09-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "povzetek_sl": "arXiv:2609.25165v1 Announce Type: new \nAbstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make \\textbf{three key advances}: (1) \\textbf{native omni-modal initialization}: we adopt a pretrained Qwen-omni model as the embedding backbone and adapt it through contrastive training with low-rank initialization; (2) \\textbf{data-centric omni-modal training}: we construct a broad, high-quality corpus spanning text, images, video, audio, and interleaved multimodal data. To improve data efficiency, we introduce homogeneous-source sampling to form task-consistent batches with informative in-batch negatives; and (3) \\textbf{embedding-specific training and inference optimization}: we use focal loss to emphasize hard examples and similarity-based Embedding Distillation to transfer fine-grained similarity structure from complementary experts. At inference time, low-rank feature decomposition enables c",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+          "url": "https://arxiv.org/abs/2609.25165"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-x-planner-event-structured-task-planning-for-embodied-intell",
+      "date": "2026-09-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+      "povzetek_sl": "arXiv:2609.25187v1 Announce Type: new \nAbstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to rely on coarse task-level annotations or serialize long reasoning traces token by token. We present X-Planner, a planning front-end that addresses both the supervision and representation of embodied reasoning. Our planning data combine Ego, UMI, and teleoperation under a hierarchy granularity with source-dependent annotation depth. Takeover-time annotations and human-designed failures supervise ongoing error recognition. On the model side, a shared VLM backbone exposes two event-structured plan forms: a discrete interface that emits interpretable event states and a latent interface that relays continuous CoT states across staggered Transformer depths through Staircase Decoding. A frozen latent-to-text reconstruction objective provides a semantic anchor for the latent representation. Offline two-step planning evaluation places X-Planner second among four evaluated models on both BERTScor",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+          "url": "https://arxiv.org/abs/2609.25187"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-lean-pool-an-ai-maintained-archive-of-formalized-mathematics",
+      "date": "2026-09-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "povzetek_sl": "arXiv:2609.25199v1 Announce Type: new \nAbstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+          "url": "https://arxiv.org/abs/2609.25199"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-the-ai-neuroscientist-an-interactive-agentic-interface-for-n",
+      "date": "2026-09-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis",
+      "povzetek_sl": "arXiv:2609.25254v1 Announce Type: new \nAbstract: Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational backgrounds. We present the AI Neuroscientist, a language agent for interactive data exploration. The system integrates a large language model (LLM) with a neuroimaging toolset to perform quality control, modeling, and visualization. This allows researchers to query data quality and specify analysis parameters directly in natural language, providing a transparent and interactive alternative to conventional scripted pipelines for small-scale data exploration. We demonstrate these capabilities using functional near-infrared spectroscopy (fNIRS) data, and evaluate the agent on a custom fNIRS benchmarking suite against general-purpose LLM agents with code sandboxes. Future extensions will generalize the architecture to additional modalities, including functional magnetic resonance imaging (fMRI) data, and expand the benchmarking suite to additional fNIRS tasks.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis",
+          "url": "https://arxiv.org/abs/2609.25254"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-towards-adaptive-interaction-strategies-for-human-companion-",
+      "date": "2026-09-23",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Towards Adaptive Interaction Strategies for Human Companion Robot via Deep Reinforcement Learning",
+      "povzetek_sl": "arXiv:2609.25031v1 Announce Type: new \nAbstract: In the field of Human-Robot Interaction (HRI), achieving flexibility in human-accompanying within real-world environments holds great potential for various applications but also poses significant challenges. Traditional methods typically restrict robots to fixed positions relative to humans, such as tracking from behind, in front, or side-by-side, which limits robot adaptability in dynamic workspaces. This study introduces a novel human-companioning strategy that uses Reinforcement Learning (DRL) to enable mobile robots to dynamically adjust their tracking positions according to varying conditions. An interaction space is defined to capture the relationship between the human and the robot while considering the environment, which serves as the basis for state spaces in DRL to assist the robot in adapting to environmental changes. A human-robot companion controller is developed by integrating Model Predictive Path Integral (MPPI) control with Control Barrier Functions (CBF), ensuring that the robot accurately follows the target's movement in both position and orientation while avoiding obstacles and enhancing social acceptance and safe",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Towards Adaptive Interaction Strategies for Human Companion Robot via Deep Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2609.25031"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-cosserat-modeling-of-trimmed-helicoid-soft-arms-with-a-separ",
+      "date": "2026-09-23",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Cosserat Modeling of Trimmed Helicoid Soft Arms with a Separated-Section Constitutive Law",
+      "povzetek_sl": "arXiv:2609.25264v1 Announce Type: new \nAbstract: Cosserat rod models for soft robots usually construct sectional stiffness by summing material properties over a common cross-section. This assumption becomes inaccurate for trimmed helicoid arms, where load-bearing helix domains are separated and connected only through sparse fused crossings. This paper formulates a separated-section constitutive law that evaluates each helix domain in its local frame and pulls its constitutive response back to the backbone, yielding an effective backbone stiffness. Sparse-fusion mechanics captures the additional compliance caused by relative motion between neighboring domains and determines channel-wise reduction profiles $\\eta_c(s/L)$ for bending, torsion, and extension. The resulting effective sectional stiffness is strongly anisotropic: bending and extension are reduced by about one order of magnitude, whereas torsion remains close to the effective backbone stiffness. The resulting sectional law is embedded in a geometrically exact dynamic Cosserat model with GVS discretization and routed-tendon actuation. Across 103 measured configurations, the three datasets give pooled normalized position erro",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Cosserat Modeling of Trimmed Helicoid Soft Arms with a Separated-Section Constitutive Law",
+          "url": "https://arxiv.org/abs/2609.25264"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-beyond-the-flat-seafloor-a-closed-form-two-view-constraint-t",
+      "date": "2026-09-23",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Beyond the Flat Seafloor: A Closed-Form Two-View Constraint to Aid Sidescan Sonar Reconstruction",
+      "povzetek_sl": "arXiv:2609.25271v1 Announce Type: new \nAbstract: Sidescan sonar is a common sensor for both manned and autonomous marine exploration and mapping, yet very few methods build upon or exploit the geometric projection model of the sensor. As sidescan sonar is limited to a 1D range measurement, many approximations are frequently used, including the long-standing assumption of a flat seafloor. Rather than make similar approximations, this paper focuses on a multi-view geometry based approach and formalizes a two-view geometric constraint and proves that a shared feature is constrained to a locus within the intersection of a sphere and a plane. In addition, we characterize what governs the size of the ambiguity locus through Monte Carlo simulation that is grounded in real aperture and mounting geometry for both a surface vessel and an underwater vehicle. We translate additional simulations of relative trajectories for both vehicle platforms into concrete survey-planning guidance. Our results show that locus length is strongly governed by elevation misalignment, and peaks at a moderate oblique crossing angle of approximately 20 degrees, with minimal locus lengths obtained at near parallel",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Beyond the Flat Seafloor: A Closed-Form Two-View Constraint to Aid Sidescan Sonar Reconstruction",
+          "url": "https://arxiv.org/abs/2609.25271"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-learning-to-plan-in-human-robot-collaboration-multimodal-rei",
+      "date": "2026-09-23",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Learning to Plan in Human-Robot Collaboration: Multimodal Reinforcement Learning for Adaptive Interaction",
+      "povzetek_sl": "arXiv:2609.25274v1 Announce Type: new \nAbstract: Robot assistants for older adults and people with disabilities need to perform collaborative tasks with users effectively. The core component of these systems is an interaction manager whose job is to observe and assess the task and infer the state of the human and their intent for the robot to choose the best course of action. Due to the sparseness of the data in this domain, the policy for such multimodal systems is often crafted by hand; as the complexity of interactions grows, this process is not scalable. This paper proposes a reinforcement learning (RL) approach to automatically generate the multimodal policy of the robot. Our system focuses on a realistic scenario where a robot assists a user in locating objects within a home environment, managing multimodal signals, including language and physical actions, to select the best action. In contrast to traditional dialog systems, our agent is trained with a simulator that uses human data and can deal with multiple modalities. We use a simple high-level reward function that needs no fine-tuning and enforce some preconditions to speed up the training process. A human study evaluatin",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Learning to Plan in Human-Robot Collaboration: Multimodal Reinforcement Learning for Adaptive Interaction",
+          "url": "https://arxiv.org/abs/2609.25274"
+        }
+      ]
+    }
+  ]
+}
