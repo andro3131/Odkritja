@@ -1,0 +1,263 @@
+{
+  "date": "2026-09-24",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-09-24-jamb-joint-action-motion-diffusion-for-bimanual-manipulation",
+      "date": "2026-09-24",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "JAMB: Joint Action-Motion Diffusion for Bimanual Manipulation",
+      "povzetek_sl": "arXiv:2609.25322v1 Announce Type: new \nAbstract: Coordinated bimanual manipulation is challenging because the motion of either arm can alter the shared 3D scene and thereby affect the other arm. Yet most diffusion policies generate actions without explicitly modeling these future geometric consequences, while predictive variants typically use future state only as auxiliary supervision or fixed conditioning. We address this limitation by proposing JAMB, a diffusion policy that jointly denoises bimanual actions and future 3D point tracks. By allowing action and track hypotheses to evolve together within a shared Transformer, each can inform and refine the other throughout denoising. We further ground multimodal representations in a shared spatiotemporal coordinate system to facilitate geometry-aware interaction during joint denoising. We evaluate JAMB on diverse bimanual manipulation tasks in RoboTwin 2.0 and on a real-world robot, comparing it with action-only policies and alternative future-prediction approaches spanning different state representations and learning objectives. Across 16 simulation tasks, JAMB achieves an average success rate of 83.4%, outperforming the strongest ba",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "JAMB: Joint Action-Motion Diffusion for Bimanual Manipulation",
+          "url": "https://arxiv.org/abs/2609.25322"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-ginio-a-geometric-so-3-equivariant-interface-for-neural-iner",
+      "date": "2026-09-24",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "GINIO: A Geometric SO(3)-Equivariant Interface for Neural Inertial Odometry",
+      "povzetek_sl": "arXiv:2609.25338v1 Announce Type: new \nAbstract: Neural inertial odometry increasingly uses networks as learned measurements inside filtering pipelines. Such measurements should transform consistently under arbitrary IMU mounting conventions: their mean must transform as a vector, and their covariance must transform congruently as a second-order tensor. We present GINIO, a geometric SO(3)-equivariant interface for neural inertial odometry under arbitrary rotations of the IMU measurement frame. Given calibrated IMU windows, our framework predicts a motion measurement and uncertainty obeying these tensorial laws. To support efficient sensor-frame learning, we introduce Last-Frame Alignment (LFA), a deterministic preprocessing step that is provably equivalent to world-frame training for SO(3)-equivariant predictors. The connected estimator tracks sensor-local states such as IMU bias, separating nuisance estimation from the geometric law enforced by the learned measurement. We instantiate the same interface in filter-connected NIO, AirIO-style recurrent aerial prediction, EqNIO-style full-SO(3) canonicalization, and ResNet-style temporal backbones. On TLIO, GINIO achieves 2.018 m ID/SO",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "GINIO: A Geometric SO(3)-Equivariant Interface for Neural Inertial Odometry",
+          "url": "https://arxiv.org/abs/2609.25338"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-learning-from-humans-for-proactive-assistance-in-human-robot",
+      "date": "2026-09-24",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Learning from Humans for Proactive Assistance in Human-Robot Collaborative Transport",
+      "povzetek_sl": "arXiv:2609.25351v1 Announce Type: new \nAbstract: We focus on human-robot collaborative transport, a challenging task of broad relevance spanning logistics, manufacturing, and the home, in which a user and a robot work together to relocate a large or heavy object. To act as an effective partner, the robot should reduce the user's effort by contributing to efficient relocation of the object while remaining physically responsive to them. Prior work often addresses these capabilities separately, producing robots that may move the object efficiently but resist user input, or accommodate the user but depend on continuous guidance. Our key insight is that obstacle-constrained collaborative transport requires integrating predictions of human collaborative behavior with compliant robot control. To this end, we introduce PROACT, a framework for human-robot collaborative transport that incorporates anticipation into compliant whole-body control through a learned model of human collaborative behavior. Trained on a large-scale, real-world dataset of dyadic human transport demonstrations, our transformer architecture distills collaborative behavior into predictions of future object motion. Acros",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Learning from Humans for Proactive Assistance in Human-Robot Collaborative Transport",
+          "url": "https://arxiv.org/abs/2609.25351"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-hotice-whole-body-humanoid-object-transportation-in-cluttere",
+      "date": "2026-09-24",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments",
+      "povzetek_sl": "arXiv:2609.25363v1 Announce Type: new \nAbstract: Object transportation is a fundamental capability for humanoid robots operating in real-world, human-centric environments, yet existing methods struggle when clutter constrains free space around both the robot and its carried payload. We present HOTICE, a whole-body humanoid learning framework for transporting objects through such cluttered environments. First, we introduce Humanoid-Object Decoupled Potential Fields, which jointly encode collision-avoidance guidance for the robot and the carried object, enabling coordinated, obstacle-aware motion for both. Second, to address the large action space inherent to whole-body loco-manipulation, we design a dual-agent reinforcement learning architecture that decouples upper- and lower-body control while preserving whole-body coordination via shared state observations and rewards. To train a policy that generalizes across diverse cluttered scenes, we further employ a specialist-to-generalist distillation strategy, in which privileged teacher policies are distilled into a single deployable student policy. We evaluate HOTICE in MuJoCo simulation and on a real Unitree G1 humanoid, demonstrating",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments",
+          "url": "https://arxiv.org/abs/2609.25363"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-brecol-benchmarking-classical-and-deep-learning-methods-for-",
+      "date": "2026-09-24",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "BreCol: Benchmarking Classical and Deep-Learning Methods for Microbiome-Based Cancer Detection",
+      "povzetek_sl": "arXiv:2609.27207v1 Announce Type: new \nAbstract: DNA sequencing of the gut microbial community shows promise for cancer detection, but questions remain about the generalizability of results across studies. We propose BreCol, a benchmark of 2,040 16S rRNA gene sequencing runs across 26 studies spanning breast cancer, colorectal cancer, and healthy cohorts. Train-test splits are made within pre-2023 studies, while holdout evaluation uses studies from 2023 onward, reflecting temporal separation from training data. Classical models reach test/holdout AUCs of 0.77/0.60 for cancer diagnosis and 1.00/0.83 for cancer type prediction. We train the models on both cancer types simultaneously and find that colorectal cancer is often easier to detect than breast cancer. We also evaluate two deep learning models: HyenaDNA, a long-range sequence model that pools hidden states for classification, and SetBERT, a transformer that produces contextualized embeddings over sets of reads. Both deep learning models underperform the best classical methods on holdout data, though tuning training set size and the classification head yields modest gains. Our classical pipeline uses unsupervised clustering to",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "BreCol: Benchmarking Classical and Deep-Learning Methods for Microbiome-Based Cancer Detection",
+          "url": "https://arxiv.org/abs/2609.27207"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-topological-inference-for-organoids",
+      "date": "2026-09-24",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Topological Inference for Organoids",
+      "povzetek_sl": "arXiv:2609.27668v1 Announce Type: new \nAbstract: The reproducibility of organ morphology and the extent to which computational models can predict morphogenesis remain difficult to quantify, particularly for organs with complex networks of fluid-filled lumina. Here, we combine Topological Data Analysis (TDA), biophysical simulation, and Bayesian inference to study lumen morphogenesis in pancreatic organoids.\n  Lumen formation is governed by physical processes that are challenging to measure directly, including cell proliferation and luminal osmotic pressure. We simulate organoid development using a phase-field model and address the inverse problem of inferring these parameters from either time-lapse images or single morphological snapshots. Since lumen architectures vary substantially in size, structure, and connectivity, conventional geometric descriptors provide only a partial representation of their morphology. We therefore represent each organoid using SampEuler, a topological descriptor derived from the Euler Characteristic Transform (ECT). We first show that SampEuler captures morphological information encoded by established morphometrics.\n  We then perform parameter inference",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Topological Inference for Organoids",
+          "url": "https://arxiv.org/abs/2609.27668"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-ai-driven-neural-surrogates-for-in-silico-design-of-cognitiv",
+      "date": "2026-09-24",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "AI-Driven Neural Surrogates for In Silico Design of Cognitive-Affective Neuromodulation Targets",
+      "povzetek_sl": "arXiv:2609.27729v1 Announce Type: new \nAbstract: In neuropsychiatry, the primary goal is often not only to decode brain activity but to change it, for example to lessen a negative affective bias or an overly salient memory. Motivated by control theory, we develop an AI-driven neural-surrogate framework that proposes candidate representational changes and tests their predicted perceptual effects from snapshots of stimulus-evoked fMRI activity, without physical stimulation. The framework combines fMRI decoding, deep generative modeling, and constrained latent-space steering. Valence and memorability are used only as worked examples. Using more than 36,000 image-fMRI observations from four deeply sampled Natural Scenes Dataset participants, subject-specific models recovered coarse generative structure from visually responsive cortex (two-way identification, 0.79-0.88; chance, 0.5). Graded perturbations were reconstructed as images and evaluated with automated scorers and human ratings from 7,200 trials by 18 participants. In the primary VDVAE model, valence shifted from -0.61 to +1.03 SD and memorability from -1.34 to +1.45 SD; a later Versatile Diffusion refinement reduced or altered",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "AI-Driven Neural Surrogates for In Silico Design of Cognitive-Affective Neuromodulation Targets",
+          "url": "https://arxiv.org/abs/2609.27729"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-spatial-molecular-information-analysis-based-on-histopatholo",
+      "date": "2026-09-24",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Spatial-Molecular Information Analysis Based on Histopathological Geometry: KL-Divergence Decomposition of Cell Distribution and Location-Dependent Expression States in PD-1 Immuno",
+      "povzetek_sl": "arXiv:2609.27755v1 Announce Type: new \nAbstract: Spatial biology enables molecular expression to be analyzed together with the location of cells in tissue. However, it is often difficult to distinguish whether cells preferentially accumulate near a histopathological boundary from whether their molecular expression states vary with that location. To establish informational scientific framework, we define boundary distance as R and a binary molecular expression state as G, and compare the observed joint distribution P\\left(R,G\\right) with Q\\left(R\\right)P\\left(G\\right), where Q\\left(R\\right) is a null distribution determined by tissue geometry. The resulting Kullback-Leibler divergence decomposes into D_{R}, which quantifies deviation of the spatial distribution of cells from the geometric null, and I\\left(R;G\\right), which measures how strongly molecular expression state depends on boundary distance. Idealized simulations and semi-synthetic validation using geometry reconstructed from a PD-1 IHC image confirmed that these two effects can be generated separately and recovered by the corresponding terms. Plug-in estimators showed positive finite-sample bias, supporting permutation-bas",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Spatial-Molecular Information Analysis Based on Histopathological Geometry: KL-Divergence Decomposition of Cell Distribu",
+          "url": "https://arxiv.org/abs/2609.27755"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-circadian-derived-features-for-early-discrimination-across-i",
+      "date": "2026-09-24",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Circadian Derived Features for Early Discrimination Across Insomnia Severity Levels: At Least 8 Weeks of Monitoring Are Needed for Clinically Meaningful Assessment",
+      "povzetek_sl": "arXiv:2609.28252v1 Announce Type: new \nAbstract: Background: Wearable devices provide continuous, objective measures of daily activity and offer promise for assessing sleep disorders. However, the minimum monitoring duration needed to differentiate insomnia severity remains unclear. We investigated when wearable-derived behavioral features become informative for distinguishing Insomnia Severity Index (ISI) categories and examined the contribution of Activity Count (AC) and circadian-derived features.\n  Methods: We analyzed wearable data from 2,305 participants in the Advancing Understanding of Recovery after Trauma (AURORA) study. Separate binary classifiers were developed for four ISI categories across six follow-up periods using AC and circadian-derived feature sets. Performance was evaluated using accuracy, F1-score, precision, recall, and AUROC.\n  Results: Classification improved with longer monitoring. Across ISI categories, approximately eight weeks was the earliest time point at which wearable-derived features consistently achieved informative discrimination, with modest improvements thereafter. Participants without clinically significant insomnia were easiest to identify, r",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Circadian Derived Features for Early Discrimination Across Insomnia Severity Levels: At Least 8 Weeks of Monitoring Are ",
+          "url": "https://arxiv.org/abs/2609.28252"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-motif-vocab-statisticallycalibrated-transcription-factor-ide",
+      "date": "2026-09-24",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Motif-Vocab: StatisticallyCalibrated Transcription-Factor-Identity Tokenization forGenomic Language Models",
+      "povzetek_sl": "arXiv:2609.28386v1 Announce Type: new \nAbstract: Tokenization is a central design choice in genomic language models, yet most deoxyribonucleic acid (DNA) tokenizers use characters, fixed-length k-mers, or frequency-derived subwords without explicitly using prior information about the specificity of DNA-binding regulatory factors. We introduce Motif-Vocab, a biologically informed tokenizer that scans both DNA strands for statistically calibrated motif matches, emits transcription-factor (TF) identity tokens, and applies nucleotide, $k$-mer, or byte-pair encoding (BPE) to unmatched sequence. Motif-specific null distributions put position-weight matrices (PWMs) of different lengths and degeneracy on a common significance scale; deterministic overlap rules make the representation reproducible. In controlled Bidirectional Encoder Representations from Transformers (BERT) pretraining on two billion base pairs, real motif libraries outperform randomized-motif controls on 54 of 55 in-scope downstream tasks. On a motif-disjoint recognition task derived from DART-Eval Task 2, TF-specific tokens improve macro-F1 by 0.040 over a position-matched generic motif token and by 0.033 over a matched n",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Motif-Vocab: StatisticallyCalibrated Transcription-Factor-Identity Tokenization forGenomic Language Models",
+          "url": "https://arxiv.org/abs/2609.28386"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-the-computational-value-of-sensory-aligned-receptive-fields-",
+      "date": "2026-09-24",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "The Computational Value of Sensory-Aligned Receptive Fields Depends on Neuronal Expressivity",
+      "povzetek_sl": "arXiv:2609.26940v1 Announce Type: cross \nAbstract: Biological sensory neurons have selective receptive fields organized along meaningful stimulus coordinates, such as frequency, motion direction, or retinotopic position. Such structure may arise from efficient coding and biological constraints on activity, connectivity, and wiring, as computational studies of simple neurons have shown across modalities. This raises a question: do structured receptive fields confer a computational advantage beyond resource efficiency itself, and does this advantage persist when individual neurons are highly expressive? We address this question in recurrent networks of Expressive Leaky Memory neurons, where we can independently vary neuronal complexity and the organization of feed-forward receptive fields. Across auditory and event-based visual classification tasks, receptive fields aligned with a task-relevant sensory coordinate improve test accuracy relative to budget-matched random receptive fields. This advantage disappears when sensory coordinates are scrambled, or when receptive fields follow task-irrelevant coordinates, showing that the benefit comes from alignment with task geometry rather th",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The Computational Value of Sensory-Aligned Receptive Fields Depends on Neuronal Expressivity",
+          "url": "https://arxiv.org/abs/2609.26940"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-spatially-resolved-nucleated-polymerization-a-free-boundary-",
+      "date": "2026-09-24",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Spatially Resolved Nucleated Polymerization: A Free-Boundary Model of Protein Aggregation in Concentrated Solutions",
+      "povzetek_sl": "arXiv:2609.27185v1 Announce Type: cross \nAbstract: Kinetic models of protein aggregation describe populations by size, not by spatial organization or morphology. We extend Lumry-Eyring nucleated polymerization to a model in which the monomer is a density field and each aggregate is a region bounded by a level set. Growth is a flux condition on the available sites of a surface. Condensation is a reaction between the bonding sites of two surfaces in contact, at a rate set by the bond rate and the contact geometry. The availability of those sites is a field on the interface, and its equilibrium value follows from Wertheim's perturbation theory. The collision efficiency and the Fuchs stability ratio are therefore computed, not fitted. In a well-mixed limit the model's spatial averages satisfy the rate equations term by term; the monomer fraction agrees to eight parts in ten thousand, a difference that arises from equating aggregate size with volume. The condensation kernel's exponent is $0.5806\\pm0.0013$ against the $0.600\\pm0.010$ fitted to a monoclonal antibody. The computed stability ratio reproduces thirteen of fourteen published conditions at twelve $k_BT$, but only with the bond",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Spatially Resolved Nucleated Polymerization: A Free-Boundary Model of Protein Aggregation in Concentrated Solutions",
+          "url": "https://arxiv.org/abs/2609.27185"
+        }
+      ]
+    }
+  ]
+}
