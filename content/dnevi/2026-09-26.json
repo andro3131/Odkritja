@@ -1,0 +1,263 @@
+{
+  "date": "2026-09-26",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-09-26-impaired-cortical-encoding-of-prosodic-prominence-in-single-",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Impaired cortical encoding of prosodic prominence in single multisyllabic words for adults with dyslexia",
+      "povzetek_sl": "Developmental dyslexia is associated with impaired cortical tracking of continuous speech and difficulties in perceiving within-word prosodic structure in children and adults. For adults and continuous speech, both low-frequency delta- and theta-band impairments and high-frequency gamma- and beta-band differences are found. To date, perceptual difficulties with intra-word prosody have not been studied in direct relation to neural speech encoding. Here neurotypical adults and adults with dyslexia listened to multisyllabic words. EEG was recorded, and cortical encoding was quantified using temporal response function (TRF) modelling. Four speech representations were explored: lexical stress pattern (intra-word prosodic prominence), the low-frequency speech envelope, word onsets and syllable onsets. Adults with dyslexia showed significantly reduced encoding of intra-word prosodic prominence (delta band) and of the speech envelope (delta and theta bands). In contrast, encoding of word and syllable onsets was preserved. Pinpointing delta-band cortical tracking as central to encoding intra-word prosodic prominence opens new avenues for research.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Impaired cortical encoding of prosodic prominence in single multisyllabic words for adults with dyslexia",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754341v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-divergence-in-neurodivergent-brains-mapping-the-relationship",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Divergence in neurodivergent brains: mapping the relationship between developmental trajectories in functional connectivity and clinical outcomes",
+      "povzetek_sl": "Brain network development differs between neurodivergent (ND) and neurotypical (NT) youth, but its developmental trajectory, and relationship to clinical outcomes, remains unclear. We examined age-related changes in functional network connectivity and clinical symptoms in 861 participants (5-21 years) from the Healthy Brain Network, including NT youth and those with Neurodevelopmental Disorders (NDDs) and generalized anxiety disorder (GAD). Functional connectivity during movie-watching was modeled using generalized additive models across eight large-scale networks to characterize nonlinear developmental trajectories. Divergence in connectivity profiles between ND and NT groups first emerged during late childhood and were largest during adolescence. Importantly, divergence in connectivity patterns followed a similar trajectory path, but preceded, divergence in clinical outcomes. These findings identify adolescence as a sensitive period when differences in patterns of brain activity and clinical differences become increasingly pronounced, highlighting a potential window for targeted intervention.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Divergence in neurodivergent brains: mapping the relationship between developmental trajectories in functional connectiv",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753857v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-selective-vulnerability-of-intracortical-projection-neurons-",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Selective vulnerability of intracortical projection neurons drives long-term cortical circuit rewiring after perinatal hypoxia",
+      "povzetek_sl": "Cortical circuits are built at perinatal times and gradually refined in an activity-dependent manner during a so-called postnatal period of critical plasticity. Although lesions of the central nervous system (CNS) happening during this period typically recover better than those occurring later in life, they are often associated with long-term behavioral deficits. This suggests that neuronal circuits rewiring, in particular within the cortex, may either be incomplete or inappropriate. To address this possibility, we used chronic perinatal hypoxia, a mouse model of very premature birth. We confirmed that chronic hypoxia induced a decrease in cortical thickness frequently observed in very preterm babies, which rapidly recovered 8 days later. To explore the transcriptional correlates of this recovery we next performed single-nuclei transcriptomic analysis of the cortex at short (P11) and long (P45) timepoints following hypoxia. This revealed persistent transcriptional changes within neurons, including of genes involved in mitochondrial metabolism, axonogenesis and synaptogenesis. Further, histological analysis using anterograde and retrograde tracing as well as mitochondrial labelling",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Selective vulnerability of intracortical projection neurons drives long-term cortical circuit rewiring after perinatal h",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753115v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-somatodendritic-vasopressin-release-couples-intrinsic-excita",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "SOMATODENDRITIC VASOPRESSIN RELEASE COUPLES INTRINSIC EXCITABILITY TO POPULATION-LEVEL ACTIVITY",
+      "povzetek_sl": "The transition from single-neuron excitability to organized population firing is a fundamental feature of neural circuits, yet the mechanisms that govern this transition remain poorly understood. Magnocellular vasopressin (VP) and oxytocin neurons are intermingled within the hypothalamus, yet display strikingly different population dynamics, with VP output sustained by a distributed, largely asynchronous activity. Here, we identify a local mechanism by which somatodendritically released VP acts as a diffusible signal that converts an intrinsic excitability mechanism into spatially and temporally organized feedback across the VP population. Activity-dependent somatodendritic VP release recruited a rapid autocrine feedback that transiently potentiated the slow afterhyperpolarization (sAHP) through V1aR signaling which in turn strengthened spike-frequency adaptation and restrained firing. The same signal also acted in a diffusible, paracrine manner on neighboring VP neurons, producing distance- and time-dependent sAHP modulation, with rapid potentiation at short range and delayed inhibition at greater distances. Focal VP uncaging further revealed preferential engagement of somatic ove",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SOMATODENDRITIC VASOPRESSIN RELEASE COUPLES INTRINSIC EXCITABILITY TO POPULATION-LEVEL ACTIVITY",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753511v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-mouse-neural-organoids-model-the-mature-in-vivo-synaptic-pro",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Mouse Neural Organoids Model the Mature In Vivo Synaptic Proteome",
+      "povzetek_sl": "Neural organoids represent a promising approach for modelling neural circuits and neurological disease, yet their utility depends on whether they can recapitulate the molecular complexity of mature brain synapses. Here, we optimized a protocol to generate mature forebrain organoids from mouse embryonic stem cells and used time-resolved proteomics to define the emergence of synaptic proteins during maturation. Using fluorescence-activated synaptosome sorting coupled with mass spectrometry, we quantified the synapse-enriched proteome and found a high correlation with matched in vivo synaptic proteomes. These findings demonstrate that complex mature synaptic molecular architecture is present within an in vitro organoid environment.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Mouse Neural Organoids Model the Mature In Vivo Synaptic Proteome",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.753785v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-type-i-ifns-in-eae-drive-synaptic-transcriptional-responses-",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Type-I IFNs in EAE drive synaptic transcriptional responses in neurons and astrocytes in the brain",
+      "povzetek_sl": "Neuronal pathology plays a prominent role in the cognitive and neuropathic symptoms of multiple sclerosis; however, little is known about these pathological signals to neurons in the brain and their consequences on cognition. Here, using a transgenic reporter of IFN signaling with spatial RNA-sequencing, we determined myelin-specific autoimmune T cells enter the brain parenchyma through the interface between the fimbria and third ventricle. Here, astrocytes and microglia express high levels of MHC-II-associated transcripts. Using this reporter, we also showed microglia within the brain are not direct responders of IFNs, but express transcripts associated with synaptic pruning, potentially contributing to pathological remodeling of neuronal circuits. Moreover, both type-I and type-II IFNs are required for T cells to infiltrate the brain and initiate an IFN response associated with synaptic and metabolic programs in neurons and astrocytes in the cortex and hippocampus. In summary, this study elucidates multiple steps of the pathogenesis of EAE pathology within the brain independent of the spinal cord.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Type-I IFNs in EAE drive synaptic transcriptional responses in neurons and astrocytes in the brain",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753833v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-parents-neural-dynamics-in-response-to-their-children-s-spee",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Parents' neural dynamics in response to their children's speech",
+      "povzetek_sl": "The development of speech in human children is a protracted process that depends on social experience. From early life, young children produce vocalizations in the presence of others, which affords unique opportunities for feedback about how to communicate successfully. However, for feedback to happen, young childrens speech needs to effect change in the brains of their caregivers. Using dual-brain functional near-infrared spectroscopy (fNIRS) to measure real-time communication between caregivers and their 2- to 3-year-old children (n = 56), we found that children's vocalizations selectively modulated caregivers' brain activity. Parents' brains showed a rapid response to children's production of speech that was communicatively advanced (multiword utterances) vs. less advanced (babble). The findings imply that if part of learning to talk is figuring out how to get your communication partner to listen, then early conversations likely present continuous opportunities for feedback that guide children toward advances in spoken language.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Parents' neural dynamics in response to their children's speech",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754219v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-potency-of-nucleoside-analogs-against-powassan-virus-replica",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Potency of nucleoside analogs against Powassan virus replication and identification of 4'-fluorouridine as a therapeutic candidate for tick-borne orthoflavivirus encephalitis",
+      "povzetek_sl": "Powassan virus (POWV) is an emerging tick-borne orthoflavivirus that causes severe encephalitis, long-term neurologic sequelae, and death, yet no approved antiviral therapies exist. Here, we evaluated several previously characterized nucleoside analogs as candidate countermeasures for POWV encephalitis. Favipiravir, molnupiravir, 4'-fluorouridine (4'-FlU), and GS-441524 inhibited POWV replication in vitro and demonstrated comparable activity against West Nile virus (WNV). We established C3H/HeNCrl mice as a stringent POWV disease model, showing increased susceptibility, higher day 7 brain titers, and more pronounced neurologic signs resembling severe human disease, compared with C57BL/6 mice. In prophylactic and therapeutic studies, 4'-fluorouridine was the most efficacious compound tested, significantly reducing brain viral burden even when treatment was delayed. Direct comparison with molnupiravir, favipiravir, and GS-441524 in mice confirmed superior survival benefit and antiviral activity for 4'-FlU against both POWV and WNV. These data identify 4'-fluorouridine as a promising therapeutic candidate for neurotropic flavivirus disease.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Potency of nucleoside analogs against Powassan virus replication and identification of 4'-fluorouridine as a therapeutic",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754293v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-briefing-chat-why-scientists-made-papyrus-scrolls-then-burnt",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Briefing Chat: Why scientists made papyrus scrolls, then burnt them",
+      "povzetek_sl": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03041-y Nature staff discuss a technique that could help researchers read charred Herculaneum scrolls — plus, a biodegradeable, edible battery.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Briefing Chat: Why scientists made papyrus scrolls, then burnt them",
+          "url": "https://www.nature.com/articles/d41586-026-03041-y"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-why-science-wouldnt-exist-without-alchemy-curiosity-and-grea",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Why science wouldn’t exist without alchemy, curiosity and great writing: Books in brief",
+      "povzetek_sl": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03032-z Andrew Robinson reviews five of the best science picks.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Why science wouldn’t exist without alchemy, curiosity and great writing: Books in brief",
+          "url": "https://www.nature.com/articles/d41586-026-03032-z"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-anthropics-ai-biolab-finds-crispr-like-dna-in-viruses-whats-",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+      "povzetek_sl": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03039-6 The detection effort enlisted roughly 950 AI agents that spent more than 21 hours combing through DNA sequence databases.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
+          "url": "https://www.nature.com/articles/d41586-026-03039-6"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-chemists-struggle-to-ditch-hazardous-solvents-even-after-dec",
+      "date": "2026-09-26",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Chemists struggle to ditch hazardous solvents — even after decades of ‘green’ efforts",
+      "povzetek_sl": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03023-0 Laboratories are still using dangerous and carbon-intensive liquids much more often than environmentally friendly ones, according to a 40-year survey of patents.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Chemists struggle to ditch hazardous solvents — even after decades of ‘green’ efforts",
+          "url": "https://www.nature.com/articles/d41586-026-03023-0"
+        }
+      ]
+    }
+  ]
+}
