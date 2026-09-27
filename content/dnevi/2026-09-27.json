@@ -1,0 +1,238 @@
+{
+  "date": "2026-09-27",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": "Tedenski recap watchlista:\nNi premikov na watchlistu. To je tudi podatek.",
+  "kartice": [
+    {
+      "id": "2026-09-27-gasdermin-e-couples-mitochondrial-stress-to-sting-driven-neu",
+      "date": "2026-09-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Gasdermin E couples mitochondrial stress to STING-driven neuronal pyroptosis during Chandipura virus encephalitis",
+      "povzetek_sl": "Neurotropic RNA viruses are major causes of fatal encephalitis worldwide, yet how infected neurons transition from antiviral defense to inflammatory cell death is not well characterized. Chandipura virus (CHPV), an emerging neurotropic rhabdovirus, causes acute, rapidly progressive encephalitis with high case fatality in children, but the mechanisms underlying its neuropathogenesis remain poorly defined. Here, we demonstrate that CHPV suppresses canonical RNA virus sensing early but subsequently switches to a mitochondria-driven innate immune program that culminates in inflammatory cell death. Early infection of neuronal cells with CHPV was marked by reduced levels of the mitochondrial antiviral adaptor protein, MAVS and attenuation of type I and III interferon responses. As infection progressed, mitochondrial dysfunction promoted accumulation of mtROS, mitochondrial accumulation of cleaved GSDME and cytosolic mtDNA release, triggering STING activation, which coincided with robust neuroinflammation and pyroptotic cell death. Pharmacological inhibition or genetic silencing of STING markedly attenuated inflammatory signaling, prevented pyroptotic membrane rupture and protected neuron",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Gasdermin E couples mitochondrial stress to STING-driven neuronal pyroptosis during Chandipura virus encephalitis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754282v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-tfam-dependent-mitochondrial-fitness-limits-cd8-t-cell-immun",
+      "date": "2026-09-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "TFAM Dependent Mitochondrial Fitness Limits CD8⁺ T Cell Immunopathology and Sustains Protective Immunity during Viral Pneumonia",
+      "povzetek_sl": "During respiratory virus infection, CD8 T cells kill infected cells and establish antigen-specific memory, but mechanisms regulating these functions remain incompletely understood. Here, we identify mitochondrial transcription factor A (TFAM)-dependent mitochondrial fitness as a regulator of CD8 T cell function during influenza infection. Human CD8 T cells exhibited an age-associated decline in TFAM expression and mitochondrial function. To model this physiologically relevant decline and determine its consequences for antiviral immunity, we generated CD8 T cell-specific TFAM-haploinsufficient mice. TFAM insufficiency disrupted mitochondrial integrity and bioenergetics and increased mitochondrial DNA and oxidative stress. During influenza infection, TFAM-insufficient CD8 T cells exhibited increased cytotoxic and inflammatory activity associated with lung immunopathology without improved viral control. This early phenotype was followed by loss of effector function, diminished antigen-specific responses, reduced protection following adoptive transfer, and impaired heterosubtypic recall immunity. Thus, TFAM-dependent mitochondrial fitness is a cell-intrinsic regulator that limits immun",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "TFAM Dependent Mitochondrial Fitness Limits CD8⁺ T Cell Immunopathology and Sustains Protective Immunity during Viral Pn",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754254v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-a-single-nucleus-multi-omic-atlas-of-gene-regulation-across-",
+      "date": "2026-09-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "A single-nucleus multi-omic atlas of gene regulation across 21 adult human tissues",
+      "povzetek_sl": "Diverse human cell types establish specialized functions through lineage- and context-specific regulatory programs. Interpreting non-coding genetic risk requires integrated multi-omic reference maps that directly connect regulatory DNA to cellular expression across human tissues. Here we present a single-nucleus multi-omic atlas comprising 459,856 transcriptomic and chromatin accessibility profiles from 21 adult human tissues and four donors, including paired measurements from 160,688 nuclei. The atlas resolves nine cell lineages, 61 broad cell types and 313 subclusters, and identifies 1,085,062 candidate cis-regulatory elements (cCREs), including 161,270 novel elements absent from ENCODE. Regulatory activity was dominated by cell identity but refined by tissue context. Joint profiling enabled 871,177 cCRE-gene associations and revealed lineage-specific regulatory architectures. Cross-tissue accessibility further identified lineage-restricted and constitutively inaccessible chromatin domains, the latter showing preferential hypomethylation across human cancers. Furthermore, we leverage this dataset to train sequence-to-function models to predict chromatin-accessibility effects for",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A single-nucleus multi-omic atlas of gene regulation across 21 adult human tissues",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754561v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-three-dimensional-reconstruction-of-the-human-nucleus-accumb",
+      "date": "2026-09-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Three dimensional reconstruction of the human nucleus accumbens reveals topographic organization and molecular heterogeneity of D1-islands across the anterior posterior axis",
+      "povzetek_sl": "Spatial transcriptomics has transformed molecular characterization of the human brain, but most studies profile individual two-dimensional tissue sections and therefore cannot capture molecular organization across 3D neuroanatomical axes. Here, we developed a spatial genomics framework to reconstruct the 3D cellular architecture of the human nucleus accumbens (NAc) by densely sampling and aligning serial sections across its anterior-posterior (AP) extent. Combining single-cell Xenium profiling with near-transcriptome-wide VisiumHD, we mapped cell type composition and topography across AP, mediolateral and dorsoventral axes. Neuronal populations varied in relative abundance across the AP axis while maintaining characteristic spatial topographies. These differences were particularly pronounced among D1-islands, a topographically organized structure within the NAc in which transcriptionally distinct subpopulations of DRD1-expressing medium spiny neurons (MSNs) aggregate into discrete cellular formations. D1-islands comprised two molecularly distinct spatial domains with conserved counterparts across species. Both domains varied in relative abundance across the AP axis, but demonstrate",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Three dimensional reconstruction of the human nucleus accumbens reveals topographic organization and molecular heterogen",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754413v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-goals-drive-adaptive-analysis-of-linguistic-features-during-",
+      "date": "2026-09-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Goals Drive Adaptive Analysis of Linguistic Features During Reading",
+      "povzetek_sl": "Reading behaviour is sensitive to contextual demands. For example, when reading to study or answer questions, readers strategically allocate more attention to goal-relevant sections, read slower, and regress more frequently to extract specific information based on task demands. This suggests that readers flexibly adapt their strategies according to goals and situational constraints. However, the neurocognitive mechanisms supporting this flexibility remain unclear. To test this, we combined eye-tracking with EEG during naturalistic reading and examined how short-term reading goals modulated the neural tracking of hierarchical linguistic features at the orthographic (orthographic neighbourhood size), lexical (word frequency), and contextual-semantic (Surprisal) levels. Forty native English speakers read narratives in three goal conditions: Baseline (no goal), Proofreading (detect spelling errors), and Comprehension (attend to content). Fixation-aligned word-level EEG activity was modelled using multivariate temporal response function to estimate the strength of feature-specific neural tracking. Orthographic tracking was significantly enhanced during Proofreading relative to Baseline,",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Goals Drive Adaptive Analysis of Linguistic Features During Reading",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754337v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-axons-organize-into-micro-tracts-around-the-cortical-vascula",
+      "date": "2026-09-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Axons organize into micro-tracts around the cortical vasculature",
+      "povzetek_sl": "Neural activity is metabolically costly and supported by local increases in cerebral blood flow. The process by which neural activity drives blood flow increase, neurovascular coupling (NVC), remains poorly understood. One persistent knowledge gap is how subcellular compartments are arranged at the vascular wall, where local signaling occurs. This requires a survey of the neurovascular interface at the nanometer scale. To this end, we analyzed a ~1 mm3 volume of mouse visual cortex imaged with serial electron microscopy. We manually labeled different vascular zones, and classified the EM segments surrounding hundreds of vessel segments across these zones. We found that capillaries and venous vessels are surrounded by more axonal volume than arteriolar vessels. Perivascular axons tended to bundle into micro-tracts, where axons ran in parallel and coursed near the vessel wall in a variety of geometric orientations. Micro-tracts cover ~60% of the surface of capillaries, but only 24-40% of every other vascular zone's surface. Finally, we show that the extensive axon arbors of basket cell inhibitor neurons are within micro-tracts. Their axons come in closest proximity to vessels, and on",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Axons organize into micro-tracts around the cortical vasculature",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754479v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-cross-modal-organization-of-facial-and-vocal-behavior-reveal",
+      "date": "2026-09-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Cross-Modal Organization of Facial and Vocal Behavior Revealed by Coordination Metrics Derived from Temporal Alignment",
+      "povzetek_sl": "Facial and vocal behaviors jointly convey affective and communicative information, yet their cross-modal organization remains difficult to characterize quantitatively. We propose a framework for characterizing facial-vocal organization by aligning facial and vocal dynamics using canonical time warping. Multivariate facial action unit trajectories and vocal prosodic trajectories were extracted from recordings of spontaneous speech and aligned in a shared latent space. From the alignment process, we derived three cross-modal coordination metrics: \"scaling factor\", reflecting the relative scaling between modalities; \"time shift ratio\", reflecting the frequency of temporal shifts; and \"time shift magnitude\", reflecting their size. We evaluated these metrics in verbally fluent adults with autism spectrum disorder (ASD; N = 35) and controls (N = 44). The proposed metrics did not differ significantly between diagnostic groups but showed associations with individual differences in communication and anxiety. Scaling factor was linked to trait anxiety in ASD, whereas time shift ratio was associated with communication characteristics across participants. The proposed metrics also showed littl",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Cross-Modal Organization of Facial and Vocal Behavior Revealed by Coordination Metrics Derived from Temporal Alignment",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754599v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-cerebellar-mitochondrial-dysfunction-coincides-with-structur",
+      "date": "2026-09-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Cerebellar mitochondrial dysfunction coincides with structural and behavioral abnormalities in 3q29Del mice",
+      "povzetek_sl": "3q29 deletion (3q29Del) is a genetic risk variant for autism spectrum disorder and schizophrenia that often results in developmental delays, cognitive disability, and impaired fine motor function. People with 3q29Del have reduced cerebellar volume, which correlates with symptom severity, and many 3q29Del-associated phenotypes also commonly occur after cerebellar injury or dysfunction. However, it is unknown whether the existing 3q29Del mouse model recapitulates the cerebellar dysfunction observed in humans. To characterize cerebellar phenotypes and uncover pathological differences in the 3q29Del mouse model, we investigated cerebellar structure, motor and vocal behaviors, protein expression, and mitochondrial function. We found uniformly reduced cerebellar volume in 3q29Del mice. Behavioral assays revealed vocal impairments in 3q29Del pups, fine motor impairments in adult mice, and reduced social mating calls in adult male mice. Proteomic analysis revealed enrichment of synaptic and mitochondrial proteins among the differentially expressed proteins in 3q29Del cerebellum tissue. Furthermore, mitochondria from 3q29Del mouse cerebellum displayed reduced oxygen flux and increased elect",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Cerebellar mitochondrial dysfunction coincides with structural and behavioral abnormalities in 3q29Del mice",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754481v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-apod-2026-september-27-andromeda-before-and-after-photoshop",
+      "date": "2026-09-27",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 September 27 – Andromeda Before and After Photoshop",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 September 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. BeforeAfter Andromeda Before [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 September 27 – Andromeda Before and After Photoshop",
+          "url": "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-apod-2026-september-26-mirrored-meteor-and-milky-way",
+      "date": "2026-09-27",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 September 26 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Mirrored Meteor and [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
+          "url": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-next-crew-bound-for-the-space-station-arrive-in-florida",
+      "date": "2026-09-27",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "Next crew bound for the space station arrive in Florida",
+      "povzetek_sl": "The three astronauts and one cosmonaut will spend roughly six months onboard the International Space Station. Launch is scheduled for no earlier than Oct. 1.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Next crew bound for the space station arrive in Florida",
+          "url": "https://spaceflightnow.com/2026/09/26/next-crew-bound-for-the-space-station-arrive-in-florida/"
+        }
+      ]
+    }
+  ]
+}
