@@ -1,0 +1,263 @@
+{
+  "date": "2026-09-28",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-09-28-bringing-ai-to-autonomous-systems-from-cognition-to-collecti",
+      "date": "2026-09-28",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+      "povzetek_sl": "arXiv:2609.30291v1 Announce Type: new \nAbstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of connectionist AI and symbolic AI, and to integrate AI and systems engineering. We present a comprehensive framework for the design and evaluation of autonomous systems, based on a generic agent architecture that characterizes their behavior as the composition of cognitive functions organized around a long-term memory containing the agent's evolving knowledge. We address the challenges posed by the implementation of the fundamental features of the agent architecture, in particular the link between sensory data and structured data stored in memory, decision-making related to the achievement of the agent's goals and their planning, as well as the coordination of agents to combine individual and collective intelligence. We explain that agent trustworthiness, unlike that of traditional systems, is not limited to behavioral properties. It includes an essential dimension related to cognitive properties, the validity of which depends on",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+          "url": "https://arxiv.org/abs/2609.30291"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-scopebench-do-agents-preserve-engagement-boundaries-under-go",
+      "date": "2026-09-28",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+      "povzetek_sl": "arXiv:2609.30325v1 Announce Type: new \nAbstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability; as those benchmarks saturate, the real barrier to deployment is a special case of alignment: scope adherence. We introduce ScopeBench, a benchmark of 30 dead-end agentic security tasks in which the stated objective is reachable only by violating the stated scope. Each task appears under two conditions that share an environment, verifier, and objective and differ only in scope: one instruction set has no scope and measures capability; the other has a natural-language scope to measure adherence. Scopeless trajectories are graded by a standard deterministic verifier. Scoped trajectories pass through two grading arms. First, the same deterministic verifier checks for the flag: because the flag sits behind the scope boundary, a pass proves by construction that a forbidden action occurred, yielding a high-precision lower bound on the violation rate. If the verifier does not pass the trajecto",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+          "url": "https://arxiv.org/abs/2609.30325"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-when-is-a-multi-agent-code-judge-actually-grounded-two-label",
+      "date": "2026-09-28",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
+      "povzetek_sl": "arXiv:2609.30328v1 Announce Type: new \nAbstract: When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had grounds for. Multi-agent verification, which decomposes a judgment into checkable claims and verifies each against evidence, is a promising response and works well when the evidence is a set of retrieved documents.\n  We argue such methods require two things of their evidence: it must be independent of the answer under review, and it must differ between the two candidates being compared. The second condition holds automatically with retrieved documents and stops holding in code judging.\n  Running MARCH, a published framework unmodified over 80 condition-by-cell measurements on two code judging benchmarks, we find it declares both solutions equally good on 78 to 95% of comparisons, reaching 4.4% accuracy where the same model asked directly reaches 43.7%. Neither easier problems nor a larger judge changes this. Two measurements taken from the pipeline's own logs explain it without needing labels.\n  Gating on one of them, the pipeline",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
+          "url": "https://arxiv.org/abs/2609.30328"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-bridging-llm-agents-and-data-spaces-an-architectural-mediati",
+      "date": "2026-09-28",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "povzetek_sl": "arXiv:2609.30341v1 Announce Type: new \nAbstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven data infrastructures. This article presents an architectural mediation approach based on the Model Context Protocol (MCP), implemented through the Eunomia Agent, to enable controlled interaction between large language model (LLM) agents and data space services. The proposed mediation layer translates data space capabilities into structured, schema-driven tools that AI agents can discover and invoke while preserving governance constraints. A prototype implementation validates end-to-end interaction across catalog discovery, metadata retrieval, and data service invocation without modifying existing data space components. Results demonstrate that protocol-based mediation enables interoperable and standards-aligned integration of AI agents into data space ecosystems. The approach provides practical guidance for organizations seeking to introduce AI-driven automation into governed data-sharing environments whil",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+          "url": "https://arxiv.org/abs/2609.30341"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-stealth-apart-harm-together-skill-cascading-attacks-on-skill",
+      "date": "2026-09-28",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
+      "povzetek_sl": "arXiv:2609.30383v1 Announce Type: new \nAbstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend its capabilities for a specific task. Skill-based agent systems therefore enable flexible reuse of third-party capabilities, but the openness of this skill ecosystem also opens up a new attack surface. Prior work has focused on vulnerabilities within individual skills, but little attention has been paid to risks that arise from interactions across skills. In this paper, we introduce skill cascading attacks, a threat paradigm in which a malicious objective is distributed across multiple skills so that each modification looks benign in isolation, yet their combined execution is harmful. For instance, in a prescription-review pipeline, the first skill weakens signals of recently discontinued medications in the extracted history, the second downgrades the severity of any drug interaction tied to them, and the third suppresses the resulting low-priority alert in the final summary, so that a severe drug-interaction warning silently disappears before reaching the physician. To systematically",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
+          "url": "https://arxiv.org/abs/2609.30383"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-a-synthetic-ground-truth-framework-for-the-evaluation-of-exp",
+      "date": "2026-09-28",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
+      "povzetek_sl": "arXiv:2609.30397v1 Announce Type: new \nAbstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the literature, existing evaluation approaches typically assess explanations by measuring their fidelity with respect to the predictions of a black-box model. However, such evaluation strategies only quantify the degree to which an explanation reproduces the model's output, without ensuring that the explanation correctly reflects the underlying decision process. As a consequence, different explanations may achieve similar fidelity scores while providing inconsistent or misleading interpretations of the model behavior. In this paper, we propose a framework for the evaluation of XAI methods based on synthetic ground truth. The proposed approach relies on controlled interventions to generate synthetic datasets in which the importance of input components can be determined by design. This enables the construction of ground truth explanations that are directly aligned with the behavior of the model under analysis. The framework is instantiated a",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
+          "url": "https://arxiv.org/abs/2609.30397"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-predicting-transmembrane-protein-topology-from-3d-structure",
+      "date": "2026-09-28",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Predicting Transmembrane Protein Topology from 3D Structure",
+      "povzetek_sl": "arXiv:2609.30446v1 Announce Type: new \nAbstract: This paper presents a novel approach to infer protein topology using the state-of-the-art graph neural network (GNN), SchNet. The model is trained on the same dataset used to develop the recent DeepTMHMM model with 5-fold cross-validation. Unlike the conventional approaches based on using only the protein sequences or the $\\alpha$-carbons as features, we have decoded our classifier in this way, so all atom-level embeddings are used. Without applying any pre-trained weight, the final results have shown great potential that GNNs can be used for topological predictions.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Predicting Transmembrane Protein Topology from 3D Structure",
+          "url": "https://arxiv.org/abs/2609.30446"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-spectral-feedback-for-test-time-alignment-of-protein-diffusi",
+      "date": "2026-09-28",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
+      "povzetek_sl": "arXiv:2609.30456v1 Announce Type: new \nAbstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token logits or by selecting favorable sequences at intermediate steps. These approaches largely treat inference as a unidirectional process, lacking mechanisms for revisiting undesirable token selections. We introduce Spectral Feedback, an algorithm that selects edit-positions in a feedback loop, allowing the model to iteratively correct its own generations. This approach leverages the mask structure of discrete diffusion models by re-masking and re-sampling tokens, analogous to image editing methods that reintroduce noisy latents and re-run the reverse process. While prior alignment methods focus on what token labels to assign to maximize a target reward, we instead treat which tokens to revisit as the central alignment problem. Selecting edit-positions is challenging because edit effects are interdependent: the impact of modifying one token depends on which others are edited simultaneously. We define an edit-set as a set of token positions to re-mask and re-sample. Motivated by prior wor",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
+          "url": "https://arxiv.org/abs/2609.30456"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-tinycvio-a-constellation-aided-visual-inertial-odometry-syst",
+      "date": "2026-09-28",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "TinyCVIO: A Constellation-Aided Visual-Inertial Odometry System for Nanodrones",
+      "povzetek_sl": "arXiv:2609.30358v1 Announce Type: new \nAbstract: Nanodrones require accurate, real-time state estimation under severe sensing and computational constraints. We present TinyCVIO, a visual-inertial odometry system that co-designs miniature sensing, visual processing, and estimation for a commodity dual-core microcontroller with 520 kB SRAM. Lightweight LED constellations provide known geometry without surveyed positions or yaw angles, assuming placement on a common level plane. A streaming visual frontend tracks LED observations from a millimeter-scale camera at 29.2 FPS, while a rigid-board measurement model retains inter-LED constraints and streaming QR bounds estimation workspace for a fixed filter-state size. Across 19 hand-held hardware-in-the-loop datasets, the rigid-board model reduces mean absolute trajectory error by 27% relative to planar points. The complete system runs onboard a Crazyflie across nine flights at three speeds, achieving 3.5-3.7 cm mean absolute trajectory error and 0.50-0.60% relative pose error over 10 m segments, with mean estimate latency of 15.7-16.3 ms.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "TinyCVIO: A Constellation-Aided Visual-Inertial Odometry System for Nanodrones",
+          "url": "https://arxiv.org/abs/2609.30358"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-poil-point-based-one-shot-imitation-learning-with-stable-dyn",
+      "date": "2026-09-28",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "POIL: Point-based One-Shot Imitation Learning with Stable Dynamical Systems",
+      "povzetek_sl": "arXiv:2609.30404v1 Announce Type: new \nAbstract: We present POIL, a point-based one-shot imitation learning framework with stable dynamical systems. While one-shot imitation avoids collecting extensive demonstrations, successful one-shot manipulation requires not only transferring a demonstrated trajectory to a novel object but also executing it robustly under changing scene conditions, grasp configurations, and external disturbances. POIL addresses both problems through a shared representation: a set of 3D points on the object's functional part, used jointly for trajectory transfer and closed-loop execution. The one-shot transfer from the demonstrated trajectory is enabled with point correspondences. POIL grounds the shared functional part with a multi-modal large language model, and transfers the trajectory across viewpoint, pose, and object category changes. During execution, multi-view tracking observes the same points online, and Point-set BCSDM drives them in closed loop by projecting per-point velocities onto a single rigid-body twist computed from the tracked points alone. This extends stable dynamical models from an SE(3) pose to a point set without requiring a known 3D mo",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "POIL: Point-based One-Shot Imitation Learning with Stable Dynamical Systems",
+          "url": "https://arxiv.org/abs/2609.30404"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-actively-resolving-contextual-uncertainty-for-underspecified",
+      "date": "2026-09-28",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Actively Resolving Contextual Uncertainty for Underspecified Tasks in Natural Language",
+      "povzetek_sl": "arXiv:2609.30428v1 Announce Type: new \nAbstract: Foundation models provide robots with the ability to interpret natural language and reason about environmental context, yet most language-conditioned policies assume that goals are well-specified and that task-relevant information is provided upfront via a prior map. Operating in unfamiliar environments with underspecified tasks entails high contextual uncertainty: the robot must jointly infer what constitutes task success, what constitutes relevant information, and where (or whether) that information exists. We address these limitations via CLUE (Closed-Loop contextual Uncertainty rEsolution), a framework for actively resolving contextual uncertainty given underspecified tasks in natural language. CLUE uses an LLM-derived policy to hypothesize task-relevant concepts and potential plans. It then uses a language-embedded map, which is constructed online, to ground these hypotheses into actions. The policy sequentially evaluates hypotheses via closed-loop environment interaction and refines its plans as it gathers new information. We deploy CLUE on a Boston Dynamics Spot across three real indoor and outdoor environments spanning 15 tas",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Actively Resolving Contextual Uncertainty for Underspecified Tasks in Natural Language",
+          "url": "https://arxiv.org/abs/2609.30428"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-walt-learning-world-model-aligned-latent-trajectories-for-au",
+      "date": "2026-09-28",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "WALT: Learning World-Model-Aligned Latent Trajectories for Autonomous Driving",
+      "povzetek_sl": "arXiv:2609.30436v1 Announce Type: new \nAbstract: Driving world models learn rich predictive representations of the surrounding environment from visual observations, yet accurate visual prediction does not necessarily translate into effective trajectory planning. We argue that a key bottleneck lies in the mismatch between visual world states and raw geometric trajectories, which may limit the planner's ability to exploit action-relevant semantics encoded by the world model. To address this issue, we propose World-Model Alignment for Latent Trajectories (WALT), which learns a compact generative trajectory latent space by transferring information from a frozen pretrained driving world model without modifying the world model itself. Rather than directly generating raw waypoints, WALT maps them into compact representations through a dual-branch trajectory autoencoder and transfers semantic knowledge from the frozen visual world model into this trajectory space, encouraging the learned action representation to capture scene-level cues relevant to future motion and planning. Beyond our proposed formulation, we systematically study latent learning based on Joint-Embedding Predictive Archit",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "WALT: Learning World-Model-Aligned Latent Trajectories for Autonomous Driving",
+          "url": "https://arxiv.org/abs/2609.30436"
+        }
+      ]
+    }
+  ]
+}

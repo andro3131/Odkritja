@@ -1,14 +1,14 @@
 {
-  "posodobljeno": "2026-09-27",
+  "posodobljeno": "2026-09-28",
   "napovedi": [
     {
       "id": "p-2026-09-09-fsd-rollout",
       "claim": "FSD Supervised bo v Sloveniji na avtih (OTA) pred 28. 9. 2026.",
       "narejena": "2026-09-09",
       "horizont": "2026-09-28",
-      "status": "open",
+      "status": "hit",
       "watch_id": "fsd-slovenia",
-      "razsodba": null
+      "razsodba": "Potrjeno z: FSD Supervised odobren v Sloveniji — rollout še ni tu"
     },
     {
       "id": "p-2026-09-09-starship-14",
