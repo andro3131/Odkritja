@@ -1,0 +1,263 @@
+{
+  "date": "2026-09-29",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-09-29-smartcare-privacy-preserving-agentic-ai-systems-for-bounded-",
+      "date": "2026-09-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "SMARtCARE: Privacy-Preserving Agentic AI Systems for Bounded-Autonomy Clinical Decision Support",
+      "povzetek_sl": "arXiv:2609.31763v1 Announce Type: new \nAbstract: Long-context clinical AI systems can miss relevant patient history when prior admissions fall outside the active reasoning context. In ICU monitoring, this can cause early vital-sign drift to appear nonspecific even when it resembles a prior deterioration pattern. SMARtCARE addresses this gap through a four-state clinical decision-support architecture: Stable, Meta-cognitive, Assisted, and Regulated (Revoked). Rather than automatically retrieving prior records, SMARtCARE uses a lossy six-channel fingerprint of the patient's prior trajectory. When current drift matches that fingerprint and the prior record is absent from context, the system raises a Meta-cognitive escalation for clinician review; full retrieval occurs only through clinician action in the Assisted state. A patient-identity guard is designed to enforce correct attribution across data loading, logging, and audit layers. Evaluation combines a synthetic Monte Carlo study that validates the state-transition logic and estimator stability, not clinical performance, with real-data runs on both the MIMIC-III and MIMIC-IV Clinical Database Demos. On MIMIC-III, one prior-pattern",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SMARtCARE: Privacy-Preserving Agentic AI Systems for Bounded-Autonomy Clinical Decision Support",
+          "url": "https://arxiv.org/abs/2609.31763"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-witeness-overlap-directional-provenance-inside-open-weight-m",
+      "date": "2026-09-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Witeness Overlap: Directional Provenance Inside Open-Weight Model Families",
+      "povzetek_sl": "arXiv:2609.31784v1 Announce Type: new \nAbstract: Open-weight models are often released, fine-tuned, aligned, merged, and re-released, making provenance audits ask not only whether checkpoints are related, but also which checkpoint came first. Many existing model-provenance methods are designed for a base-known audit setting: given a victim or source model, they test whether a suspect model is related to it. Although these audits are framed as source-to-suspect tests, their underlying evidence is often symmetric, relying on representation similarity, weight similarity, behavioral fingerprints, or correlation statistics. Symmetric pairwise comparisons can detect relatedness, but they cannot by themselves orient relationship between checkpoints A and B. We therefore introduce a local geometric comparison: instead of comparing two checkpoints directly, we add a third same-family checkpoint as a witness and compare the geometry around each candidate endpoint. Direction is inferred by asking which candidate behaves more like a branching parent. Motivated by this idea, and by the empirically observed asymmetry between parent-anchored and child-anchored witness-overlap distributions, we pr",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Witeness Overlap: Directional Provenance Inside Open-Weight Model Families",
+          "url": "https://arxiv.org/abs/2609.31784"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-cp-agent-a-harness-engineered-agent-for-crystal-plasticity-s",
+      "date": "2026-09-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "CP-Agent: A Harness-Engineered Agent for Crystal Plasticity Simulation Workflows",
+      "povzetek_sl": "arXiv:2609.31790v1 Announce Type: new \nAbstract: Crystal plasticity (CP) simulations predict the mechanical behavior of polycrystalline metals, yet their routine use is hindered by the manual effort of configuring heterogeneous tools, orchestrating multi-step data pipelines, and calibrating constitutive parameters against experiments. These bottlenecks impede productivity in systematic parameter studies, motivating interest in automated workflows. This study presents CP-Agent, a harness-engineered LLM-based agent that autonomously executes complete CP modeling workflows from natural-language tasks. Operating under the ReAct paradigm, the agent reasons about tool selection and sequencing while delegating numerical search to established optimizers. The harness comprises a minimal system prompt, typed tool definitions, a dispatcher, and a safety-bounded iteration loop, encoding domain knowledge through tool schemas rather than hard-coded logic. CP-Agent is demonstrated on four case studies: calibrating four slip parameters of additively manufactured stainless steel 316L against tensile data; validating the workflow against published copper benchmarks, reproducing stress-strain and tex",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CP-Agent: A Harness-Engineered Agent for Crystal Plasticity Simulation Workflows",
+          "url": "https://arxiv.org/abs/2609.31790"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-conflictvla-bench-benchmarking-behavioral-responses-of-visio",
+      "date": "2026-09-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts",
+      "povzetek_sl": "arXiv:2609.31792v1 Announce Type: new \nAbstract: While Vision-Language-Action (VLA) models perform strongly on manipulation tasks, their responses to invalid task premises remain underexplored. Existing evaluations of premise conflicts often focus on terminal task outcomes, yet task failure alone cannot distinguish behavioral disengagement from continued pursuit followed by an execution error. We call the latter pattern Failed Persistence. To study this phenomenon, we introduce ConflictVLA-Bench, which pairs conflict rollouts with premise-consistent reference rollouts and evaluates both outcomes and execution processes. Built on LIBERO, the benchmark contains 2,826 prompt-conditioned conflict tasks spanning four conflict families, four structural configurations, and two prompt conditions. Across all eight VLAs, invalid premises reduce original goal completion by at least 17.3 percentage points, with the reduction reaching 56.2 percentage points for OpenVLA. Crucially, even when models succeed on premise-consistent tasks and fail on their matched conflict tasks, they often continue to approach the original targets, retain early trajectory structure, and show limited action magnitude",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts",
+          "url": "https://arxiv.org/abs/2609.31792"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-working-with-ai-a-design-framework-for-human-ai-collaboratio",
+      "date": "2026-09-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Working with AI: A Design Framework for Human-AI Collaboration",
+      "povzetek_sl": "arXiv:2609.31793v1 Announce Type: new \nAbstract: Artificial Intelligence (AI), particularly GenAI, is becoming an increasingly important part of modern work. In industrial settings, AI can support decision-making, automate routine activities, assist humans, and improve productivity. However, successful AI adoption depends on more than what the technology can do. It also depends on how people experience and work with it. This raises an important question: how should human-AI collaboration be designed so that it works well for both people and organisations? This white paper addresses that question by presenting a practical framework for designing human-AI collaboration. The framework considers the human, the AI system, the task, the organisation, and the wider societal environment. It explains what effective collaboration looks like, what conditions influence it, what requirements should be met, and what design decisions organisations should consider. The report also includes a human-AI collaborative assembly system with cobot use case to demonstrate how the framework can be applied in practice. The use case shows how design requirements can be translated into specific collaboration",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Working with AI: A Design Framework for Human-AI Collaboration",
+          "url": "https://arxiv.org/abs/2609.31793"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-drivehierarchy-a-benchmark-for-diagnosing-vlm-driving-capabi",
+      "date": "2026-09-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "DriveHierarchy: A Benchmark for Diagnosing VLM Driving Capabilities from Open-Loop Understanding to Closed-Loop Execution",
+      "povzetek_sl": "arXiv:2609.31814v1 Announce Type: new \nAbstract: Evaluating VLM-based autonomous driving remains difficult because driving competence is composite, where a capable system must ground traffic participants and hazards, integrate context across views and time, reason about future evolution, and act appropriately under closed-loop interaction. Existing benchmarks usually assess either open-loop understanding or closed-loop driving but provide limited structure for explaining how these abilities are organized, how they relate, and how they may inform model diagnosis and improvement. We present \\textsc{DriveHierarchy}, a hierarchical benchmark that organizes VLM-based autonomous driving into four ranks, spanning perceptual grounding, contextual memory, mental reasoning, and closed-loop execution. To instantiate this hierarchy, we integrate multiple open-source autonomous-driving datasets into a unified open-loop benchmark with 76,798 question-answer pairs over 84,279 frames and develop a closed-loop simulation platform with interactive scenario construction on a real-world road network, from which 100 driving scenarios are curated for embodied evaluation. Experiments on 15 VLMs show that",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "DriveHierarchy: A Benchmark for Diagnosing VLM Driving Capabilities from Open-Loop Understanding to Closed-Loop Executio",
+          "url": "https://arxiv.org/abs/2609.31814"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-llm-judge-validation-under-sparse-overlap-from-inference-to-",
+      "date": "2026-09-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "LLM Judge Validation Under Sparse Overlap: From Inference to Design",
+      "povzetek_sl": "arXiv:2609.31857v1 Announce Type: new \nAbstract: Validating an LLM-as-a-judge requires estimating its agreement with humans, yet annotation budgets rarely allow every item to be multiply labeled. We prove that this \\emph{overlap sparsity} is the first-order determinant of wrong deployment decisions: at 5\\% pairwise overlap, wrong-decision rates reach 25\\% and the probability of selecting the wrong best judge among ten candidates is 65\\%. The two actionable levers are overlap \\emph{quantity} and \\emph{allocation}. For quantity, we derive a minimum-overlap formula showing $\\rho \\geq 0.25$ suffices for non-borderline judges while borderline cases remain fundamentally hard. For allocation, a zero-cost stratified scheme halves false-rejection rates relative to random sampling when strata are informative. We validate on 10 LLM judges across four evaluation matrices spanning visual assessment, causal reasoning, and summarization.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "LLM Judge Validation Under Sparse Overlap: From Inference to Design",
+          "url": "https://arxiv.org/abs/2609.31857"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-metro-wm-long-horizon-latent-planning-with-realisable-sub-go",
+      "date": "2026-09-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals",
+      "povzetek_sl": "arXiv:2609.31868v1 Announce Type: new \nAbstract: Model-predictive control with Joint-Embedding Predictive Architectures (JEPAs) provides a strong zero-shot goal-reaching planner, but it is only effective over short planning horizons. Hierarchical extensions attempt to bridge this gap by learning a macro planner to predict intermediate latent sub-goals to guide the micro planner. In this work, we demonstrate that unconstrained latent sub-goal prediction is fundamentally flawed. A rigorous evaluation reveals that a leading state-of-the-art macro planner routinely emits physically unrealisable sub-goals. To resolve this, we introduce Metro-WM, a hierarchical framework that issues sub-goals by retrieving genuine states from prior experience rather than generating ungrounded latent vectors. Specifically, Metro-WM constructs a graph whose vertices are observed frames from offline expert demonstrations or random-action trajectories, allowing frames from different episodes to be connected and stitched into routes to the goal. Planning over the full graph also makes the system highly robust to execution errors: if the micro planner drifts off course, Metro-WM instantly finds a new optimal p",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Metro-WM: Long-Horizon Latent Planning with Realisable Sub-Goals",
+          "url": "https://arxiv.org/abs/2609.31868"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-what-stops-recursive-self-improvement-in-robotics-lessons-fr",
+      "date": "2026-09-29",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "What Stops Recursive Self-Improvement in Robotics? Lessons from 123 Rounds of Agentic Skill Discovery",
+      "povzetek_sl": "arXiv:2609.31760v1 Announce Type: new \nAbstract: Can a robot improve itself the way coding agents now improve software? We built an agentic system to find out. It watches a robot fail, works out which capability is missing, writes new skills or finds and installs external models, tests every change in simulation, and repeats, with no human writing robot code. We ran it for 123 improvement rounds on household manipulation tasks. This report describes what we learned. The good news is that the agent can discover capabilities on its own: noticing that its targets were out of view, it asked for an active-viewing model, debugged it, and deployed a working search skill. The bad news is that its improvements did not add up. Changes kept passing their tests, yet the target task, putting condiments on the top shelf of a fridge, never succeeded. We found that the agent was rarely the bottleneck. Three things around it were. First, chained perception modules do not understand relations. Segmenters such as SAM 3 find shelves but not \"the top shelf\", so the agent filled the gap with ever more geometric rules that never converged, when what it needed was a different kind of model. Second, skill",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "What Stops Recursive Self-Improvement in Robotics? Lessons from 123 Rounds of Agentic Skill Discovery",
+          "url": "https://arxiv.org/abs/2609.31760"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-robot-manipulation-with-gpt-6-astra-body-knowledge-experienc",
+      "date": "2026-09-29",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Robot Manipulation with GPT-6-Astra: Body Knowledge, Experience Reuse, Emergent Skills, and Sim2Real Transfer",
+      "povzetek_sl": "arXiv:2609.31770v1 Announce Type: new \nAbstract: General-purpose multimodal agents can write robot-control programs, but repeated exploration and model-mediated action selection can make execution slow. We study how external body knowledge, successful experience, and executable skills improve an XLeRobot controlled by GPT-6-Astra in a simulated and a physical elevator-button task. In 30 fixed-start simulation trials, complete robot geometry and camera information reduce mean completion time by 57.4% relative to a baseline with only the common control interface and no prior experience; images with synchronized action and state records reduce it by 68.6% without additional body assets. In nine paired comparisons (18 trials) at starts displaced by 10-100 cm, experience recorded at the original start reduces mean time by 58-63% relative to no experience, demonstrating generalization to the tested new starting positions. During experience experiments, GPT-6-Astra spontaneously generates a short visual-feedback program. Researcher-refactored versions reduce mean local-task time by 29-31% in 27 simulation trials. Finally, 12 real-robot trials using operator-confirmed button contact demons",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Robot Manipulation with GPT-6-Astra: Body Knowledge, Experience Reuse, Emergent Skills, and Sim2Real Transfer",
+          "url": "https://arxiv.org/abs/2609.31770"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-reduced-cartesian-kinetostatics-for-tendon-driven-continuum-",
+      "date": "2026-09-29",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Reduced Cartesian Kinetostatics for Tendon-Driven Continuum Robots: Residual-Stabilized Full-Shape Propagation",
+      "povzetek_sl": "arXiv:2609.31771v1 Announce Type: new \nAbstract: Many planning and control tasks for tendon-driven continuum robots (TDCRs) require the complete Cartesian backbone geometry. We present a reduced Cartesian framework for planar, axially compressible TDCRs that propagates equilibrium configurations along prescribed tendon-force and tendon-displacement trajectories. The backbone is represented by two global position fields. Following exact variation, a Taylor-Galerkin reduction condenses prescribed spatial properties and distributed loads into offline moment vectors, yielding analytic reduced residuals and Jacobians without online spatial quadrature or numerical differentiation. Analytical differentiation and residual correction yield first-order rate systems requiring one fixed-dimensional linear solve per rate evaluation after initial equilibrium alignment on a regular branch. Across four simulated cases covering variable tendon routing, nonuniform geometry, axial compression, and their combined effects, the propagated Cartesian shapes and distributed strains closely match pointwise geometrically variable-strain (GVS) equilibrium solutions. Residual correction suppresses propagation",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Reduced Cartesian Kinetostatics for Tendon-Driven Continuum Robots: Residual-Stabilized Full-Shape Propagation",
+          "url": "https://arxiv.org/abs/2609.31771"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-timed-rule-based-supervision-of-an-end-to-end-autonomous-par",
+      "date": "2026-09-29",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Timed Rule-Based Supervision of an End-to-End Autonomous Parking Policy",
+      "povzetek_sl": "arXiv:2609.31773v1 Announce Type: new \nAbstract: We study whether a manually specified runtime supervisor can correct recurring failures of an existing end-to-end parking policy in a fixed CARLA parking lot. The vision-based Transformer architecture is inherited from Yang et al.; our contribution is a timed, rule-based Parametric Safety Shield (PSS) applied to its control outputs. The PSS uses hand-calibrated speed, position, and duration thresholds to intervene in observed failure modes, including boundary exits, delayed braking, and stalled or oscillatory control. In the reported closed-loop evaluation, 16 held-out target slots and six initial poses are each evaluated in four rounds (384 attempts per configuration). Target success increases from 327/384 (85.16%) for the retrained policy to 375/384 (97.66%) with the PSS; mean position and orientation errors among successful attempts are 0.21m and 0.33 degrees. These results show an improvement within this simulator setup. The repeated attempts share one map, vehicle, and sensor configuration, and the PSS uses simulator world coordinates; thus the results do not establish generalization to other lots or real vehicles, or a formal s",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Timed Rule-Based Supervision of an End-to-End Autonomous Parking Policy",
+          "url": "https://arxiv.org/abs/2609.31773"
+        }
+      ]
+    }
+  ]
+}
