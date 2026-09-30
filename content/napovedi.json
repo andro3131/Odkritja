@@ -1,5 +1,5 @@
 {
-  "posodobljeno": "2026-09-29",
+  "posodobljeno": "2026-09-30",
   "napovedi": [
     {
       "id": "p-2026-09-09-fsd-rollout",
@@ -15,9 +15,9 @@
       "claim": "Starship Flight 14 poleti najkasneje 30. 9. 2026 (NET 15. 9. drži kot tla, ne kot datum).",
       "narejena": "2026-09-09",
       "horizont": "2026-09-30",
-      "status": "open",
+      "status": "zapadlo",
       "watch_id": "starship-next",
-      "razsodba": null
+      "razsodba": "Horizont je padel — čaka razsodbo (ročno ali +7 dni → miss)."
     },
     {
       "id": "p-2026-09-09-tcmv",
