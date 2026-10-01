@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-01",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-01-improving-ocr-faithfulness-via-gated-and-attenuated-on-polic",
+      "date": "2026-10-01",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+      "povzetek_sl": "arXiv:2609.38282v1 Announce Type: new \nAbstract: Vision-language models may rewrite anomalous text in images into linguistically plausible expressions, compromising OCR transcription faithfulness. Sequence-level task rewards and local teacher guidance are complementary, but guidance from the same teacher may not remain equally effective as the student improves. Offline analysis shows that supervision from a fixed teacher becomes progressively less favorable as the student improves, both across training checkpoints and across response groups with different task rewards. Motivated by this observation, we introduce GAD-RL, which adaptively regulates teacher supervision during joint post-training according to the student's current task performance and local distributions. A frozen teacher conditions on reference transcriptions and student-generated prefixes. GAD-RL disables distillation for response groups containing an output with task reward at least 0.95 and continuously attenuates distillation strength as group-mean reward increases. It also weights forward KL by the student's probability of the teacher's Top-1 token, moderating local auxiliary updates when student support for that",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2609.38282"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-arex-2-advancing-self-improving-agents-through-long-horizon-",
+      "date": "2026-10-01",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "povzetek_sl": "arXiv:2609.38288v1 Announce Type: new \nAbstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilities are domain-agnostic, and can therefore be learned in scenarios that are well suited for supervision. Accordingly, we synthesize long-horizon improvement trajectories from machine learning and algorithmic programming tasks, two domains that offer verifiable feedback and reward sustained iteration. Trained on this data, our agent, built on Qwen3.8-27B, achieves strong results on MLE-bench Lite (81.8) and Frontier-CS (70.7), transfers to deep research with 84.0 on BrowseComp, 52.6 on HLE, 92.2 on GAIA, and 93.8 on DeepSearchQA, and keeps improving as its budget of rounds grows. These results show that long-horizon reflective data is an effective route toward self-improving agents.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+          "url": "https://arxiv.org/abs/2609.38288"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-moflow-multi-objective-agentic-workflow-generation",
+      "date": "2026-10-01",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "MoFlow: Multi-Objective Agentic Workflow Generation",
+      "povzetek_sl": "arXiv:2609.38294v1 Announce Type: new \nAbstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency. Existing methods for workflow generation typically optimize accuracy alone or a weighted sum of objectives, so each trained generator commits to one fixed trade-off and must be retrained from scratch when preferences change. To alleviate this, we propose MoFlow, which generates workflows optimized across varied preferences. Specifically, MoFlow formulates workflow generation as a multi-objective Markov decision process and solves it by leveraging Convex-Hull Monte Carlo Tree Search with optimistic set-valued backups, where every node stores a set of reachable trade-offs rather than one weighted score. A single search thus approximately covers the Pareto front, from which MoFlow can return a workflow for any preference by lookup without retraining. We evaluate MoFlow against six strong baselines on six benchmarks spanning mathematics, code, and question answering. Since the baselines are single-scalar optimizers by design, an apples-to-apples comparison is difficult. We instead adopt an",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "MoFlow: Multi-Objective Agentic Workflow Generation",
+          "url": "https://arxiv.org/abs/2609.38294"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-ai-agents-are-vulnerable-to-radicalization",
+      "date": "2026-10-01",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "AI Agents are Vulnerable to Radicalization",
+      "povzetek_sl": "arXiv:2609.38296v1 Announce Type: new \nAbstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the target initially considers unimportant. Across affective and behavioral metrics, we find that both mechanisms radicalize the target. However, resonance produces consistently stronger effects than persuasion. Different influence tactics, such as using sycophancy and unverified claims, produce different levels of radicalization, but not consistently across metrics. We further show that resonance propagates to related beliefs, suggesting interconnected belief structures within AI agents. These findings indicate that AI agents are susceptible to radicalization, particularly when messages align w",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "AI Agents are Vulnerable to Radicalization",
+          "url": "https://arxiv.org/abs/2609.38296"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-carat-do-materials-llms-reason-or-recite",
+      "date": "2026-10-01",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "CARAT: Do Materials LLMs Reason or Recite?",
+      "povzetek_sl": "arXiv:2609.38340v1 Announce Type: new \nAbstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input? Accuracy cannot tell: a structural description often prints the very field it is scored against. CARAT holds question and gold answer fixed across eight matched views, names each structural relation separately in GraphSpace, and adds matched fine-tuning, answer masking, evidence injection, paired inference, and a rule that can withhold claims. First, on the benchmark's hardest families the grounded view is worth 17.3 points over formula inputs. Second, we turn that scrutiny on ourselves. GraphSpace beats a plain periodic graph by 19.3 points, but that margin is two effects at once: where the plain rendering carries everything the question needs it is 1.96 points, and where it omits those fields entirely, 46.7 points. The headline mostly measures what the baseline lacked, not how evidence is presented. Third, we attack our own benchmark. A rule that skips the link and reads the list directly answers four of seven hardened families, so we rebuilt it until eleven such shortcuts sat near chanc",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CARAT: Do Materials LLMs Reason or Recite?",
+          "url": "https://arxiv.org/abs/2609.38340"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-examining-variation-in-how-guided-ai-tutors-resolve-student-",
+      "date": "2026-10-01",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Examining Variation in How Guided AI Tutors Resolve Student Impasses",
+      "povzetek_sl": "arXiv:2609.38346v1 Announce Type: new Abstract: When a student is stuck, a tutor faces the assistance dilemma: help given too early can hinder productive struggle, while help withheld too long leaves the student in a frustrating, persistent impasse (i.e., wheel spinning). Generative AI tutors increasingly use guardrails restricting answer-giving, yet little is known about how such tutors behave once an impasse persists. We analyze 20,462 student turns from 1,260 authentic sessions with a guided LLM chemistry tutor, identifying 6,630 impasse turns of three major types: conceptual errors, expressed uncertainty, or help-seeking. We then used these impasses to simulate three tutoring conditions to study variation in AI tutor guidance through impasses: baseline, no-direct-answer, and guided tutor. For a sample of 150 impasses, prompt specificity changed pedagogy: a baseline tutor provided the answer directly in 50.7% of responses, a no-direct-answer tutor asked a follow-up question every time, and the guided tutor responded in a wide variety of ways depending on the context. We then analyzed impasse trajectories in authentic interactions, finding that each additional impasse turn lowere",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Examining Variation in How Guided AI Tutors Resolve Student Impasses",
+          "url": "https://arxiv.org/abs/2609.38346"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-beyond-mode-collapse-generating-diverse-synthetic-expert-con",
+      "date": "2026-10-01",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks",
+      "povzetek_sl": "arXiv:2609.38359v1 Announce Type: new \nAbstract: High quality synthetic data is central to post training LLMs for adaptive AI applications that represent the diverse expert strategies and decisions in conversations. Prompting LLMs directly or conditioning them on end use scenarios yields low diversity data that collapses onto dominant modes. We propose a method to generate diverse high quality synthetic data using Generative Flow Networks (GFlowNets). We show that training GFlowNets to generate latent conversation structure using a Gaussian mixture density over key interaction features (e.g., confusion episode dynamics, scaffolding directive balance) enables sampling expert strategies in proportion to their prevalence in the training data. Across two structurally distinct domains, tutoring and emotional support dialogues, our GFlow based synthetic data generation approach offers a better balance of fidelity, mode coverage and authenticity than reinforcement-learning and end to end LLM baselines, without copying training data. Evaluated on three downstream outcome prediction tasks, classifiers trained on synthetic GFlowNet generated conversations provide a stronger training signal t",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks",
+          "url": "https://arxiv.org/abs/2609.38359"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-can-an-ai-agent-rediscover-a-blaschke-curve-invariant",
+      "date": "2026-10-01",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Can an AI Agent Rediscover a Blaschke-Curve Invariant?",
+      "povzetek_sl": "arXiv:2609.38369v1 Announce Type: new \nAbstract: We study generalized Blaschke curves as a controlled environment for AI-assisted mathematical rediscovery. For one fixed degree-four Blaschke product, an agent receives numerical coordinates of the six pair-lines determined by each of 80 boundary configurations. The target theorem is withheld from the task instructions. The saved research log reports rejected geometric hypotheses and a homogeneous cubic fitted to polygon sides. Its frozen coefficients predict 480 lines from 80 unseen parameter values, with a recorded RMS scale-free residual of $8.88\\times10^{-17}$. Discovery-set diagonals provide an out-of-fit consistency check, not a fully held-out test. A separate one-configuration run reports insufficient evidence for invariance. A post-review deterministic degree-search baseline also recovers the cubic, so the experiment does not establish an advantage over polynomial fitting. We present this single-instance case study as a protocol for separating conjecture, numerical validation, and proof, with explicit limitations concerning agent metadata, prior knowledge, and reproducibility.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Can an AI Agent Rediscover a Blaschke-Curve Invariant?",
+          "url": "https://arxiv.org/abs/2609.38369"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-optimize-learn-refine-whole-body-grasping-and-pick-and-throw",
+      "date": "2026-10-01",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Optimize, Learn, Refine: Whole-Body Grasping and Pick-and-Throw with a Spiral Soft Robot",
+      "povzetek_sl": "arXiv:2609.38202v1 Announce Type: new \nAbstract: Soft continuum robots can exploit distributed compliance for whole-body manipulation, but synthesizing behavior through changing contacts remains difficult. We address whole-body grasping and pick-and-throw from an initially ungrasped state through outcome-based actuation-space optimization. Grasping is quantified by tip angular sweep and body-object enclosure, while throwing further incorporates release-direction alignment and minimum release speed. These objectives allow grasping, acceleration, and release to emerge from compliant interaction without prescribing contact forces, contact locations, or body configurations. Because the resulting actuation-to-outcome mapping is nonsmooth, we utilize derivative-free CMA-ES within an optimize-learn-refine framework. CMA-ES generates solutions for sampled conditions, a task-conditioned predictor learns warm starts, and CMA-ES refines them for unseen conditions. In simulation, the method achieves 492/500 successful grasps (98.4%) and success rates of 98%, 97%, and 94% across three directional throwing trials. Learned initialization increases grasping success from 78.6% to 98.4% while reduci",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Optimize, Learn, Refine: Whole-Body Grasping and Pick-and-Throw with a Spiral Soft Robot",
+          "url": "https://arxiv.org/abs/2609.38202"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-fiatlux-a-long-horizon-benchmark-for-humanoid-ladder-climbin",
+      "date": "2026-10-01",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement",
+      "povzetek_sl": "arXiv:2609.38216v1 Announce Type: new \nAbstract: Existing benchmarks evaluate tabletop manipulation, flat-floor household activity, or humanoid locomotion and manipulation as separate task groups; none scores vertical mobility and dexterous work on a fragile payload in one long-horizon episode. We present Fiatlux, a light-bulb replacement benchmark built on NVIDIA Isaac Lab. In one episode, a Unitree G1 humanoid positions a step ladder under a ceiling or wall fixture, climbs it, exchanges a spent bulb in a socket for a fresh one, and leaves the spent one in a disposal crate. We decompose the episode into twelve subtask environments scored on difficulty-weighted gates. The goal is a successful replacement, with the fresh bulb seated, the spent one disposed of, neither dropped, and a fragility bound not crossed. Runs that fall short can earn partial credit. Observations are split into a standard mode (signals a physical robot could sense or estimate) and a privileged mode (exact simulator state). We specify the evaluation protocol and provide reference baseline implementations spanning RSL-RL PPO, zero-shot NVIDIA GR00T N1.7 Vision-Language-Action (VLA) models, and whole-body control",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement",
+          "url": "https://arxiv.org/abs/2609.38216"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-synil-leveraging-synergy-for-offline-imitation-learning-from",
+      "date": "2026-10-01",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "SynIL: Leveraging Synergy for Offline Imitation Learning from Imperfect Demonstration Datasets",
+      "povzetek_sl": "arXiv:2609.38225v1 Announce Type: new \nAbstract: Imitation learning enables robots to acquire complex skills directly from massive demonstration datasets, but its performance degrades severely when datasets are contaminated with suboptimal or noisy demonstrations. While prior quality-assessment methods attempt to filter or reweight data, they typically rely on manual pre-selection of expert reference data or task-specific heuristics, limiting scalability. To address this challenge, we introduce SynIL (Synergy-based Imitation Learning), a novel framework for automated, label-free demonstration quality assessment in offline reinforcement learning. Grounded in neuroscientific evidence that motor synergy, a low-dimensional coordinated structure in movement, correlates directly with motor proficiency, SynIL algorithmically quantifies synergy manifestation to generate dense, transition-level reward signals via self-supervised reward regression. Comprehensive evaluations on D4RL locomotion benchmarks and multi-human Robomimic manipulation datasets demonstrate that synergy-derived rewards correlate strongly with ground-truth rewards. Furthermore, SynIL substantially outperforms Behavior Cl",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SynIL: Leveraging Synergy for Offline Imitation Learning from Imperfect Demonstration Datasets",
+          "url": "https://arxiv.org/abs/2609.38225"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-a-two-echelon-covering-tour-vehicle-routing-problem-with-dro",
+      "date": "2026-10-01",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "A Two-Echelon Covering Tour Vehicle Routing Problem with Drones for Post-Disaster Relief",
+      "povzetek_sl": "arXiv:2609.38227v1 Announce Type: new \nAbstract: We introduce the two-echelon covering tour vehicle routing problem (2E-CTVRP) for the distribution of relief supplies after a disaster. In the first echelon, a fleet of trucks transports supplies and drones from a central depot to satellites at the periphery of the affected area. In the second echelon, drones launched in parallel from the satellites deliver the supplies to the centroids of victim clusters, which are obtained by clustering the victim locations, and each truck waits at a satellite until its drones have returned. The problem combines the assignment of satellites to trucks, the sequencing of the truck routes, and the assignment of clusters to satellites, and minimizes the sum of the arrival times of the trucks at the satellites and at the depot. We formulate the 2E-CTVRP as a mixed integer linear program and propose a hybrid metaheuristic, GRASP-ILS-PR, which combines greedy randomized construction, a single-trajectory search, and periodic path relinking on the assignment of clusters to satellites. On a new benchmark set of 110 instances, GRASP-ILS-PR finds all known optimal solutions within 30 seconds, matches or improv",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Two-Echelon Covering Tour Vehicle Routing Problem with Drones for Post-Disaster Relief",
+          "url": "https://arxiv.org/abs/2609.38227"
+        }
+      ]
+    }
+  ]
+}
