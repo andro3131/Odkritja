@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-02",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-02-heavy-tailed-memory-traces-in-long-horizon-language-agents",
+      "date": "2026-10-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+      "povzetek_sl": "arXiv:2610.00010v1 Announce Type: new \nAbstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost. We argue that the missing object is the shape of memory use: under finite context and repeated retrieval, agent memory can concentrate on a small core while leaving rare states in a long tail where prediction errors accumulate. We study this effect through a conservative tail audit and find that concentration is reproducible but policy-dependent. Random-walk agents produce log-normal-compatible retrieval artifacts, whereas semantic LLM policies yield the strongest truncated-power-law-compatible core--tail traces. Motivated by this audit, we propose Core--Tail World Model (CTWM), a rank-based memory controller that allocates prompt budget with a single exponent $\\tau$ while retaining a summarized tail. On Synthetic Graph World, CTWM preserves full state and transition coverage, reduces prompt tokens by 5.9%, and lowers bottom-half tail prediction error by 13.6% relative to a graph-memory baseline. The same paired comparison gives consistent token savings on ALFWorl",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+          "url": "https://arxiv.org/abs/2610.00010"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-when-do-causal-world-models-help-modular-llm-agents",
+      "date": "2026-10-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "When Do Causal World Models Help Modular LLM Agents",
+      "povzetek_sl": "arXiv:2610.00012v1 Announce Type: new \nAbstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standard world models usually fit observational traces, but this is not the quantity needed for intervention-time planning: a trace may show that payment precedes shipment without identifying whether payment authorizes shipment, inventory mediates the effect, or a hidden trigger explains both. We study this gap through FedCausalCompose, a causal world-model framework for modular LLM agents in which local actions provide intervention-response evidence for cross-module interfaces. We first show that observational world models incur an irreducible interventional error under unblocked back-door paths, that interface recovery improves with intervention-response coverage, and that an oracle causal composition can beat the non-causal lower bound when coverage and local mechanism errors are controlled. We then test the resulting prediction in diagnostic agent settings. Causal interfaces help most in structured tool environments, where API signatures expose pr",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "When Do Causal World Models Help Modular LLM Agents",
+          "url": "https://arxiv.org/abs/2610.00012"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-from-proposal-to-verified-effect-praxa-an-evidence-bound-har",
+      "date": "2026-10-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+      "povzetek_sl": "arXiv:2610.00015v1 Announce Type: new \nAbstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that represents these states explicitly through deterministic admission, brokered execution, external read-back, reconciliation, and reviewed promotion. We report four evidence lanes. First, an author-run repository-local audit at a pinned revision passed 1,027/1,027 unit tests and 89/89 Workerd tests, instrumented all 363 expected source files, and met four coverage floors; raw per-test transcripts and independent reproduction are unavailable. Second, in a provider-backed Terminal-Bench Core 0.1.1 pilot across 12 curated tasks, baseline and reliability-layer arms each passed 17/36 strict trials. The reliability layer used 37.49% more input and 50.73% more output tokens, so the pilot does not support superiority. Third, in a post-debug, two-order coordination-proxy development comparison, baseline and a source-authored candidate each completed 180/180 trials with equal measured accuracy, full hermetic crash recovery, and zero protected",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+          "url": "https://arxiv.org/abs/2610.00015"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-what-do-rationales-communicate-a-message-intervention-study-",
+      "date": "2026-10-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
+      "povzetek_sl": "arXiv:2610.00018v1 Announce Type: new \nAbstract: Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better answers, stronger support assessment, or a new failure surface. We introduce a message-intervention diagnostic that fixes the evidence and candidate answer while varying only the rationale passed across the reasoner-to-verifier boundary. On 400 MuSiQue, HotpotQA, and 2WikiMultiHopQA examples with DeepSeek as generator and verifier, faithful rationales add almost no answer accuracy over no rationale, while corrupted rationales strongly alter support judgments. Under a blind verifier prompt, harmless paraphrases shift support by only 0--2.5%, whereas corrupted rationales shift support by 10--22%; an explicit rationale-checking prompt amplifies the same pattern to 34--55%. Final answers move less (2--30%), and only 2.9--35.3% of corrupted support flips co-occur with answer changes. Human audits show why this matters: 16/42 valid corruptions are corruption-overtrust cases, and blind humans reject or mark unclear 9/10 audited corrupted rationales that the model accepts. Cross-model and task-bo",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
+          "url": "https://arxiv.org/abs/2610.00018"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-measuring-the-microtask-eligibility-gap-when-is-an-off-the-s",
+      "date": "2026-10-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+      "povzetek_sl": "arXiv:2610.00025v1 Announce Type: new \nAbstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-approving shell commands, writing memory, selecting tools, ranking past turns. We ask whether off-the-shelf SLMs meet practitioner-defined thresholds and, when they fail, why, and whether quantization changes the answer. We build a benchmark of 4 such microtasks with fixed prompts and automatic metrics, each with a pre-specified threshold $\\tau$ anchored to a cheap non-LLM baseline and a CI-aware eligibility rule (a configuration passes only if its confidence bound clears $\\tau$). Sweeping Qwen3 0.6/1.7/4/8B at their best (FP16, greedy, one frozen prompt, no tuning), we find an eligibility gap: 0 of 16 (4 tasks $\\times$ 4 models) configurations pass (verified by checking the raw outputs and parser behavior). A logprob decision-threshold diagnostic (T1/T3/T4; T2 via a context-length/cascade probe) separates the failures into capability deficits and failures that can be addressed by changing the decoding threshold (4 regimes). Quantization to 4-bit (RTN/GPTQ/AWQ) does damage that depends on",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+          "url": "https://arxiv.org/abs/2610.00025"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-characterizing-a-configuration-where-inference-time-prm-prun",
+      "date": "2026-10-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning LMs",
+      "povzetek_sl": "arXiv:2610.00047v1 Announce Type: new \nAbstract: Diversity collapse in parallel chain-of-thought has motivated inference-time interventions built on a natural design: when a process reward model (PRM) prunes a chain, its high-PRM prefix is extracted and grafted verbatim as an in-context demonstration into a still-decoding sibling. We isolate this mechanism, PRM-Pruned Fragment Grafting (PPFG), as the most cost-minimal operationalization of cross-trajectory step-level transfer, and test it at the operating point where prior fragment-grafting work reports gains only under additional compensating ingredients. On Qwen2.5-7B-Instruct with Math-Shepherd on full MATH500 (n=500, three seeds), PPFG in both stagnation- and random-targeting variants is statistically indistinguishable from an independent parallel-CoT baseline on every measured axis. We characterize why: a four-bucket classification of 322 stagnation-rule injection events shows only 14% targeted a genuinely struggling chain; the rest landed on chains that had already succeeded, were near completion, or sat on a flat PRM plateau, states a rescue graft cannot change. No compound-gate refinement jointly achieves well-targeted firi",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning",
+          "url": "https://arxiv.org/abs/2610.00047"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-gradient-aligned-pair-selection-for-personalized-preference-",
+      "date": "2026-10-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Gradient-Aligned Pair Selection for Personalized Preference Optimization",
+      "povzetek_sl": "arXiv:2610.00061v1 Announce Type: new \nAbstract: Personalizing large language models (LLMs) requires aligning generation behavior with user-specific preferences rather than aggregate quality. While Direct Preference Optimization (DPO) provides a stable framework for preference learning, its effectiveness in personalized settings critically depends on how preference pairs are selected. Existing approaches typically rely on heuristic criteria, such as likelihood-based extremes, which decouple optimization from explicit user utility and can lead to degraded personalization. We formalize personalized preference learning as a geometry-aligned optimization problem by analyzing the first-order interaction between gradients of expected user utility and DPO update directions. Our analysis reveals that, under off-policy sampling, the DPO update transitions from a purely error-corrective signal to a reinforcement-like update when preference margins are directionally aligned with utility gradients. This perspective exposes pair selection as a geometric decision that governs whether preference optimization advances or hinders personalization. Motivated by this insight, we propose GAP-DPO (Geome",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Gradient-Aligned Pair Selection for Personalized Preference Optimization",
+          "url": "https://arxiv.org/abs/2610.00061"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-k-dense-byok-an-open-source-ai-research-assistant-that-runs-",
+      "date": "2026-10-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
+      "povzetek_sl": "arXiv:2610.00074v1 Announce Type: new \nAbstract: K-Dense BYOK (bring your own keys) is a free, open-source AI research assistant for scientists in any field that runs on the researcher's own computer. The researcher supplies access to a model of their choice, hosted or running locally, and the application supplies everything else: a place for the work to run, a layer of scientific scaffolding, and a complete record. Each project is an ordinary folder, so the data, the code, the results, and the record stay on a machine the researcher administers and can be read years later without the application. Three things separate it from a chat assistant or a general-purpose coding agent. It ships a library of written scientific procedures, guided workflow templates, catalogs of where research data can be found, and reviewer and writer roles the agent can hand work to. It keeps a Living Lab Notebook whose entries link into an argument and are added to but never erased. And it records what happened by watching what the agent does rather than by taking the agent's word for it, in a log the agent has no tool that can write to. That choice targets the most common failure, model overclaiming, in o",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
+          "url": "https://arxiv.org/abs/2610.00074"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-bounded-fidelity-sim-as-demo-stage-mocap-handoff-for-governa",
+      "date": "2026-10-02",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Bounded-Fidelity Sim-as-Demo-Stage: Mocap Handoff for Governance Benchmarks",
+      "povzetek_sl": "arXiv:2610.00008v1 Announce Type: new \nAbstract: Sim-to-real research pursues physics fidelity as a primary objective: simulators are judged by how closely they reproduce real-world contact dynamics. For governance benchmarking of LLM-driven robots, where the simulator demonstrates that an admission/policy/contract/audit pipeline behaves correctly, contact fidelity at object handoffs (grasp, carry, place) becomes a liability: contact-force integration noise injects audit-chain divergence that is structurally unrelated to the governance property under test. We propose bounded-fidelity sim-as-demo-stage, a design pattern that suppresses contact physics within explicitly bracketed handoff envelopes while preserving full dynamics elsewhere. The construction uses MuJoCo's mocap-body primitive driven by a 220-line Python adapter that the governance bridge invokes via structured intents. We formalise audit-chain stability as byte-equality of the hashed event log across replays and identify two structural envelope properties that imply it. Across N=1000 replays per posture, the mocap variant produces one distinct audit-chain hash (1000/1000 byte-identical; Wilson 95% CI [0.997, 1.000]); th",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Bounded-Fidelity Sim-as-Demo-Stage: Mocap Handoff for Governance Benchmarks",
+          "url": "https://arxiv.org/abs/2610.00008"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-multi-reference-path-tracking-control-for-an-agricultural-tr",
+      "date": "2026-10-02",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Multi-Reference Path Tracking Control for an Agricultural Tractor with Nonlinear Model Predictive Control",
+      "povzetek_sl": "arXiv:2610.00057v1 Announce Type: new \nAbstract: Guiding a tractor along a predefined reference path is a key component of precision agriculture. This study develops a path tracking controller based on Nonlinear Model Predictive Control, which incorporates multiple segments of a piecewise-linear reference path directly into the objective function. In addition, methods for selecting viable reference segments from the full path are presented. The control system is evaluated during a field test with a tractor controlled via the Tractor Implement Management steering interface. The NMPC solver converged on average after 3.45 ms and tracked the curved reference path with a mean absolute cross-track error of 6.1 cm.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Multi-Reference Path Tracking Control for an Agricultural Tractor with Nonlinear Model Predictive Control",
+          "url": "https://arxiv.org/abs/2610.00057"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-probabilistic-plan-legibility-with-off-the-shelf-planners",
+      "date": "2026-10-02",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Probabilistic Plan Legibility with Off-the-shelf Planners",
+      "povzetek_sl": "arXiv:2610.00065v1 Announce Type: new \nAbstract: Legible planning is the creation of plans that best disambiguate their goals from a set of other candidates from an observer's perspective. In this paper we propose a method for legible planning for arbitrary PDDL domains, by extending previous research on legibility to classical planning without requiring to construct ad-hoc planners. We also discuss how the observer perspective may be estimated through a second order theory of mind that connects the planner's and the observer's task spaces. Our solution can for example be deployed in human-robot teaming scenarios, where an autonomous robot in a team can implicitly communicate its goal by producing legible plans. We present benchmark results on several PDDL planning domains. Our results generally show that plan legibility is a trade-off with plan efficiency, however, not all planning domains allows to increase legibility in the same way and a regularizing factor to balance legibility and efficiency was proved necessary.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Probabilistic Plan Legibility with Off-the-shelf Planners",
+          "url": "https://arxiv.org/abs/2610.00065"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-humanoidttt-test-time-capability-reuse-for-efficient-humanoi",
+      "date": "2026-10-02",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "HumanoidTTT: Test-Time Capability Reuse for Efficient Humanoid Control",
+      "povzetek_sl": "arXiv:2610.00198v1 Announce Type: new \nAbstract: Recent advances in motion generation and whole-body tracking have enabled humanoid robots to execute increasingly diverse motions, yet the same motion capabilities may be requested repeatedly during continual deployment. Reliable reuse is challenging because intervening motions can change the robot's entry state, making previously successful motions unsafe to replay blindly. Meanwhile, validated capabilities accumulate during deployment, while bounded storage requires deciding which ones are worth retaining. To address these challenges, we present HumanoidTTT, a framework for test-time capability reuse in continual humanoid control. Specifically, we introduce Selective Full-Motion Reuse, which authorizes direct reuse of validated complete motions only from certified applicable entry states, allowing accepted reuse to bypass fresh generation. We further introduce Test-Time Capability Consolidation, which adapts which qualified capabilities persist in a bounded Full-Motion Store using subsequent deployment reuse as feedback. Experiments demonstrate zero unsafe accepts and a 16.4$\\times$ end-to-end speedup over fresh generation, while o",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "HumanoidTTT: Test-Time Capability Reuse for Efficient Humanoid Control",
+          "url": "https://arxiv.org/abs/2610.00198"
+        }
+      ]
+    }
+  ]
+}
