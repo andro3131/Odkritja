@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-03",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-03-kpb82-potently-and-selectively-inhibits-acer2-and-protects-t",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "KPB82 potently and selectively inhibits ACER2 and protects tumor and primary cells from doxorubicin-induced cytotoxicity",
+      "povzetek_sl": "Alkaline ceramidase 2 (ACER2) catalyzes the hydrolysis of ceramides into sphingosine and free fatty acids, playing crucial roles in regulating various biological processes, including but not limited to cell proliferation, survival, and the DNA damage response. However, a pharmacological tool that regulates its catalytic and signaling functions remains to be developed. In this study, N-[(1S,2R)-1-hydroxy-1-phenylpropan-2-yl]dodecane-1-sulfonamide (KPB82) was identified as a potent and selective ACER2 inhibitor. In vitro enzymatic assays showed that KPB82 inhibited ACER2 with an IC50 of 190 nM, while displaying minimal activity against acid and neutral ceramidases (IC50> 100 {micro}M) and no significant inhibition of alkaline ceramidase 1 or alkaline ceramidase 3. Enzymatic kinetic studies revealed that KPB82 is a competitive inhibitor of ACER2. The three-dimensional structure of ACER2 was modeled in the AlphaFold3 server, revealing key Zn2+-coordinating histidine residues and a substrate-binding pocket. Molecular docking studies demonstrated that KPB82 binds ACER2 within this pocket, forming hydrogen bonds with the catalytically important amino residues, Asp93 and His215, and intera",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "KPB82 potently and selectively inhibits ACER2 and protects tumor and primary cells from doxorubicin-induced cytotoxicity",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.754712v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-spontaneous-behavior-predicts-colony-membership-individual-i",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Spontaneous behavior predicts colony membership, individual identity, and rank in naked mole-rat societies",
+      "povzetek_sl": "Animal societies are organized across scales, from moment-to-moment actions of individuals to dynamic group structure. A central challenge in sociobiology is to understand how behaviors of individuals shape group structure. Here, using machine vision to map recurrent fine-scale behavioral modules in the eusocial naked mole-rat (Heterocephalus glaber), we show that spontaneous behavior in isolation predicts group-level social organization, including colony membership and individual identity. We determined dominance relationships and found highly linear hierarchies, with ranks stable over months to years. Remarkably, fine-scale behavioral profiles in isolation correctly predicted pairwise dominance relationships, allowing reconstruction of rank order within each colony. Models trained within one colony predicted rank poorly in others, suggesting that naked mole-rats express social position through behavioral patterns specific to each colony. Together, our results connect fine-scale behavior to social structure maintained over years and show that, even when an animal is alone, its behavior carries signatures of its identity, colony, and place within that society.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Spontaneous behavior predicts colony membership, individual identity, and rank in naked mole-rat societies",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754730v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-alignment-with-sex-typical-brain-architecture-links-to-mood-",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Alignment with sex-typical brain architecture: Links to mood pathology, sex hormones and transcriptomics of neurodegenerative conditions",
+      "povzetek_sl": "Understanding the mechanisms that underpin the pervasive sex bias in risk for specific psychiatric and neurodegenerative conditions could substantially advance efforts promoting personalized medicine. As a first step towards addressing this issue, we applied imaging transcriptomics and multivariate analysis techniques to data from an adolescent sample enriched in anxiety/depression cases, a child sample enriched in attention deficit hyperactivity disorder (ADHD) cases, and adult patients with treatment resistant major depressive disorder (MDD). We tested whether, across sexes, alignment with female-typical, rather than male-typical, patterns of neural functional connectivity (FC) would relate to a diagnosis (adolescent sample) or severity of symptoms (adult sample) associated with internalizing disorders, which tend to be more often diagnosed in females. To provide preliminary evidence on its functional specificity, we compared the sex-aligned FC profile that distinguished neurotypical adolescents from those diagnosed with depression/anxiety against the sex-aligned FC patterns that distinguished neurotypical children from those diagnosed with ADHD. All the analyses controlled for a",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Alignment with sex-typical brain architecture: Links to mood pathology, sex hormones and transcriptomics of neurodegener",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754773v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-remembering-touch-somatosensory-cortex-supports-long-term-me",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Remembering touch: Somatosensory cortex supports long-term memory for dynamic vibrotactile patterns.",
+      "povzetek_sl": "The neural substrates of tactile long-term memory (LTM) in humans remain poorly understood, as relatively few neuroimaging studies have addressed this question. Here, we asked whether retrieval of tactile stimulation engages modality-specific representations in the primary and secondary somatosensory cortices (S1 and S2), alongside domain-general retrieval networks. Participants learned 16 tactile trajectories, each presented for 1.2 s on the left thumb through sequential activation of 10 vibrating dots on a Braille-like display. Three learning sessions within one week were followed by a recognition test during functional magnetic resonance imaging (fMRI). In the final sample (n = 26), we contrasted BOLD responses during successful recognition of learned stimuli with those during correct rejection of novel stimuli. Successful recognition was associated with increased activity in contralateral S1 and S2, alongside activation in the hippocampus as well as frontal and parietal regions implicated in memory retrieval. A psychophysiological interaction analysis (PPI) further revealed increased task-dependent connectivity between the hippocampus and contralateral S1 and S2 during successf",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Remembering touch: Somatosensory cortex supports long-term memory for dynamic vibrotactile patterns.",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754826v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-als-ftd-linked-tdp-43-alterations-prevent-hsv-1-infection-by",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "ALS/FTD-linked TDP-43 alterations prevent HSV-1 infection by disrupting cell-adhesion pathways",
+      "povzetek_sl": "TAR DNA-binding protein-43 (TDP-43) alterations are a key hallmark of amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and other neurodegenerative disorders. Increasing evidence links these conditions to viral infections, but it is not known if and how viral pathogens may be affected by disease-associated TDP-43. We found that ALS/FTD-linked forms of human TDP-43 prevent infection by herpes simplex virus type-1 (HSV-1), a common neurotropic virus. This cell-autonomous protective effect was conserved across different TDP-43 mutations, sporadic ALS, and C9ORF72-ALS, in neural and non-neural cell types, and in patient-derived cells and animal models. In addition to restricting infection, TDP-43 mutation prevented inflammatory and cell stress-related responses to HSV-1 exposure. TDP-43 knockdown but not overexpression was sufficient to protect cells from HSV-1 infection, implicating a loss-of-function mechanism. Neurons with TDP-43 mutation had disruptions in adhesion-related pathways and, accordingly, had reduced early-stage viral binding and entry. Further analyses revealed alternative RNA splicing and impairment of focal adhesion kinase (FAK/PTK2), a key mediator",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ALS/FTD-linked TDP-43 alterations prevent HSV-1 infection by disrupting cell-adhesion pathways",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755069v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-between-group-conflict-participation-is-associated-with-lowe",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Between-group conflict participation is associated with lower long-term cortisol in wild vervet monkeys",
+      "povzetek_sl": "Male-biased cooperative behaviours that produce public goods (male services) are widespread in primates. Recent behavioural studies suggest that male services may function beyond paternal investment, either as displays of competitive ability or as honest signals eliciting female choice. Because these hypotheses make contrasting predictions about the physiological state of service providers, endocrine measures offer a complementary approach for distinguishing between them. We investigated whether long-term testosterone and cortisol concentrations, measured from hair samples, were associated with four male services in wild vervet monkeys: alarm calling, participation in between-group conflicts (BGCs), leading river crossings, and sentinelling. Testosterone and cortisol concentrations increased with male competitive status, measured as a combination of dominance rank and recent rank trajectory, particularly during the mating period, establishing the endocrine profile associated with competition. In contrast, most male services showed few relationships with hormone concentrations: participation in BGCs was associated with lower cortisol concentrations and, to a lesser extent, lower tes",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Between-group conflict participation is associated with lower long-term cortisol in wild vervet monkeys",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755597v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-balancing-receptor-engagement-and-payload-catalytic-activity",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Balancing receptor engagement and payload catalytic activity broadens the therapeutic window of immunotoxins",
+      "povzetek_sl": "Immunotoxins (ITs) are potent targeted cancer therapeutics that couple tumor-selective receptor binding with efficient intracellular delivery and cytotoxic enzymatic activity of bacterial toxins. While ITs have shown impressive efficacy in hematologic malignancies, dose-limiting toxicity remains a major barrier to their broader clinical application, particularly in solid tumors. The exceptional potency of immunotoxin payloads contributes to off-tumor toxicity because even limited uptake by receptor-low cells can be sufficient to cause cell death. Here, we systematically investigated how receptor-binding domain (RBD) affinity and avidity interact with catalytic payload activity to determine IT selectivity. Using CD123-, HER3-, and HER2-targeted ITs, we found that increasing receptor-binding affinity or avidity altered potency but provided limited control over the selectivity between receptor-high and receptor-low cells. In contrast, attenuating catalytic activity produced profound gains in selectivity when payload potency was appropriately matched to receptor engagement. The optimal level of attenuation varied with receptor context and toxin scaffold, demonstrating that maximal sele",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Balancing receptor engagement and payload catalytic activity broadens the therapeutic window of immunotoxins",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754776v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-efficacy-profiling-of-structurally-diverse-cannabinoid-recep",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Efficacy profiling of structurally diverse cannabinoid receptor ligands across transducer-coupling assays",
+      "povzetek_sl": "The full efficacy range of ligands at CB1 and CB2 (i.e., inverse agonists, neutral agonists, partial agonists, full agonists, and high-efficacy agonists) has been reported collectively across numerous laboratories and assay platforms. Canonical Gi/o and {beta}-arrestin signaling have each been suggested to shape physiological effects differently via different classes of cannabinoid ligands. These prior efficacy classifications, however, were obtained in multiple assay systems, often using indirect, amplified readouts and different reference agonists, making them difficult to compare across ligands. Here we profiled a structurally diverse panel of 22 cannabinoid ligands: synthetic cannabinoid receptor agonists (SCRAs), {Delta}-tetrahydrocannabinol ({Delta}-THC) analogues, endocannabinoid analogues, and antagonists/inverse agonists at CB1 and CB2 receptors using bioluminescence resonance energy transfer (BRET) assays, measuring Gi1 engagement and {beta}-arrestin 2 recruitment and normalizing every response to the reference full agonist CP55,940. At CB1, SCRAs and {Delta}-THC analogues acted as high-efficacy agonists. At CB1, these high-efficacy agonists were also highly efficacious i",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Efficacy profiling of structurally diverse cannabinoid receptor ligands across transducer-coupling assays",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754774v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-location-location-location-how-to-edit-genes-only-in-the-cel",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Location, location, location: how to edit genes only in the cells you want",
+      "povzetek_sl": "Nature, Published online: 02 October 2026; doi:10.1038/d41586-026-03037-8 Gene-editing CRISPR enzymes controlled by light and sound target tissues of interest.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Location, location, location: how to edit genes only in the cells you want",
+          "url": "https://www.nature.com/articles/d41586-026-03037-8"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-learning-about-physics-changed-my-life-author-hernan-diaz-on",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "‘Learning about physics changed my life’: author Hernan Diaz on his new novel <i>Ply</i>",
+      "povzetek_sl": "Nature, Published online: 02 October 2026; doi:10.1038/d41586-026-03057-4 The Pulitzer-Prize-winning author joins us to talk about his time visiting CERN and communicating quantum physics in fiction.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "‘Learning about physics changed my life’: author Hernan Diaz on his new novel <i>Ply</i>",
+          "url": "https://www.nature.com/articles/d41586-026-03057-4"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-how-to-respond-to-hate-speech-without-fuelling-it-further",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "How to respond to hate speech without fuelling it further",
+      "povzetek_sl": "Nature, Published online: 02 October 2026; doi:10.1038/d41586-026-03058-3 Psychologist Mirta Galesic discusses an increase in hateful comments online, and the science-backed way to react.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "How to respond to hate speech without fuelling it further",
+          "url": "https://www.nature.com/articles/d41586-026-03058-3"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-stunning-fossil-shows-dinosaurs-distinctive-path-to-flight",
+      "date": "2026-10-03",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Stunning fossil shows dinosaurs’ distinctive path to flight",
+      "povzetek_sl": "Nature, Published online: 02 October 2026; doi:10.1038/d41586-026-03126-8 A fossil from a previously undiscovered species with feathery limbs, unearthed in China, adds to evidence that dinosaurs and birds evolved flight more than once.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Stunning fossil shows dinosaurs’ distinctive path to flight",
+          "url": "https://www.nature.com/articles/d41586-026-03126-8"
+        }
+      ]
+    }
+  ]
+}
