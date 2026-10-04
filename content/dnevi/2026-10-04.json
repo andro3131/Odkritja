@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-04",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": "Tedenski recap watchlista:\nZapadle napovedi: Starship Flight 14 poleti najkasneje 30. 9. 2026 (NET 15. 9. drži kot tla, ne ko",
+  "kartice": [
+    {
+      "id": "2026-10-04-apod-2026-october-4-supernumerary-rainbows-over-new-jersey",
+      "date": "2026-10-04",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 October 4 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Supernumerary Rainbows over [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-apod-2026-october-3-selfie-at-vera-rubin-ridge",
+      "date": "2026-10-04",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 October 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Selfie at Vera [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/"
+        }
+      ]
+    }
+  ]
+}
