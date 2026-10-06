@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-06",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-06-training-numerical-intelligence-via-auto-diagnosis-and-skill",
+      "date": "2026-10-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+      "povzetek_sl": "arXiv:2610.03872v1 Announce Type: new \nAbstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor performance, but rarely reveals its underlying cause and how to address it. We introduce Auto-Diagnosis and Skill Discovery (ADSD), a framework that links numerical diagnosis to reusable solver self-improvement. ADSD follows a diagnosis-first paradigm that first explains why a solver performs poorly, then uses this diagnosis to guide the discovery of appropriate numerical methods. The resulting knowledge is packaged into reusable solver skills, turning solver improvement from trial-and-error editing into a structured process of diagnosis, discovery, and implementation. Across four challenging numerical domains--power flow equation, AC optimal power flow control, stiff ordinary differential equations, and heterogeneous diffusion PDEs--ADSD consistently improves solver accuracy, robustness, and efficiency. On GOC-500 power flow, for example, ADSD reduces mean solver error by nearly $71\\times$, with improvements further transferring",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+          "url": "https://arxiv.org/abs/2610.03872"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-react-physically-and-chemically-consistent-reconstruction-of",
+      "date": "2026-10-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers",
+      "povzetek_sl": "arXiv:2610.03888v1 Announce Type: new \nAbstract: Reconstructing global sea surface pH from sparse observations is critical for monitoring ocean acidification and understanding marine carbon cycling. Traditional assimilation and inverse models are physically grounded but costly for large-scale reconstruction. Recent black-box and physics-guided AI models improve efficiency, but are mainly designed for passive tracers, where the reconstructed variable is also the transported inventory. In contrast, pH is an active carbonate tracer: it is the prediction target, while dissolved inorganic carbon (DIC) is the conserved carbon inventory. This mismatch can produce low pH error while violating carbonate closure and source-free carbon conservation. To address this, we introduce \\textbf{REACT}, a carbon-first reconstruction framework that decouples transport, active correction, and chemical decoding. REACT transports a latent carbonate state with a conservative advection--diffusion solver, captures non-conservative carbon-cycle variations with a source module, decodes the corrected state into pH, and constrains the output through carbonate equilibrium. This design keeps pH as the target while",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers",
+          "url": "https://arxiv.org/abs/2610.03888"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-proxy-confidence-auditing-black-box-llm-agents-with-a-surrog",
+      "date": "2026-10-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+      "povzetek_sl": "arXiv:2610.03894v1 Announce Type: new Abstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run. Frontier chat APIs hide the model's token probabilities; the agent's stated confidence barely beats chance on the mistakes that matter; and resampling does not help, since frontier models are highly repetitive, reproducing the same call across samples. We recover the missing signal from a low-cost open-weight surrogate run in parallel. It reads the same context, schema, and proposed action as the agent, then scores the call from its own log-probabilities through a family of complementary readouts: teacher forcing and request-PMI weigh the likelihood of each argument value, a discriminative verdict judges the call as a whole, and tool-choice competition tests the function against its siblings. One principle says which to trust: a generative likelihood localizes wrong argument values, while the verdict catches holistically wrong calls. When the error type is unknown, an ensemble is the low-regret default. The readout is training-free, needs no access to the agent's internals, and costs one prefill pa",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+          "url": "https://arxiv.org/abs/2610.03894"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-sganalog-an-end-to-end-circuit-benchmark-from-open-source-si",
+      "date": "2026-10-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts",
+      "povzetek_sl": "arXiv:2610.03934v1 Announce Type: new \nAbstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditions. We introduce a benchmark built from human-designed, open-source circuits associated with Tiny Tapeout manufacturing shuttles. The collection contains 273 topologically distinct top-level designs. Every source is retrieved at the revision recorded for its shuttle submission and processed in a fixed containerized environment. The pipeline exports each eligible schematic image and its SPICE netlist from the same source file, giving transcription an exact structural reference. Commit dates support model-specific training-cutoff analysis, while author testbenches provide the simulation context for sizing. The benchmark evaluates schematic-to-netlist transcription and device sizing. Across seven models on a fixed set of 66 transcription tasks, the strongest model reaches 56.1% exact graph isomorphism, and six of seven models drop sharply from the small to the medium tier. For one frontier",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts",
+          "url": "https://arxiv.org/abs/2610.03934"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-mllms-fail-to-refuse-when-using-tools-agentically",
+      "date": "2026-10-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "MLLMs Fail to Refuse when Using Tools Agentically",
+      "povzetek_sl": "arXiv:2610.03938v1 Announce Type: new \nAbstract: Agentic multimodal large language models (MLLMs) have recently pushed the frontier of visual reasoning by calling tools such as zooming and tagging. Despite the recent strong success of agentic MLLMs, this work uncovers a critical safety failure in the tool-use paradigm: agentic tool-using MLLMs become less capable of refusing harmful requests. Our experiments confirm that, across three popular safety benchmarks, all the top open- and closed-weight MLLMs we test exhibit significantly lower safety in tool-using settings than in non-tool settings, with a relative refusal failure rate increase of up to 68.7%. Based on analysis of 100,000+ responses, including extended experiments, we also propose two possible reasons for this safety degradation.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "MLLMs Fail to Refuse when Using Tools Agentically",
+          "url": "https://arxiv.org/abs/2610.03938"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-retrieval-augmented-large-language-model-decision-making-for",
+      "date": "2026-10-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+      "povzetek_sl": "arXiv:2610.03948v1 Announce Type: new \nAbstract: Autonomous driving decision systems must balance safety, efficiency, and social norms in complex traffic interactions. Philosophical and ethical considerations have received limited attention in existing autonomous driving decision-making approaches based on numerical optimization, sequence prediction, and large language models (LLMs). We propose Chinese Philosophical Wisdom-Guided Driving (CPW-Drive), a closed-loop retrieval-augmented generation (RAG) framework that incorporates value guidance derived from Chinese philosophy into autonomous driving decision-making. Using Chinese Confucian thought as its knowledge source, CPW-Drive consolidates LLM-extracted keywords from relevant classical texts into driving-relevant value principles through manual screening and validation. It then contextualizes these principles through scenario-specific cases to form retrievable and reusable value guidance. We further propose Physics-aware Spatial Similarity Retrieval (PSSR), which compares vehicle layouts and velocity-extrapolated states to retrieve physically relevant historical cases. On Highway-env's multilane highway-driving task, CPW-Drive a",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+          "url": "https://arxiv.org/abs/2610.03948"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-latentquant-preserving-the-policy-facing-latent-contract-und",
+      "date": "2026-10-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "LatentQuant: Preserving the Policy-Facing Latent Contract under NVFP4 VAE Quantization",
+      "povzetek_sl": "arXiv:2610.03959v1 Announce Type: new \nAbstract: Recent world action models (WAMs) reuse pretrained video VAEs whose encoder latents directly condition downstream action policies. Quantization must therefore preserve not only reconstruction fidelity but also the policy-facing latent contract expected by the frozen policy. Direct NVFP4 leaves W4A4 quantization error uncompensated, whereas joint quantization-aware training (QAT) can recover reconstruction by moving this representation. On Wan2.1, joint QAT nearly matches FP32 VBench-7 (0.7403 versus 0.7409), yet LIBERO success collapses from 95.5% to 10.5%. Controlled decoder-only experiments show that activation quantize-dequantize operations alter the reconstruction signal and decoder Jacobian, redirecting the gradient returned to the encoder and inducing persistent latent drift. Based on this mechanism, we introduce LatentQuant, a two-stage NVFP4 QAT framework that first aligns the quantized encoder with its high-precision counterpart, then freezes it while adapting the decoder. Across Wan2.1 and Wan2.2, LatentQuant preserves near-baseline control and high reconstruction quality, achieving 95.75% success on LIBERO and 68.8% on Rob",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "LatentQuant: Preserving the Policy-Facing Latent Contract under NVFP4 VAE Quantization",
+          "url": "https://arxiv.org/abs/2610.03959"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-roar-unifying-runs-across-heterogeneous-ai-driven-research-s",
+      "date": "2026-10-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "ROAR: Unifying Runs across Heterogeneous AI-Driven Research Systems",
+      "povzetek_sl": "arXiv:2610.03966v1 Announce Type: new \nAbstract: Each run of an AI-driven research system (ADRS) is an expensive search over a vast solution space, and dependable evaluation requires many runs, making run data both costly to produce and valuable to retain for large-scale analysis. Yet this data remains fragmented: teams operate in isolation, ADRS frameworks emit results in different formats, and no shared infrastructure exists to aggregate or compare runs across problems and systems. We present ROAR, a solution for systematically unifying and analyzing heterogeneous ADRS outputs. ROAR addresses two challenges: reconciling heterogeneous ADRS outputs and enabling analytics across runs with different objectives and scoring functions. We achieve this through a relational schema and parsing layer that normalize heterogeneous ADRS outputs while preserving data lineage and temporal structure, and accommodating new systems without requiring schema modifications. From building a corpus of more than 900 runs from multiple ADRS, we show how pooled data can reveal properties of problem landscapes that are difficult to observe. Consistent with prior work, runs with identical configurations may",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ROAR: Unifying Runs across Heterogeneous AI-Driven Research Systems",
+          "url": "https://arxiv.org/abs/2610.03966"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-tacet-context-appropriate-acoustic-social-navigation-for-qua",
+      "date": "2026-10-06",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "TACET: Context-Appropriate Acoustic-Social Navigation for Quadrupeds",
+      "povzetek_sl": "arXiv:2610.03828v1 Announce Type: new Abstract: Quadruped robots entering hospitals, care homes, and quiet offices must be context-appropriate not only in where they move but in how loudly they move: a legged robot's locomotion noise, dominated by foot-ground impacts, is itself a social variable. Prior social navigation respects human space but treats the robot as acoustically uniform, while quiet-locomotion methods reduce noise to an operator-specified, context-blind level. We present TACET, a context-appropriate acoustic-social navigation method that infers social context from the robot's egocentric view and decides both where it walks and how loudly, coupling a slow fine-tuned vision-language reasoner to a fast reactive controller through a single compact behavior token, . The same token conditions both a social costmap (where to go) and a quiet locomotion policy (how loudly to move), while a structured out-of-view memory keeps recently seen people in the reasoner's context after they leave the camera view. On a real quadruped, context-conditioned locomotion lowers locomotion noise by up to 9.3 dBA at matched speed, and across our scenarios the full method keeps personal-space c",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "TACET: Context-Appropriate Acoustic-Social Navigation for Quadrupeds",
+          "url": "https://arxiv.org/abs/2610.03828"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-gott-object-centric-dexterous-manipulation-with-a-reusable-c",
+      "date": "2026-10-06",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "GOTT: Object-centric Dexterous Manipulation with a Reusable Cross-Embodiment Primitive",
+      "povzetek_sl": "arXiv:2610.03861v1 Announce Type: new \nAbstract: Foundation models and large-scale human data provide rich sources of manipulation intent, but translating this intent into multi-fingered robot behavior remains difficult. Dexterous hands still lack a reusable low-level primitive that reliably establishes contact across tasks and embodiments. We propose GOTT, a reach-acquire-move framework built around a single cross-embodiment contact-acquisition primitive. Given a robot-agnostic object trajectory and a reach specification, GOTT first brings the hand near a task-relevant contact region. The shared closed-loop primitive then establishes stable contact from this approximate initialization, and a pose-conditioned controller tracks the desired object motion. Reach specifications may come from future-aware planning, external models, or human demonstrations, while the primitive and tracking backend remain unchanged. Simulation and real-world experiments show that GOTT is able to establish robust contact across diverse objects, arm-hand platforms, and seen and unseen hand morphologies. It also consistently improves end-to-end task success over open-loop grasp execution.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "GOTT: Object-centric Dexterous Manipulation with a Reusable Cross-Embodiment Primitive",
+          "url": "https://arxiv.org/abs/2610.03861"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-mosaic-sv-real-time-adaptive-identification-of-vessel-dynami",
+      "date": "2026-10-06",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "MOSAIC-SV: Real-Time Adaptive Identification of Vessel Dynamics for the Control and Deployment of Aquatic Robots",
+      "povzetek_sl": "arXiv:2610.03898v1 Announce Type: new \nAbstract: Model-based control of an aquatic robotic platform depends on a hydrodynamic model that is costly to identify and specific to the hull, payload, and conditions it was measured in. Here, we present MOSAIC-SV, a deployable real-time adaptive dynamics identification and control system that identifies a control-sufficient dynamics model from a spec-sheet engineering prior, without dedicated identification trials, and re-estimates it at every control step of a closed-loop mission while the controller plans on it. A physically admissible unscented Kalman filter re-estimates hydrodynamic, disturbance, and actuator parameters at every control step of the closed-loop mission; while a command-dependent consider projection withholds corrections the current command cannot attribute between actuator effectiveness and external force; and a model predictive path integral controller plans on the current estimate. In simulation on a CyberShip II plant, MOSAIC-SV recovers the transit performance of the calibrated model under static mismatch and transient changes, and stays within 20% of its own transit time at the unscaled prior when its inertia or da",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "MOSAIC-SV: Real-Time Adaptive Identification of Vessel Dynamics for the Control and Deployment of Aquatic Robots",
+          "url": "https://arxiv.org/abs/2610.03898"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-sparse-calibration-based-personalization-of-kernel-based-gai",
+      "date": "2026-10-06",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Sparse Calibration-Based Personalization of Kernel-Based Gait Phase and Speed Estimation Using Wearable IMUs",
+      "povzetek_sl": "arXiv:2610.03931v1 Announce Type: new \nAbstract: This paper presents sparse calibration-based personalization for kernel-based gait phase and walking speed co-estimation from wearable inertial measurement units (IMUs). A 28-speed reference library was constructed from bilateral thigh and shank trajectories in a 20-subject locomotion dataset. Rather than directly applying population-average kernels, the method combines a user-specific baseline estimated from three calibration speeds with a principal-component (PC) model of baseline-centered kinematic deviations. Offline validation showed that personalized kernels reduced phase error relative to the population kernel. In a single-participant online pilot evaluation, the personalized kernels produced numerically lower mean phase and speed errors and ran in real time on embedded hardware. However, the speed effect was not significant, and pairwise phase differences did not remain significant after multiple-comparison correction. The pilot evaluation establishes wearable implementation feasibility while indicating reference-to-online dataset mismatch and the need for larger-cohort validation.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Sparse Calibration-Based Personalization of Kernel-Based Gait Phase and Speed Estimation Using Wearable IMUs",
+          "url": "https://arxiv.org/abs/2610.03931"
+        }
+      ]
+    }
+  ]
+}

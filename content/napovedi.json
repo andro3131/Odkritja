@@ -1,5 +1,5 @@
 {
-  "posodobljeno": "2026-10-05",
+  "posodobljeno": "2026-10-06",
   "napovedi": [
     {
       "id": "p-2026-09-09-fsd-rollout",
@@ -24,9 +24,9 @@
       "claim": "TCMV 6. 10. 2026 ne bo dal FSD Supervised za vseh 27 držav (premalo prebivalstva v šestih odobrenih).",
       "narejena": "2026-09-09",
       "horizont": "2026-10-06",
-      "status": "open",
+      "status": "zapadlo",
       "watch_id": "fsd-slovenia",
-      "razsodba": null
+      "razsodba": "Horizont je padel — čaka razsodbo (ročno ali +7 dni → miss)."
     }
   ]
 }
