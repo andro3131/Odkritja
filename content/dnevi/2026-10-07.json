@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-07",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-07-generalizable-robustness-testing-of-dnn-based-robotic-naviga",
+      "date": "2026-10-07",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Generalizable Robustness Testing of DNN-Based Robotic Navigation Systems via XAI-Guided Search",
+      "povzetek_sl": "arXiv:2610.06862v1 Announce Type: new \nAbstract: **Context:** Deep Neural Networks (DNNs) increasingly control Cyber-Physical Systems (CPSs), yet small input perturbations can cause unsafe system-level behavior. Existing approaches often optimize perturbations for individual images and evaluate them only in simulation, limiting their generalizability and practical validity.\n  **Objectives:** This work aims to generate robustness tests that remain effective across operational observations and to evaluate whether the resulting failures transfer from simulation to a physical robot.\n  **Methods:** We propose an explainability-guided multi-objective evolutionary approach that generates sparse perturbations over representative images selected through visual and behavioral clustering. Aggregated Integrated Gradients guide mutations toward influential image regions. We evaluate the approach on a DNN-controlled LeoRover in Gazebo, conduct an ablation study, and validate a stratified subset of perturbations on the physical robot.\n  **Results:** The approach achieved a median success rate of 70.0%, compared with 53.85% for unguided search, and increased median hypervolume from 0.65 to 0.73. M",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Generalizable Robustness Testing of DNN-Based Robotic Navigation Systems via XAI-Guided Search",
+          "url": "https://arxiv.org/abs/2610.06862"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-rmrrt-riemannian-barrier-metric-rrt-for-inequality-aware-ste",
+      "date": "2026-10-07",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "RMRRT: Riemannian Barrier Metric RRT for Inequality-Aware Steering on Equality Manifolds",
+      "povzetek_sl": "arXiv:2610.06863v1 Announce Type: new \nAbstract: This paper presents a motion planning framework that unifies equality and inequality constraints within a single geometric formulation for sampling-based planning in high-dimensional robotic systems. In conventional sampling-based planners, equality constraints are typically enforced through projection, whereas inequality constraints are handled separately through binary validity checks such as collision testing, often leading to inefficient exploration. To address this limitation, we propose Riemannian Barrier Metric RRT (RMRRT), which constructs a unified local geometry for planning on equality-constrained manifolds. RMRRT first builds an ambient barrier metric from inequality-sensitive barrier terms and then induces a tangent-space metric via a (G)-orthogonal projection associated with the equality constraints. The resulting tangent-space metric is used consistently in both steering and nearest-neighbor selection, biasing exploration away from nearby inequality boundaries while preserving first-order equality consistency. In this work, the metric is instantiated from signed-distance-based geometric proxy inequalities to provide co",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RMRRT: Riemannian Barrier Metric RRT for Inequality-Aware Steering on Equality Manifolds",
+          "url": "https://arxiv.org/abs/2610.06863"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-geometric-coherence-via-weighted-matching-for-3d-heterogeneo",
+      "date": "2026-10-07",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Geometric Coherence via Weighted Matching for 3D Heterogeneous Multi-Agent Reach-Avoid Games",
+      "povzetek_sl": "arXiv:2610.06882v1 Announce Type: new \nAbstract: We study assignment quality in 3D heterogeneous multi-agent reach-avoid games and identify a recurring failure mode of cardinality-only matching in geometrically structured scenarios, which we term \\emph{Geometric Sprawl}. In these cases, multiple maximum-cardinality assignments are available, but some induce spatially incoherent pairings and inefficient pursuit trajectories. Building on the evasion-space framework of Yan et al.~\\cite{yan2022}, we introduce a cardinality-first weighted sequential matching method in which the Hamilton--Jacobi--Isaacs interception value $z_I(s,j)$ is used as a secondary assignment weight. Each sequential stage is solved with a min-cost max-flow backend, while the unweighted baseline uses the same solver with the weight term removed. We evaluate both methods on a deterministic 35-scenario benchmark (7 families & 5 initialization variants) under two regimes: a diagnostic stationary-unmatched setting and a hybrid saddle-point setting with goal-directed unmatched evaders. On this benchmark, the weighted method resolves 13 of 15 geometric stress-test instances that cause repeated timeouts for the unweighted",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Geometric Coherence via Weighted Matching for 3D Heterogeneous Multi-Agent Reach-Avoid Games",
+          "url": "https://arxiv.org/abs/2610.06882"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-does-a-learned-corrector-beat-a-simple-retreat-evidence-from",
+      "date": "2026-10-07",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Does a Learned Corrector Beat a Simple Retreat? Evidence from a Frozen VLA",
+      "povzetek_sl": "arXiv:2610.06921v1 Announce Type: new \nAbstract: Before deploying runtime recovery for a frozen vision-language-action (VLA) policy, one must establish that an intervention improves success beyond ordinary run-to-run variation and that its complexity adds value over a simple action. We evaluate these questions on frozen $\\pi_{0.5}$ across four RoboTwin tasks. For each test seed, we pair rollouts with and without correction and include a same-seed base-policy re-run as a placebo. Seed-cluster intervals and prespecified comparison rules assess net gains against stochastic outcome changes. Across 3,888 paired episodes, the full pipeline raises success on beat_allowbreak block_allowbreak hammer by $+13.5$\\,pp (95\\% interval $[+9.4,+17.7]$), with no detectable gain on the other three tasks at the deployed weight. Among failed base episodes on the responsive task, $43.2\\%$ succeed on a plain re-run, compared with $63.5\\%$ after correction; many nominal rescues therefore reflect the base policy's own variability. A fixed-time trigger and scripted return to an earlier joint configuration produce a net gain with no detected difference from the learned pipeline across two rounds, although ou",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Does a Learned Corrector Beat a Simple Retreat? Evidence from a Frozen VLA",
+          "url": "https://arxiv.org/abs/2610.06921"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-swap-stepwise-action-policy-routing-for-vision-language-acti",
+      "date": "2026-10-07",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "SWAP: Stepwise Action Policy Routing for Vision-Language-Action Models",
+      "povzetek_sl": "arXiv:2610.06926v1 Announce Type: new \nAbstract: Robot manipulation systems using Vision-Language-Action (VLA) model backbones typically use just one VLA for task execution. However, individual VLAs do not perform well across different task states and environments. We introduce a framework for dynamically composing multiple VLA policies during execution: StepWise Action Policy Routing (SWAP). SWAP formulates policy routing as an offline reinforcement learning problem, learning a routing critic that selects the most appropriate policy at each decision step given the current observation. SWAP enables robots to select new policies to execute online rather than committing to a single policy for the duration of an episode. We evaluate SWAP on both real-world DROID manipulation tasks and LIBERO simulation experiments. SWAP improves over fixed-policy execution and routing baselines, giving absolute improvements in real-world task success up to 33% while reducing successful trajectory robot action step length by 28.3%.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SWAP: Stepwise Action Policy Routing for Vision-Language-Action Models",
+          "url": "https://arxiv.org/abs/2610.06926"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-physical-twins-accelerating-and-enabling-robot-learning-with",
+      "date": "2026-10-07",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Physical Twins: Accelerating and Enabling Robot Learning with Phantom Platforms",
+      "povzetek_sl": "arXiv:2610.06929v1 Announce Type: new \nAbstract: Improvements in human-robot physical interaction (pHRI) can have major implications for physical therapy, search and rescue, and telemedicine. However, a major challenge concerns human constraints and safety in human-robot physical experiments. Concerns about human studies also include repeatability, scalability, and participant diversity. To conduct such experiments, an IRB and willing human participants are required. In this work, we present an improved phantom device, a physical twin, that enables real-world RL-type testing for physically interactive algorithms. The new device not only replicates the ball-and-socket motion of the shoulder but also renders scapular and protraction/retraction motions. The experiments showcase the device's ability to render multiple 3D joint limits and demonstrate a Franka Panda arm sensing limits and interacting with the device as an arm for ADLs (activities of daily living) and pHRI tasks.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Physical Twins: Accelerating and Enabling Robot Learning with Phantom Platforms",
+          "url": "https://arxiv.org/abs/2610.06929"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-roma-llm-system-for-real-world-object-centric-multi-sensory-",
+      "date": "2026-10-07",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "ROMA: LLM System for Real-World Object-Centric Multi-Sensory Active Perception",
+      "povzetek_sl": "arXiv:2610.06955v1 Announce Type: new \nAbstract: Humans inherently understand the physical world through an active process. When sensory evidence is insufficient to infer physical properties, we naturally interact with the environment by deciding what information is missing, how to acquire it, and when sufficient evidence has been obtained. In stark contrast, existing multi-sensory robot systems mainly integrate sensory inputs rather than actively acquiring missing evidence through interactions. In this work, we introduce ROMA, an LLM-based system for Real-World Object-Centric Multi-Sensory Active Perception. ROMA integrates vision, audio, tactile, and force sensing into a reasoning-interaction-feedback loop. The model identifies missing evidence and determines the target objects, interactions, and modalities, while a physical interface executes the selected interactions and collects the multi-sensory feedback. To support this capability, we construct ROMI-2K, a large-scale real-world multi-sensory object interaction dataset covering nearly 2,000 objects and 6 atomic interactions with synchronized sensory feedback. Building on these data, we develop a two-stage training framework t",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ROMA: LLM System for Real-World Object-Centric Multi-Sensory Active Perception",
+          "url": "https://arxiv.org/abs/2610.06955"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-learning-modular-policy-for-multi-floor-object-navigation-a-",
+      "date": "2026-10-07",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Learning Modular Policy for Multi-Floor Object Navigation:A Factorized Framework for Diagnostic Study",
+      "povzetek_sl": "arXiv:2610.06958v1 Announce Type: new \nAbstract: Object-goal navigation (ObjectNav) in multi-floor scenarios presents a challenge due to sparse rewards caused by long-horizon decision-making. In this paper, we propose a diagnostic study based on a modular framework with an effective learnable policy to analyze failure factors in multi-floor scenarios. To achieve an effective policy for diagnosis, we design the hierarchical factorization policy that deconstructs a single global policy into an intra-floor exploration policy and an inter-floor switching policy. To providing an effective initialization for Reinforcement Learning (RL), the lightweight intra-floor policy is learned by distilling the exploration logic of Visual Language Models (VLMs). Under idealized assumptions, we show that the factorized policy is theoretically equivalent to a single global policy at the policy-representation level. Experiment results indicate that perception performance and stair climbing stability are the primary bottlenecks in multi-floor navigation.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Learning Modular Policy for Multi-Floor Object Navigation:A Factorized Framework for Diagnostic Study",
+          "url": "https://arxiv.org/abs/2610.06958"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-identifiability-of-a-linear-dynamical-reaction-diffusion-sys",
+      "date": "2026-10-07",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Identifiability of a linear dynamical reaction-diffusion system with directed interactions from the second-order statistics of a single snapshot",
+      "povzetek_sl": "arXiv:2610.07341v1 Announce Type: new \nAbstract: A single spatial snapshot of a system with multiple interacting populations captures positions but not the underlying dynamics that have led to the observation. This work asks what the stationary second-order spatial statistics of a snapshot can reveal about the structure of the linear reaction-diffusion dynamical model, and in particular about the pairwise directed entries of its interaction operator. The observation is the matrix-valued structure factor $S(k)$ as a one-parameter family in the diffusion-inherited dependence on the wavenumber $\\kappa=|k|^2$. The main result is that the directed interaction operator $A$ and the diffusivity matrix $D$ are generically identifiable for any number of interacting populations from $\\{S(\\kappa)\\}$ up to a single global time rescaling. The findings do not contradict known bounds and the recent result that spatial observational data only determine the Markov equivalence class of the underlying graph. In this work, we identify physical assumptions that lift this barrier. The absolute time scale is not identifiable from a single snapshot of any sample size and requires an external clock. For tum",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Identifiability of a linear dynamical reaction-diffusion system with directed interactions from the second-order statist",
+          "url": "https://arxiv.org/abs/2610.07341"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-imppat-3-0-an-updated-fair-database-of-phytochemicals-and-fo",
+      "date": "2026-10-07",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "IMPPAT 3.0: An updated FAIR database of phytochemicals and formulations of Indian Medicinal plants",
+      "povzetek_sl": "arXiv:2610.07478v1 Announce Type: new \nAbstract: Ayurvedic formulations represent a rich source of traditional knowledge, encompassing distinct therapeutic approaches, medicinal ingredients, and underlying principles of drug action. However, systematic integration of this knowledge with standardized modern biomedical terminology and resources remains limited. Here, we present IMPPAT 3.0, an updated version of the Indian Medicinal Plants, Phytochemistry And Therapeutics (IMPPAT: https://cb.imsc.res.in/imppat/) database that extends its scope by incorporating curated and harmonized information on Ayurvedic formulations from authoritative sources, while expanding its coverage of medicinal plants, phytochemicals, and therapeutic use terms. IMPPAT 3.0 further enriches plant and phytochemical information with annotations on clinical trials, patents, bioactivity, protein targets, spectral data, plant image links, and AyuCaRe reports. The compiled data is also organized as IMPPAT-KG, a knowledge graph that enables exploration of relationships among IMPPAT entities. We demonstrate the utility of the resource through a network medicine analysis of single herbal drugs (SHDs) reported for rheu",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "IMPPAT 3.0: An updated FAIR database of phytochemicals and formulations of Indian Medicinal plants",
+          "url": "https://arxiv.org/abs/2610.07478"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-linear-fitness-subspace-in-protein-language-models-enables-s",
+      "date": "2026-10-07",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Linear Fitness Subspace in Protein Language Models Enables Sample-Efficient Directed Evolution",
+      "povzetek_sl": "arXiv:2610.07607v1 Announce Type: new \nAbstract: Model-guided directed evolution seeks to identify high-fitness protein variants under limited oracle budgets. Protein language models (PLMs) provide rich representations for this task, but task-agnostic zero-shot scores can be misaligned with a target assay, while supervised search in high-dimensional embedding spaces can make surrogate modeling and uncertainty estimation sample-inefficient. We propose the Linear Fitness Subspace (LFS) hypothesis: within mutation-induced residue-level representation changes, a compact, assay-specific set of directions makes fitness variation linearly accessible from few labeled variants. This is a local, supervision-recoverable statement rather than a claim that protein fitness landscapes or global PLM geometry are universally linear. Building on this observation, we introduce Subspace-Guided Evolutionary Search (SGES), which estimates an LFS from a small initial sample and performs surrogate modeling, uncertainty estimation, and acquisition in the learned subspace. Across 10 core ProteinGym assays, 87 extended static-validation assays, and an 18-assay budgeted-search evaluation, SGES improves fitnes",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Linear Fitness Subspace in Protein Language Models Enables Sample-Efficient Directed Evolution",
+          "url": "https://arxiv.org/abs/2610.07607"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-mathematical-invariant-enabled-topological-neural-networks-f",
+      "date": "2026-10-07",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Mathematical Invariant-Enabled Topological Neural Networks for Molecular and Materials Property Prediction",
+      "povzetek_sl": "arXiv:2610.07712v1 Announce Type: new \nAbstract: Existing molecular and materials learning approaches often rely on a limited set of structural representations, which may capture only selected aspects of complex three-dimensional structure. Here, we introduce mathematical invariant-enabled topological neural networks (MITNNs), a framework that represents complex structures through multiple complementary mathematical views and integrates them with topological neural architectures. MITNNs combine multiscale invariants from topology, spectral theory, commutative algebra, differential geometry, and discrete curvature, capturing complementary structural information from the same system. Systematic invariant-subset, architecture-subset, and ensemble analyses show that predictive performance depends on how mathematical representations and neural architectures are paired, with selected combinations outperforming individual models and the aggregation of all available components. Across protein-ligand binding, metal-organic framework properties, mutation-induced protein solubility, and molecular toxicity prediction, MITNN consistently outperforms existing methods. These results establish MIT",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Mathematical Invariant-Enabled Topological Neural Networks for Molecular and Materials Property Prediction",
+          "url": "https://arxiv.org/abs/2610.07712"
+        }
+      ]
+    }
+  ]
+}
