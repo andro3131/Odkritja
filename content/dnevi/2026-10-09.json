@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-09",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-09-an-explainable-header-centric-framework-for-large-scale-sema",
+      "date": "2026-10-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+      "povzetek_sl": "arXiv:2610.10541v1 Announce Type: new \nAbstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or unsuitable, column headers become a critical source of semantic evidence for traceable KG preparation.\n  We present an explainable, header-centric framework for metadata-only Column Type Annotation (CTA) and Data Quality Assessment (DQA). The framework maps headers to 39 interpretable FinalFormat types using curated lexical resources and preserves token-level traceability through SourceKeywords. Each assigned type activates validation rules based on a taxonomy of Data Quality Issues (DQIs), producing detections such as missing data, duplicates, domain violations, wrong data type, and temporal mismatch. These detections are aggregated into HeadersIQ, a lightweight, unweighted data source-level quality metric.\n  The framework was evaluated across heterogeneous benchmarks, including UCI, Prague, Kaggle, VizNet/Sato, SOTAB, T2Dv2, and the SemTab 2024 Metadata-to-KG track, comprising around 120,00",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+          "url": "https://arxiv.org/abs/2610.10541"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-synthesis-through-simulation-generating-coherent-enterprise-",
+      "date": "2026-10-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "povzetek_sl": "arXiv:2610.10549v1 Announce Type: new \nAbstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distributional fidelity without per-domain authoring. We introduce **Synthesis Through Simulation** (STS), a **schema--free** data synthesis paradigm in which an LLM agent generates data by executing operations against policy-enforcing APIs within simulated enterprise environments. Because data is generated through the same environment that defines what is valid, STS guarantees structural validity by construction while decoupling validity enforcement from distribution modeling, allowing each to be addressed independently. The **Generalist Populator** (GP), STS's domain-agnostic agent, addresses the remaining challenges of distributional fidelity and synthesis scalability: GP achieves **0.88** av",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+          "url": "https://arxiv.org/abs/2610.10549"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-agent-controlled-forgetting-for-tool-using-agents-reversible",
+      "date": "2026-10-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+      "povzetek_sl": "arXiv:2610.10590v1 Announce Type: new \nAbstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user instructions and assistant messages from these operations. In an exploratory OpenTelemetry debugging case followed by an unrelated implementation task, the method ended with 231,951 provider-reported prompt tokens versus 912,492 under retained history, used 50% fewer cumulative input tokens, and had an estimated API cost of USD 1.28-1.44 versus approximately USD 4.38. Both arms passed the two-case primary behavioral oracle; neither fully satisfied the follow-up evaluation. The method made more requests and took 17% longer. A contrasting application-development pair produced no context or cost saving, and an earlier continuation exhibited lower manually assessed quality despite reduced conte",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+          "url": "https://arxiv.org/abs/2610.10590"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-verification-and-self-improvement-in-agentic-ai-foundations-",
+      "date": "2026-10-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "povzetek_sl": "arXiv:2610.10611v1 Announce Type: new \nAbstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with hidden terminal randomness. A stage specifies admissible transcripts, polynomial bounds, an alternating verification protocol, and a terminal checker. Its native reach uses default support; its closure frontier permits all support already admitted by the interface. Under a uniform pointwise probability gap and task-relative soundness, these are well-defined languages. We prove that independent majority amplification preserves both languages, whereas existential acceptance over random tapes can admit incorrect outputs. Exact verification is the zero-randomness case, with placement and completeness results. The randomized-verifier classes satisfy $\\Sigma_k^{\\mathrm{P}}\\subseteq\\Sigma_k^{\\mathrm{RV}}\\subseteq\\Sigma_{k+1}^{\\mathrm{P}}$; strict enlargement and depth separation require explicit complexity assumptions, while $\\mathrm{BPP}=\\mathrm{P}$ yields exact companions with the same frontie",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+          "url": "https://arxiv.org/abs/2610.10611"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-the-harness-as-the-only-mutable-surface-compliance-bounded-s",
+      "date": "2026-10-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "povzetek_sl": "arXiv:2610.10629v1 Announce Type: new \nAbstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it is confined to the runtime harness (instruction text, tool-call logic and primitive composition) while model weights stay fixed, so that every adaptation is a diff with a cause and a test attached. We give a dual-loop engine built on that bound, with one admission gate that writes a hash-chained record before deployment, and we measure the gate in simulation, with a simulated agent and a seeded-search proposer rather than language models. Across three families of supervisory re-interpretation at three severities, 10 seeds each, the gated loop admitted 144 of 7,449 candidate changes, none of which worsened error on held-out history, and restored the false-positive rate to the oracle level without raising missed flags in every low- and mid-severity cell. With the gate replaced by the check an unbounded system applies (fewer errors visible in recent traces), the same loops admitted 309 harm",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Mea",
+          "url": "https://arxiv.org/abs/2610.10629"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-speaking-the-navigator-s-language-trajectory-grounded-instru",
+      "date": "2026-10-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+      "povzetek_sl": "arXiv:2610.10635v1 Announce Type: new \nAbstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-driven instructions; on a frozen OpenFly navigator, this \\emph{instruction gap} drops success rate (SR) from $31.03\\%$ to $11.33\\%$. To scale translator training, we prompt a language model with human-written style examples to convert original commands into paired, intent-centered Weak commands, which yield $15.27\\%$ SR. We introduce the \\textbf{Trajectory-Grounded Instruction Translator (TGIT)}, a front-end that keeps the navigator frozen and translates Weak inputs into agent-executable commands by learning from its trajectory outcomes. The resulting Weak-trained translator raises Weak-input SR to $37.93\\%$ and transfers zero-shot to real human instructions ($11.33\\%{\\rightarrow}32.51\\%$); it also improves held-out OpenFly ($4.95\\%{\\rightarrow}20.79\\%$) and yields recovery on CityNav and AirVLN.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+          "url": "https://arxiv.org/abs/2610.10635"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-plan-and-patch-diffusion-language-models-for-agentic-plannin",
+      "date": "2026-10-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+      "povzetek_sl": "arXiv:2610.10786v1 Announce Type: new \nAbstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcomes over many steps. Yet assumptions made during planning may be invalidated by the environment, tools may return unexpected results, or actions may fail. Effective agents must therefore not only generate plans, but also revise them. Such revisions often affect only part of a plan, leaving the preceding and subsequent structure intact. Rather than regenerate the entire plan and risk unnecessary changes, repair can regenerate the affected region conditioned on the preserved prefix and suffix. We introduce Plan-and-Patch, a plan-and-act framework in which a diffusion language model (dLLM) generates a structured, program-like plan through parallel unmasking and repairs it by filling in selected regions while keeping the surrounding steps fixed. We compare DreamReasoner-8B and Qwen3-8B as diffusion and autoregressive (AR) planners. On Natural Plan without task-specific training, diffusion (53.7%) achieves nearly twice the plan repair success rate of AR (27.0%). After task-specific training",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+          "url": "https://arxiv.org/abs/2610.10786"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-whose-ground-truth-embracing-ambiguity-in-human-centered-ai",
+      "date": "2026-10-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+      "povzetek_sl": "arXiv:2610.10805v1 Announce Type: new \nAbstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine learning and AI systems are largely developed under the assumption that a single definitive ground truth exists, with variability in human annotations often resolved through aggregation or treated as noise. However, for many human-centered tasks, human interpretation is inherently ambiguous, and multiple interpretations of the same input may be simultaneously reasonable and valid. Reducing such ambiguity to a single target risks overlooking meaningful information about the diversity of human perception, judgment, and experience. In this position paper, we call for a shift towards modeling the interpretation space of plausible human judgments, while distinguishing meaningful ambiguity from annotation noise. We argue that this perspective should guide how AI systems are represented, learned, evaluated, deployed, and governed, supporting more human-centered AI that better reflects the diversity of human interpretation.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+          "url": "https://arxiv.org/abs/2610.10805"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-does-dynamic-point-filtering-help-when-texture-is-scarce-a-c",
+      "date": "2026-10-09",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Does Dynamic-Point Filtering Help When Texture Is Scarce? A Controlled Study of ORB-SLAM2 Front-Ends in Synthetic Indoor Scenes",
+      "povzetek_sl": "arXiv:2610.10564v1 Announce Type: new \nAbstract: Dynamic-point filters are routinely added to feature-based visual SLAM, and several recent systems argue that removing dynamic features can leave too few static features in low-texture regions. So far, these systems have been evaluated only on texture-rich benchmark sequences. We present a controlled study that isolates this interaction. We render synthetic indoor sequences in which surface texture (four levels, quantified by FAST-corner density and image-gradient entropy) and scene dynamics (three levels) are varied factorially along identical camera trajectories, with stereo, RGB-D, ground-truth poses and dynamic masks. On this grid we compare ORB-SLAM2 without filtering, with an optical-flow and epipolar-residual filter (FLOW), and with a multi-view depth-consistency filter (GEOM), and report trajectory error, tracking completeness and surviving static features over five runs. Because the masks give per-keypoint ground truth, we also measure each filter's dynamic-point precision and recall and its static-feature false-removal rate, so that mechanistic explanations can be tested directly. We do not propose a new filter. On 720 runs",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Does Dynamic-Point Filtering Help When Texture Is Scarce? A Controlled Study of ORB-SLAM2 Front-Ends in Synthetic Indoor",
+          "url": "https://arxiv.org/abs/2610.10564"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-teaching-a-robot-dog-new-tricks-diverse-quadruped-skills-via",
+      "date": "2026-10-09",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Teaching a Robot Dog New Tricks: Diverse Quadruped Skills via Combined Reinforcement and Imitation Learning with Adversarial Task Selection",
+      "povzetek_sl": "arXiv:2610.10601v1 Announce Type: new \nAbstract: Reinforcement Learning (RL) has enabled legged robots to perform a range of skills in single-task settings. However, applications such as farm robotics or space exploration require diverse skills such as locomotion, digging, or close-range surveying. Training an end-to-end policy to address this problem remains difficult due to challenges such as sample inefficiency and gradient conflict between tasks in multi-task learning. We propose a three-stage method that trains a single policy to perform distinct tasks such as walking, digging, and hopping, and compose them into novel behaviors such as crawling. First, multiple teacher policies are trained using RL on narrowly defined tasks. Then, two additional stages train a student policy with a multi-teacher distillation setup that uses a combined RL and Imitation Learning (IL) objective under an adversarial task selection process that focuses training on the worst-performing task. With this method, we train a student policy that performs 22 tasks using 8 teachers. Evaluations show our method preserves motion quality and tracks commands more accurately than PPO and distill-then-finetune ba",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Teaching a Robot Dog New Tricks: Diverse Quadruped Skills via Combined Reinforcement and Imitation Learning with Adversa",
+          "url": "https://arxiv.org/abs/2610.10601"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-tachair-tactile-contact-distribution-guided-online-correctio",
+      "date": "2026-10-09",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "TacHair: Tactile Contact-Distribution Guided Online Correction for Robotic Hair Stroking and Perception",
+      "povzetek_sl": "arXiv:2610.10637v1 Announce Type: new \nAbstract: Hair stroking is common in daily grooming and personal care, and is also widely used in hair-product evaluation, motivating robots with similar physical interaction capabilities. Existing robotic hair-care and surface-following methods mainly rely on trajectory planning, compliance, force regulation, or tactile-conditioned policies, but deformable hair can remain in contact while gradually drifting across the end-effector, making local interaction difficult to regulate. We propose TacHair, a tactile contact-distribution guided online correction framework that represents high-resolution tactile observations as a spatial hair-contact distribution. A visuotactile imitation policy generates the nominal stroking motion, while a separately trained residual module corrects local contact deviations, separating task progression from contact recovery. We evaluate TacHair in 525 real-robot trials across five head geometries and three hair conditions. A successful stroke requires both sufficient task progression and contact maintenance; our method improves success from 42.9% to 62.3% and contact maintenance from 59.4% to 88.0% over the same visu",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "TacHair: Tactile Contact-Distribution Guided Online Correction for Robotic Hair Stroking and Perception",
+          "url": "https://arxiv.org/abs/2610.10637"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-masked-generative-motion-planning-with-geometry-guided-token",
+      "date": "2026-10-09",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Masked Generative Motion Planning with Geometry-Guided Token Search",
+      "povzetek_sl": "arXiv:2610.10646v1 Announce Type: new \nAbstract: Generative motion planners typically use learned trajectory priors for initial generation, while leaving test-time repair to local continuous refinement. We introduce Masked Generative Motion Planning (MGMP), which extends the learned prior from efficient parallel generation to structural repair. A masked generative transformer generates discrete trajectory candidates in parallel, and Geometry-Guided Token Search (GGTS) uses scene geometry to target where to edit and which prior-supported alternatives to evaluate. This turns refinement into an efficient search over discrete motion alternatives, enabling route-level restructuring beyond local trajectory deformation. MGMP achieves 96% success on Ring Maze and 82% repair success on Controlled Route Invalidation on Kuka, exceeding the strongest external baselines by 23 and 25 percentage points, respectively. It further generalizes to unseen layouts, additional obstacles, unseen geometries, single- and dual-arm planning, and real-world Baxter tasks.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Masked Generative Motion Planning with Geometry-Guided Token Search",
+          "url": "https://arxiv.org/abs/2610.10646"
+        }
+      ]
+    }
+  ]
+}
