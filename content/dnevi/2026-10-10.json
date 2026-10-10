@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-10",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-10-a-modular-dna-toolkit-for-single-molecule-biophysics",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "A modular DNA toolkit for single-molecule biophysics",
+      "povzetek_sl": "Long, customizable DNA molecules are an essential tool for in vitro single-molecule biophysics. Most studies still rely on the {lambda}-phage genome, which has a fixed sequence, a non-uniform GC distribution, and limited options for modification. To overcome these limitations, we developed a modular DNA (ModDNA) toolkit that integrates in silico sequence design with cloning, to create long (up to 100 kb) DNA molecules with entirely user-defined sequences. We used a computational workflow with curated databases to design a motif-depleted sequence backbone, into which any desired sequence can be inserted at any position. Golden Gate assembly then builds these sequences into constructs, which we extend iteratively in defined increments up to 100 kb. We show precise placement of local features, e.g. a fluorophore, a bound protein, and a DNA-origami structure, and illustrate the construct's utility in single-molecule visualization assays, including DNA loop extrusion by human condensin I. ModDNA offers a scalable, sequence-programmable alternative to {lambda}-DNA and other restrictive substrates. More broadly, the motif-aware feature-free design connects single-molecule biophysics to em",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A modular DNA toolkit for single-molecule biophysics",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757888v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-transcription-factor-interactions-promote-binding-to-non-cog",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Transcription factor interactions promote binding to non-cognate DNA sites",
+      "povzetek_sl": "Recruitment of transcription factors (TFs) to non-cognate DNA sequences is widely observed, but the underlying mechanisms remain poorly understood. Here, we show that, within the nucleosome, Sox2 can bind an Oct4 motif, interact with the Oct4 POU-specific domain, and displace the Oct4 homeodomain. We also observe Sox2 binding at multiple near-canonical and non-canonical DNA sites, with these interactions promoted by a second Sox2 molecule or by nearby nucleosome-bound Oct4. The TF-TF interactions can bridge across DNA gyres, bringing together binding sites that are distant in linear DNA but spatially proximal on the nucleosome. We further find that Sox2 can engage across nucleosomal DNA gyres through loop regions and/or intrinsically disordered segments, providing an additional mode of chromatin binding. Together, our structural and biochemical data reveal how TF-TF interactions change DNA recognition on the nucleosome, enabling binding to non-cognate sequences and expanding the repertoire of pioneer factor interactions on chromatin.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Transcription factor interactions promote binding to non-cognate DNA sites",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757710v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-winnow-tax-sensitive-and-precise-taxonomic-profiling-of-low-",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Winnow-tax: sensitive and precise taxonomic profiling of low-coverage organisms in shotgun metagenomes",
+      "povzetek_sl": "Accurate species-level profiling of shotgun metagenomes becomes difficult when an organism is represented by only sparse sequence coverage. Per-read k-mer classifiers can retain sensitivity under these conditions, but short reads from conserved or shared genomic regions can generate false-positive calls among closely related references. More conservative marker-gene and genome-containment approaches generally provide stronger species-level specificity but may lose sensitivity as genomic sampling becomes sparse. We present winnow-tax, a two-stage taxonomic profiling pipeline that separates sensitive candidate nomination from genome-level confirmation. Candidate species are nominated using Sylph, Kraken2, and a branch-rescue procedure, then reads are competitively recruited to a sample-specific reference set. Species presence is evaluated using read support, observed genome breadth, and a Lander-Waterman-based breadth ratio that compares observed breadth with the breadth expected at the measured mean depth. In a controlled synthetic community of 82 genomes with human DNA background, winnow-tax maintained a stronger precision-sensitivity balance than Kraken2/Bracken, Sylph, and MetaPh",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Winnow-tax: sensitive and precise taxonomic profiling of low-coverage organisms in shotgun metagenomes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756312v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-point-process-modelling-of-cell-type-interaction-structure-i",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Point-Process Modelling of Cell-Type Interaction Structure in CosMx Glioma Data for Hypothesis-Driven Tumor Inference from scRNA-seq",
+      "povzetek_sl": "Glioblastoma (GBM) exhibits marked spatial heterogeneity that is lost after tissue dissociation for single-cell RNA sequencing. Here, we developed a spatial-statistical framework to characterize tumor-microenvironment organization and derive molecularly predictable spatial phenotypes from CosMx data. Eight GBM specimens comprising 2,427,362 cells, 15 cell populations, and four malignant states were analyzed, revealing substantial inter-patient differences in cellular composition and density. Fine finite-element meshes best preserved continuous spatial intensity and supported whole-tissue Log-Gaussian Cox Process modelling. Immune populations, including macrophages, microglia, monocytes, cDCs, neutrophils, and T cells, showed spatial attraction toward malignant states. These models generated cell-level measures of conditional intensity and tumor-proximity probability. Transcript abundances and metabolic pathway scores served as the sole predictive features to model these spatial phenotypes. Transcriptomic representations outperformed metabolic pathway scores. Leave-one-patient-out validation reduced predictive performance, and patient-wise harmonization failed to restore cross-patie",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Point-Process Modelling of Cell-Type Interaction Structure in CosMx Glioma Data for Hypothesis-Driven Tumor Inference fr",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756019v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-from-sparse-visits-to-continuous-molecular-trajectories-with",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "From Sparse Visits to Continuous Molecular Trajectories with Flow Matching",
+      "povzetek_sl": "Longitudinal transcriptomic studies often capture only a few molecular snapshots of each patient over time. This makes it challenging to understand how patients are progressing, compare them when progression rates differ, and capture molecular changes between observed visits. We introduce CohortFM, a flow-matching framework that reconstructs continuous patient-specific molecular trajectories from sparse longitudinal observations and organizes them through an integrated mixture model into a compact set of cohort-level progression patterns. CohortFM separates molecular progression from calendar time, places patients on a shared progression scale, uses observed intermediate states to guide the learned trajectories, and maps the resulting patterns back to real patient samples for biological interpretation. We evaluated CohortFM across COVID-19, sepsis, influenza, and tuberculosis. Despite different sampling patterns, the method generalizes well and consistently produces meaningful trajectories. These trajectories capture biological differences between patients that cannot be explained by the observed samples alone. Compared with state-of-the-art trajectory baselines, CohortFM produces",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "From Sparse Visits to Continuous Molecular Trajectories with Flow Matching",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756304v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-riboflow-v2-a-configurable-ribosome-profiling-pipeline-revea",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "RiboFlow v2: a configurable ribosome profiling pipeline reveals measurements sensitive to read-mapping methodology",
+      "povzetek_sl": "Ribosome profiling experiments capture a snapshot of translation by sequencing ribosome-protected fragments (RPFs). Alignment to a well-curated transcriptome captures most RPF signal, but can miss ribosome activity when expressed exons are absent from the reference. Genome alignment of RPFs expands the detectable sequence space, but can expose ambiguity between homologous loci. Existing workflows often couple reference choice with the handling of ambiguously mapped reads, making it difficult to isolate the effects of either decision on downstream analyses. Here, we developed RiboFlow v2 by adding genome alignment and configurable handling of multimapping reads to the existing transcriptome workflow. Using 24 human ribosome profiling libraries and their matched RNA-seq data, we found that nucleotide-level coverage at matched coding-sequence positions and translation efficiency (TE) were broadly concordant between alignment strategies under stringent alignment filters. Even under these conditions, individual genes showed substantial differences in coverage and TE estimates. These differences included coverage in alternative exons absent from selected transcripts and ambiguous alignme",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RiboFlow v2: a configurable ribosome profiling pipeline reveals measurements sensitive to read-mapping methodology",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756038v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-photostimulus-intensity-rather-than-colour-or-polarization-i",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Photostimulus intensity, rather than colour or polarization, is the key driver for stable fly visual attraction in laboratory bioassays",
+      "povzetek_sl": "Foraging hematophagous flies such as the stable fly, Stomoxys calcitrans, are shown or expected to sense multiple characteristics of visual host cues. These include relative intensity, spectral composition, and the angle and degree of polarization. Here, we investigated the role of each of these visual cue characteristics on stable fly attraction. In laboratory two-choice bioassays, we offered groups of female or male stable flies a choice between paired photostimuli that differed in their visual characteristics, recording the flies' landing responses on stimuli as the response criterion. Bioassay flies preferentially selected lower-intensity visual stimuli even when paired stimuli markedly differed in spectral composition and polarization characteristics (a high degree of horizontal or vertical polarization). When paired stimuli had identical relative intensity, flies failed to discriminate between the stimulus that presented ultraviolet, blue, green, and red wavebands and a corresponding paired stimulus lacking one of these wavebands. Our results support the hypothesis that foraging stable flies may respond to colour and polarization characteristics of visual stimuli as modulatio",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Photostimulus intensity, rather than colour or polarization, is the key driver for stable fly visual attraction in labor",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756341v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-pooled-progeny-sequencing-effectively-estimates-polyandry-in",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Pooled progeny sequencing effectively estimates polyandry in species with large families",
+      "povzetek_sl": "Polyandry, multiple mating by females, both benefits females by increases genetic variation within families and provides an opportunity for sexual selection through sperm competition and cryptic female choice. Estimating polyandry in species with large clutches is challenging because genotyping all progeny individually can be impractical. We present a likelihood-based framework for estimating the number of sires and their relative contributions from the maternal genotype and pooled sequencing of entire progeny pools. The method evaluates the probability of observed pooled offspring read counts under alternative paternal genotype mixtures, accounting for Mendelian segregation and sampling variation from finite sequencing depth. We implement this framework for both biallelic SNPs and short-read mini-haplotype markers constructed from closely linked SNPs, which provide multi-allelic information comparable to traditional microsatellite markers. Simulations show that this approach accurately recovers sire number and sire contributions across a range of conditions. We then applied the method to 275 wild-caught Drosophila melanogaster females and their offspring from a Kansas population u",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Pooled progeny sequencing effectively estimates polyandry in species with large families",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756305v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-u-s-crop-genome-sequencing-gets-180-million-boost",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "U.S. crop genome sequencing gets $180 million boost",
+      "povzetek_sl": "U.S. crop genome sequencing gets $180 million boost. Vir je RSS/inbox brez modela — to ni poln slovenski opis, samo sled. Odpri povezavo.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "U.S. crop genome sequencing gets $180 million boost",
+          "url": "https://www.science.org/content/article/u-s-crop-genome-sequencing-gets-180-million-boost"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-department-of-energy-expands-genesis-mission-to-boost-ai-awa",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Department of Energy expands ‘Genesis Mission’ to boost AI, awarding larger grants",
+      "povzetek_sl": "Department of Energy expands ‘Genesis Mission’ to boost AI, awarding larger grants. Vir je RSS/inbox brez modela — to ni poln slovenski opis, samo sled. Odpri povezavo.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Department of Energy expands ‘Genesis Mission’ to boost AI, awarding larger grants",
+          "url": "https://www.science.org/content/article/department-energy-expands-genesis-mission-boost-ai-awarding-larger-grants"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-major-employer-of-archaeologists-shuts-down-leaving-workers-",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Major employer of archaeologists shuts down, leaving workers in the lurch",
+      "povzetek_sl": "The “ungraceful exit” of Chronicle Heritage leaves many researchers fearful for the future",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Major employer of archaeologists shuts down, leaving workers in the lurch",
+          "url": "https://www.science.org/content/article/major-employer-archaeologists-shuts-down-leaving-workers-lurch"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-problems-in-22-scientific-fields-had-solutions-hiding-in-pla",
+      "date": "2026-10-10",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Problems in 22 scientific fields had solutions hiding in plain sight. An AI has found them",
+      "povzetek_sl": "Teams led by physicist used “BootLoops” software to produce 36 papers in weeks on everything from linguistics to health policy",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Problems in 22 scientific fields had solutions hiding in plain sight. An AI has found them",
+          "url": "https://www.science.org/content/article/problems-22-scientific-fields-had-solutions-hiding-plain-sight-ai-has-found-them"
+        }
+      ]
+    }
+  ]
+}
