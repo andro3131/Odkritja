@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-11",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": "Tedenski recap watchlista:\nZapadle napovedi: Starship Flight 14 poleti najkasneje 30. 9. 2026 (NET 15. 9. drži kot tla, ne ko; TCMV 6. 10. 2026 ne bo dal FSD Supervised za vseh 27 držav (premalo prebivalstva",
+  "kartice": [
+    {
+      "id": "2026-10-11-kedros-a-comparative-genomics-and-high-resolution-phylogenet",
+      "date": "2026-10-11",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "KEDROS: A Comparative Genomics and High-Resolution Phylogenetic Profiling Workspace",
+      "povzetek_sl": "Phylogenetic profiling infers gene function from the presence and absence of genes across genomes, but it loses resolution in eukaryotes, where many protein families contain several functionally distinct paralogs. Existing resources address parts of this problem separately: web services build trees for one family at a time, orthology databases provide precomputed orthologous groups for predefined species sets, and tree-profiling tools require users to supply their own trees and groupings. Here, we present KEDROS, a web platform that builds gene trees for any protein family across UniProt reference proteomes, splits each tree into subfamilies at inferred gene duplications, and profiles each subfamily separately. The organisms, the families and the taxonomic depth at which trees are split are all chosen by the user, so the same workflow serves any question that can be posed as a contrast between two sets of organisms: a pathogen and its host, a pest and non-target species, or lineages with and without a trait. KEDROS answers such contrasts at two levels. Across families and subfamilies, it ranks those present in one set and absent from the other, pointing to lineage-specific genes an",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "KEDROS: A Comparative Genomics and High-Resolution Phylogenetic Profiling Workspace",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757521v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-glare-genomic-language-model-for-automated-repetitive-elemen",
+      "date": "2026-10-11",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "GLARE: Genomic Language model for Automated Repetitive Element classification",
+      "povzetek_sl": "Reliable classification of transposable elements (TEs) is important for genome annotation and evolutionary analysis, yet remains challenging: TE families differ widely across taxa, reference databases label them inconsistently, and many TEs are represented only by degraded copies. We introduce GLARE (Genomic Language model for Automated Repetitive Element classification), a TE classifier built by fine-tuning a genomic language model on harmonized PanTEon and Repbase reference data to predict TE superfamily across 32 superfamilies in 11 orders. Among the genomic language models compared, Nucleotide Transformer v3 provided the strongest representation. Built on this backbone, GLARE exceeded all nine classifiers in the PanTEon benchmark, reaching 0.966 weighted superfamily F1 on its 30-superfamily task. GLARE also showed stronger generalization to clades absent from training, consistently exceeding state-of-the-art classifiers on holdouts spanning three taxonomic ranks: the order Poales, the phylum Arthropoda, and the kingdom Fungi. Training on both PanTEon and Repbase reduced the performance drop seen when a single-source model was applied to the other database. Under simulated seque",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "GLARE: Genomic Language model for Automated Repetitive Element classification",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757139v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-sort-disentangles-multilevel-gene-programs-across-heterogene",
+      "date": "2026-10-11",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "SORT disentangles multilevel gene programs across heterogeneous spatial transcriptomic atlases",
+      "povzetek_sl": "Understanding how transcriptional programs are organized across biological contexts is essential for deciphering tissue development, disease progression, and species-specific adaptations. Spatial transcriptomic atlases spanning patients, developmental stages, and species provide an opportunity to resolve gene expression programs (GEPs) that are sample-specific, group-shared, or region-associated, yet strong sample-specific variation can obscure weaker shared programs. Here we introduce SORT, a matrix factorization framework that jointly recovers multilevel GEPs and their spatial activities, using orthogonality to reduce program redundancy and graph total variation to preserve spatial boundaries. In simulations with strong patient variation, SORT more accurately recovered patient-specific, subtype-shared, and region-associated programs than existing methods. Across 108 pancreatic ductal adenocarcinoma sections, SORT resolved tumor and stromal programs with distinct and overlapping activities and linked these activities to survival across four external cohorts. In a cross-species cerebellar atlas, SORT distinguished conserved layer-associated programs from species-specific activity v",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SORT disentangles multilevel gene programs across heterogeneous spatial transcriptomic atlases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756488v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-transcriptomic-reconstruction-of-an-interregional-molecular-",
+      "date": "2026-10-11",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Transcriptomic reconstruction of an interregional molecular connectome in schizophrenia",
+      "povzetek_sl": "Background: Schizophrenia is increasingly viewed as a disorder of multi-regional brain networks, but molecular and pathophysiological hypotheses are often studied at the level of single brain regions or neurotransmitter systems. A multi-regional, multi-neurotransmitter analysis is needed to clarify how molecular abnormalities relate to circuit-level hypotheses of the disorder. Methods: Transcriptomic data from 2,209 post-mortem brain samples spanning five brain regions in 1,037 individuals were integrated. Directed connectivity strengths between regions were estimated using co-expression between presynaptic and postsynaptic neurotransmission-related genes. These estimates constitute an \"interregional molecular connectome\". Macaque transcriptomic data were used to benchmark the estimation pipeline against reference macaque connectomes. Connectivity differences between healthy controls and patients with schizophrenia were calculated, and a directional consistency filter was applied to identify candidate dysregulations. An LLM-augmented literature screening framework was used to assess the level of literature support for our candidates. Results: Our estimation pipeline showed concorda",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Transcriptomic reconstruction of an interregional molecular connectome in schizophrenia",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756648v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-perturb-seqr-signature-search-engine-integrating-connectivit",
+      "date": "2026-10-11",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Perturb-Seqr: Signature Search Engine Integrating Connectivity Mapping Resources",
+      "povzetek_sl": "High-throughput transcriptomics can be used to develop Connectivity Mapping resources for identifying potential reversers and mimickers of disease signatures for drug and target discovery. Recently, several new Connectivity Mapping datasets have emerged, but no efforts were made so far to evaluate and integrate them. Motivated by this opportunity, we have developed Perturb-Seqr, a comprehensive Connectivity Mapping search engine that integrates nine small molecule transcriptomics Connectivity Maps and seven single gene perturbation followed by expression Connectivity Maps. Specifically, Perturb-Seqr contains processed data from LINCS (L1000), Tahoe-100M, Novartis Institute for Biomedical Research (DRUG-seq), the original CMap (cDNA microarrays), Ginkgo Bioworks (DRUG-seq), SciPlex (scRNA-seq), DeepCover MoA (PISA proteomics), Perturb Atlas (RNA-seq), Replogle et al. (Perturb-seq), CREEDS (cDNA microarrays), CM4AI (Perturb-seq), and RummaGEO (RNA-seq). To serve these Connectivity Maps in one unifying search engine, we converted the expression signatures from these resources into 450,271 gene sets of up- and down-regulated genes measuring the effects of 9,856 unique drug and 17,643 u",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Perturb-Seqr: Signature Search Engine Integrating Connectivity Mapping Resources",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757137v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-exploiting-low-rank-structure-in-genomic-relationship-matric",
+      "date": "2026-10-11",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Exploiting Low-Rank Structure in Genomic Relationship Matrices for Computationally Efficient Optimum Contribution Selection",
+      "povzetek_sl": "Motivation: Optimum contribution selection (OCS) maximizes genetic gain under a constraint on relatedness. Genomic relationship matrices are dense, so the quadratic term costs O(n^3) operations, and existing OCS software assumes pedigree sparsity. Results: We replace the relationship matrix by its leading eigenpairs, computed by randomized SVD, and solve OCS in factorized form. On Norway spruce population (n=5,525), ranks 10--30 kept the exact objective within 1% of the optimum at 110--330-fold speedups; on the QTL-MAS 2010 (n=3,226), ranks up to 100 were needed (24-211 fold). The required rank rises as the diversity constraint loosens. Gain alone is a misleading accuracy check, since coancestry exceeded the optimum by up to 28%, so we choose the rank on the exact objective, which can be checked without a dense solve. The speedup comes from computing only the leading eigenpairs. We extend the factorization to robust OCS (18-fold). Availability and implementation: Julia implementation, and examples are available at https://github.com/jonhar97/fastocs under the MIT license (archived at Zenodo, DOI 10.5281/zenodo.23214804).",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Exploiting Low-Rank Structure in Genomic Relationship Matrices for Computationally Efficient Optimum Contribution Select",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757325v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-filling-the-missing-puzzle-integrating-interaction-and-evolu",
+      "date": "2026-10-11",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Filling the Missing Puzzle: Integrating Interaction and Evolutionary Information to Enhance Protein Fitness Prediction in Inverse Folding",
+      "povzetek_sl": "Protein inverse folding, which infers compatible amino acid sequences from a given backbone structure, is central to rational protein design. Current methods rely largely on sequence recovery rate as the evaluation metric, emphasizing structural compatibility but seldom addressing function. Yet functional activity depends on the proper network of non-covalent interactions-protein-ligand contacts being a prime example. We argue that function-oriented protein design is governed by three complementary constraints: structural, interaction, and evolutionary, none of which are handled in a unified manner by existing pretrained models. To bridge this gap, we introduce zPolaron, a graph neural network built on protein-ligand complexes for functional protein design. zPolaron represents residues and ligand atoms as a heterogeneous graph and jointly encodes structural, interaction, and evolutionary information by fusing physical-interaction-enhanced graph representations with ESM-2 embeddings. Across multiple fitness prediction benchmarks, zPolaron outperforms all baselines, with gains evident across structural, interaction, and evolutionary dimensions. Wet-lab experiments further confirm its",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Filling the Missing Puzzle: Integrating Interaction and Evolutionary Information to Enhance Protein Fitness Prediction i",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756918v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-linking-somatic-variants-to-altered-methylation-profiles-in-",
+      "date": "2026-10-11",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using unduliner",
+      "povzetek_sl": "Research shows that genetic variation directly influences DNA methylation, and this association has generally been explored on germline SNPs and at a population level. The presence of genomic variation and base modification on sequence reads generated from a technology like nanopore sequencing offers an opportunity to link disease-specific variants to methylation changes in individual genomes. Here, we present unduliner, a framework with an embedded pretrained convolutional neural network model, that predicts somatic variants, single-nucleotide (SNVs) and structural (SVs), associated with methylation pattern changes in cancer genomes. We trained the model (accuracy = 0.803 on validation; 0.897 on held-out test) using phased sequence reads, single-nucleotide germline variants, per-base methylation probability, and variant proximity or presence in haplotype-specific differentially methylated regions (DMRs). Unduliner was applied to subline-specific variants from MCF7 breast cancer cell lines as proof-of-concept, and we demonstrated its ability to identify variant-stratified methylation differences independent of haplotype-based methylation differences. In a pancreatic ductal adenocar",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using ",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757715v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-apod-2026-october-11-ice-fishing-for-cosmic-neutrinos",
+      "date": "2026-10-11",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 October 11 – Ice Fishing for Cosmic Neutrinos",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 October 11 – Ice… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Ice Fishing [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 October 11 – Ice Fishing for Cosmic Neutrinos",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium",
+      "date": "2026-10-11",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
+      "povzetek_sl": "As part of the agency’s Inspiration Tour flyover, NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets to kick off the New York Jets vs. Cleveland Browns game in East Rutherford, New Jersey, on Sunday, Oct. 11. NASA team members will engage with fans at the agency’s Experience Zone, located at the [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
+          "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-apod-2026-october-10-lunar-farside",
+      "date": "2026-10-11",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 October 10 – Lunar Farside",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 October 10… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Lunar Farside Explanation: Tidally [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 October 10 – Lunar Farside",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/"
+        }
+      ]
+    }
+  ]
+}
