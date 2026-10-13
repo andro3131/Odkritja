@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-13",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-13-separation-isolation-and-membrane-lipid-profiling-of-selecti",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Separation, isolation, and membrane lipid profiling of selectively vulnerable and resilient neurons",
+      "povzetek_sl": "Certain neurons are more susceptible to pathogenic stressors and degenerate, while others remain resilient in neurodegenerative diseases. However, the mechanisms underlying this cell-to-cell heterogeneity in neuronal vulnerability remain unclear, primarily due to challenges in isolating vulnerable and resilient neurons to characterize their properties. In this study, we report the development of a novel cell-labeling method utilizing two cell-impermeable dyes to identify vulnerable and resilient neurons in culture, which are subsequently separated and isolated via fluorescence-activated cell sorting (FACS). As a proof-of-concept of a mechanistic study, we conducted lipidomic analysis to determine whether the lipid composition of membranes differs between vulnerable and resilient neurons to oxidative stress. This simple but unique method sets the groundwork for investigating the molecular underpinnings of selective neuronal vulnerability, which could inform new diagnostic strategies and therapeutic targets for neurodegenerative diseases.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Separation, isolation, and membrane lipid profiling of selectively vulnerable and resilient neurons",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757005v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-zfp36-is-a-post-transcriptional-regulator-of-the-p2x4-recept",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "ZFP36 is a post-transcriptional regulator of the P2X4 receptor in myeloid cells",
+      "povzetek_sl": "P2X4 is an ATP-gated purinergic receptor upregulated in spinal microglia after peripheral nerve injury, where it plays a key role in neuropathic pain. Yet, the molecular mechanisms controlling P2X4 expression remain incompletely understood. To address this question, we examined P2X4 mRNA expression and translation in spinal microglia following nerve injury. While total P2X4 mRNA levels remained unchanged, ribosome-associated P2X4 mRNA increased, revealing a previously unrecognized level of translational regulation. We therefore investigated whether the RNA-binding protein ZFP36 (tristetraprolin), a well-established regulator of inflammatory mRNAs, controls P2X4 expression. Our results demonstrate that the P2X4 3'UTR strongly repressed reporter and protein expression and that ZFP36 emerged as a negative regulator of P2X4 mRNA. This regulation involved phosphorylation-dependent signaling through p38 MAPK and 14-3-3. Moreover, ZFP36 knockdown increased P2X4 protein expression, while manipulation of ZFP36 phosphorylation altered P2X4-dependent ATP-evoked calcium responses. Together, these findings identify ZFP36 as a previously unrecognized post-transcriptional regulator of P2X4, exten",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ZFP36 is a post-transcriptional regulator of the P2X4 receptor in myeloid cells",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.757012v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-the-arabidopsis-outward-k-channel-gork-mediates-flg22-induce",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "The Arabidopsis outward K+ channel GORK mediates flg22-induced K+ efflux and stomatal closure",
+      "povzetek_sl": "Transient K+ efflux occurs rapidly following pathogen-associated molecular pattern (PAMP) perception by pattern recognition receptors (PRRs) as part of pattern-triggered immunity (PTI). However, the molecular identities of the K+ channels responsible for PTI-associated K+ efflux and the mechanisms linking immune signaling to K+ channel regulation remain largely unknown. Here, we show that the channel GUARD CELL OUTWARD RECTIFYING K+ (GORK) is required for K+ efflux and stomatal closure induced by flg22, a model PAMP derived from bacterial flagellin. BOTRYTIS-INDUCED KINASE 1 (BIK1), a receptor-like cytoplasmic kinase associated with immune receptor complexes that functions as a central regulator of PTI, interacts with GORK and phosphorylates the channel on the conserved T199 residue in vitro. Electrophysiological analyses indicate that BIK1 inhibits GORK activity in a kinase-dependent manner and that T199 plays an essential role for GORK function. Together, this study identifies GORK as the key K+ channel executing rapid PTI-associated K+ efflux and associated stomatal closure, thus shedding light on the mechanisms of early immune signaling.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The Arabidopsis outward K+ channel GORK mediates flg22-induced K+ efflux and stomatal closure",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758189v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-multi-omics-reveals-accumulation-mechanisms-underlying-diffe",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Multi-omics reveals accumulation mechanisms underlying differences in sesquiterpenoid content across different growth environments of Atractylodes macrocephala rhizome",
+      "povzetek_sl": "This study aimed to explore mechanisms driving differential sesquiterpenoid accumulation in Atractylodes macrocephala rhizome (AMR) under different growth environments. Root and rhizosphere soil samples were collected from wild, imitated wild, one- and two-year cultivated AMR. Combined metabolomic, transcriptomic and microbiomic profiling was carried out to investigate alterations in sesquiterpenoid levels, root-associated microbiota, and terpenoid biosynthetic genes under different growth environments. Metabolomics revealed that wild AMR exhibited higher pyruvate consumption and accumulated more atractylone and atractylenolides. Transcriptomic analysis demonstrated that the genes encoding key MEP pathway enzymes (DXS, DXR, MCT, HDS) and the genes encoding the sesquiterpenoid biosynthetic enzyme GDS were significantly upregulated in wild AMR. In contrast, the genes encoding triterpenoid synthetic enzymes (SQS, SQE, {beta}-AS) were downregulated, redirecting metabolic precursors toward sesquiterpenoid synthesis. Microbial community structures differed substantially across groups. Further analysis suggested rhizosphere microorganisms were important contributors to AMR medicinal quali",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Multi-omics reveals accumulation mechanisms underlying differences in sesquiterpenoid content across different growth en",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758175v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-pan-cancer-remodeling-of-reactive-oxygen-species-homeostasis",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Pan-cancer remodeling of reactive oxygen species homeostasis: distinct roles of the ROS-generation and antioxidant arms in immune context and outcome",
+      "povzetek_sl": "Reactive oxygen species (ROS) are double-edged in cancer: tumor cells sustain high ROS generation while up-regulating antioxidant defense, so that the net balance between the two arms, rather than absolute ROS abundance, is the biologically meaningful quantity. Whether that balance defines a conserved tumor state across cancer types has been unclear. Here an experimentally measured ROS phenotype, obtained from a three-channel gold-nanocluster array, was generalized to public transcriptomes through a 107-gene ROS program scored in a large cell-line panel and in pan-cancer tumor and adjacent-normal tissue. The optical readout was reproducible and fully discriminative between cell lines, establishing the fingerprint as a quantitative starting point. In tumors, the generation and antioxidant arms were coordinately up-regulated relative to normal tissue, yet the two arms dissociated in their biology. The composite balance score tracked reduced immune infiltration consistently across cohorts, but arm-level decomposition showed that it was carried by low generation-arm activity in immune-cold tumors and followed arithmetically from how the balance score is defined; the association does no",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Pan-cancer remodeling of reactive oxygen species homeostasis: distinct roles of the ROS-generation and antioxidant arms ",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758205v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-spatially-resolved-tumor-microenvironment-architecture-defin",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Spatially resolved tumor-microenvironment architecture defines therapeutic response in unresectable hepatoblastoma",
+      "povzetek_sl": "Background: Hepatoblastoma exhibits variable therapeutic response that is not fully explained by current risk stratification. While prior studies have characterized tumor composition, the role of spatial organization in determining outcome, particularly in unresectable disease requiring transplantation under immunosuppression, remains unclear. Methods: We integrated spatial transcriptomics using the 10x Genomics Visium platform (n = 11 tumors) with single-cell spatial molecular imaging using NanoString CosMx (n = 3 tumors) on post-chemotherapy explant specimens across clinically defined groups (relapse-prone unresectable, non-relapse unresectable, and resectable hepatoblastoma). Spatial deconvolution, module scoring, spatial co-localization, and cell-cell interaction analyses were used to define region-level transcriptional programs and their underlying cellular organization. Results: We identified three spatial architectures associated with clinical outcome. Relapse-prone tumors exhibited a centralized, TME-dominated organization enriched for progenitor-like, cycling, and stress-responsive tumor cell states co-localized with SPP1+ TAMs and CAFs, with enrichment of hypoxia response",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Spatially resolved tumor-microenvironment architecture defines therapeutic response in unresectable hepatoblastoma",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758234v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-a-novel-computational-framework-to-investigate-the-biomechan",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "A Novel Computational Framework to Investigate the Biomechanics of Burrowing",
+      "povzetek_sl": "Head-first burrowing likely imposes strong mechanical demands on the skull of fossorial vertebrates, but how cranial tissues respond to these loads remains obscure. Here, we developed a computational framework integrating the discrete element method (DEM) with finite element analysis (FEA) to investigate cranial biomechanics during burrowing. We used Blanus cinereus, a round-headed amphisbaenian, as a model to establish DEM predictions that were validated and calibrated against in vitro experiments across three substrates and compared with in vivo push forces. DEM-calibrated particle contact forces were then transferred to an anatomically detailed finite element model to quantify cranial loading. The analyses suggested that soft tissues accommodated substantial deformation, while the skull transmitted burrowing loads from the premaxilla towards the occipital region. Cranial sutures further redistributed stresses and strains within the skull. This validated DEM-FEA framework links particle-scale substrate interactions with internal cranial biomechanics and provides a quantitative approach for investigating the mechanics of head-first burrowing across fossorial vertebrates.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Novel Computational Framework to Investigate the Biomechanics of Burrowing",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758257v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-chronic-electrophysiology-captures-progressive-variability-i",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Chronic Electrophysiology Captures Progressive Variability in DNA-Damaged Cardiac Networks",
+      "povzetek_sl": "Electrophysiological recordings provide a key functional readout of cardiac health. Most in vitro studies rely on acute measurements rather than recording evolving functional changes. Here, we implement a microelectrode array (MEA) based system for chronic electrophysiological monitoring of human induced pluripotent stem cell-derived cardiomyocyte (iPSC-CM) monolayers. Electrophysiology recordings were maintained for up to 40 days, enabling longitudinal assessment of field potential amplitude, field potential duration, beat frequency, conduction velocity, and waveform morphology. Untreated iPSC-CM monolayers exhibited stable electrophysiological behavior throughout chronic culture. Following exposure to the cardiotoxic chemotherapeutic doxorubicin, chronic recordings captured progressive deterioration in electrical activity, including reduced field potential amplitude, altered repolarization dynamics, increased beat-to-beat variability, and reduced conduction that persisted after drug removal. Electrode-resolved analyses further revealed pronounced progressive spatial variability, highlighting localized responses that would be obscured by population-averaged measurements. Endpoint",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Chronic Electrophysiology Captures Progressive Variability in DNA-Damaged Cardiac Networks",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.757663v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-preserve-research-data-for-tomorrows-ai-enabled-integrity-ch",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Preserve research data for tomorrow’s AI-enabled integrity checks",
+      "povzetek_sl": "Nature, Published online: 13 October 2026; doi:10.1038/d41586-026-03244-3 Preserve research data for tomorrow’s AI-enabled integrity checks",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Preserve research data for tomorrow’s AI-enabled integrity checks",
+          "url": "https://www.nature.com/articles/d41586-026-03244-3"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-decentralized-ai-needs-more-evidence-on-energy-use",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Decentralized AI needs more evidence on energy use",
+      "povzetek_sl": "Nature, Published online: 13 October 2026; doi:10.1038/d41586-026-03245-2 Decentralized AI needs more evidence on energy use",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Decentralized AI needs more evidence on energy use",
+          "url": "https://www.nature.com/articles/d41586-026-03245-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-when-microbes-degrade-plastic-where-does-it-go",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "When microbes degrade plastic, where does it go?",
+      "povzetek_sl": "Nature, Published online: 13 October 2026; doi:10.1038/d41586-026-03246-1 When microbes degrade plastic, where does it go?",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "When microbes degrade plastic, where does it go?",
+          "url": "https://www.nature.com/articles/d41586-026-03246-1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-why-not-every-global-problem-can-be-tackled-by-an-ipcc-like-",
+      "date": "2026-10-13",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Why not every global problem can be tackled by an IPCC-like organization",
+      "povzetek_sl": "Nature, Published online: 13 October 2026; doi:10.1038/d41586-026-03234-5 Why not every global problem can be tackled by an IPCC-like organization",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Why not every global problem can be tackled by an IPCC-like organization",
+          "url": "https://www.nature.com/articles/d41586-026-03234-5"
+        }
+      ]
+    }
+  ]
+}
