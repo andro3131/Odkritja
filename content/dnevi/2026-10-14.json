@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-14",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-14-artificiality-s-first-exam-an-llm-referenced-c-test-for-supr",
+      "date": "2026-10-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "povzetek_sl": "arXiv:2610.14005v1 Announce Type: new \nAbstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language models (LLM) are UTMs that capture a compendium of human culture as knowledge, using prompts as natural language programs. This paper presents the first test based on Levin's Kt with LLMs as represe",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+          "url": "https://arxiv.org/abs/2610.14005"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-the-silent-failures-in-agentic-data-science",
+      "date": "2026-10-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "The Silent Failures in Agentic Data Science",
+      "povzetek_sl": "arXiv:2610.14115v1 Announce Type: new \nAbstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model development. Existing evaluations of agentic data science (agentic DS) assess downstream predictive performance and code correctness, providing preliminary insight in agentic DS capabilities. We argue that these evaluations overlook the fundamental principles of data science: methodological data science- and domain knowledge. As such, only assessing downstream performance masks methodological failures such as data leakage and inappropriate validation, limiting the development of robust agentic DS systems. In this paper, we evaluate agentic DS beyond accuracy from three different angles: 1) a large-scale analysis of failure modes in common agentic DS frameworks and models across 220 data science tasks, 2) a reusable and extensible test suite with curated data science tasks that test for six specific failures in a controlled manner, and 3) a qualitative assessment of agentic DS pipelines against",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The Silent Failures in Agentic Data Science",
+          "url": "https://arxiv.org/abs/2610.14115"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-clawloop-self-improving-agents-via-harness-native-training-l",
+      "date": "2026-10-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+      "povzetek_sl": "arXiv:2610.14118v1 Announce Type: new \nAbstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes tasks and collects trajectories, the target agent is trained once, and evaluation results are consumed by human researchers rather than fed back into the loop. Such pipelines are inherently bounded by the capability of the external model and the scope of human prior, leaving no room for self-improvement. To address these limitations, we propose ClawLoop, a framework that enables self-improving without any external teacher model and with minimal prior dependencies. ClawLoop composes three phases into a self-sustaining cycle: Task Synthesis, which generates a diverse pool of training tasks via two complementary construction routines, applies diagnosis-conditioned difficulty growth followed by bot",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+          "url": "https://arxiv.org/abs/2610.14118"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-correction-training-for-diffusion-models",
+      "date": "2026-10-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Correction Training for Diffusion Models",
+      "povzetek_sl": "arXiv:2610.14136v1 Announce Type: new \nAbstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training time. This might be one reason diffusion models often struggle without additional help, such as CFG. We introduce a correction step for diffusion models which attempts to reduce this training-inference gap. The corrector takes the base model's prediction as input and is trained against the same ground-truth target. This makes correction an explicit learning task, with training inputs provided by the base model. During sampling, at each denoising step, we iteratively refine the denoiser's clean-sample prediction. This allows us to correct predictions at intermediate denoising steps, preventing early artifacts from persisting into the final sample. Although the corrector is trained only on predictions from the base denoiser, it can be applied repeatedly to its own outputs at inference for better results. This simple framework leads to substan",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Correction Training for Diffusion Models",
+          "url": "https://arxiv.org/abs/2610.14136"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-long-horizon-terminal-bench-2-0-automating-diverse-task-cons",
+      "date": "2026-10-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+      "povzetek_sl": "arXiv:2610.14146v1 Announce Type: new \nAbstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31 tasks. LHTB 2.0 contains 77 tasks across 13 domains and eight task types. The extended tasks are produced through a systematic reconstruction-task pipeline. We start from a working scientific or engineering artifact, then use a parameterized reference implementation to generate multiple scenarios, reveal six as behavioral evidence, hold out three for evaluation, and use dense progress ladders to reward partial progress while preventing memorization of public outputs. We also extend the evaluation horizon from 90 minutes to three hours and record verifier checkpoints every 30 minutes, enabling direct measurement of sustained progress within a run. Across 1,145 scored model-task runs from 15 frontier models, GPT-6-astra leads with dense mean rewa",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+          "url": "https://arxiv.org/abs/2610.14146"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-vetnet-assembling-benchmark-datasets-for-ai-driven-veterinar",
+      "date": "2026-10-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+      "povzetek_sl": "arXiv:2610.14149v1 Announce Type: new \nAbstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration across academic and non-academic sectors. This framework addresses the gap between AI advances in human medicine and the fragmented state of veterinary AI development.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+          "url": "https://arxiv.org/abs/2610.14149"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-unconstrained-cti-realm-with-open-weights",
+      "date": "2026-10-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Unconstrained CTI-REALM with Open-Weights",
+      "povzetek_sl": "arXiv:2610.14180v1 Announce Type: new \nAbstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a benchmark in which an agent turns a threat-intelligence report into a working detection by querying a live telemetry store. We evaluate twenty-six models, nineteen open-weight and seven closed, under a common harness, scorer and panel of LLM judges. Our main finding is that an open-weight model can match the strongest closed models at less than a tenth of their cost, provided it is given enough turns. The benchmark's published limit on agent messages is a confound: a task that exhausts the limit scores zero on every checkpoint, including those it had already passed, so results at that limit partly measure which models finish in time. At the published limit the leading open-weight and closed models cannot be distinguished. With the limit relaxed, the models it was truncating recover, and the highest rewards belong to open-weight models. Among the leading models, price is a poor guide to ca",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Unconstrained CTI-REALM with Open-Weights",
+          "url": "https://arxiv.org/abs/2610.14180"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-visualizing-the-world-model-in-an-agent-s-value-function",
+      "date": "2026-10-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Visualizing the World Model in an Agent's Value Function",
+      "povzetek_sl": "arXiv:2610.14186v1 Announce Type: new \nAbstract: Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions which hold everything about a state fixed, besides a targeted change, to explore if the value function of a Proximal Policy Optimization agent forms a world model of the Crafter environment. Despite only being trained to optimize reward, we discover that the value function learns concepts such as the rules governing when a diamond is collectible, water and food having an impact on health, heuristics regarding inventory, and more. Finally, we discuss the safety implications of our visualizations and some shortcomings of current reinforcement learning agents that will prevent us from building truly advanced machine intelligence.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Visualizing the World Model in an Agent's Value Function",
+          "url": "https://arxiv.org/abs/2610.14186"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-roboharness-a-simple-harness-outperforms-vla-and-world-actio",
+      "date": "2026-10-14",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "RoboHarness: A Simple Harness Outperforms VLA and World Actions Models",
+      "povzetek_sl": "arXiv:2610.14018v1 Announce Type: new \nAbstract: The rise of large language models (LLMs) has opened a path toward generalist embodied AI, raising the question of how LLMs can act in the physical world. One straightforward approach is training the model to generate actions: collect robot-action data and video demonstration, refine LLM architecture with an action head, and train a vision-language-action (VLA) model at scale. However, we argue that coding agents have the potential to realize generalist embodied manipulation. All they need is a simple yet effective robot harness. We present RoboHarness: a robotic harness that gives LLM agents a visual-geometric control panel so that they can directly understand and invoke embodied tasks. With RoboHarness, Qwen3.8-Flash-Next outperforms state-of-the-art VLA models on BEHAVIOR Challenge 2025 tasks. The implementation will be released as open source.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RoboHarness: A Simple Harness Outperforms VLA and World Actions Models",
+          "url": "https://arxiv.org/abs/2610.14018"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-labinstruct-benchmarking-situated-instructional-video-genera",
+      "date": "2026-10-14",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
+      "povzetek_sl": "arXiv:2610.14020v1 Announce Type: new \nAbstract: Self-driving laboratories (SDLs) aim to automate the full experimental loop, from scientific decision-making to physical execution. Ideally, AI-generated plans could be carried out directly by robotic systems, but reliable automation remains difficult in complex, open-world laboratory environments, where experiments often involve fine-grained manipulation, long-horizon procedures, and substantial variation across tasks and setups. Humans therefore remain an important execution interface between AI-generated plans and physical experiments, creating a need for clear and effective human-facing experimental guidance. Because laboratory procedures are inherently visual, spatial, and dynamic, video is particularly well suited to communicating apparatus configurations, manipulation actions, temporal dependencies, and state changes. Recent advances in video generation now make it possible to synthesize experimental demonstrations directly from an initial workspace image and a natural-language instruction. However, whether such models can reliably communicate real laboratory procedures has not been systematically studied. We introduce LabInst",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
+          "url": "https://arxiv.org/abs/2610.14020"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-oil-an-object-interaction-layer-for-humanoid-whole-body-cont",
+      "date": "2026-10-14",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "OIL: An Object Interaction Layer for Humanoid Whole-Body Control",
+      "povzetek_sl": "arXiv:2610.14033v1 Announce Type: new \nAbstract: Recent progress in learned whole-body controllers for humanoid robots has enabled robust free-space motion by tracking kinematic targets such as joint or end-effector trajectories. This interface provides a useful abstraction for upstream systems, including motion capture, teleoperation, or generative models, which can specify desired motion without reasoning about forces or balance. However, this abstraction has largely been limited to robot motion, requiring task-specific controllers or retraining for object interaction. We introduce OIL, an Object Interaction Layer that extends the kinematic command interface of whole-body control to include desired object motion and contact. OIL augments a standard controller with object-centric commands and translates them into coordinated whole-body behavior while preserving locomotion and balance. This design enables a single learned policy to execute non-prehensile interactions, including pushing, pulling, two-arm pick-and-place, and locomotion-coupled transport, directly from object-level kinematic targets without task-specific retraining. In simulation, we demonstrate that object-level comm",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "OIL: An Object Interaction Layer for Humanoid Whole-Body Control",
+          "url": "https://arxiv.org/abs/2610.14033"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-14-building-trustworthy-household-robots-through-open-world-saf",
+      "date": "2026-10-14",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Building Trustworthy Household Robots through Open-World Safety",
+      "povzetek_sl": "arXiv:2610.14034v1 Announce Type: new \nAbstract: Foundation models are expanding robot capabilities, enabling robots to handle more diverse objects, follow sophisticated instructions, and operate in complex environments. These advances bring us to a future in which robots become part of everyday household life. However, cluttered, dynamic household environments also expose robots to unfamiliar objects, tasks, and interactions, making reliable zero-shot task completion an ongoing challenge for robotics research.\n  From a security perspective, we argue for open-world safety: household robots should preserve specified safety requirements in unseen situations, including when they cannot complete the requested task. Safety protections must account for context and interactions that persist across actions and tasks. In this position paper, we examine why existing safety methods can fail to provide this protection. Protection can fail through misinterpreted context, overlooked past interactions, or stopping and recovery strategies that become unsafe under unfamiliar conditions. We therefore propose a research agenda to specify, learn, and ground safety requirements, enforce them with relia",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Building Trustworthy Household Robots through Open-World Safety",
+          "url": "https://arxiv.org/abs/2610.14034"
+        }
+      ]
+    }
+  ]
+}
