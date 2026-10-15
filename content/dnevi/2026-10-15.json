@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-15",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-15-lambda-0-scaling-open-world-egocentric-human-data-for-humano",
+      "date": "2026-10-15",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "$\\lambda_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
+      "povzetek_sl": "arXiv:2610.18950v1 Announce Type: new \nAbstract: Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution. We introduce HumanVerse, a 500-hour dataset of open-world human loco-manipulation pairing egocentric video with synchronized body and hand motion. Our human-to-humanoid pipeline aligns camera viewpoints and arm appearance, and refines motion references and controller inputs offline to reduce end-effector errors while preserving whole-body coordination. We validate the pipeline through zero-shot transfer to Unitree G1 on representative whole-body manipulation and long-range loco-manipulation tasks, without target-task robot demonstrations. Building on this pipeline, we develop $\\lambda_0$, a humanoid foundation model for whole-body loco-manipulation, with robot-aligned human demonstrations providing supervision for mid-training. Increasing whole-body human data c",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "$\\lambda_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
+          "url": "https://arxiv.org/abs/2610.18950"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-contact-uan-unsupervised-actuator-networks-as-a-residual-wor",
+      "date": "2026-10-15",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control",
+      "povzetek_sl": "arXiv:2610.18991v1 Announce Type: new \nAbstract: Humanoid policies trained in simulation can transfer qualitatively to hardware while failing to transfer the force interactions learned during training, compromising torque efficiency, load regulation, and robustness to impacts. This failure can arise from actuator sim-to-real gaps because forces depend on actuator torques. We introduce Contact-UAN, a residual world model that preserves a simulator's physics priors while correcting actuator dynamics to align simulated rollouts with recorded hardware rollouts. For humanoid motion with contact, this requires contact-consistent replay: if hardware playback in simulation begins with misaligned contact wrenches, the residual model learns to correct reset artifacts rather than actuator discrepancies. Using only onboard proprioception, Contact-UAN infers the simulator-side stance-foot pose needed to initialize replay with consistent contact forces. We show that a UAN trained on 6.5 minutes of real-world walking data generalizes to tasks that benefit from accurate force and impulse regulation and produces policies that transfer seamlessly to the real world, yielding 20% lower running torque,",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control",
+          "url": "https://arxiv.org/abs/2610.18991"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-ringnav-task-shaped-circular-memory-for-visual-heading",
+      "date": "2026-10-15",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "RingNav: Task-Shaped Circular Memory for Visual Heading",
+      "povzetek_sl": "arXiv:2610.19044v1 Announce Type: new \nAbstract: Tiny robots have limited computation and memory, yet visual navigation systems often maintain more state than a task requires. We ask whether persistent memory can instead be shaped by the task. We present \\textbf{RingNav}, a \\(10.6\\)k--parameter visual heading estimator that constrains its memory to the circular manifold \\(S^1\\). RingNav learns only the turn between consecutive images, while heading is composed directly on the circle. On the TartanAir Visual SLAM Challenge, RingNav reduces mean absolute turn error by \\(27\\%\\) and accumulated heading error over $4$ sec by \\(15\\%\\) relative to a similarly sized learned-memory model. The structured update also gives exactly zero turn for identical frames and exact cancellation under sequence reversal. Without fine-tuning, RingNav transfers to real-world drone experiments and continues estimating heading under severe visual degradation. RingNav runs at $27.3$Hz on Raspberry Pi Zero 2W and can be deployed on an ultra-low power GAP8 processor at $33.4$Hz.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RingNav: Task-Shaped Circular Memory for Visual Heading",
+          "url": "https://arxiv.org/abs/2610.19044"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-tread-a-visuo-inertial-framework-for-terrain-and-locomotion-",
+      "date": "2026-10-15",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Tread: A Visuo-Inertial Framework for Terrain and Locomotion Context-Aware Gait-Phase and Speed Estimation in Wearable Robotics",
+      "povzetek_sl": "arXiv:2610.19067v1 Announce Type: new \nAbstract: A wearable assistive robot must continuously estimate terrain, locomotion mode, gait phase, and walking speed. These quantities are commonly addressed by separate, terrain-specific models, with datasets rarely collected under a common protocol. This paper presents a visuo-inertial framework that connects these estimates through a causal pipeline using a chest-mounted camera and four lower-limb inertial measurement units (IMUs). Anticipatory Terrain Perception (ATP) classifies incoming terrain with 96.3% accuracy and anticipates terrain transitions by 1.46 s on average. Terrain-Aware Locomotion Mode Identification (TALMI) achieves 93.7% and 98.8% accuracy for its level-ground and stairs experts respectively, with mean transition latencies being below 200 ms. The relevant TALMI posterior is retained as a Probabilistic Locomotion Context (PLC) vector and provided to a shared Gait Kinematic Encoder (GKE), which supports 50-Hz bilateral gait-phase estimation and 2-Hz walking-speed estimation. Leave-one-subject-out evaluation yields gait-phase RMSEs of 1.75%, 2.97%, and 4.55% for level walking, stair ascent, and stair descent respectively",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Tread: A Visuo-Inertial Framework for Terrain and Locomotion Context-Aware Gait-Phase and Speed Estimation in Wearable R",
+          "url": "https://arxiv.org/abs/2610.19067"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-receding-horizon-next-best-view-planning-for-highly-occluded",
+      "date": "2026-10-15",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Receding-Horizon Next-Best-View Planning for Highly Occluded Target Perception",
+      "povzetek_sl": "arXiv:2610.19082v1 Announce Type: new \nAbstract: Robotic systems that must acquire information about a specific target often face severe occlusion from sur- rounding structures or from the target itself, such that a single camera viewpoint provides only partial information. Active perception must therefore select viewpoints that progressively reveal unobserved regions. However, conventional local next- best-view (NBV) methods typically select viewpoints according to their immediate utility, which can overlook views that provide limited information initially but enable more informative obser- vations from subsequent viewpoints. We formulated local target perception as a short-horizon sequential view-planning problem and proposed a Receding-Horizon Next-Best-View (RH-NBV) planner that evaluates candidate sequences of future viewpoints rather than isolated views. RH-NBV is evaluated on a UR5e manipulator with an eye-in-hand RGB-D camera in simulation as well as on physical robot against a gradient-based NBV planner, and random search, using a coffee mug and Stanford bunny under controlled occlusion and a tomato plant with natural self-occlusion. Under heavy occlusion, RH-NBV achieves",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Receding-Horizon Next-Best-View Planning for Highly Occluded Target Perception",
+          "url": "https://arxiv.org/abs/2610.19082"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-dexmimic-a-generalist-dexterous-hand-object-tracking-policy-",
+      "date": "2026-10-15",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "DexMimic: A Generalist Dexterous Hand-Object Tracking Policy via Value-Guided Reset Allocation",
+      "povzetek_sl": "arXiv:2610.19089v1 Announce Type: new \nAbstract: Achieving human-like dexterous manipulation remains a central challenge in robotics. Learning from human hand-object interaction (HOI) datasets offers a promising pathway to diverse dexterous skills, yet existing physics-based approaches train specialist policies for individual trajectories, thereby limiting skill reuse at scale. We introduce DexMimic, a generalist dexterous hand-object tracking policy jointly trained across diverse HOI trajectories. Efficient joint training requires allocating each rollout to both an undertrained phase and a starting state that supports continued tracking. DexMimic realizes this insight through Value-Guided Reset Allocation, which adapts the initialization distribution online to prioritize difficult phases and select reset states with higher expected tracking returns. We further introduce a benchmark spanning training, fine-tuning, and generalization. Experiments show improved tracking success and training efficiency, faster fine-tuning, and the potential for zero-shot generalization to unseen trajectories and objects; larger training sets further improve efficiency and generalization. Finally, we v",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "DexMimic: A Generalist Dexterous Hand-Object Tracking Policy via Value-Guided Reset Allocation",
+          "url": "https://arxiv.org/abs/2610.19089"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-benchmarking-3d-reconstruction-for-under-ice-robotic-percept",
+      "date": "2026-10-15",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Benchmarking 3D Reconstruction for Under-Ice Robotic Perception in Arctic Environments",
+      "povzetek_sl": "arXiv:2610.19097v1 Announce Type: new \nAbstract: As the Arctic transitions toward a seasonally ice-free state, capturing the complex morphology of submerged sea ice is crucial for advancing models of ocean-ice-atmosphere heat exchange and monitoring under-ice habitats.\n  Currently, sub-surface ice mapping is predominantly achieved through acoustic sensors such as multibeam sonar. While sonar provides robust large-scale geometry, it lacks spectral and high-resolution textural information required to record fine morphological features - a critical limitation in under-ice environments, where sparse visual features and degraded sensing conditions challenge the capture of detailed structural and optical surface properties.\n  We present a benchmark for vision-based under-ice 3D reconstruction using real-world data from the MOSAiC expedition and synthetic data generated in an Unreal Engine-based underwater robotics simulator. The benchmark evaluates Structure-From-Motion (SfM) and monocular depth estimation, with quantitative comparison enabled through cross-modal registration to upward-looking multibeam sonar.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Benchmarking 3D Reconstruction for Under-Ice Robotic Perception in Arctic Environments",
+          "url": "https://arxiv.org/abs/2610.19097"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-learning-in-orbit-onboard-training-and-closed-loop-attitude-",
+      "date": "2026-10-15",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Learning in Orbit: Onboard Training and Closed-Loop Attitude Control with a Thermal Segmentation Model on a Spacecraft",
+      "povzetek_sl": "arXiv:2610.19122v1 Announce Type: new \nAbstract: Deep space missions increasingly require spacecraft capable of autonomously operating in environments with communication delays and bandwidth limitations. A key enabler of such autonomy is the ability to run learning-based algorithms directly onboard. In this work, we present a flight deployment on a 6U CubeSat that demonstrates (1) onboard training and inference of a thermal segmentation model on an NVIDIA Jetson TX2 NX GPU in space and (2) closed-loop attitude control using the segmentation model on a real-time, thermal image feed to track the Moon. In addition to this demonstration, we implement ROS 2 Foxy as a data transport middleware and integrate an open-source file system that provides strong data integrity guarantees and self-healing features. Over the course of approximately one year, we performed 12 experiments on the spacecraft, advancing the state of the art in autonomous spacecraft systems by showing how modern learning-based pipelines, commercially available hardware, and open-source software can operate reliably under the compute and environmental constraints of Low Earth Orbit (LEO).",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Learning in Orbit: Onboard Training and Closed-Loop Attitude Control with a Thermal Segmentation Model on a Spacecraft",
+          "url": "https://arxiv.org/abs/2610.19122"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-physiology-informed-sparse-identification-of-dynamic-crop-mo",
+      "date": "2026-10-15",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Physiology-Informed Sparse Identification of Dynamic Crop Models",
+      "povzetek_sl": "arXiv:2610.18920v1 Announce Type: new \nAbstract: Developing resilient crops requires models that accurately capture how plant growth dynamics emerge from the continuous interplay between genetic and environmental factors. While high-throughput phenotyping platforms generate data for dynamic growth models, current modelling approaches show limitations: process-based crop growth models (CGMs) capture environmental dynamics but are difficult to scale across many genotypes because they require calibration of many parameters, while quantitative genetic models allow modelling many genotypes but often summarise time-varying environments using static covariates. To address this gap, we propose a data-driven framework to identify reduced systems of ordinary differential equations (ODEs) describing crop growth dynamics as functions of environmental variables and a controllable number of genotype-specific coefficients (GSCs). Using the Sparse Identification of Nonlinear Dynamics (SINDy) method, we infer model structure directly from data via sparse regression on a physiologically informed library of candidate functions. In this framework, GSCs parameterise cultivar-specific differences in res",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Physiology-Informed Sparse Identification of Dynamic Crop Models",
+          "url": "https://arxiv.org/abs/2610.18920"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-modeling-the-microenvironmental-dynamics-of-adenoid-cystic-c",
+      "date": "2026-10-15",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Modeling the Microenvironmental Dynamics of Adenoid Cystic Carcinoma in Lacrimal Gland with Treatment Intervention",
+      "povzetek_sl": "arXiv:2610.18936v1 Announce Type: new \nAbstract: Adenoid cystic carcinoma (ACC) of the lacrimal gland is a rare and extremely life threatening malignant tumor with a high risk of recurrence and poor long-term outcomes. On the other hand, due to its complex molecular dynamics and low incidence rate, treatment strategies are very limited. In this study, a mathematical model is developed based on the biological phenomena of the tumor microenvironment using nonlinear ordinary differential equations. It is analyzed both analytically and numerically. According to the findings, the growth of tumor cells is associated with the depletion of oxygen and nutrients, while severe hypoxia promotes the development of abnormal blood vessels and makes tumor control more difficult. Surgery and postoperative radiotherapy have been considered as treatment strategies, and we have observed that surgery alone may not be sufficient to prevent the regrowth of residual tumor cells. In addition, postoperative radiotherapy provides better control of the residual tumor burden, particularly when the remaining tumor cells have higher radiosensitivity. Furthermore, different radiotherapy interruption scenarios hav",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Modeling the Microenvironmental Dynamics of Adenoid Cystic Carcinoma in Lacrimal Gland with Treatment Intervention",
+          "url": "https://arxiv.org/abs/2610.18936"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-deep-learning-based-virtual-perturbation-reveals-increasing-",
+      "date": "2026-10-15",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Deep learning-based virtual perturbation reveals increasing heterogeneity of gene regulatory responses with aging",
+      "povzetek_sl": "arXiv:2610.19029v1 Announce Type: new \nAbstract: A central hypothesis in aging biology proposes that the gradual accumulation of stochastic molecular damage drives transcriptional deregulation (TD), ultimately leading to functional decline. However, existing single-cell analyses largely rely on static expression measurements and provide limited resolution of how regulatory responses change at the level of individual cells. Here, we leverage DKO, a deep learning framework that predicts cell-specific virtual gene perturbation effects from unperturbed transcriptomes, capturing cell-to-cell differences in regulatory context without requiring a reconstructed gene regulatory network or matched perturbation data. Applying DKO to single-cell transcriptomic datasets from humans, mice, Drosophila, and C. elegans revealed that the transcriptional consequences of perturbing the same gene became increasingly heterogeneous across cells with age, indicating that gene regulatory responses become less consistent and more dependent on cellular context. Furthermore, we find that cells with higher somatic mutation burdens have greater knockout-response variability, linking accumulated molecular damage",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Deep learning-based virtual perturbation reveals increasing heterogeneity of gene regulatory responses with aging",
+          "url": "https://arxiv.org/abs/2610.19029"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15-simulating-alzheimer-s-amyloid-like-pathology-on-a-fly-centr",
+      "date": "2026-10-15",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Simulating Alzheimer's amyloid-like pathology on a fly central nervous system connectome",
+      "povzetek_sl": "arXiv:2610.19153v1 Announce Type: new \nAbstract: In Alzheimer's disease, the amount of pathology in the brain is an imperfect predictor of how much function is lost. Pathology leads to that loss through neural circuits, but these cannot be observed neuron by neuron in patients. This study therefore simulated the central nervous system of the adult male Drosophila melanogaster: 166,700 integrate-and-fire neurons wired by the MaleCNS connectome. The simulator reproduced a published fly brain model (rate correlation 0.9997). Three kinds of damage reported in amyloid-$\\beta$ flies, a lowered spike threshold, synapse loss and neuron loss, were imposed with assumed magnitudes, and circuit responses were measured in 1,424 simulated flies. The number of neurons lost was a poor guide to the deficit, which depended partly on how many synaptic contacts went with them and whether they included input neurons or one command neuron. With the same 12% of neurons removed, odour-evoked whole-brain activity was 93%, 47% or 31% of the healthy value when damage fell on poorly connected, random or highly connected neurons; these flies lost 20%, 35% and 48% of contacts. When the contacts lost were equali",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Simulating Alzheimer's amyloid-like pathology on a fly central nervous system connectome",
+          "url": "https://arxiv.org/abs/2610.19153"
+        }
+      ]
+    }
+  ]
+}
