@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-17",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-17-fragmented-landscapes-of-mobile-transposable-element-familie",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Fragmented landscapes of mobile transposable element families bolster the diversity of large-effect alleles in Arabidopsis",
+      "povzetek_sl": "Transposable elements (TEs) are powerful endogenous mutagens, but our understanding of the 'mobilome' - the set of mobile TEs at the species level - has largely been shaped by the study of a single reference genome. To overcome this reference-centric view, we produced long-read genome assemblies for 91 Arabidopsis thaliana strains and performed a reference-free pangenomic graph analysis of structural variants. Our analysis revealed the presence of twice as many TE families with recent mobilization activity as previously described. These >200 newly identified TE families are ancestral, with a third experimentally shown to be mobile and although they are often characterized by the presence of full-length copies in only a few rather than in most strains, they nonetheless contribute significantly to the generation of large-effect alleles. These findings uncover a much more fragmented and impactful mobilome than previously documented and highlight how pangenome approaches dramatically improve the study of genetic diversity.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Fragmented landscapes of mobile transposable element families bolster the diversity of large-effect alleles in Arabidops",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758581v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-history-of-opioid-use-disorder-correlates-with-altered-neuro",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "History of opioid use disorder correlates with altered neuroimmune signatures in the human dorsal root ganglia",
+      "povzetek_sl": "Understanding mechanisms for the negative reinforcing effects of opioids are fundamental to improving patient care. Using human dorsal root ganglia (DRG) from donors with and without opioid use disorder (OUD), we set out to examine functional and molecular correlates of chronic opioid use. At a molecular level, we detected disrupted immune signatures throughout cells in the peripheral nervous system (PNS), spanning glial-neuroimmune interactions to changes in non-neuronal senescence. At the physiological level these changes are paired with sensitization of DRG sensory neurons. Our findings reveal a neuro-inflammatory state in the PNS of individuals with OUD. Targeting therapeutics towards these PNS-based mechanisms could be an approach to alleviating the negative reinforcing effects of opioids.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "History of opioid use disorder correlates with altered neuroimmune signatures in the human dorsal root ganglia",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758227v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-striatal-d2-neurons-gate-d1-mediated-associative-encoding-un",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Striatal D2-neurons gate D1-mediated associative encoding under uncertainty",
+      "povzetek_sl": "Goal-directed actions are established through the encoding of predictive relationships between behaviour and its consequences, a process involving dopamine-dependent plasticity in the dorsal striatum. Early phases of learning entail complex associative landscapes from which useful action-outcome contingencies must be identified. Although dopamine processes are central to associative learning, the cellular mechanisms through which behaviourally relevant plasticity is selected from competing signalling events remain unknown. Here we show that D2-spiny projection neurons (D2-SPNs) are transiently recruited during the earliest stages of instrumental learning, when critical action-outcome contingencies emerge. We identify a dominant cell-to-cell transmodulation process by which D2-SPNs regulate dopamine-dependent signalling by constraining protein kinase A activity in D1-SPNs. This mechanism overrides extracellular dopamine signals and can be reproduced in vivo through calibrated optogenetic activation of cAMP signalling. Enhancing D2[-&gt;]D1-SPN transmodulation during uncertain reinforcement schedules durably improves action-outcome encoding, revealing a mechanism through which striat",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Striatal D2-neurons gate D1-mediated associative encoding under uncertainty",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759515v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-matrix-metalloproteinase-response-to-acute-resistance-exerci",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Matrix Metalloproteinase Response to Acute Resistance Exercise is Altered in Osteoarthritic Adults with Increased Muscle Collagen and PDGFRα+ Mesenchymal Cells",
+      "povzetek_sl": "Background: Knee osteoarthritis (OA) is associated with knee extensor weakness, altered myofibre morphology, reduced satellite cell abundance and fibrillar muscle collagen accumulation in the vastus lateralis (VL). Fibrillar muscle collagen accumulation is associated with reduced knee extensor strength. Yet, its underlying mechanisms remain poorly understood. Satellite cells and PDGFR+ mesenchymal cells express collagen as well as proteins involved in collagen degradation and may be involved in muscle collagen accumulation. The present study assessed knee extensor function and myofibre morphology, satellite cells and PDGFR+ mesenchymal cells in adults with and without moderate-to-severe knee OA. It also investigated collagen remodeling by assessing how enzymes involved in collagen degradation (matrix metalloproteinases [MMPs]) respond to acute resistance exercise in the VL. This study aimed to better understand the cellular contributors to muscle collagen accumulation and knee extensor weakness in knee OA. Methods: Volunteers with and without moderate-to-severe knee OA had a resting muscle biopsy, then completed an acute bout of resistance exercise and had a 72-hour post-exercise b",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Matrix Metalloproteinase Response to Acute Resistance Exercise is Altered in Osteoarthritic Adults with Increased Muscle",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.757523v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-spectrobird-event-level-vocalization-detection-and-curation-",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "SpectroBird: Event-Level Vocalization Detection and Curation for Avian Ecology",
+      "povzetek_sl": "Passive acoustic monitoring often summarizes long recordings as fixed-window presence predictions, but many ecological questions require records of individual vocal events: how many occurred, when they occurred, whether they overlapped, how long they lasted, what frequency band they occupied, and whether each event was complete enough for structural measurement. We address this event-level measurement problem with SpectroBird, a spectrogram-based method for localizing and curating avian vocalizations in noisy field recordings. SpectroBird first applies a detection-localization model to identify candidate vocalizations as time-frequency boxes. An event-consolidation step merges repeated detections from overlapping windows while preserving overlapping vocalizations as separate events. A completeness-curation model then classifies each consolidated event as complete or incomplete before downstream event-level analysis. We demonstrate SpectroBird on breeding-season Hume's Leaf Warbler buzz vocalizations recorded in the Himalaya across a 3,200-3,800 m elevational gradient. Under shared window-level scoring, the detection-localization model remained competitive with AST and YOLOv11-cls b",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SpectroBird: Event-Level Vocalization Detection and Curation for Avian Ecology",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758621v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-slafit-viral-fitness-inference-and-structural-variant-detect",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "SLAFIT: Viral fitness inference and structural variant detection from TGS data",
+      "povzetek_sl": "Evolution is driven by genetic variation at multiple scales, from single-nucleotide variants (SNVs) to structural variants (SVs). Within populations, nonrandom associations among SNVs, quantified by linkage disequilibrium (LD), must be considered when inferring fitness from sequencing data. Characterizing SVs, SNVs, and the LD between SNVs therefore provides complementary insights into the genetic basis of evolutionary change. Although third-generation sequencing technologies facilitate the characterization of genomic variation, finite read lengths often limit the resolution of LD across entire genomes. Here, we present SLAFIT, a pipeline for linkage-aware fitness inference and SV detection from third-generation sequencing data. The pipeline reconstructs genome-wide haplotypes and their frequencies from third-generation sequencing reads to infer SNVs and estimate LD. When time-series data are available, it also infers fitness. An established SV detection tool is incorporated into the same workflow. Simulations support accurate LD and fitness inference under tested conditions, with reduced computation time through parallelization. Applications to enterovirus C104 and herpes simplex",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SLAFIT: Viral fitness inference and structural variant detection from TGS data",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758307v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-the-implicit-force-is-with-you-an-application-of-the-implici",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "The (implicit) force is with you: an application of the implicit function theorem for automatic protein force fields reparametrization",
+      "povzetek_sl": "Molecular dynamics simulations are powerful tools for studying protein behavior, yet their accuracy remains limited by the approximations of molecular force fields and the difficulty of determining their parameters. Moreover, existing force fields are largely optimized for globular proteins and can perform poorly on structurally distinct systems. Developing a universal force field that accurately describes all existing protein structures may be beyond reach with current physical models. Instead, we propose shifting generality from the force field itself to the method used to assign its parameters, enabling systematic reparameterization for restricted, structurally homogeneous classes of proteins. We formulate this task as a bilevel optimization problem and solve it using the implicit function theorem. We demonstrate this approach by reparameterizing AMBER for amyloid fibrils, optimizing its parameters to improve agreement with experimentally determined structures and enhance fibril stability during molecular dynamics simulations.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The (implicit) force is with you: an application of the implicit function theorem for automatic protein force fields rep",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758296v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-males-of-a-suboscine-bird-ceratopipra-mentalis-exhibit-indiv",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Males of a suboscine bird (Ceratopipra mentalis) exhibit individual distinctiveness in their contact call",
+      "povzetek_sl": "The ability to discriminate among individual conspecifics may play a role in competition, mate selection, and other social interactions. Studies of individual distinctiveness in birds have traditionally focused on oscines, owing to the assumption that the less vocally complex suboscines would be incapable of producing individually distinct vocalizations. Nevertheless, while studies remain limited, a growing body of literature indicates that suboscines are capable of producing individually distinct vocalizations. Ceratopipra mentalis, the red-capped manakin, is a lekking suboscine and an important seed disperser. This study investigates whether individual distinctiveness in the whistle-peep vocalization, a contact call between males, of C. mentalis exists by recording males at multiple leks in Panama. Using flexible discriminant function analyses, we found individual distinctiveness in temporal and frequency traits of the whistle-peep call structure. We were able to classify individuals with 81.1% accuracy, comparable to other studies of suboscines. These results provide further evidence that the absence of song learning and less complex syrinxes in suboscines do not preclude indivi",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Males of a suboscine bird (Ceratopipra mentalis) exhibit individual distinctiveness in their contact call",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.758842v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-how-scientists-domesticated-a-killer-bacterium",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "How scientists domesticated a killer bacterium",
+      "povzetek_sl": "Genome analysis shows how decades of lab cultivation turned C. botulinum , the canned-food killer, into a potent tool for medicine and the beauty industry",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "How scientists domesticated a killer bacterium",
+          "url": "https://www.science.org/content/article/how-scientists-domesticated-killer-bacterium"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-usda-scientists-get-reprieve-from-lab-closures-but-for-how-l",
+      "date": "2026-10-17",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "USDA scientists get reprieve from lab closures, but for how long?",
+      "povzetek_sl": "Judge says Congress must decide whether to extend a pause on reorganization and relocations",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "USDA scientists get reprieve from lab closures, but for how long?",
+          "url": "https://www.science.org/content/article/usda-scientists-get-reprieve-lab-closures-how-long"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-how-itau-is-building-generative-ai-for-its-entire-customer-b",
+      "date": "2026-10-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "How Itaú is building generative AI for its entire customer base",
+      "povzetek_sl": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "How Itaú is building generative AI for its entire customer base",
+          "url": "https://openai.com/index/itau-generative-ai"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-stack-overflow-for-agents-triples-signups-with-chatgpt-plugi",
+      "date": "2026-10-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "povzetek_sl": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
+        }
+      ]
+    }
+  ]
+}
