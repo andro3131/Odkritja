@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-18",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": "Tedenski recap watchlista:\nZapadle napovedi: Starship Flight 14 poleti najkasneje 30. 9. 2026 (NET 15. 9. drži kot tla, ne ko; TCMV 6. 10. 2026 ne bo dal FSD Supervised za vseh 27 držav (premalo prebivalstva",
+  "kartice": [
+    {
+      "id": "2026-10-18-sample-overlap-in-genome-wide-association-meta-analysis-prac",
+      "date": "2026-10-18",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Sample overlap in genome-wide association meta-analysis: practical comparisons across significance thresholds",
+      "povzetek_sl": "Meta-analysis is widely used in genome-wide association studies (GWAS) to combine evidence across studies without requiring individual-level data. However, as both the number of studies included in meta-analyses and their sample sizes continue to grow, the same participant may be included in more than one study. Such sample overlap induces dependence across studies and violates the independence assumptions underlying standard meta-analysis methods. HostSeq is a Canadian initiative in which 15 clinical and epidemiological studies were assembled with DNA samples from approximately 10,000 Canadians infected by the SARS-CoV-2 virus. We observed duplicate samples across different participating studies. This observation raises an important practical question: what is the impact of sample overlap on association results, and when should such overlap be a concern? Motivated by this real problem, we sought to compare five meta-analysis methods and evaluate their performance against a reference mega-analysis in which the true sample overlap is known. We show that when the degree of sample overlap is relatively small, its impact on association results is minimal, even at the genome-wide signif",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Sample overlap in genome-wide association meta-analysis: practical comparisons across significance thresholds",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759234v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-an-anatomy-constrained-transcriptomic-screen-identifies-a-19",
+      "date": "2026-10-18",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "An anatomy-constrained transcriptomic screen identifies a 19-gene panel with an ordered regional similarity pattern in the human somatosensory system",
+      "povzetek_sl": "Neuroanatomical pathways link specialized brain regions, but whether regional transcriptomic profiles preserve relationships aligned with pathway order remains unclear. We defined candidate pathways and their available tissue representations from neuroanatomical literature, then screened 10,262 genes in the Body Index of Gene Expression (BIGE), a human microarray resource covering cells and tissues. The screen required expression across every mapped region of a route and limited single-region dominance. It identified 23 candidates in three routes with sufficient coverage; 19 met the criteria for the dorsal column-medial lemniscus (DCML) representation and formed the fixed panel. We evaluated this panel in six Allen Human Brain Atlas (AHBA) donors across three central regional representations: an aggregate of samples assigned to the cuneate and gracile nuclei (Cu/Gr), the lateral group of nuclei, ventral division, within the dorsal thalamus (DTLv), and postcentral gyrus. The regional-order contrast compared the mean similarity of the pairs adjacent in the anatomical sequence, Cu/Gr-DTLv and DTLv-postcentral gyrus, with Cu/Gr-postcentral gyrus similarity. Both adjacent-in-order corre",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "An anatomy-constrained transcriptomic screen identifies a 19-gene panel with an ordered regional similarity pattern in t",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758993v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-multi-parametric-spectral-modeling-disentangles-synaptic-kin",
+      "date": "2026-10-18",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Multi-parametric spectral modeling disentangles synaptic kinetics and neural excitability from non-invasive electrophysiological recordings",
+      "povzetek_sl": "Spectral modeling of electrophysiological recordings enables non-invasive characterization of neural excitability. However, current approaches rely on a single spectral index, limiting insight into the multiple biophysical processes underlying excitation-inhibition balance. Here, we introduce a biologically informed, multi-parametric spectral analysis that disentangles neural excitability and synaptic kinetics from recordings. As a proof of concept, we demonstrate that this approach captures signatures of hyperexcitability and glutamate reuptake dysfunction characteristic of Alzheimer's disease.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Multi-parametric spectral modeling disentangles synaptic kinetics and neural excitability from non-invasive electrophysi",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759313v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-longitudinal-associations-between-task-control-network-funct",
+      "date": "2026-10-18",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Longitudinal associations between task-control network functioning, cognition, and the environment in early adolescence",
+      "povzetek_sl": "Neural maturation in the \"task-control\" frontoparietal and dorsal attention networks is thought to support the development of adolescents' cognitive and adaptive functioning. Further, theory suggests that family and neighborhood contexts shape brain network development. Yet, few longitudinal studies have examined the co-development of brain network mechanisms with cognitive and adaptive functioning or with environmental factors that could shape the maturation of these mechanisms. The present study addressed these gaps. We used longitudinal data spanning late childhood (Mage=10 years) to early adolescence (Mage=12) from the Adolescent Brain Cognitive Development (ABCD) Study (n=4862). Stable and construct-valid neural signatures of task-control network functioning were estimated using longitudinal bifactor modeling of neural responses to cognitive demand during the n-back task. Multivariate latent change-score models were used to examine co-development of this signature with cognitive efficiency (drift rate from the diffusion model), teacher-reported attention problems, family conflict, and neighborhood safety. Models accounted for baseline family income. Robust reciprocal relations",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Longitudinal associations between task-control network functioning, cognition, and the environment in early adolescence",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759634v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-determining-cellular-phylogeny-and-migration-at-high-resolut",
+      "date": "2026-10-18",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Determining cellular phylogeny and migration at high resolution in spatial genomics",
+      "povzetek_sl": "Cellular migration and tumor evolution are central to tissue homeostasis and cancer biology. Rapid advances in spatial genomics have raised the possibility of using somatic mutations to track these processes in situ in human tissues. However, frequent data dropouts in spatial genomics measurements make this challenging to implement. Here, we present StarTrak (SpaTial Analysis for lineage ReconsTRuction with somatic vAriant calling and tracKing), a framework for somatic variant calling and lineage reconstruction at single-pixel spatial resolution. StarTrak employs a neural network framework to integrate mutational evidence (from both nuclear and mitochondrial reads), spatial proximity, histological images, and transcriptomic states to identify spatially informative patterns of mutations. It performs robustly across tissue types and spatial-omics platforms (being particularly successful with spatial ATAC-seq). Applying StarTrak to tumor sections, we infer the migration of mutated tumor cells into adjacent non-malignant tissues and reconstruct distinct lineage trees associated with different spatial regions. Notably, we identify tumor regions with nearly identical transcriptomic state",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Determining cellular phylogeny and migration at high resolution in spatial genomics",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759405v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-triangulating-evidence-to-detect-signatures-of-stabilizing-s",
+      "date": "2026-10-18",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Triangulating evidence to detect signatures of stabilizing selection acting on protein levels in humans",
+      "povzetek_sl": "Stabilizing selection is thought to maintain quantitative traits near evolutionary optima, yet the extent to which it constrains human molecular phenotypes remains largely unknown. Here, we investigate signatures of stabilizing selection on the circulating levels of 2'923 plasma proteins in up to 50'000 UK Biobank participants by integrating complementary evidence across evolutionary timescales. We combine genetic signatures of selection accumulated over generations with associations between protein abundance and contemporary fitness-related outcomes. Genetic evidence was assessed using the frequency-dependent architecture of common variants with LDpred2 and a newly developed likelihood-based framework leveraging rare loss-of-function variant burdens. Contemporary evidence was obtained through quadratic associations between protein abundance and three fitness proxies: reproductive success, somatic health, and parental longevity. Across all approaches, negative selection coefficients predominated. Among significant estimates, 100% of common-variant and 92.4% of rare-variant estimates were consistent with stabilizing selection, compared with 99.8% for somatic health, 97.7% for parent",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Triangulating evidence to detect signatures of stabilizing selection acting on protein levels in humans",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759432v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-neuromark-dfnc-transferable-dynamic-state-templates-for-subj",
+      "date": "2026-10-18",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "NeuroMark dFNC: Transferable Dynamic-State Templates for Subject-Specific and Frequency-Resolved Chronnectomics",
+      "povzetek_sl": "Dynamic functional network connectivity (dFNC) commonly identifies recurring connectivity states from resting-state fMRI, but states derived independently in each dataset lack guaranteed correspondence across studies and cannot be directly estimated in new participants. We introduce NeuroMark dFNC, which extends the NeuroMark principle of prior-guided network estimation to dynamic connectivity by using reproducible reference states as priors for estimating corresponding subject-specific states. Reference-state templates were derived from UK Biobank using windowed functional network connectivity and time-frequency moments (TFMs), with split-sample reproducibility evaluated for k-means, independent component analysis (ICA), and principal component analysis (PCA) template-generation approaches. Constrained ICA then used the templates to estimate subject-specific state patterns and continuous loadings in independent FBIRN schizophrenia and ADNI Alzheimer's disease cohorts. ICA loadings were calibrated by their contribution to reconstruction of the original feature matrix. Fractional occupancy and conditional mean dwell time were calculated from the state with the largest absolute calib",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "NeuroMark dFNC: Transferable Dynamic-State Templates for Subject-Specific and Frequency-Resolved Chronnectomics",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758630v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-neural-categorisation-of-rhythm-in-human-newborns",
+      "date": "2026-10-18",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Neural categorisation of rhythm in human newborns",
+      "povzetek_sl": "Music is ubiquitous across cultures, and humans engage in social interactions through music from early in life. A cornerstone of these interactions is rhythm categorisation, allowing the sheer diversity of rhythmic inputs to be mapped onto internal rhythm categories. The pervasiveness of certain rhythm categories across cultures suggests that rhythm categorisation may be partially rooted in neurobiological predispositions constraining the internal representations of rhythm. However, this view appears to conflict with the diversity of music practices across cultures, which points to a role of experience in rhythm categorisation. To assess the relative contributions of neurobiological predispositions and experience, we tested 0- to 3-day-old newborns, capitalising on their minimal postnatal experience with music. Using electroencephalography (EEG), we recorded, in newborns and adults, brain responses to drum sounds whose pattern of relative interval duration ranged from isochronous to long-short rhythms (1:1 - 2:1 interval ratio). Results indicate significant categorisation in newborns's neural responses, with a representational structure that correlate with those of adults, yet with",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Neural categorisation of rhythm in human newborns",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759621v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-apod-2026-october-18-sonified-eagle-nebula-pillars",
+      "date": "2026-10-18",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 October 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Sonified: Eagle Nebula [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-apod-2026-october-17-3d-67p",
+      "date": "2026-10-18",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 October 17 – 3D 67P",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 October 17… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. 3D 67P Explanation: Put [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 October 17 – 3D 67P",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/"
+        }
+      ]
+    }
+  ]
+}
