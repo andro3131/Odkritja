@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-22",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-22-a-small-model-asks-better-fine-tuning-query-clarification-fo",
+      "date": "2026-10-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+      "povzetek_sl": "arXiv:2610.28686v1 Announce Type: new \nAbstract: Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations. The task is to recognize both such cases and then generate an appropriate clarification request to the user. We present ClariEdge, a new dataset of approximately 3,900 examples that include such ambiguous queries along with negative examples that do not require clarification. We also show that a lightweight fine-tuned LoRA achieves 96.6% classification accuracy and outperforms prompted baselines of many larger models on both classification and quality of clarification generation. Our study shows that hard negatives are an essential ingredient to separate out queries that are truly ambiguous from queries that may look ambiguous but are not (i.e., can be resolved from the context). The same LoRA achieves high performance in both pre-retrieval and p",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+          "url": "https://arxiv.org/abs/2610.28686"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-scaling-in-games-continued-pre-training-for-embodied-agents-",
+      "date": "2026-10-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "povzetek_sl": "arXiv:2610.28698v1 Announce Type: new \nAbstract: Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from 0.8B to 27B, six data budgets from 50 to 1,600 hours, and five mixtures ranging from Minecraft-only data to diverse multi-world corpora. We assess performance and generalization using three-level validation losses and gameplay benchmarks from in-corpus worlds to unseen worlds. Our results show: (1) more data improves in-corpus performance, diversity improves transfer to related worlds with limited gains in distant worlds, and model size improves data efficiency but generalizes worse to distant worlds under single-world training; (2) we observe an early interface phase with broad cross-world benefits and a later world phase with gains narrowed",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+          "url": "https://arxiv.org/abs/2610.28698"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-specevo-speculative-evolution-with-large-language-models-for",
+      "date": "2026-10-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
+      "povzetek_sl": "arXiv:2610.28706v1 Announce Type: new \nAbstract: LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed, redundant, and saturated trials. We introduce Speculative Evolution (SpecEvo), a multi-LLM framework that coordinates lightweight and frontier models through continual consolidation of search evidence. Lightweight models power both parallel Speculators, which generate and refine candidate programs, and an Advisor, which distills accumulated successes, failures, and saturated directions into persistent guidance for subsequent exploration. At sparse checkpoints, a frontier-model Navigator inspects the evolving population and intervenes through synthesis, surgical refinement, or reframing according to search stagnation. This speculate-then-consolidate workflow delegates routine exploration and evidence consolidation to inexpensive models while reserving frontier reasoning for strategic interventions whose benefits extend across many subsequent low-cost evaluations. Across 176 tasks spanning four scientific and algorithmic discover",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
+          "url": "https://arxiv.org/abs/2610.28706"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-automating-ml-for-science-can-frontier-agents-climb-scientif",
+      "date": "2026-10-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+      "povzetek_sl": "arXiv:2610.28763v1 Announce Type: new \nAbstract: Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11 domains. Rather than ranking agents on a leaderboard, Agent4Sci asks what kinds of progress agents can make on these tasks under in-the-wild conditions, and where they fall short. Empirically, today's frontier agents advance the published best on every benchmark, with Claude Opus reaching 10.4% mean relative improvement and no run flagged for academic misconduct. These gains, however, come almost entirely from a bag of ML-engineering tricks rather than research-level insight. Trajectory analysis surfaces three recurring limitations in this setting: novelty miscalibration, resource under-utilization, and rapid collapse into local engineering sweeps. Lightweight plug-in skills for research ideation, experiment management, and",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+          "url": "https://arxiv.org/abs/2610.28763"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-forging-more-tasks-into-better-harnesses-agentic-harness-evo",
+      "date": "2026-10-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
+      "povzetek_sl": "arXiv:2610.28815v1 Announce Type: new \nAbstract: Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as evolving evidence. While more evolution tasks should intuitively improve performance, our preliminary study reveals a paradoxical failure mode: the performance of existing methods degrades as the task pool expands. Our further analysis demonstrates that this degradation stems from suboptimal evidence selection during optimization, as different evidence combinations lead to substantially different evolution outcomes. To address this issue, we propose Successive Scale Racing (SSR), a framework that adaptively searches for optimal evidence combinations in each evolution round. SSR constructs diverse evidence combinations based on the corresponding task quality and coverage, and efficiently races the resulting candidate harnesses under a small compute budget. Empirically, across three distinct benchmarks, SSR achieves state-of-the-art results in all six configurations. Notably, as the task pool grows from 40 to 200, SSR steadily improves the pass rate from 64.3% to 68.3%, while the baselines' performances all dr",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
+          "url": "https://arxiv.org/abs/2610.28815"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-decision-language-models-as-affordable-and-rapid-alternative",
+      "date": "2026-10-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
+      "povzetek_sl": "arXiv:2610.28826v1 Announce Type: new \nAbstract: Automated judges of clinical artificial intelligence (AI) outputs are necessary, but large language model (LLM) judges are costly and slow at scale. We compared Jev, a decision language model that returns structured judgments, with frontier and open-weight LLM judges in four use cases. On 118 pediatric answers, Jev's agreement with physicians' ordinal quality ratings (Gwet's AC2 0.50; expected score 0.53) matched or exceeded that of seven of 12 LLM judges, including frontier models, Claude Opus 5.5 (0.49) and GPT-6 (0.38). On physician-graded binary HealthBench criteria, Jev matched or exceeded four of six LLM judges. On MedHELM's open-ended tasks, Jev's agreement with a three-LLM jury approached or exceeded the jurors' internal agreement. On HealthBench Professional, Jev matched the benchmark's reference judge, GPT-5.4, on 91% of criteria (other judges, 91-93%). Frontier judges cost 73-294 times more than Jev and took 7-57 times longer. Jev may enable efficient clinical AI evaluation at scale.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
+          "url": "https://arxiv.org/abs/2610.28826"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-sketch2sim-an-end-to-end-modular-framework-for-hand-drawn-ci",
+      "date": "2026-10-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Sketch2Sim: an end-to-end modular framework for hand-drawn circuit analysis",
+      "povzetek_sl": "arXiv:2610.28836v1 Announce Type: new \nAbstract: This study proposes a sketch-to-simulation system to solve handwritten circuit diagrams. The system converts raw images into a Simulation Program with Integrated Circuit Emphasis (SPICE)-compatible netlist and automatically calculates the circuit's nodal voltages and currents. Another objective is to propose a holistic framework that benefits students and educators by enhancing the teaching and learning experience of electric circuits and expediting engineering design reviews. This article presents a multistage pipeline that converts raw photographs of handwritten electric circuits into executable SPICE-like netlists, providing a solution. A dataset of 1,000 hand-drawn Resistor-Inductor-Capacitor (RLC) circuits was curated and annotated for components, text regions, and character recognition. The proposed system decomposes a circuit diagram into three stages: (i) dual You Only Look Once (YOLO)-based detectors for components and text regions, (ii) a Convolutional Recurrent Neural Network (CRNN) with Connectionist Temporal Classification (CTC) and Optical Character Recognition (OCR)-based domain-aware symbol value extraction, and (iii)",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Sketch2Sim: an end-to-end modular framework for hand-drawn circuit analysis",
+          "url": "https://arxiv.org/abs/2610.28836"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-speedrunning-relational-foundation-model-pretraining",
+      "date": "2026-10-22",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Speedrunning Relational Foundation Model Pretraining",
+      "povzetek_sl": "arXiv:2610.28855v1 Announce Type: new \nAbstract: Progress on foundation model pretraining is gated by who can afford a trial, and relational pretraining is no exception. Recipes are developed inside individual labs, reported under private protocols, and do not accumulate. Speedrun leaderboards remove that barrier by decentralizing the search rather than the training run. The problem is fixed, the stack is open, entries are ranked by wall-clock time to a quality target, and one GPU is enough to hold the record. We introduce modded-nanoRT, the first such leaderboard for Relational Transformers. Which database to hold out decides whether the benchmark can resolve improvements at all, so we fix it by calibration, ranking six candidates by how sharply a 45-minute learning curve separates improvement from seed noise. We open the leaderboard with typed trilinear attention, a relational operator that conditions attention scores and values on the foreign key traversed, together with Muon and SIGReg. The recipe reaches the target in 305.63 seconds on one NVIDIA H200, 8.11x faster than the reference implementation, and wins 13 of 15 pairs outside the development database. We will release the",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Speedrunning Relational Foundation Model Pretraining",
+          "url": "https://arxiv.org/abs/2610.28855"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-real-time-ground-normal-vector-estimation-for-spherical-mobi",
+      "date": "2026-10-22",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Real-Time Ground Normal Vector Estimation for Spherical Mobile 3D Mapping using LiDAR-Inertial Odometry",
+      "povzetek_sl": "arXiv:2610.28701v1 Announce Type: new \nAbstract: Accurate ground plane normal estimation is essential for odometry in spherical mobile mapping systems (SMMS), which face challenges from rapid rotations and limited ground coverage. We propose two RANSAC-based approaches: single-scan estimation with normal vector scoring and multi-step validation, and LiDAR-inertial odometry (LIO)-based estimation using a global 3D map. Evaluated across diverse real-world datasets against terrestrial laser scanner ground truth, results show that LIO-based estimation significantly outperforms single-scan methods in accuracy and robustness. Integrating ground normal estimates into the motion model improves pose estimation, supporting autonomous navigation in challenging and hazardous environments.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Real-Time Ground Normal Vector Estimation for Spherical Mobile 3D Mapping using LiDAR-Inertial Odometry",
+          "url": "https://arxiv.org/abs/2610.28701"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-warping-the-workspace-expanding-visual-access-with-adjustabl",
+      "date": "2026-10-22",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation",
+      "povzetek_sl": "arXiv:2610.28712v1 Announce Type: new \nAbstract: First-person humanoid teleoperation ties access to side and rear targets to operator rotation. We present coupled visual--motor remapping, pairing a panoramic azimuth warp with its inverse upper-limb yaw transform. A working prototype implements Global Zoom (GZ) and Focus+Context (F+C). In a within-subject study (N=8); 72 trials), GZ had the largest completion count (23/24; Fixed: 20/24; F+C: 21/24), whereas F+C was preferred by 6/8 participants. Therefore, completion and preference favored different mappings in this sample.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation",
+          "url": "https://arxiv.org/abs/2610.28712"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-human-robot-interaction-via-meta-learning-based-mode-recogni",
+      "date": "2026-10-22",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Human-Robot Interaction via Meta-Learning Based Mode Recognition and Adaptive Control",
+      "povzetek_sl": "arXiv:2610.28761v1 Announce Type: new \nAbstract: In human-robot interaction (HRI) tasks, humans may interact with the robot in either an active guiding or passive following state, resulting in distinct control objectives for each interaction mode. Most existing approaches rely on predefined switching thresholds to distinguish interaction modes, but their performance can be sensitive to measurement noise. To address this limitation, we propose a novel framework with the following key contributions. First, a neural network (NN) trained via meta-learning is developed to recognize human intention without manually defined thresholds. By successfully incorporating force-dependent parameters from the controller, the recognition rates are improved from 90.1\\% to 99.1\\% for the passive mode and from 79.8\\% to 97.1\\% for the active mode. Second, an adaptive meta-learning controller is introduced to compensate for human disturbances and enable online adaptation to varying interaction forces. Third, a multiple-trajectory meta-learning algorithm is designed to jointly learn an environment-basis representation and force-dependent parameters, allowing the controller to deal with unmodeled dynamic",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Human-Robot Interaction via Meta-Learning Based Mode Recognition and Adaptive Control",
+          "url": "https://arxiv.org/abs/2610.28761"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-learning-enhanced-observer-for-sensorless-task-null-space-co",
+      "date": "2026-10-22",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Learning-Enhanced Observer for Sensorless Task-Null-Space Compliant Control",
+      "povzetek_sl": "arXiv:2610.28769v1 Announce Type: new \nAbstract: This paper presents a novel framework integrating a robust wrench observer with a hybrid pose and force controller for physical Human-Robot Interaction (pHRI). In pHRI tasks, robots are expected to perform task-space motions robustly while remaining compliance with human disturbance, which proposes distinct control objectives. Most existing approaches focus mainly on either robustness or compliance and rely on force sensors for real-time tracking. To address these limitations, we propose a novel framework with the following key contributions. Firstly, a neural network (NN) is trained to improve the observer performance by compensating for system friction and unmodeled dynamics. Secondly, a task-null-space decomposition is applied to separate the joint velocity and reduce the effect of the human disturbance on the observer. Finally, a hybrid pose and force controller is introduced to achieve the end-effector pose and force tracking. Experimental results demonstrate that the proposed framework provides robust and accurate wrench estimation while maintaining reliable pose and force tracking performance. The proposed approach offers an e",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Learning-Enhanced Observer for Sensorless Task-Null-Space Compliant Control",
+          "url": "https://arxiv.org/abs/2610.28769"
+        }
+      ]
+    }
+  ]
+}
