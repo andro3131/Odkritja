@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-23",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-23-the-cost-of-saying-hello-an-empirical-study-of-handshake-ove",
+      "date": "2026-10-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+      "povzetek_sl": "arXiv:2610.30151v1 Announce Type: new \nAbstract: Every interaction between AI agents begins with a handshake: the initiating agent must locate its counterpart, learn what it can do, and establish a session before the first useful message can be sent. Surveys of agent communication protocols name handshake overhead as an efficiency criterion, yet none report measurements. This paper presents the first empirical, phase-decomposed benchmark of the handshake in three major agent protocols: MCP (in both its 2025 initialize and 2026 discover eras), A2A, and ACP. Using each protocol's official SDK, we instrument every request for round trips, per-phase latency, wire bytes, and token cost across cold-start, warm-repeat, capability-mismatch, and degraded-metadata scenarios (N=50 per cell, on loopback and under an emulated 50 ms RTT). Round-trip count dominates handshake cost. A legacy MCP handshake takes three round trips and 230 ms at 50 ms RTT; A2A needs one round trip and 61.0 ms. Round trips are not the whole bill: when an LLM reads the counterpart's metadata, handshake cost scales with the counterpart's capability inventory at 24-107 tokens per capability, so a 200-capability counterpa",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+          "url": "https://arxiv.org/abs/2610.30151"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-mcp-vs-cli-for-ai-agents-a-comparative-analysis-of-tool-inte",
+      "date": "2026-10-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems",
+      "povzetek_sl": "arXiv:2610.30157v1 Announce Type: new \nAbstract: AI agents require interfaces to interact with external systems such as files, APIs, databases, and cloud services. Two competing paradigms have emerged: CLI (Command Line Interface), where agents execute shell commands directly, and MCP (Model Context Protocol), a structured JSON-RPC protocol providing governed, typed tool access. This paper presents a comparative analysis across 14 evaluation dimensions, supported by worked examples, security assessment against established compliance frameworks, and economic modeling. Our analysis indicates that CLI provides superior efficiency for single-user, local-only workflows, while MCP addresses requirements that CLI fundamentally cannot satisfy, including fine-grained access control, credential isolation, structured audit, and multi-tenant governance. We further examine how progressive disclosure techniques eliminate MCP's historical weakness (context window overhead), yielding token efficiency comparable to CLI while preserving its architectural benefits. A hybrid architecture is recommended for production systems. This analysis draws upon academic, government, and industry sources includin",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems",
+          "url": "https://arxiv.org/abs/2610.30157"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-accelerating-wildfire-hazard-mapping-across-canada-with-an-a",
+      "date": "2026-10-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Accelerating Wildfire Hazard Mapping Across Canada with an AI Surrogate Modelling Framework",
+      "povzetek_sl": "arXiv:2610.30170v1 Announce Type: new \nAbstract: Canada's increasing wildfire activity requires frequent national hazard mapping to guide proactive mitigation, including fuel management, land-use planning, infrastructure protection, and evacuation routing. However, process-based wildfire simulation frameworks (e.g., BurnP3 and BurnP3+) rely on computationally intensive Monte Carlo simulations to model burn probability, fire intensity, and rate of spread. These workflows can take days to weeks to process a single regional modelling unit. To overcome these computational bottlenecks, we present three contributions developed through collaboration between AI researchers and wildfire modelling experts: (a) a standardized framework for training, fine-tuning, and evaluating AI surrogate models against process-based wildfire simulators; (b) a multi-task deep learning surrogate trained on national-scale data to emulate burn probability, mean fire intensity, and mean rate of spread at a fraction of the computational cost (seconds); and (c) domain-specific metrics and counterfactual evaluation protocols to probe out-of-distribution generalization. Integrating geospatial data (fuel, terrain, ig",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Accelerating Wildfire Hazard Mapping Across Canada with an AI Surrogate Modelling Framework",
+          "url": "https://arxiv.org/abs/2610.30170"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-neural-networks-with-differentiable-belief-function-layers",
+      "date": "2026-10-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Neural Networks with Differentiable Belief-Function Layers",
+      "povzetek_sl": "arXiv:2610.30173v1 Announce Type: new \nAbstract: Yager's 1987 rule of combination $\\boxplus$ was proposed on epistemic grounds: under high conflict, mass should be redistributed to ignorance rather than renormalised onto the class simplex. We observe that backpropagation needs the same rule: Dempster's normaliser $(1{-}\\kappa)^{-1}$, where $\\kappa$ is the conflict mass, puts a $(1{-}\\kappa)^{-2}$ term in the gradient that diverges exactly when evidence sources disagree, while Yager's $\\boxplus$ is bilinear and has no such term. Building on this, we construct a deep evidential pipeline in which every mass in the chain from heads to output is a valid Dempster--Shafer mass function, combined by Yager's rule. The output mass on the ignorance set, $m(\\Theta)$, serves as the network's ``I do not know'' signal. The network is fit to hard labels and never sees an annotator distribution, yet $m(\\Theta)$ orders human disagreement in two modalities, visual and linguistic. Dempster's rises too and ranks contested inputs about as well, but its normaliser divides the conflict out: Yager's vacuity is $9\\times$ larger on the most contested CIFAR-10H images, so only Yager's is readable as an amount",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Neural Networks with Differentiable Belief-Function Layers",
+          "url": "https://arxiv.org/abs/2610.30173"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-when-stable-and-preferred-semantics-agree-a-path-based-appro",
+      "date": "2026-10-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "When Stable and Preferred Semantics Agree: A Path-Based Approach",
+      "povzetek_sl": "arXiv:2610.30176v1 Announce Type: new \nAbstract: We investigate structural conditions under which preferred and stable semantics agree in abstract argumentation frameworks. Our approach is based on suitably chosen sets of paths in the attack graph and binary relations induced by them. We establish a general path-based criterion for semantic agreement and instantiate it with several classes of paths, obtaining sufficient conditions expressed in terms of well-foundedness of the corresponding relations.\n  The resulting conditions strictly generalize two principal structural criteria for preferred and stable agreement in the literature: Dung's limited controversiality condition and the SCC-symmetry condition. In particular, Dung's result is recovered as a special case by taking the relevant path set to be the set of even paths. We further introduce two infinite sequences of path sets, each yielding a family of agreement conditions. For the first sequence, a Collapse Theorem reduces the infinitely many associated well-foundedness conditions to three essentially distinct ones, whereas the second sequence gives rise to genuinely distinct conditions with no analogous collapse. Our results",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "When Stable and Preferred Semantics Agree: A Path-Based Approach",
+          "url": "https://arxiv.org/abs/2610.30176"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-feedback-that-backfires-in-games-do-llm-players-repeat-the-m",
+      "date": "2026-10-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Feedback That Backfires in Games: Do LLM Players Repeat the Move They Just Watched Fail?",
+      "povzetek_sl": "arXiv:2610.30205v1 Announce Type: new \nAbstract: When an LLM agent's move fails, the harness writes the move and the failure message into the transcript and asks again. In tool calling, this record makes small models more likely to repeat the failed action. We test whether the same holds in games (Sokoban, Connect Four, Othello), where a move can fail by being illegal or by being legal but losing, both verified exactly. On fixed probe items built by perturbing a correct move, the record backfires: pooled over 8 instruction-tuned models (135M-1.7B) it makes the failed move more likely (corrective gain G = -1.38 nats per token), through the move's surface form, for illegal moves but not for losing ones, and not for every model. An exploratory analysis shows what sets the sign: after the record, the failed move's log-probability barely depends on how likely it was before (slope 0.18). Moves the model would not have played become more likely, and greedy decoding starts to produce them; moves it was about to play become less likely, but greedy decoding still repeats 38% of them. A description of the failure that omits the move string keeps the model's preference instead. Along the OLMo",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Feedback That Backfires in Games: Do LLM Players Repeat the Move They Just Watched Fail?",
+          "url": "https://arxiv.org/abs/2610.30205"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-breaking-the-high-degree-barrier-in-lehmer-s-problem-with-a-",
+      "date": "2026-10-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Breaking the high-degree barrier in Lehmer's problem with a human-AI discovery loop",
+      "povzetek_sl": "arXiv:2610.30277v1 Announce Type: new \nAbstract: While artificial intelligence has made rapid progress in mathematical reasoning, many open problems depend on structure that is revealed only through large-scale computational exploration and analytical synthesis. One such example is Lehmer's problem from 1933. It asks whether the Mahler measure of an integer polynomial, which measures how far its roots stray from the unit circle, can be made arbitrarily small. Previously, constructing irreducible polynomials with integer coefficients and small Mahler measure has been carried out systematically only for even degrees $d \\le 180$. At higher degrees, Boyd's analytical one-parameter family frequently factors, skipping nearly 50% of target degrees and leaving no general construction for arbitrary $d$. Here, we address the high-degree regime through a human-AI discovery loop, in which we extend the conversational prompting with a fast numerical pipeline, an exact symbolic verifier, and large-scale distributed search. The AI agent prototypes numerical and symbolic solvers locally, launches parallel searches across distributed clusters and works with the human researcher to extract and verif",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Breaking the high-degree barrier in Lehmer's problem with a human-AI discovery loop",
+          "url": "https://arxiv.org/abs/2610.30277"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-route-and-generate-kl-regularized-router-improvement-for-rea",
+      "date": "2026-10-23",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Route-and-Generate: KL-Regularized Router Improvement for Reasoning Routing in LLMs",
+      "povzetek_sl": "arXiv:2610.30351v1 Announce Type: new \nAbstract: Large language models often apply complex reasoning indiscriminately, leading to overthinking on simple tasks and underthinking on harder ones. We present Route-and-Generate (Rouge), a hierarchical training framework that enables LLMs to adaptively decide when and how much reasoning is required for each input. Our approach decouples reasoning effort allocation from answer generation by introducing a routing policy that allocates a fixed sampling budget across multiple reasoning formats, while the base model is optimized with GRPO using per-sample rewards. To promote efficient reasoning, we employ a rank-based reward that favors shorter correct solutions, and update the routing policy via a closed-form KL-regularized policy improvement step distilled into a neural router. This design encourages concise answers on easy problems while reserving longer reasoning for harder ones, achieving improved accuracy-efficiency trade-offs across multiple reasoning benchmarks.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Route-and-Generate: KL-Regularized Router Improvement for Reasoning Routing in LLMs",
+          "url": "https://arxiv.org/abs/2610.30351"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-alpha-systematic-fault-injection-and-robustness-evaluation-f",
+      "date": "2026-10-23",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Alpha: Systematic Fault Injection and Robustness Evaluation for LLM-Driven Embodied Manipulation",
+      "povzetek_sl": "arXiv:2610.30197v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly integrated into embodied robotic planning, yet standard benchmarks primarily evaluate end-to-end task completion in nominal environments, obscuring failure origins across the execution stack. We present Alpha, a systematic fault-injection and robustness-evaluation framework for LLM-driven manipulation in simulation. Alpha injects calibrated faults across perception (sensor lag), actuation (grip slip), kinematics (unreachable targets), and planning (planner-output corruption), alongside concurrent conditions. To separate physical vulnerabilities from planner sensitivities, we introduce a matched methodology pairing an LLM agent (Llama-3 via Ollama) against a deterministic Scripted Oracle planner across a balanced 150-episode matrix under identical seeds, geometries, and safety criteria. Across the matrix, the Oracle achieves 64.0% (48/75) success while the LLM achieves 44.0% (33/75) (paired McNemar p = 3.01 x 10^-4). Crucially, excluding planner-output corruption, performance across all physical and kinematic conditions is identical: 55.0% (33/60) for both planners with zero discordant pai",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Alpha: Systematic Fault Injection and Robustness Evaluation for LLM-Driven Embodied Manipulation",
+          "url": "https://arxiv.org/abs/2610.30197"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-terratransfer-demonstration-free-end-to-end-planner",
+      "date": "2026-10-23",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "TerraTransfer++: Demonstration-Free End-to-End Planner",
+      "povzetek_sl": "arXiv:2610.30319v1 Announce Type: new \nAbstract: End-to-end autonomous driving has achieved state-of-the-art performance on benchmarks and real-world deployments. Its standard training recipe, however, is expensive across all existing paradigms: imitation learning requires fleet-scale driving logs whose behavior distribution only thinly covers the safety-critical tail; closed-loop reinforcement learning in a photorealistic simulator, while offering diverse behaviors, is bottlenecked by sample-efficiency, per-step cost of rendering, and a forward pass through a large vision backbone. Self-play in vectorized simulators changes the economics: at millions of rollout steps per second, one can obtain a state distribution with natural diversity in collisions, near-misses, and recoveries that no driving log contains, and a highly reactive policy emerges from a basic driving-quality reward. Our approach exploits this asymmetry. We pretrain a single policy by self-play, distill its rollouts into a flow-matching trajectory teacher that also plans, and train lightweight adapters on a frozen pretrained vision backbone to reproduce the latent space of either teacher through the action KL diverge",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "TerraTransfer++: Demonstration-Free End-to-End Planner",
+          "url": "https://arxiv.org/abs/2610.30319"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-self-distilling-future-video-representations-for-world-actio",
+      "date": "2026-10-23",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Self-Distilling Future Video Representations for World Action Models",
+      "povzetek_sl": "arXiv:2610.30320v1 Announce Type: new \nAbstract: World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extracted from a single denoising step, avoiding costly iterative denoising required for video generation. This design makes action prediction depend directly on the quality of these future representations. In this paper, we introduce Future REpresentation learning via self-Distillation with temporal context (FRED), a framework that trains WAMs to improve the quality of future video representations from noise in a single denoising step. Specifically, FRED uses self-distillation to predict future representations from noise, using representations extracted from ground-truth future observations as targets. We further condition the video model on historical observations, providing temporal context for predicting future representations better. Across diverse real-world manipulation scenarios, FRED consistently outperforms competi",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Self-Distilling Future Video Representations for World Action Models",
+          "url": "https://arxiv.org/abs/2610.30320"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-mpbrs-multi-potential-based-reward-shaping-for-unified-rewar",
+      "date": "2026-10-23",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion",
+      "povzetek_sl": "arXiv:2610.30334v1 Announce Type: new \nAbstract: Designing and tuning reward functions remains one of the main challenges in building effective reinforcement learning (RL) pipelines for humanoid locomotion. While shaping rewards can accelerate learning, naively formulated terms often conflict with the desired behavior, overfit to a specific robot, or become unstable under small weight changes. Potential-Based Reward Shaping (PBRS) offers an alternative solution: shaping the reward via differences of a potential function to guide exploration without changing the optimal policy. In this paper, we study Multi-PBRS for humanoid locomotion and propose a unified reward configuration. We then evaluate the same reward structure and weights across nine humanoid robots, requiring only robot-specific metadata (joint/link mappings and default poses) rather than per-robot reward redesign. Our experiments show that, compared to standard shaping, MPBRS provides more consistent scaling behavior and reduced tuning sensitivity across robots, making it easier to tune without altering the optimal policy.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "MPBRS: Multi-Potential-Based Reward Shaping for Unified Reward Configuration in Humanoid Locomotion",
+          "url": "https://arxiv.org/abs/2610.30334"
+        }
+      ]
+    }
+  ]
+}
