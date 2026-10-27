@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-27",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-27-raiway-a-large-wheeled-bipedal-robot-with-contact-informed-b",
+      "date": "2026-10-27",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "RAIWAY: A Large-Wheeled Bipedal Robot with Contact-Informed Blind Locomotion",
+      "povzetek_sl": "arXiv:2610.33172v1 Announce Type: new \nAbstract: We present RAIWAY, an in-house wheeled bipedal robot with 20-inch wheels, together with a contact-informed control approach for rolling locomotion across irregular and discontinuous terrain. Such locomotion is fundamentally contact-dominated, governed by local wheel--terrain interaction that is impractical to instrument directly and depends on more than terrain geometry alone. The proposed framework exploits the contact information available in simulation, distilling multi-contact events into a latent representation. At deployment, the controller infers this representation online from proprioception, requiring no contact sensing. In real-world experiments, the proposed system traverses diverse environments including steep slopes, gravel beds, studded surfaces, and rocky terrain, and demonstrates continuous ascent on the tested outdoor staircases with riser heights up to 15~cm. On our platform, the proposed controller further outperforms baselines without the contact-informed mechanism across challenging indoor and outdoor settings. The video can be found at https://youtu.be/Ch0divLg64w.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RAIWAY: A Large-Wheeled Bipedal Robot with Contact-Informed Blind Locomotion",
+          "url": "https://arxiv.org/abs/2610.33172"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-bracketing-shows-the-way-adaptive-multi-exposure-policy-as-i",
+      "date": "2026-10-27",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Bracketing Shows the Way: Adaptive Multi-Exposure Policy as Input for Robust Visual SLAM",
+      "povzetek_sl": "arXiv:2610.33174v1 Announce Type: new \nAbstract: Rapid illumination transitions can disturb Visual SLAM (VSLAM) by saturating images before the Automatic Exposure (AE) policy adapts, removing the visual correspondences needed to maintain tracking. Our proposed methods mitigate this disturbance at two levels: B-Adapt acquires adaptive exposure brackets to cover the scene dynamic range while promoting photometric overlap, and BVSLAM directly uses the multi-exposure sequence as constraints in a factor graph state estimator without relying on High Dynamic Range (HDR) merging. We evaluate both methods against state-of-the-art approaches in nominal environments and during a repeated tunnel-exit transition at an emulated vehicle speed of 32 m s-1. In the tunnel, combining our B-Adapt with BVSLAM reduces the state estimation error by 78 % compared with AE images. These results suggest that bracketing efficiently improves visual pose estimation robustness to rapid illumination disturbances while retaining low error under nominal conditions. Our code is available at https://github.com/norlab-ulaval/bracketing-shows-the-way.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Bracketing Shows the Way: Adaptive Multi-Exposure Policy as Input for Robust Visual SLAM",
+          "url": "https://arxiv.org/abs/2610.33174"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-interpretable-collision-avoidance-and-feasibility-guarantees",
+      "date": "2026-10-27",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Interpretable Collision Avoidance and Feasibility Guarantees through an Uncertainty Aware Pipeline",
+      "povzetek_sl": "arXiv:2610.33186v1 Announce Type: new \nAbstract: Autonomous vehicles (AVs) operating in dynamic, challenging conditions such as intersections and roundabouts must guarantee collision avoidance under uncertainty while maintaining real-time feasibility. Most existing planners struggle to simultaneously guarantee both requirements. Chance-constrained formulations embed safety constraints directly in the optimization but become infeasible as uncertainty compounds; deterministic planners provide feasible solutions but fail to address the uncertainty that causes collisions; end-to-end learned policies provide neither guarantee in an interpretable form.\n  We present a modular perception-prediction-planning pipeline that closes this gap by propagating uncertainty as structured, interpretable quantities across module boundaries. Rather than embedding probabilistic risk directly in the optimization, our pipeline resolves collision probabilities upstream and constructs convex safe sets within which the planner provides a guaranteed feasible solution at every cycle -- decoupling the safety guarantee from solver feasibility.\n  Across Monte Carlo trials in a four-way unsignalized intersection, o",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Interpretable Collision Avoidance and Feasibility Guarantees through an Uncertainty Aware Pipeline",
+          "url": "https://arxiv.org/abs/2610.33186"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-causal-based-approaches-to-explain-and-learn-from-self-exten",
+      "date": "2026-10-27",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Causal-based approaches to explain and learn from self-extension - A review",
+      "povzetek_sl": "arXiv:2610.33227v1 Announce Type: new \nAbstract: The last decades have seen a revolution in autonomous robotics. Deep learning approaches and their hardware implementations have made it possible to endow robots with extraordinary perceptual capabilities. In addition, they can also benefit from advances in Automated Planning, allowing them to autonomously solve complex tasks. However, on many occasions, the robot still acts without internalising and understanding the reasons behind a perception or an action, beyond an immediate response to a current state of the context. This gap results in limitations that affect its performance, reliability and trustworthiness. Deep learning alone cannot bridge this gap, because the reasons behind behaviour, when it emanates from a model in which the world is a black-box, are not accessible. What is really needed is an underlying architecture based on deeper reasoning. Among other issues, this architecture should enable the robot to generate explanations, allowing people to know why the robot is performing, or has performed, a certain action, or the reasons that may have caused a certain plan failure or perceptual anomaly. Furthermore, when these",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Causal-based approaches to explain and learn from self-extension - A review",
+          "url": "https://arxiv.org/abs/2610.33227"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-orbit-a-modular-multi-finger-robotic-hand-platform-with-rota",
+      "date": "2026-10-27",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "ORBIT: A Modular Multi-finger Robotic Hand Platform with Rotational Finger Reconfiguration",
+      "povzetek_sl": "arXiv:2610.33241v1 Announce Type: new Abstract: Despite the popularity of multi-fingered robotic hands for dexterous manipulation, there is no systematic platform to compare different hand morphologies against one another. We present ORBIT (Orbital Reconfigurable Base-actuated Integrated Theta-motion Hand), a modular platform designed to enable principled exploration of multi-fingered hand morphology. The core contribution of ORBIT is a rotating knuckle mechanism, where independent fingers travel around a cylindrical palm via a belt drive. This enables ORBIT to perform quick recon- figuration (< 1 s) of finger layout without hand disassembly. ORBITs a robust system, with finger average angular velocity of 1.57 rad / s1 and a root finger force resistance of 50 N. Using a three fingers instantiation of ORBIT, we demonstrate an initial pilot grasping study, comparing anthropomorphic, isometric, and Barrett-style finger layouts across eleven objects of varied size, shape, and texture. We further demonstrate how ORBITs nonanthropomorphic orbital DOF enables the achievement of tasks that would be difficult to perform with fixed-knuckle designs, such as cube face reorientation, lid thread",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ORBIT: A Modular Multi-finger Robotic Hand Platform with Rotational Finger Reconfiguration",
+          "url": "https://arxiv.org/abs/2610.33241"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-neuromorphic-decision-dynamics-for-deadlock-free-safe-naviga",
+      "date": "2026-10-27",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Neuromorphic Decision Dynamics for Deadlock-free Safe Navigation in Congested Environments",
+      "povzetek_sl": "arXiv:2610.33271v1 Announce Type: new \nAbstract: Safe navigation in congested environments requires both collision avoidance and coordinated passage. We introduce neuromorphic decision dynamics (NDD), a decentralized, event-based controller, that provides navigation in congested spaces with guarantees on safety, liveness, robustness, and scalability. NDD makes safe-and-live deconfliction a controllable, locally tunable emergent property of local agent interactions, without requiring communication, preassigned priorities, models of neighbors' objectives or future actions, or estimates of group size or global network properties. By design, NDD couples the dynamics of internal decision and attention states with changing physical states and locally observed relative motion. Each agent continuously modulates its speed along its prescribed path, responding as soon and as much as conflict resolution requires. Agents self-organize into disjoint, locally engaged groups that resolve conflicts concurrently. When any group's conflict becomes safety-critical, decision-action feedback destabilizes collective indecision, and coordinated conflict-resolution emerges that stabilizes a safe traversal",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Neuromorphic Decision Dynamics for Deadlock-free Safe Navigation in Congested Environments",
+          "url": "https://arxiv.org/abs/2610.33271"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-tiny-recursive-policy-recursive-latent-refinement-for-visuom",
+      "date": "2026-10-27",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Tiny Recursive Policy: Recursive Latent Refinement for Visuomotor Control",
+      "povzetek_sl": "arXiv:2610.33288v1 Announce Type: new \nAbstract: Behaviour cloning has become a powerful approach for robotic manipulation, but many modern policies reconstruct their internal representation from a fixed observation window at each prediction and do not maintain persistent latent context throughout execution. We introduce Tiny Recursive Policy (TRP), a parameter-efficient behaviour-cloning policy that combines persistent temporal state with recursive latent refinement. At each control step, TRP repeatedly updates high- and low-level latent states using a shared computation module before decoding an action sequence, and propagates the resulting state to subsequent predictions. We evaluate TRP across LIBERO-100, MetaWorld ML45, and the LIBERO-Mem benchmarks. TRP performs competitively across multi-task and few-shot settings and shows substantial gains on long-horizon and context-dependent tasks, while using significantly fewer parameters than large generative baselines. Execution-time perturbations show that reliance on the persistent carry increases with temporal-context demand, while training with carry perturbations substantially improves robustness to both carry and visual corrupt",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Tiny Recursive Policy: Recursive Latent Refinement for Visuomotor Control",
+          "url": "https://arxiv.org/abs/2610.33288"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-active-reachability-learning-for-humanoid-recoverability-mon",
+      "date": "2026-10-27",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Active Reachability Learning for Humanoid Recoverability Monitoring",
+      "povzetek_sl": "arXiv:2610.33317v1 Announce Type: new \nAbstract: Deploying humanoid task policies requires reliable runtime monitors that anticipate unrecoverable falls in time to trigger a fallback. We formulate this task as learning the stochastic, finite-horizon recoverability envelope of a given fallback policy. Synthesizing this monitor is challenging: existing methods assume training data naturally covers the recoverability envelope, yet acquiring such data remains a major bottleneck for contact-rich systems. Consequently, they recover only a fraction of the true envelope, leaving them prone to optimistic hallucinations for out-of-distribution (OOD) inputs. We resolve this via a unified framework that iterates between value learning and active exploration. Data exploration is reframed as a reach-avoid problem, where an uncertainty-guided explorer systematically uncovers unseen states while avoiding confidently unrecoverable regions. This loop is further supported by a combined Temporal Difference and Monte Carlo objective for accurate in-distribution value prediction and reliable uncertainty estimation. By explicitly treating the remaining high-uncertainty regions as unrecoverable, the monit",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Active Reachability Learning for Humanoid Recoverability Monitoring",
+          "url": "https://arxiv.org/abs/2610.33317"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-goco-structure-guided-conformal-calibration-for-error-contro",
+      "date": "2026-10-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "GoCo: structure-guided conformal calibration for error-controlled Gene Ontology annotation release",
+      "povzetek_sl": "arXiv:2610.32990v1 Announce Type: new \nAbstract: Computational gene-function prediction generates annotations at a scale that experimental characterization cannot match, yet substantial errors remain even among leading methods. Explicit error-controlled calibration for Gene Ontology (GO) prediction remains largely undeveloped. We introduce GoCo, a structure-guided framework that calibrates how scores from an existing predictor are converted into released annotations. GoCo certifies a global threshold for a GO-hierarchy-aware gene-level false discovery proportion (FDP), then constructs a nested release path under the same asymptotic risk-control guarantee. At the primary operating point (alpha=0.10, delta=0.50), GoCo-M, developed on Wainberg co-essentiality modules and applied without retuning to three independent studies with the same shared-evidence structure, kept mean held-out gene-level FDP at or below target while releasing 6.3-17.6% more reference-supported GO terms than Multilabel. For gene-specific neighbourhoods, GoCo-N orders individual calls. Developed on FunMap and validated without retuning on the STRING v12.0 experiments-only network, GoCo-N released 33.8% and 36.4% m",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "GoCo: structure-guided conformal calibration for error-controlled Gene Ontology annotation release",
+          "url": "https://arxiv.org/abs/2610.32990"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-tiagent-from-natural-language-to-grounded-agentic-workflows-",
+      "date": "2026-10-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "TIAgent: From Natural Language to Grounded Agentic Workflows for Computational Pathology",
+      "povzetek_sl": "arXiv:2610.32993v1 Announce Type: new \nAbstract: Computational pathology (CPath) analyses increasingly depend on multi-step computational workflows that require substantial programming expertise, limiting their accessibility to pathologists and other domain experts without extensive coding experience. Although large language models (LLMs) provide a promising natural-language interface for constructing such analyses, hallucinated operations and incorrect workflow specifications limit their reliability in scientific settings. We introduce Tissue Image Analysis Agent (TIAgent), an automated CPath workflow generation framework that, given a natural-language prompt specifying a complex analytical task together with an input dataset, automatically constructs a verifiable computational graph employing existing CPath operations. The resulting graph can be inspected and executed, enabling natural-language construction of complex CPath workflows for applications including automated biomarker discovery and tissue analysis. We demonstrate end-to-end workflow generation and execution and systematically benchmark 14 backbone LLMs across 90 unit tasks spanning 18 CPath operation types. The abilit",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "TIAgent: From Natural Language to Grounded Agentic Workflows for Computational Pathology",
+          "url": "https://arxiv.org/abs/2610.32993"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-causalodyssey-multi-agent-local-llm-reasoning-with-per-patie",
+      "date": "2026-10-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "CausalOdyssey: Multi-Agent Local LLM Reasoning with Per-Patient Causal Structure for Rare Disease Retrieval",
+      "povzetek_sl": "arXiv:2610.32995v1 Announce Type: new \nAbstract: Patients with rare diseases often wait years for a diagnosis. Existing HPO-based retrieval tools narrow the differential to a shortlist, but a clinician reading that shortlist has no signal for which candidate to trust or what to test next. We present CausalOdyssey, a local four-agent pipeline on Gemma 4 26B built over a classical IC-weighted gene-rescue backbone: a Diagnostician reranks the slate via chain-of-thought over per-patient FCI causal edges and Reactome mechanism context; a Verifier computes deterministic evidence against the top-1 (missing pathognomonic phenotypes, pathway chain closure) and has Gemma issue a confirm/flag/refute verdict over it; an Interrogator selects one follow-up HPO by split-variance scoring; a Narrator emits citation-validated clinical prose. Only the Diagnostician changes the ranking; the other three agents annotate it. On RareBench n=1,122, reranking a top-30 slate lifts R@1 by +12.57 pp over our structural baseline ([+10.07, +14.97]; p=8.3e-24). A no-LLM variant of that baseline, without its inverse disease-count weight, reaches a similar pooled R@1 (36.3% vs 35.3%): the LLM rerank is far better o",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CausalOdyssey: Multi-Agent Local LLM Reasoning with Per-Patient Causal Structure for Rare Disease Retrieval",
+          "url": "https://arxiv.org/abs/2610.32995"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-a-multimodal-machine-learning-framework-integrating-genomic-",
+      "date": "2026-10-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "A Multimodal Machine Learning Framework Integrating Genomic, Epidemiological, Environmental, and Clinical Imaging Data for Accelerated Measles Detection and Transmission Inference",
+      "povzetek_sl": "arXiv:2610.32996v1 Announce Type: new \nAbstract: Background: Measles resurged in the United States during 2025-2026, with more than 4,600 reported cases. Timely detection and transmission inference require integrated genomic, epidemiological, environmental, and clinical data. We developed a multimodal machine learning (ML) framework integrating genomic sequences, epidemiological indicators, wastewater surveillance, and clinical rash images. Methods: We evaluated a three-stage pipeline using public data. Stage 1 classified transmission linkage among 903 sequence pairs from the 2021 Ohio-Arizona-Washington outbreak using k-mer TF-IDF-SVD embeddings and pairwise single-nucleotide polymorphism (SNP) distances with leave-one-cluster-out cross-validation. Stage 2 predicted state-week outbreak risk using logistic regression and XGBoost with wastewater, mobility, and vaccination features under leave-one-year-out cross-validation. Stage 3 used BiomedCLIP ViT-B/16 embeddings and a fine-tuned multilayer perceptron for rash classification on MSLD v2.0 (755 images, 6 classes). InfoNCE contrastive learning aligned genomic and imaging embeddings. Results: Transmission-linkage classification achie",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Multimodal Machine Learning Framework Integrating Genomic, Epidemiological, Environmental, and Clinical Imaging Data f",
+          "url": "https://arxiv.org/abs/2610.32996"
+        }
+      ]
+    }
+  ]
+}
