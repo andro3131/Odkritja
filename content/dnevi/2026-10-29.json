@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-29",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-29-a-mechanistic-classification-of-gnao1-mutations-links-g-sequ",
+      "date": "2026-10-29",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "A mechanistic classification of GNAO1 mutations links Gβ γ sequestration to hyperkinetic disease and treatment response",
+      "povzetek_sl": "Go is the most prevalent G protein  subunit in the brain and is critical for signal transduction through G protein-coupled receptors. Mutations in the gene encoding Go (GNAO1) cause a rare neurodevelopmental disorder with involuntary movements (NEDIM) and, in some patients, developmental and epileptic encephalopathy (DEE). Here, we integrate human genetic analysis with cellular assays to define mechanistic classes of GNAO1 mutations and in vivo approaches to evaluate therapeutic strategies. We grouped variants into two functional categories: those predicted to sequester G{beta}{gamma} and those with reduced Go expression and therefore increased G{beta}{gamma} signaling. Analysis of patient data revealed that mutations predicted to impair G{beta}{gamma} release are significantly associated with NEDIM. Using the GNAO1R209H/+ mouse as a model of NEDIM, we evaluated two small molecules: caffeine, a nonselective adenosine receptor antagonist, and gallein, a selective modulator of G{beta}{gamma}-effector interactions. Both compounds significantly reduced hyperlocomotion in the open field test. Whole-cell patch-clamp electrophysiology revealed sex- and cell type-specific hyperexcitability",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A mechanistic classification of GNAO1 mutations links Gβ γ sequestration to hyperkinetic disease and treatment response",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761540v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-cellmethmarker-provides-an-integrated-database-of-human-cell",
+      "date": "2026-10-29",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "CellMethMarker provides an integrated database of human cell- and tissue-type-specific DNA methylation markers",
+      "povzetek_sl": "Cell- and tissue-type-specific DNA methylation markers provide epigenetic signatures of cellular identity and are widely used to infer cellular origin from bulk and single-cell methylomes. Existing resources mainly emphasize disease-associated biomarkers, methylome atlases, genomic annotations or RNA-based cell markers, leaving an unmet need for an integrated region-level resource dedicated to such markers. Here we present CellMethMarker (http://gu-zhanglab.hfcas.ac.cn/CellMethMarker), a curated database integrating 347,514 de novo markers derived from uniformly processed whole-genome and reduced-representation bisulfite sequencing datasets, 2,203,507 literature-derived marker records and harmonized metadata for 2,810 samples. CellMethMarker enables cell- and tissue-centered marker retrieval, coordinate-based search, genome-browser visualization, interactive methylation analysis and data download. In an independent single-cell methylome atlas, these markers recover the expected cell-type-associated methylation patterns, and a platform-matched reference built from them lowers the mean deconvolution error from 0.365 to 0.144. CellMethMarker therefore links region-level DNA methylatio",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CellMethMarker provides an integrated database of human cell- and tissue-type-specific DNA methylation markers",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.760902v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-revealing-multiscale-architecture-of-the-intact-human-spine-",
+      "date": "2026-10-29",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Revealing multiscale architecture of the intact human spine using hierarchical phase contrast tomography",
+      "povzetek_sl": "Background: Computed tomography (CT) and magnetic resonance imaging (MRI) provide detailed clinical assessment of the human spine; however, their millimeter-scale spatial resolution limits direct visualization of tissue microarchitecture and interfaces. Hierarchical phase-contrast tomography (HiP-CT) enables ex vivo non-destructive, micron-resolution imaging of intact human organs without exogenous contrast agents, extending anatomical assessment to spatial scales inaccessible to conventional clinical imaging. Purpose: To evaluate the capability of HiP-CT to visualize macro- to microanatomy of an intact adult human spine ex vivo. Methods: An intact spine (C1-L5) from a 62-year-old male donor without known skeletal disease was formalin-fixed and imaged by HiP-CT at the European Synchrotron. Whole-spine imaging was performed at 16.26 m isotropic voxels, with selected regions of interest imaged using 2.2 m voxels. Ex vivo MRI using clinical sequences was performed for anatomical comparison. Three-dimensional segmentation and quantitative analyses included intervertebral disc (IVD) grading, annulus fibrosus fiber tracing, and vertebral trabecular micro-morphometry. Results: HiP-CT enab",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Revealing multiscale architecture of the intact human spine using hierarchical phase contrast tomography",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.760441v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-reward-changes-the-use-and-structure-of-predictive-spatial-m",
+      "date": "2026-10-29",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Reward changes the use and structure of predictive spatial maps",
+      "povzetek_sl": "Reward-related changes in hippocampal place-cell activity may reflect either different use of an existing spatial map or plasticity that reshapes the map. We separated these contributions in a two-pathway model: a recurrent network learned to predict sensory input and developed a spatial representation, while a reinforcement-learning controller combined this representation with an explicit goal signal to guide behavior. Replaying identical trajectories before and after learning isolated representational plasticity. Goal-directed behavior strongly concentrated place fields near reward, whereas changes to the representation were smaller and more variable. A reward-proximity teaching signal made these changes larger and more consistent, and the change was strongly attenuated when recurrent plasticity was restricted. After reward relocation, goal-related directional tuning adapted more fully than place-field organization, while withdrawing reward and proximity teaching reversed the learned field concentration. Thus, reward affects predictive spatial maps through separable mechanisms: goal information changes how an existing map is used, whereas reward-related teaching signals reshape t",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Reward changes the use and structure of predictive spatial maps",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762439v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-ai-cracks-a-27-year-old-pillar-of-computer-science-openai-an",
+      "date": "2026-10-29",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "AI cracks a 27-year-old pillar of computer science, OpenAI and Anthropic claim",
+      "povzetek_sl": "The result, one of three major claims from OpenAI, raises questions about sharing of AI-generated work",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "AI cracks a 27-year-old pillar of computer science, OpenAI and Anthropic claim",
+          "url": "https://www.science.org/content/article/ai-cracks-27-year-old-pillar-computer-science-openai-and-anthropic-claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-forever-chemicals-are-everywhere-can-new-technologies-get-ri",
+      "date": "2026-10-29",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "‘Forever chemicals’ are everywhere. Can new technologies get rid of them for good?",
+      "povzetek_sl": "From superheated water to sound waves, researchers are testing ways to destroy PFAS—and weighing the costs of cleanup",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "‘Forever chemicals’ are everywhere. Can new technologies get rid of them for good?",
+          "url": "https://www.science.org/content/article/forever-chemicals-are-everywhere-can-new-technologies-get-rid-them-good"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-openai-and-servicenow-expand-partnership-across-enterprise-w",
+      "date": "2026-10-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "povzetek_sl": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-the-future-of-the-firm",
+      "date": "2026-10-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "The future of the firm",
+      "povzetek_sl": "The future of the firm. Vir je RSS/inbox brez modela — to ni poln slovenski opis, samo sled. Odpri povezavo.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The future of the firm",
+          "url": "https://openai.com/index/the-future-of-the-firm"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-legora-is-building-the-agentic-operating-system-for-legal-wo",
+      "date": "2026-10-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Legora is building the agentic operating system for legal work",
+      "povzetek_sl": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Legora is building the agentic operating system for legal work",
+          "url": "https://openai.com/index/legora"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-gemini-4-carbon-our-next-frontier-model",
+      "date": "2026-10-29",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Gemini 4 Carbon: Our next frontier model",
+      "povzetek_sl": "Gemini 4 Carbon: Our next frontier model. Vir je RSS/inbox brez modela — to ni poln slovenski opis, samo sled. Odpri povezavo.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Gemini 4 Carbon: Our next frontier model",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-apod-29-october-2026-the-horns-of-venus",
+      "date": "2026-10-29",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 29 October 2026 – The Horns of Venus",
+      "povzetek_sl": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Horns [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 29 October 2026 – The Horns of Venus",
+          "url": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-arnab-strikes-india",
+      "date": "2026-10-29",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "Arnab Strikes India",
+      "povzetek_sl": "The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Arnab Strikes India",
+          "url": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"
+        }
+      ]
+    }
+  ]
+}
