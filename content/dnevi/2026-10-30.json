@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-30",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-10-30-lrmoe-demand-side-load-re-calibration-for-efficient-moe-trai",
+      "date": "2026-10-30",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "povzetek_sl": "arXiv:2610.37720v1 Announce Type: new \nAbstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert copies compete with token-related buffers for limited GPU memory. We present LRMoE, a memory-aware MoE training system that jointly recalibrates backward demand and balances the retained workload. During forward execution, it plans retention quotas and expert placement under resource constraints while preserving all routed computations. During backpropagation, a load recalibration metric estimates each token-expert pair's contribution to the expert update and selects pairs within these quotas. A capacity-aware routing algorithm distributes retained pairs among eligible instances of their original experts. Physical compaction then forms smaller communication payloads and variable-size grouped GEMMs, reducing backward traffic, computation, and execution-buffer demand. Experiments on Qwen3-30B-A3B and GLM4.5-106B-A12B show that LRMoE reduces cumulative MoE-layer training time to fixed-loss tar",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+          "url": "https://arxiv.org/abs/2610.37720"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-amortized-localized-posterior-inference-for-model-calibratio",
+      "date": "2026-10-30",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+      "povzetek_sl": "arXiv:2610.37731v1 Announce Type: new \nAbstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We construct a family of localized posteriors by weighting observation likelihoods according to their proximity to a target context. Gaussian localization weights incorporate context uncertainty through covariance inflation, with reflection at domain boundaries and an optional correction for uneven context sampling. A conditional normalizing flow approximates the family of posteriors through amortized variational inference. Integrating the localized posteriors under a prescribed context measure gives the marginalized parameter distribution. In a twin experiment with the Branin-Hoo model, we compare global and localized inference under uniform and skewed context distributions. Localization reduces the reported aggregate predictive errors relative to the global posterior. An application to the k-$\\epsilon$ turbulence closure in a single-column ocean model, with atmospheric surface forcing as contex",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+          "url": "https://arxiv.org/abs/2610.37731"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-thinkjev-one-thought-every-budget-for-calibrated-typed-decis",
+      "date": "2026-10-30",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "povzetek_sl": "arXiv:2610.37732v1 Announce Type: new \nAbstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but often wrong on decisions that take several steps, such as arithmetic, counting, and date comparison. Letting the model think first fixes most of these errors, but costs seconds per decision instead of milliseconds. To pay for thinking only where it helps, ThinkJev builds a fast and a slow system from one open hybrid-thinking model that can answer directly or after a thought. System 1 reads the model's probabilities for the option letters when it answers directly; System 2 reads the same letters after the model has thought on the same cached prompt, so escalating repeats no work and both systems give probabilities over the same options. Because the letters can be read after any number of thought tokens, one sampled thought also gives the answer under every thinking budget. Without training, ThinkJev lets System 1 answer alone only where a statistical test on labeled dev data guarantees that its accepted answers stay under a target error rate. At",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+          "url": "https://arxiv.org/abs/2610.37732"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-openfrontiers-a-collection-of-open-research-problems-and-a-b",
+      "date": "2026-10-30",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "povzetek_sl": "arXiv:2610.37739v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other information for 12,151 problems. The benchmark contains 200 problems, 110 resolved in 2026 and 90 still open, each with a Lean~4 statement checked by automated probes and two independent reviews; a subset HQ-50 further filters based on quality score, etc. Our evaluation protocol grades formal proofs with two independent checkers in an isolated sandbox under closed-book, frozen-retrieval, and live-web conditions. Evaluating seven LLM agents on the HQ-50 subset under a standardized budget, we find that closed-book rediscovery is rare, at most 7 of 40 resolved problems, whereas live-web success mostly reflects retrieval of published solutions. By linking",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+          "url": "https://arxiv.org/abs/2610.37739"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-webanything-from-the-wild-web-to-scalable-agent-environments",
+      "date": "2026-10-30",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "povzetek_sl": "arXiv:2610.37786v1 Announce Type: new \nAbstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites. Capture-and-replay preserves observations, with interaction coverage constrained by captured content and replay capabilities.\n  We present WebAnything, a fully automated framework that reconstructs source-grounded, reusable Web environments from real URLs without per-site manual implementation or repair after initial setup and authorization. An Explorer-Builder collects browser-observable structures, resources, and interaction outcomes; an independent verifier checks frozen candidates and guides local repair or targeted source recapture.\n  We construct 244 website artifacts across 14 application domains and 53 categories, supporting 12,984 executed and accepted tasks. Compared with human-assisted WebHarbor, WebAnything achieves higher aggregate scores on three fidelity metrics, with 12 wins, two ties, and no losses in a blind audit. Fine-tuning Qwen3.5-9B on 5,856 interaction trajectories improve",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "WebAnything: From the Wild Web to Scalable Agent Environments",
+          "url": "https://arxiv.org/abs/2610.37786"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-what-does-an-ontology-catch-curated-llm-generated-and-data-d",
+      "date": "2026-10-30",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "povzetek_sl": "arXiv:2610.37809v1 Announce Type: new \nAbstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can be wrong as well: it can miss errors, and it can flag correct answers and push the agent into \"fixing\" them. Whether a curated ontology is worth its cost as such a judge, and how it compares with an ontology an LLM writes or a schema mined from the data, is unknown. We make the checker itself the object of study. Across curated, LLM-generated and data-derived ontologies, used as prompt context, as a checker, or both, and across open-weight and proprietary agents on public graphs and a private graph of nearly $10^{9}$ triples, we account for what ontology-derived checks catch and what they wrongly flag. We show how each source trades caught errors against false alarms, how a curated schema used as published can contradict its own data, which errors structural checks miss, and whether combining sources or giving the agent the checker's specific feedback pays off. On UniProt, the curated ontology flags more correct answers than ei",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge",
+          "url": "https://arxiv.org/abs/2610.37809"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-measuring-where-intent-gets-lost-in-agentic-smart-contract-s",
+      "date": "2026-10-30",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+      "povzetek_sl": "arXiv:2610.37830v1 Announce Type: new \nAbstract: AI agents can now write software from a plain-English description, but code that runs is not the same as code that does what was asked. This gap matters most for smart contracts, the programs behind Web3 applications that move money on a blockchain and cannot be fixed once deployed. We ask how to check whether an AI-written contract behaves as it should, and where the requested behavior gets lost.\n  We design an evaluation built on execution rather than opinion. We replay the same transactions on an AI-written contract and on the original it should reproduce and measure how often they agree. We test every grading tool on planted mistakes, compare against an answer key written without the description, and audit our own scorer until known wrong answers cannot pass. Common methods, such as AI judges and standard analysis tools, miss obvious mistakes, and scoring choices matter too. Checking only the functions every system includes hid about half the difference between pipelines.\n  We then propose an elicitation-first architecture. Before writing code, the agent asks the client a short checklist of questions, checks the contract against",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+          "url": "https://arxiv.org/abs/2610.37830"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-detecting-covert-collusion-between-ai-agents-through-partner",
+      "date": "2026-10-30",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
+      "povzetek_sl": "arXiv:2610.37849v1 Announce Type: new \nAbstract: AI agents that share a secret convention can coordinate through messages that look innocent, so a monitor that reads only the messages can miss them. We propose a behavioural test: a partner that uses a code reacts to the exact wording of a message, whereas an uninvolved agent placed in its seat does not. Partner--Outsider Positive Listening (PoPLi) is the difference between the two agents in how much their action changes when the message is reworded with its meaning kept, and it is computed after the fact by replaying logged prompts. In a simulated market with five conditions (no collusion, a joint reward with neutral messages, the same with an openly stated intention, a covert first-letter code, and the code with a stated intention), PoPLi is between 0.48 and 0.59 whenever the code is present (95% intervals all above 0.29) and between -0.10 and -0.01 without it. Message-only monitors did not separate the conditions: one reading the speaker's messages answered \"no\" in all 50 markets, and one reading every seller's messages flagged 9 of 10 markets with no collusion. PoPLi detects the use of a private channel, not collusion as such, a",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening",
+          "url": "https://arxiv.org/abs/2610.37849"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-dexsuite-an-all-in-one-framework-for-dexterous-manipulation-",
+      "date": "2026-10-30",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks",
+      "povzetek_sl": "arXiv:2610.37799v1 Announce Type: new \nAbstract: Human-level dexterity remains a central open problem in robotics, yet few simulation frameworks cover the full workflow of dexterous manipulation, from setting up a robot to collecting dexterous demonstrations and evaluating policies. We present DexSuite, an all-in-one simulation framework for dexterous manipulation built on the Genesis simulator. DexSuite provides 30 tasks and assembles its 10 arms and 12 end-effectors, from parallel-jaw grippers to dexterous hands, into more than 100 single-arm robots and thousands of bimanual pairs. It also ships a standardized environment API, integrated teleoperation, and simulated tactile sensing. Moreover, we define a benchmark of 16 task-embodiment pairs spanning diverse contact complexities and horizons, and release a dataset of 4,700 successful episodes in simulation from human teleoperation, scripted experts, and learned policies. We release DexSuite as open source and hope others will build on it. Videos and datasets are available at https://dexsuiteorg.github.io",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks",
+          "url": "https://arxiv.org/abs/2610.37799"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-an-empirical-study-of-wrist-target-construction-and-joint-an",
+      "date": "2026-10-30",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting",
+      "povzetek_sl": "arXiv:2610.37801v1 Announce Type: new \nAbstract: Motion retargeting maps a demonstrated human movement onto a robot to compute its joint motion. This study examines how the construction of the desired wrist position affects whether computed arm joint angles reach their permitted limits on a Unitree H1-2. A reconstructed target is formed from demonstrated arm directions and robot segment lengths, so its shoulder-to-wrist distance depends on the demonstrated angle between the segments even when no posture-matching preference is applied. A reach-normalized target retains that direction while rescaling the distance, using the same processed demonstrations and the same joint-angle method. Across a forward-reach sweep the reconstructed target places a joint angle at a bound in 10 of 20 repetitions and the reach-normalized target in none. Across 25 recordings from one participant the corresponding counts are 8 and 6 on the reaching arm and 14 and 5 on the supporting arm, and a second participant repeats the bricklaying and lifting comparison. In hardware replay a joint is commanded to a bound in 12 of 16 direction-matching arm-records and in none of the 16 normalized records, and within t",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting",
+          "url": "https://arxiv.org/abs/2610.37801"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-tacos-terrain-aware-contact-supervision-for-visual-footstep-",
+      "date": "2026-10-30",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "TACOS: Terrain-Aware COntact Supervision for Visual Footstep Planning",
+      "povzetek_sl": "arXiv:2610.37806v1 Announce Type: new \nAbstract: Humans navigate their environment based on their vision system, anticipating how the ground will respond before committing to a step. Self-supervised learning could provide legged robots the same ability, but the supervisory signal is typically chosen on intuition, and its effect on what the model learns is rarely examined. We present Terrain-Aware COntact Supervision (TACOS), which proposes a meaningful and consistent footstep instability score, based on the residual of a factor graph in legged state estimation. It projects the continuous score into preceding images to supervise a dense visual predictor. We propose two variants, a hard score that exploits hindsight and a causal soft score available immediately. Both metrics are compared against state-of-the-art alternatives in two independent evaluations that share no data or labels. On 1716 manually annotated contacts, both variants outperform every evaluated alternative at detecting instability and ranking its severity, improving pooled severity ranking by 28 % over the strongest baseline. On three outdoor test runs, our metric also trains the most accurate visual predictor, impro",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "TACOS: Terrain-Aware COntact Supervision for Visual Footstep Planning",
+          "url": "https://arxiv.org/abs/2610.37806"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-echo-scaling-visual-reinforcement-learning-with-off-policy-e",
+      "date": "2026-10-30",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Echo: Scaling Visual Reinforcement Learning with Off-policy Experience",
+      "povzetek_sl": "arXiv:2610.37865v1 Announce Type: new \nAbstract: Scaling visual reinforcement learning (RL) with GPU-accelerated simulation is computationally expensive due to rendering and visual-policy inference costs. Consequently, two-stage teacher--student distillation is commonly used to train visual policies, but introduces an imitation gap. In this preliminary study, we introduce \\echomethod{}, \\textbf{a single-stage off-policy RL framework that scales experience collection without proportionally increasing visual computation}. Through \\textbf{inverse distillation}, a state-based auxiliary policy imitates the evolving visual policy and collects inexpensive, unrendered experience. Echo leverages this experience for off-policy value learning, directly improving the visual policy through a shared privileged critic. We instantiate \\echomethod{} with FastTD3 and evaluate it on three visual control tasks and two dexterous manipulation tasks in Genesis. Relative to \\sdpgmethod{} under the evaluated configurations, Echo reduces time to reference returns by an average of \\textbf{60\\% across the three locomotion tasks} and \\textbf{56\\% across both hand tasks}, while improving peak mean returns by \\t",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Echo: Scaling Visual Reinforcement Learning with Off-policy Experience",
+          "url": "https://arxiv.org/abs/2610.37865"
+        }
+      ]
+    }
+  ]
+}
