@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-01",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": "Tedenski recap watchlista:\nZapadle napovedi: Starship Flight 14 poleti najkasneje 30. 9. 2026 (NET 15. 9. drži kot tla, ne ko; TCMV 6. 10. 2026 ne bo dal FSD Supervised za vseh 27 držav (premalo prebivalstva",
+  "kartice": [
+    {
+      "id": "2026-11-01-impact-of-rna-modification-and-il-12-boosts-on-mrna-lnp-vacc",
+      "date": "2026-11-01",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Impact of RNA modification and IL-12 boosts on mRNA-LNP vaccine-elicited CD8+ T cell responses",
+      "povzetek_sl": "Development of effective HIV-1 vaccines requires strategies for inducing both CD8+ T cell and neutralizing antibody responses. Nucleoside-modified mRNA-lipid-nanoparticles (LNP) induce more potent antibody responses than unmodified mRNA-LNP vaccines, while unmodified mRNA is typically employed for CD8+ T cell-inducing vaccines. Here, we compared the abilities of differing ratios of unmodified versus modified mRNA expressing a SIV conserved-region CD8+ T cell immunogen co-administered with IL-12-encoding mRNA-LNP during boosting to induce CD8+ T cell and humoral responses in non-human primates, assessing responses in ChAdOx1-primed controls in parallel. Serial priming and boosting with fully-unmodified mRNA elicited higher-magnitude, more CD8-biased T cell responses than fully-modified mRNA, that were durably maintained after the IL-12-encoding mRNA boosts. Inclusion of 30% nucleoside-modified mRNA enhanced antibody titers, suggesting potential benefits to a mixed-composition vaccine.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Impact of RNA modification and IL-12 boosts on mRNA-LNP vaccine-elicited CD8+ T cell responses",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761945v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-cortical-long-range-dynamics-track-excitation-inhibition-bal",
+      "date": "2026-11-01",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Cortical long-range dynamics track excitation-inhibition balance across cognitive states and organizational principles",
+      "povzetek_sl": "A fundamental question in systems neuroscience is how the brain's excitation-inhibition (E/I) balance shapes the temporal structure of neural activity and whether we can non-invasively recover this relationship from neural scaling properties. We show that MRS-derived E/I balance is expressed in long-range temporal dynamics and constrained by cytoarchitecture. The laminar organisation of inhibitory circuits, spanning agranular to granular cortex, determines how faithfully regional dynamics reflect E/I balance. This neurochemical signature is state-dependent: its relationship with cortical dynamics reverses during task engagement, consistent with traversal of dynamical regimes around a critical point. It extends beyond fMRI to arousal-linked dynamics, indexed by pupil diameter and microsaccades, indicating a global mode of cortical state rather than a regionally isolated property. The imprint of E/I balance on long-range dynamics follows the sensory-association axis at rest, and is reconfigured during task engagement. These findings establish E/I balance as a neurochemical quantity with structured, scalable signatures across the temporal and spatial organization of the human cortex.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Cortical long-range dynamics track excitation-inhibition balance across cognitive states and organizational principles",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763069v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-a-unified-world-model-in-human-posterior-parietal-cortex",
+      "date": "2026-11-01",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "A Unified World Model in Human Posterior Parietal Cortex",
+      "povzetek_sl": "How does the brain understand the physical world, predict future events, and plan actions? Are these problems solved by a unified world model, as hypothesized by cognitive scientists and artificial intelligence researchers? Posterior parietal cortex has been implicated in all these functions, but whether the same neurons support each of them is unknown. We recorded from the superior parietal lobule (SPL) of two tetraplegic participants implanted with microelectrode arrays. SPL units preferentially engaged by intuitive physics, judging block-tower stability and viewing naturalistic physical events, also predicted whether moving objects would collide hundreds of milliseconds before contact, generalizing between different physical scenarios. These populations also encoded which hand action the participant intended to perform. These findings identify SPL as a substrate for physical world modeling.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Unified World Model in Human Posterior Parietal Cortex",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.762936v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-superior-frontal-gyrus-cortical-thickness-mediates-the-assoc",
+      "date": "2026-11-01",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Superior Frontal Gyrus Cortical Thickness Mediates the Association Between Openness to Experience and Theory of Mind: Evidence from the Human Connectome Project",
+      "povzetek_sl": "Background: Theory of mind (ToM), the capacity to infer the mental states of others, varies considerably across healthy adults. Openness to experience has been linked both to social-cognitive abilities and to thinner prefrontal cortex, but whether cortical structure statistically accounts for the association between openness and ToM is unknown. We tested whether bilateral superior frontal gyrus (SFG) cortical thickness mediates this association. Methods: Data from 1,049 healthy young adults with complete data were drawn from the Human Connectome Project. ToM was indexed by accuracy on the Heider-Simmel social animation task, openness by the NEO Five-Factor Inventory, and SFG thickness by FreeSurfer. Models adjusted for age, sex, intracranial volume and fluid intelligence; indirect effects were tested with 5,000 bootstrap resamples, and Benjamini-Hochberg false discovery rate correction was applied. Results: Openness showed a positive total effect on ToM accuracy (beta = .081, p = .009). Higher openness was associated with thinner left and right SFG (beta = -.085 and -.084), and thinner SFG with higher ToM accuracy (beta = -.082 and -.075). Indirect effects were significant (left: .",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Superior Frontal Gyrus Cortical Thickness Mediates the Association Between Openness to Experience and Theory of Mind: Ev",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763281v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-the-human-specific-gene-frmpd2b-couples-postnatal-experience",
+      "date": "2026-11-01",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "The human-specific gene FRMPD2B couples postnatal experience to the expansion of cortical connectivity",
+      "povzetek_sl": "The human neocortex is characterized by its uniquely prolonged postnatal developmental period during which experience sculpts neuronal circuits, a process essential to human cognitive abilities. Yet whether human-specific genetic innovations have shaped the activity-dependent mechanisms regulating circuit assembly remains unknown. Here, we identify the human-specific gene FRMPD2B as an activity- and experience-regulated modifier of cortical connectivity. FRMPD2B is primarily expressed in cortico-cortical projection neurons postnatally and throughout childhood. It promotes dendritic, axonal and synaptic development, and is required for proper morphogenesis in xenotransplanted human cortical neurons. FRMPD2B expression is bidirectionally regulated by neuronal activity and experience. This activity-responsiveness was gained after FRMPD2B arose through partial gene duplication, when a retrotransposon insertion remodeled its promoter. Our findings highlight how a series of genetic innovations have led to the emergence of a human-specific activity-regulated developmental program through which postnatal experience drives cortical connectivity expansion, linking genome evolution to human b",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The human-specific gene FRMPD2B couples postnatal experience to the expansion of cortical connectivity",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763086v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-human-ieeg-recordings-during-audiovisual-speech-violations-s",
+      "date": "2026-11-01",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Human iEEG recordings during audiovisual speech violations support and extend predictive routing models",
+      "povzetek_sl": "Rather than constantly reconstructing the world solely through sensory input, predictive processing theories posit that the brain utilizes predictions maintained as internal representations to guide sensory processing. An emerging model, predictive routing, proposes that an interplay between neuronal gamma (40-150 Hz) and alpha-beta (10-30 Hz) rhythms implements a dynamic mechanism for predictive processing. Namely, predictions enhance alpha-beta oscillations that suppress gamma activity during the processing of predicted inputs. While this model is supported by animal studies, its validity has not been fully explored within the human brain. The present study addresses this by leveraging human intracranial EEG (iEEG) recordings across superior temporal and prefrontal/premotor areas of seven presurgical epilepsy patients during an audiovisual speech paradigm. We calculated iEEG power in the theta, alpha-beta, and high gamma bands during simple auditory deviance, multisensory integration, and a condition where an incongruent visual cue (lip movements) clashed with an auditory stimulus (a syllable), creating audiovisual incongruence that can elicit the McGurk illusion. Results reveale",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Human iEEG recordings during audiovisual speech violations support and extend predictive routing models",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.760243v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-apod-2026-november-1-colors-of-the-moon",
+      "date": "2026-11-01",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 November 1 – Colors of the Moon",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 November 1 – Colors of the Moon",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-apod-2026-october-31-night-on-a-spooky-planet",
+      "date": "2026-11-01",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 October 31 – Night on a Spooky Planet",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 October 31 – Night on a Spooky Planet",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/"
+        }
+      ]
+    }
+  ]
+}
