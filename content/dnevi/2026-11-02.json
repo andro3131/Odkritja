@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-02",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-02-more-rules-longer-lists-benchmarking-self-evolving-agents-on",
+      "date": "2026-11-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "povzetek_sl": "arXiv:2610.40758v1 Announce Type: new \nAbstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduce CLR-Bench, a Curriculum of Latent Rules benchmark. Each chain adds one hidden rule per level on top of the earlier ones. A rule acts on an opaque label that stands for a named grouping published on the Web, such as the founding members of an airline alliance. The task gives one example value, practice feedback reveals one more member and one non-member, and the test checks unseen members and similar non-members. Probes certify that the base model knows the members of each grouping and does not guess it without feedback, and that the evidence identifies the grouping once labels are read as named groupings. An automated pipeline builds chains from a new data domain, and we release 20 chains over 10 domains. We evaluate six recent self-evolution methods. With the certifying model they barely learn. The best gain at most 5 points over a frozen agent and exclude only 6-",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+          "url": "https://arxiv.org/abs/2610.40758"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-beyond-plausible-prediction-safety-sufficiency-in-web-world-",
+      "date": "2026-11-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+      "povzetek_sl": "arXiv:2610.40798v1 Announce Type: new \nAbstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen open models, 86.1% are judged semantically plausible. However, several models exhibit highly asymmetric authorisation behaviour, combining low false-safe execution with poor recall of clarifiable ASK cases and a strong preference for BLOCK. This motivates safety sufficiency: whether a predictive interface preserves and exposes the policy-decisive information required to distinguish actions that may be EXECUTED, require clarification through ASK, or should be BLOCKED. We introduce SafeWebWorld, a benchmark for evaluating safety sufficiency across five web-safety domains through action-conditioned futures, policy-decisive evidence, and policy-conditioned decisions. Under a controlled Security-Aligned Supervised Fine-Tuning protocol, evidence preservation can improve substantially while authorisation-sensitive decisions deteriorate. To determine whether this deterioration reflects loss of",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+          "url": "https://arxiv.org/abs/2610.40798"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-circumventing-the-computational-hardness-of-computational-ar",
+      "date": "2026-11-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "povzetek_sl": "arXiv:2610.40831v1 Announce Type: new \nAbstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resells it to users at a profit. Beyond creating profit opportunities for the arbitrageur, computational arbitrage offers financial value to both consumers and providers and could therefore significantly influence AI model markets. While prior work empirically demonstrates the feasibility of computational arbitrage for small model pools, scaling it to large marketplaces requires arbitrage strategies that are both computationally tractable and inexpensive to identify and deploy. In this work, we formalize computational arbitrage as an allocation problem and prove that it is generally NP-hard. However, we show that the optimal allocation can be computed efficiently under a natural diminishing-returns condition on how model performance scales with inference spending. We further develop a sample-efficient method for estimating model performance from limited data, reducing the upfront cost of ide",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Circumventing the Computational Hardness of Computational Arbitrage",
+          "url": "https://arxiv.org/abs/2610.40831"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-incongruence-aware-evaluation-of-multimodal-speech-emotion-r",
+      "date": "2026-11-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "povzetek_sl": "arXiv:2610.40883v1 Announce Type: new \nAbstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance space, we convert the distance between them into a continuous, threshold-free incongruence score with a two-component Gaussian mixture, and validate the score against human judgement. We evaluate three audiocapable models on acted, conversational and spontaneous speech (eNTERFACE'05, MELD and CMU-MOSEI). With the model held constant across modalities, incongruence raises the odds of error whenever audio is present, in every corpus, after controlling for the ground-truth emotion and for distance in the feature space. Supervised classifiers trained on the same features behave in the opposite way, which suggests that the difficulty lies in how these models combine raw evidence rather than in the signal itself. Text-only effects are unreliable: swapping only the model that reads the transcript reverses their sign on one corpus. Rebuilding the score without the emotion lexic",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+          "url": "https://arxiv.org/abs/2610.40883"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-chatgpt-as-a-surveillance-assistant-an-exploratory-case-stud",
+      "date": "2026-11-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "povzetek_sl": "arXiv:2610.40890v1 Announce Type: new \nAbstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating concerns about its potential use in surveillance-related tasks. We present an exploratory case study of what potentially harmful surveillance assistance looks like in ChatGPT's public web interface. We contribute a taxonomy of seven surveillance risk categories based on prior LLM risk research and reports of deployed surveillance systems, instantiated as 110 prompts, along with a manually reviewed analysis of ChatGPT's responses. Prompts were issued using two approaches: 55 jailbreak prompts drawing on five types of elicitation strategies, and 55 plain-language direct prompts, each run alone, and if unsuccessful, again with a short fixed prefix. We find that ChatGPT provides substantive surveillance guidance for 40 of the 55 jailbreak prompts and for 33 of the 55 direct prompts without any prefix. Compliant responses also rarely included policy mentions or suggestions for privacy-preser",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+          "url": "https://arxiv.org/abs/2610.40890"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-does-recursive-knowledge-construction-help-agents-verify-con",
+      "date": "2026-11-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+      "povzetek_sl": "arXiv:2610.40906v1 Announce Type: new \nAbstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so the effect of each design choice is unknown. Here, we examined two design axes: (1) what the recursion builds (the state of evidence) and (2) what controls it (the judge that decides when to stop). To measure them, we defined consensus scientific claim verification and measured these effects on this task, where a system must establish a claim's consensus stance from the open literature. We built a new consensus claim dataset, ProClaim-eval, including 718 claims with SUPPORT and REFUTE gold labels from five expert-curated databases spanning molecular biology, nuclear physics, and astronomy. Our instrument, ProClaim, persists an evidence state outside the model's context, so each axis can be studied with the other held fixed. Against verification systems and general-purpose agent harnesses, ProClaim ranks among the top three, with a significant advantage over the harnesses. We found that the",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+          "url": "https://arxiv.org/abs/2610.40906"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-towards-portable-specification-of-the-agent-harness",
+      "date": "2026-11-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Towards Portable Specification of the Agent Harness",
+      "povzetek_sl": "arXiv:2610.40917v1 Announce Type: new \nAbstract: Large language models act only through the infrastructure that surrounds them. That infrastructure, the harness, determines what a model can accomplish and how it fails, yet it has no settled definition. To address this gap, we decompose the harness into eight functional components that can be specified and compared across systems, and we propose a portable specification framework that records which model ran in which harness. The record is needed because different harness configurations can yield several-fold differences in reported scores for the same model, and because much of an agent's attack surface lies in its harness. Existing model cards and agent cards provide release and operational information, but do not establish the sequence of effective configurations within a run. Harnesses can change between releases and between runs, and, where agents edit their own tools and configuration, within a run. Enacted AI laws contain documentation duties relevant to covered systems, subject to their respective scopes and application dates, but do not prescribe the common harness record proposed here. Therefore, the harness has to be expl",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Towards Portable Specification of the Agent Harness",
+          "url": "https://arxiv.org/abs/2610.40917"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-agentic-world-modeling-for-agent-test-time-scaling-without-e",
+      "date": "2026-11-02",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+      "povzetek_sl": "arXiv:2610.40927v1 Announce Type: new \nAbstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deployments, where enterprise workspaces and cloud services are shared and persistent, costly or infeasible to replicate, and actions may introduce irreversible side effects or cross-trajectory interference. Existing generative world models avoid direct execution, but typically compress environment state into a single prompt, limiting their ability to reliably simulate transitions under partial observability. Instead, we introduce Agentic World Modeling (AWM), which reformulates next-observation prediction as a multi-turn evidence-acquisition task. For each hypothetical action, an agentic simulator adaptively queries the real environment through safe read-only interfaces, reasons over the returned evidence, and uses executable computation to construct the resulting observation without mutating shared state. Integrated with trajectory-level TTS, AWM enables parallel exploration over a single s",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+          "url": "https://arxiv.org/abs/2610.40927"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-worldbridge-bridging-video-and-action-for-task-generalizatio",
+      "date": "2026-11-02",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "WorldBridge: Bridging Video and Action for Task Generalization in World Action Models",
+      "povzetek_sl": "arXiv:2610.40748v1 Announce Type: new \nAbstract: Achieving the broad task generalization of embodied models in physical environments remains a central challenge in robot learning. We study this challenge in World Action Models (WAMs) through two complementary capabilities: video generalization, which predicts the visual evolution of new tasks, and action generalization, which translates these predictions into executable behavior through a video-to-action bridge. By varying video and action supervision for tasks outside an initial training set, we examine their respective contributions to task transfer. On RoboTwin 2.0, using only in-distribution video-action supervision yields a 25.07% success rate on out-of-distribution tasks. Introducing videos of these tasks without their action labels raises success to 55.90%, while adding just one action-labeled demonstration per task further improves it to 70.70%. These findings suggest that broader video coverage enables task transfer by leveraging existing inverse-dynamics capabilities, while even sparse action supervision further strengthens those capabilities. Guided by this perspective, we introduce WorldBridge, a WAM with separate video",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "WorldBridge: Bridging Video and Action for Task Generalization in World Action Models",
+          "url": "https://arxiv.org/abs/2610.40748"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-captain-a-pipeline-for-post-training-code-as-policy-robot-ag",
+      "date": "2026-11-02",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+      "povzetek_sl": "arXiv:2610.40799v1 Announce Type: new \nAbstract: Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-as-policy (CaP) casts robot manipulation in the same form, as the policy writes code against robot APIs and reads back the results, so the same recipe should apply. Yet existing CaP agents sidestep training: they either prompt closed frontier models or delegate manipulation to pre-trained vision-language-action models (VLAs) and high-level skills, while small open vision-language models (VLMs) fail outright. We present CaPtain, an open post-training pipeline that turns a small open VLM into a capable CaP agent, with no VLA, frontier model, or privileged state at test time. CaPtain trains and deploys the policy inside CaPtain-Harness, which exposes low-level perception, geometry, and guarded-motion primitives across simulation and real hardware. We first align the base model via SFT on synthetic trajectories generated with GPT-6 Astra, then apply multi-turn RL. Multi-turn RL must credit tens of agent requests, wh",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+          "url": "https://arxiv.org/abs/2610.40799"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-from-teleoperation-to-long-horizon-dexterity-evaluating-visu",
+      "date": "2026-11-02",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation",
+      "povzetek_sl": "arXiv:2610.40828v1 Announce Type: new \nAbstract: Imitation learning policies are intended to make robotic manipulation robust to variations in object pose, appearance, and environment that challenge pre-programmed motion. However, real-world performance remains difficult to predict, as conventional optimization signals such as validation loss show no consistent relationship with robot success. To identify the design choices that govern real-world performance, 281 imitation-learning policies spanning seven policy families were evaluated in approximately 1,700 real-robot trials of RJ45 connector grasping and insertion using a five-fingered robotic hand. Controlled ablations showed that observation and action representations dominated conventional optimizer and sampling choices. For point-cloud policies, region-of-interest cropping, representation in the robot-base frame, and normalization within the point encoder each improved success by 70-100 percentage points. For the vision-language-action policy, absolute rather than relative action prediction improved insertion success by up to 70 percentage points. Skill decomposition, multi-view perception, and recovery demonstrations were as",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulatio",
+          "url": "https://arxiv.org/abs/2610.40828"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-flapsim-a-composable-mujoco-simulation-platform-and-reduced-",
+      "date": "2026-11-02",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "FlapSim: A Composable MuJoCo Simulation Platform and Reduced-Order Aerodynamic Model Hierarchy for Flapping-Wing Robotics",
+      "povzetek_sl": "arXiv:2610.40902v1 Announce Type: new \nAbstract: Flapping-wing simulation must reconcile high-frequency wingbeat aerodynamics with the slower dynamics relevant to flight control and reinforcement learning. We present FlapSim, a modular open-source MuJoCo simulation platform that combines robot descriptions, wing geometry, and composable aerodynamic models in a deterministic simulation pipeline. Across $48$ held-out scenarios spanning frequency, gimbal, wind, frequency-step, gust, and cross-robot flat-plate regimes, we compare five reduced-order configurations operating at $1\\,\\text{ms}$ with a $50\\,\\mu\\text{s}$ quasi-steady blade-element reference. The built-in hover cycle-averaged baseline achieves a $67.51\\times$ CPU speedup but only $0.6593$ mean wrench fidelity. Combining multirate $21$-substep clock synchronization, three-dimensional linear/quadratic inflow and gust coupling, analytical blade-element geometry scaling, and phase-locked $1f\\text{--}6f$ harmonics raises mean fidelity to $0.9646$ at a $65.19\\times$ speedup in a five-block model. A streamlined four-block model without explicit step-transient lag states achieves $0.9662$ fidelity at a $67.98\\times$ speedup. Controll",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "FlapSim: A Composable MuJoCo Simulation Platform and Reduced-Order Aerodynamic Model Hierarchy for Flapping-Wing Robotic",
+          "url": "https://arxiv.org/abs/2610.40902"
+        }
+      ]
+    }
+  ]
+}
