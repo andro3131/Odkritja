@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-04",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-04-alignment-faking-depends-on-the-value-not-just-the-model",
+      "date": "2026-11-04",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Alignment Faking Depends on the Value, Not Just the Model",
+      "povzetek_sl": "arXiv:2611.03650v1 Announce Type: new \nAbstract: Language models can follow a directive when they believe they are monitored and abandon it when they believe they are not, a pattern termed Alignment Faking. Prior work establishes this for harmful-content objectives and a handful of moral-foundations values, leaving open how it distributes across a wider value space. We argue it is value-dependent: whether compliance survives a change in perceived oversight is a property of the model--value pairing, not of the model alone. Our framework profiles Alignment Faking per value, scoring each model-value pair under three conditions: bare (no system prompt), unmonitored, and monitored. On 32 ValueBench dimensions across ten open- and closed-weight models (8B-~675B), compliance gaps span 0.05-0.50, with a distilled 70B above a ~675B model. We observe that majority of the structural variance depends on which model was asked about which value and not on the model or value alone. A six-category taxonomy over reasoning traces tracks the behavioural shift: training-signal reasoning dominates under monitoring and value-conflict reasoning dominates when unmonitored. We package per-model results as",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Alignment Faking Depends on the Value, Not Just the Model",
+          "url": "https://arxiv.org/abs/2611.03650"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-card-a-proof-carrying-certificate-to-action-interface-for-re",
+      "date": "2026-11-04",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
+      "povzetek_sl": "arXiv:2611.03651v1 Announce Type: new \nAbstract: Geometric certificates make mathematical claims about specified estimator objects, while robotic action requires a physical transform, a service decision, and timely proof support. We present CARD, a proof-carrying interface that keeps these objects distinct and records how they combine. Its lifted-fiber formulation separates semantic motion from witness repair and characterizes when projected and proof-carrying costs coincide. Its actionability result gives an exact useful-service law: uniform sampling without replacement produces a hypergeometric yield, while sampling from the eligible population gives one useful service per request under the observed live-confirmation condition. The primary study contains 404 Full16 cases from 20 sorties of an AA15-X500 airborne survey system. All 404 checker-confirmed optimizer points are reference-discrepant, with median rotation and translation discrepancies of 1.9891 degrees and 21.6322 m. The paired causal-navigation transforms are reference-consistent in all 404 cases, with medians of 0.0036566 degrees and 0.0104519 m. Across five matched request budgets, the largest difference between the h",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
+          "url": "https://arxiv.org/abs/2611.03651"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-mcpguard-finding-conformance-gaps-in-mcp-sdks-via-dual-track",
+      "date": "2026-11-04",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
+      "povzetek_sl": "arXiv:2611.03662v1 Announce Type: new \nAbstract: The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic. Specification constraints omitted by these SDKs may propagate to downstream applications, highlighting the importance of SDK-level conformance testing. Yet existing MCP conformance tools mainly exercise running endpoints and reveal little about whether SDK models enforce specification requirements. We present MCPGuard, an automated LLM-based framework for detecting specification-to-SDK conformance gaps. Its structural track aligns JSON Schema constraints with normalized SDK models and produces constraint-specific evidence. Its behavioral track extracts normative prose rules, retrieves bounded function-level slices, and audits them with LLMs for candidate omissions. An evidence-aware dynamic adjudicator then inspects complete source context and builds PoCs to validate candidates. A shared kernel with language-specific adapters enables analysis across SDKs. On the official Python 1.26.0 and TypeScript 1.29.0 SDKs, MCPGuard confirms 13 and 19 findings, respectivel",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
+          "url": "https://arxiv.org/abs/2611.03662"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-functional-group-knowledge-is-structured-in-language-models-",
+      "date": "2026-11-04",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+      "povzetek_sl": "arXiv:2611.03684v1 Announce Type: new \nAbstract: Language models serve as the reasoning core of agents for chemistry and materials science, where they must interpret molecular structure before planning syntheses or proposing materials. Yet their outputs show only what they say, not what they know. Given a prompt such as ``The primary functional group in 1-Fluorobutane (CCCCF) is'', a small general-purpose model may answer ``the alkyne group'' instead of an alkyl fluoride. The output alone cannot tell whether the model failed to recognize the fluorine or recognized it and failed to say so. We address this by reading the internal representations of five open-source models on prompts covering 92 molecules and 20 functional groups. Even without chemistry training, the models organize functional groups by chemical family, and they encode chemical differences as consistent directions. The shift from thioether ($\\mathrm{R{-}S{-}R'}$) to thiol ($\\mathrm{R{-}SH}$), added to ether ($\\mathrm{R{-}O{-}R'}$), lands nearest alcohol ($\\mathrm{R{-}OH}$). This structure emerges abruptly in the middle layers, where representations shift from tracking the wording of the prompt to tracking the function",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+          "url": "https://arxiv.org/abs/2611.03684"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-lolplay-benchmarking-real-time-visual-agents-in-league-of-le",
+      "date": "2026-11-04",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
+      "povzetek_sl": "arXiv:2611.03685v1 Announce Type: new \nAbstract: Visual agents need to coordinate reasoning and action while their environment evolves during inference. We introduce LOLPlay, a benchmark in native \\emph{League of Legends} with 36 champion-specific tasks spanning resource management, combat, cooperation, and objectives. Agents interact through screenshots and mouse--keyboard actions; automated initialization and 82 executable subgoal checks distinguish partial progress from completion. Across 324 task evaluations of three models at three reasoning-effort settings, GPT-6 Astra achieves the highest task success rate of 25.0\\% at low and medium effort, and the highest subgoal success rate of 40.3\\% at medium effort. However, high effort improves neither metric over low effort for any model. For Astra, longer requests leave fewer interaction rounds, suggesting a cost to additional reasoning in real-time control. Trajectories reveal incomplete subgoal composition and actions executing after the observed scene changes, motivating agents that combine visual reasoning with timely action.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
+          "url": "https://arxiv.org/abs/2611.03685"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-training-llm-agents-to-automate-llm-post-training-with-rsi-d",
+      "date": "2026-11-04",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+      "povzetek_sl": "arXiv:2611.03698v1 Announce Type: new \nAbstract: Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and underlying infrastructure. Within this broader agenda, a central capability is enabling agents to train and improve base models. However, existing studies on automated model training primarily focused on workflow- or harness-level optimizations, rather than internalizing the ability to conduct post-training into the model itself. Developing this capability requires executable model training environments that can produce high-quality trajectories demonstrating how to select data, train models, diagnose failures, and iteratively improve results. In this paper, we introduce RSI-Dojo, a collection of executable model training environments designed to teach LLM agents to conduct post-training. To construct RSI-Dojo, we develop RSI-Craft, an automatic pipeline that converts human research artifacts into executable model training environments. RSI-Craft automatically collects research papers from top venues, instantiates datasets and metrics into a unified interface, and reproduces evaluation d",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+          "url": "https://arxiv.org/abs/2611.03698"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-unsatz-evaluating-scientific-discovery-without-a-given-ansat",
+      "date": "2026-11-04",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Unsatz: Evaluating Scientific Discovery Without a Given Ansatz",
+      "povzetek_sl": "arXiv:2611.03713v1 Announce Type: new \nAbstract: Before a scientist fits any parameter, they must decide what the model contains: which quantities exist, which are hidden, how they interact, and how they are measured. Physicists call such a trial form an ansatz. Benchmarks for automated equation discovery mostly supply it, by fixing the variables, a library of candidate terms, or a law to be modified. We introduce Unsatz, a benchmark in which an LLM agent must construct the ansatz itself. Each task is a simulated system, generated from a private seed as a program in a small modeling language: ordinary, delay, or partial differential equations, discrete maps, static and causal models, or stochastic processes, possibly with hidden states, distorted sensors, and uninformative measurement channels. The agent buys experiments within a budget, writes candidate programs in the same language, obtains their coefficients from the benchmark's fitter, and is scored only on how its final program predicts experiments it never saw: conditions outside the range it could explore, interventions, and longer runs. Across 80 systems in 20 domains, nine language models solve between 21% and 60%. On 44 o",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Unsatz: Evaluating Scientific Discovery Without a Given Ansatz",
+          "url": "https://arxiv.org/abs/2611.03713"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-counterexample-driven-autonomous-research-with-application-t",
+      "date": "2026-11-04",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Counterexample-driven autonomous research with application to excess radiated energy in a Z-pinch",
+      "povzetek_sl": "arXiv:2611.03721v1 Announce Type: new \nAbstract: Recent breakthroughs in artificial-intelligence-assisted mathematics show that open-ended machine search can outperform human mathematicians, yet transferring this paradigm to physics requires refactoring the research workflow. We introduce Simjecture, an open-source framework in which language-model agents pursue human-defined physical conjectures. The framework tackles two central challenges in this transfer: first, because physics is empirical and no model is final, it structures inquiry around counterexample-driven falsification and prospective hypothesis repair; second, because physical theories must interact with the real world, it uses computational physics as an executable testbed while separating the qualification of numerical instruments from scientific claim review so solvers and diagnostics can be adapted within a recorded investigation. We apply the framework in an 82.6 h investigation to tackle the long-standing problem of radiated energy exceeding the imploding-shell kinetic energy in a Z-pinch. The investigation reveals competing effects of energy conversion, retention, and release timing. Stronger coherent helical de",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Counterexample-driven autonomous research with application to excess radiated energy in a Z-pinch",
+          "url": "https://arxiv.org/abs/2611.03721"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-robot-matched-soft-fingers-for-umi-data-collection-lessons-f",
+      "date": "2026-11-04",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Robot-Matched Soft Fingers for UMI Data Collection: Lessons from 100 Hours of Pick and Place",
+      "povzetek_sl": "arXiv:2611.03779v1 Announce Type: new \nAbstract: Training robot policies for multi-task pick and place requires demonstrations on many objects, which handheld Universal Manipulation Interfaces (UMIs) can collect quickly and cheaply. However, existing UMIs depend on external base stations, use rigid fingers that give no signal about contact forces, or use parallel-jaw fingers that limit grip strength. We present a battery-powered handheld interface, built on YUBI, whose soft, angled fingers wrap around objects, deform visibly under load as a visual proxy for force, and match the grippers of the robot. With it, we collect a 99.7-hour dataset over 53 objects, train $\\pi_{0.5}$ policies on 49 of them, and hold out the other 4 as unseen objects. We find that a top camera raises success by 13 points even when only about half of the data includes it, and that mid-training on our multi-task data raises success after fine-tuning on unseen objects from 35% to 57%. Finger design, dataset, and data processing code: https://lute-corp.github.io/soft-yubi-site/",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Robot-Matched Soft Fingers for UMI Data Collection: Lessons from 100 Hours of Pick and Place",
+          "url": "https://arxiv.org/abs/2611.03779"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-airoa-0-long-horizon-precise-cross-embodiment-manipulation-f",
+      "date": "2026-11-04",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data",
+      "povzetek_sl": "arXiv:2611.03815v1 Announce Type: new \nAbstract: AIRoA-0 (A-0) is a bimanual manipulation system learned from 16,151 hours of handheld demonstrations, with no robot data collected at any stage. The demonstrations are recorded with YUBI, our open-source handheld gripper, which lets people record manipulation data anywhere with no robot present. From a single instruction, A-0 sorts more than a dozen small parts into their numbered cells and changes the mop pads and brush of a robot vacuum; among other tasks, it unzips a pencil case and folds a towel. It performs these tasks using only a camera on each wrist, with no head or scene camera, at a site where none of its training data was recorded. Across the ten tasks of our evaluation, it averages a success rate of 78%, against 27% for the strongest of four other vision-language-action models post-trained on the same task demonstrations. We collect no teleoperation data and use no reinforcement learning or on-robot corrections, and the robot appears only at test time. The system learns which regions of each wrist view matter for the task, predicts the stage the task has reached, and decodes actions as a continuous stream. A-0 is embodime",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "AIRoA-0: Long-Horizon, Precise, Cross-Embodiment Manipulation from Handheld Data",
+          "url": "https://arxiv.org/abs/2611.03815"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-a-tutorial-on-shape-servoing-of-deformable-objects-part-ii-a",
+      "date": "2026-11-04",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "A Tutorial on Shape Servoing of Deformable Objects-Part II: Advanced Concepts",
+      "povzetek_sl": "arXiv:2611.03825v1 Announce Type: new \nAbstract: In robotics, shape control, or shape servoing, refers to the automatic manipulation of a deformable object toward a desired shape. This article is the second of a two-part tutorial on data-driven, Jacobian-based shape control, in which the deformation Jacobian, a local model of how robot motion changes the measured shape, is estimated from measurements. Part I built the shape-servoing loop and derived a local stability condition. This paper starts by using the singular value decomposition of the deformation Jacobian to identify shape changes that can be produced by small robot motions, those that require large robot motions, and those that are locally unavailable. It then analyses how the choice of shape features determines how the controller regulates the object's shape and, therefore, how much the object deforms on its way to the target. It then describes three ways in which the shape control loop can fail: loss of controllability, loss of observability, and occurrence of mechanical instabilities. It closes with shape-control extensions to time-varying targets, secondary tasks, and three-dimensional objects.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Tutorial on Shape Servoing of Deformable Objects-Part II: Advanced Concepts",
+          "url": "https://arxiv.org/abs/2611.03825"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-roboscope-kit-unified-interfaces-for-fast-and-scalable-embod",
+      "date": "2026-11-04",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation",
+      "povzetek_sl": "arXiv:2611.03850v1 Announce Type: new \nAbstract: Simulation benchmarks are the standard way to compare robot policies, but each benchmark brings its own evaluator, observation layout, and action convention, and evaluation is slow: 500 RoboTwin Easy episodes with one simulator and one model on one GPU take 359.7 minutes. Profiling the official StarVLA evaluator shows that simulation occupies CPU cores while the GPU averages 14.3% utilization. RoboScope Kit wraps each model once in a Python class called a Policy, and each benchmark once in an adapter around the benchmark's own evaluator, so the benchmark's rules and scoring stay unchanged. Scheduling runs simulator workers and Policy replicas as separate pools, sizes both from measured probes, and shards work deterministically across GPU instances; runtime optimization renders only the observations an action-chunk Policy reads. Adapters cover six benchmark families. On LIBERO-Long with a StarVLA checkpoint on one 48 GiB RTX 4090, the concurrency search selects twelve simulator workers sharing three Policy replicas, which evaluate 500 episodes 4.45$\\times$ faster than the official StarVLA evaluation with equivalent success rates, 2.78",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation",
+          "url": "https://arxiv.org/abs/2611.03850"
+        }
+      ]
+    }
+  ]
+}
