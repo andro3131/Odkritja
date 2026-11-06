@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-06",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-06-formalizing-inverse-problems-in-the-age-of-ai-possibilities-",
+      "date": "2026-11-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+      "povzetek_sl": "arXiv:2611.06962v1 Announce Type: new \nAbstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization theory, together with the functional analysis it rests on, has been autoformalized by AI agents. A machine-checked proof certifies only the formal statement it proves, so the remaining human task is to confirm that each formal statement says what was intended. We organize the library around this task: a reviewer compares the formal statements with their natural-language counterparts and never needs to read a proof. Our experience is that the risks lie in the statements rather than in the proofs, and that simple automated tests on the statements can expose problems even in the established literature. We illustrate this with a textbook theorem whose hypothesis is more restrictive than asserted. We invite the inverse problems community to extend and build on the library.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+          "url": "https://arxiv.org/abs/2611.06962"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-kdaso-knowledge-data-dual-driven-automated-skill-optimizatio",
+      "date": "2026-11-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
+      "povzetek_sl": "arXiv:2611.06972v1 Announce Type: new \nAbstract: Liability adjudication tasks (e.g., legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether a party should bear liability. While Large Language Models (LLMs) have shown promise in this area by leveraging executable skills for interpretable reasoning, existing approaches face three critical limitations: skill libraries become stale as real-world scenarios dynamically evolve, skill descriptions often suffer from a semantic execution gap where LLMs deviate from intended expert logic, and growing skill collections exceed context budgets causing critical skill omission. To address these challenges, we propose Knowledge-Data Dual-Driven Automated Skill Optimization (KDASO), which continuously evolves a skill library through neighborhood-conditioned induction from recent adjudication data, execution-aligned refinement based on LLM trajectory analysis, and context-budgeted routing for scalable skill selection. Experiments across ride-hailing adjudication, legal liability determination, and logical reasoning judgment demonstrate that KDASO significantly outperforms current general-p",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
+          "url": "https://arxiv.org/abs/2611.06972"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-blocklock-reproducible-llm-inference-with-fixed-batch-geomet",
+      "date": "2026-11-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+      "povzetek_sl": "arXiv:2611.06977v1 Announce Type: new \nAbstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch. Existing solutions pay for this in different ways: batch-invariant kernels constrain every operator, and isolating prefill with fixed-shape decode ({our CoRun-style baseline}) gives up shared prefill compute and pads decode. We present BlockLock, which keeps shared batched prefill and pins only the numerical path of the protected request: it fixes the geometry that the request sees, with {two modes: BlockLock-Rows uses fixed-width rows and retains batched decode of all requests; BlockLock-Pack uses terminal-anchored packing with an isolated dummy segment, then extracts the protected request's KV state for target-only decode. Under a stated per-deployment contract, both modes preserve the target's output bitwise when its companions change.} Across five {dense} models (Qwen3-8B/14B, Llama-3.1-8B-Instruct, and Gemma-3-4B/12B-IT) and three single-GPU deployments (NVIDIA A6000, A100, and H100), we evaluate our approach on both tinyBenchmarks and BFCL{; we also include initial tensor-parallel experiments on two NVIDIA",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+          "url": "https://arxiv.org/abs/2611.06977"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-resource-efficient-reinforcement-learning-post-training-thro",
+      "date": "2026-11-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
+      "povzetek_sl": "arXiv:2611.06984v1 Announce Type: new \nAbstract: Reinforcement learning post-training improves the capabilities of large language models, but generating training responses is a major computational bottleneck. In mixture-of-experts models, workers that finish their assigned responses may remain occupied because their experts are still needed by workers processing longer responses. Consequently, approximately one-third of occupied worker time in the baseline occurs after local response generation finishes. Here we present FlexFloor, a system that enables earlier resource release during synchronous response generation while preserving the expert computation required by ongoing responses. FlexFloor jointly adapts response scheduling and the active group of workers. It uses historical response lengths and memory constraints to guide batching and prompt placement, then progressively releases workers while maintaining expert availability and correct communication. Compared with the verl baseline, FlexFloor generates approximately 65.40% more response tokens per unit of occupied computing time and increases response generation throughput by 52.74%, with little observed variation in rollout",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
+          "url": "https://arxiv.org/abs/2611.06984"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-the-two-ledger-model-transaction-grain-cost-accounting-for-m",
+      "date": "2026-11-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+      "povzetek_sl": "arXiv:2611.06989v1 Announce Type: new \nAbstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period. The business question (what did this order, claim, or case cost in AI?) cannot be answered from billing data, because providers never see enterprise transaction boundaries. The FinOps Open Cost and Usage Specification (FOCUS) gives billing data one schema across providers but remains settlement-grain even as it adds AI token and requester attribution. We formalize this grain mismatch, derive seven requirements, and propose the Two-Ledger Model: a settlement ledger of FOCUS-conformant billing data joined to an attribution ledger of invocation-grain usage records built on OpenTelemetry GenAI telemetry. A layered correlation spine (trace context, A2A/MCP metadata, business-key correlation, probabilistic matching) assigns each record to its business transaction with recorded method and confidence; a versioned rate card prices usage in near real time; period reconciliation ties both ledgers",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of",
+          "url": "https://arxiv.org/abs/2611.06989"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-autonomous-ai-agents-systematically-diverge-from-human-prefe",
+      "date": "2026-11-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
+      "povzetek_sl": "arXiv:2611.06995v1 Announce Type: new \nAbstract: Artificial intelligence (AI) systems have ushered in a new age of proof abundance, but helping humans understand these proofs requires new attention to the differences in how AI agents and humans pursue a proof-making task. We present \"simulated collaboration\", a methodology that allows us to examine two key questions: (1) the relative attention AI agents pay to surface syntax or, conversely, deeper underlying semantics, and (2) how and where AI agent preferences for what to do next diverge from human preferences. On a set of nine major human collaborations in Lean with 4.7M definitions across more than 6K commits, we find that, over the course of proof construction, AI agents (1) are far more strongly drawn than humans to explicitly marked gaps; (2) show a relative aversion to densely connected proof centers and to complex or surprising proof goals; and (3) are relatively attracted to surprising proof bodies, which they tend to regularize toward baseline. Our results highlight important blind spots and potential interventions for future human-AI collaboration in mathematics.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
+          "url": "https://arxiv.org/abs/2611.06995"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-trust-responsive-runtime-authorization-for-agentic-ai-with-e",
+      "date": "2026-11-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
+      "povzetek_sl": "arXiv:2611.06996v1 Announce Type: new \nAbstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or measured. We empirically characterize the Trust Responsive Authorization Policy (TRAP), which maps an Authorization Readiness Score (ARS), a weighted combination of runtime trust, operational stability, and contextual risk, onto discrete authorization levels through an asymmetric rule: escalation requires consecutive observations above a band edge plus a margin, while a sharp drop in readiness restricts authority at once. On one matched set of 100 Monte Carlo traces, we compare TRAP with static, trust-only, risk-only, and symmetric policies. Under abrupt degradation, TRAP restricts at onset and re-escalates sooner after recovery than the symmetric policy, with the highest and, descriptively, least variable stability among the adaptive policies, although more of its post-recovery escalations occur below the selected trust threshold. Paired bootstrap intervals exclude zero for the remaining differences. In one-factor sweeps, recovery time rises with the escalation margin and run length, shifts with the score w",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter S",
+          "url": "https://arxiv.org/abs/2611.06996"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-adapting-the-process-of-adaptation-darwinian-lamarckian-and-",
+      "date": "2026-11-06",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
+      "povzetek_sl": "arXiv:2611.07048v1 Announce Type: new \nAbstract: Evolution has shaped intelligence for billions of years. Artificial intelligence (AI) now raises a striking possibility: intelligence may begin to direct its own evolution. As AI agents become capable of modifying and evaluating their own behavior, how quickly could they improve, and how can that improvement remain safe? We develop a theoretical framework comparing Darwinian, Lamarckian, and agent-directed evolution following environmental change. Darwinian evolution relies on natural selection, Lamarckian evolution adds inherited learning, and agent-directed evolution allows agents to generate and evaluate behavioral variants and choose how extensively to search. When learning is sufficiently effective, these mechanisms exhibit progressively faster adaptation. Generating more variants accelerates adaptation, while optimal search effort depends on learning ability, problem difficulty, and experimentation costs. However, an agent's ability to direct its improvement does not ensure that improvements are evaluated against the intended objective. When the evaluation target is misspecified, additional search accelerates convergence toward",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
+          "url": "https://arxiv.org/abs/2611.07048"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-curvature-by-design-a-support-structure-for-continuum-robots",
+      "date": "2026-11-06",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Curvature by Design: A Support Structure for Continuum Robots",
+      "povzetek_sl": "arXiv:2611.07091v1 Announce Type: new \nAbstract: Constant- and piecewise-constant-curvature models are widely used to simplify the kinematics of continuum robots, although the assumed curvature profiles are not necessarily inherent mechanical properties of the robot and may therefore be violated during operation. Rather than assuming a prescribed curvature profile in the kinematic model and estimating deviations from it, this paper presents a multi-segment scissor-based support structure that mechanically constrains a continuum robot to exhibit prescribed constant or spatially varying curvature profiles. The design uses Taylor approximations to enable an overconstrained multi-joint linkage to predictably distribute global bending among the small-angle movements of multiple flexures. The geometric coupling is realized using compliant flexure joints, enabling the support structure to be manufactured as a single piece. The structure is integrated with a tendon-actuated continuum robot with a flexible backbone. Experiments show that the structure makes the robot resistant to deformations other than the prescribed curvature, significantly enhancing shape precision compared to classical",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Curvature by Design: A Support Structure for Continuum Robots",
+          "url": "https://arxiv.org/abs/2611.07091"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-spatial-umi-dream-scaling-world-action-models-with-metric-ge",
+      "date": "2026-11-06",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation",
+      "povzetek_sl": "arXiv:2611.07229v1 Announce Type: new \nAbstract: The Universal Manipulation Interface (UMI) enables scalable demonstration collection independently of a specific robot. However, its moving, close-range gripper cameras entangle camera and object motion without a stable external view, leaving the metric geometry needed for precise manipulation implicit in RGB. We introduce Spatial-UMI-Dream, a 5B spatial World Action Model (WAM) pretrained on 605 hours of RGB-D UMI data through two-stage training -- world-only adaptation followed by joint world-action learning -- to jointly predict future RGB, fisheye-aligned metric depth, and actions. Stereo-derived depth makes scene scale and spatial relationships explicit within a unified dual-gripper RGB-D representation. Furthermore, evaluating UMI policies requires testing whether UMI's robot-independent demonstration collection translates into policy generalization across robot embodiments, alongside robustness to environmental changes. We introduce RoboTwin-UMI, a twenty-task simulation benchmark built on RoboTwin with UMI wrist-mounted fisheye observations, enabling controlled, repeatable evaluation of UMI policies under environment and embo",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation",
+          "url": "https://arxiv.org/abs/2611.07229"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-adaptive-hybrid-force-vision-control-with-emg-derived-refere",
+      "date": "2026-11-06",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Adaptive Hybrid Force-Vision Control with EMG-Derived References for Deformable Bottle Manipulation",
+      "povzetek_sl": "arXiv:2611.07235v1 Announce Type: new \nAbstract: Robotic automation of laboratory tasks has become a growing interest to remove researchers from hazardous environments and repetitive procedures. However, even equipment as simple as squeeze bottles poses a challenging manipulation problem due to its deformability. This paper presents an adaptive hybrid vision-force controller for robotic grippers to effectively manipulate laboratory squeeze bottles to dispense liquid. This approach integrates force and vision feedback according to the interaction state, enabling effective squeezing while accounting for bottle deformation and recovery. The proposed controller is validated by comparing its performance with a pure force controller on 12 combinations of conditions consisting of 2 target dispense volumes, 2 plastic squeeze bottles, and 1 to 3 squeezes used to dispense. Human demonstrations of these operating conditions were collected using electromyography (EMG) sensing mapped to a desired grip force, which was then used as the force reference for the controllers to squeeze the bottles. Results demonstrated that the proposed adaptive hybrid vision-force controller achieved more accurate",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Adaptive Hybrid Force-Vision Control with EMG-Derived References for Deformable Bottle Manipulation",
+          "url": "https://arxiv.org/abs/2611.07235"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-an-empirical-study-of-reinforcement-learning-for-keypoint-po",
+      "date": "2026-11-06",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects",
+      "povzetek_sl": "arXiv:2611.07261v1 Announce Type: new \nAbstract: Deformable linear object (DLO) manipulation is challenging because high-dimensional configurations, nonlinear contact dynamics, and diverse material and geometric properties produce a broad range of object responses that are both difficult to model and data-intensive to learn. This work studies reinforcement learning for planar manipulation of a one-end-grasped DLO, focusing on training efficiency, observation design, robustness, and zero-shot sim-to-real transfer. We compare three Proximal Policy Optimization training stacks and find that the GPU-parallel MuJoCo Playground stack enables faster convergence and more consistent performance than CPU-based alternatives under the same wall-clock budget. Relative keypoint observations and an asymmetric actor-critic formulation further improve learning efficiency. Policies trained with observation noise, delay, domain randomization, and disturbances achieve simulation success rates of 96.4% for single-point tracking, 98.0% for disturbance recovery, and 88.8% for two-point tracking. Using markerless RGB-D keypoint estimation, the policies transfer without real-world fine-tuning, succeeding i",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects",
+          "url": "https://arxiv.org/abs/2611.07261"
+        }
+      ]
+    }
+  ]
+}
