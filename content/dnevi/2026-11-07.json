@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-07",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-07-shikonin-alleviates-bone-cancer-pain-through-suppression-of-",
+      "date": "2026-11-07",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Shikonin alleviates bone cancer pain through suppression of spinal IGF2-associated p38 MAPK signaling",
+      "povzetek_sl": "Background Bone cancer pain (BCP) is a debilitating complication of advanced cancer that substantially impairs physical function and emotional wellbeing. Current pharmacological treatments often provide incomplete analgesia and may be limited by adverse effects. Shikonin, a bioactive naphthoquinone derived from Lithospermum erythrorhizon, exhibits analgesic and anti inflammatory activities, but its effects and underlying mechanisms in BCP remain unclear. Methods A rat model of BCP was established by intratibial inoculation of luciferase labeled MADB106 cells. The analgesic and behavioral effects of intrathecal Shikonin were evaluated using mechanical and thermal nociceptive assays, CatWalk gait analysis, the open field test (OFT), elevated plus maze (EPM), light/dark box (LDB) test, and rotarod testing. Bioluminescence imaging and hematoxylin eosin staining were used to characterize tumor development and bone pathology. Spinal dorsal horn transcriptomic sequencing was performed to identify candidate molecular pathways. Western blotting, quantitative PCR, and ELISA were used to examine IGF2 associated p38 MAPK signaling and proinflammatory cytokines. The functional involvement of IG",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Shikonin alleviates bone cancer pain through suppression of spinal IGF2-associated p38 MAPK signaling",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764749v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-dual-kinase-inhibition-provides-early-clues-to-restoration-o",
+      "date": "2026-11-07",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Dual kinase inhibition provides early clues to restoration of neuroimmune homeostasis in an AAV-haSyn model of Parkinsons disease",
+      "povzetek_sl": "Background Previous studies of drugs targeting mixed linage kinase type 3 (MLK3) and/or leucine rich repeat kinase type 2 (LRRK2) in sporadic Parkinsons disease (PD) have failed to meet clinical endpoints despite multiple lines of evidence implicating these kinases in pathogenesis. This has reduced enthusiasm for MLK3 and LRRK2 as druggable targets. Largely overlooked is the evidence that these targets remain valid but must be considered in combination to achieve a therapeutic outcome. This provides the rationale for this study. Methods We conducted a pilot study modeling early, pre-symptomatic PD with subsequent evaluation of therapeutic potential of a multi-kinase inhibitor (URMC-099) in alleviating disease pathology. Sprague Dawley rats received unilateral intranigral injections of low dose AAV-haSyn. After a two-week recovery period, all animals were administered either once-daily intraperitoneal (i.p.) injection of URMC-099 or its vehicle control until their terminal endpoint. Induction of early PD, and its alleviation with URMC-099, was evaluated by lateralized motor impairment using the cylinder test and immunohistochemical analysis of neuropathology in the substantia nigra",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Dual kinase inhibition provides early clues to restoration of neuroimmune homeostasis in an AAV-haSyn model of Parkinson",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764938v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-proteome-wide-discovery-of-novel-diagnostic-antigens-for-coc",
+      "date": "2026-11-07",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Proteome-wide discovery of novel diagnostic antigens for coccidioidomycosis",
+      "povzetek_sl": "Coccidioidomycosis, commonly called Valley Fever (VF), caused by Coccidioides spp., is an understudied fungal disease that accounts for a substantial fraction of pneumonias in endemic areas. Diagnosis remains challenging because the mainstay of diagnosis is serology, and current assays have modest sensitivity in early infection. Discovery of new antigens could improve serologic detection early in disease. Here, we use PepSeq, a DNA-programmable serology platform, to represent the complete proteome of Coccidioides within a library of 244,000 DNA-barcoded peptides. By profiling antibody reactivity at the protein and epitope levels in VF patients, naturally infected pigtail macaques, and healthy controls, we identify numerous previously-unrecognized antigens and epitopes, including some shared between humans and macaque responses. When translated into a pooled peptide ELISA, we show that a subset of identified antigens can discriminate VF cases from controls in an independent cohort with high accuracy (AUC = 0.91). These findings establish high-dimensional peptide serology as a scalable approach for fungal antigen discovery and identify new targets for improved VF diagnosis.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Proteome-wide discovery of novel diagnostic antigens for coccidioidomycosis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764335v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-the-methionine-cycle-sustains-the-mesenchymal-phenotype-of-t",
+      "date": "2026-11-07",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "The methionine cycle sustains the mesenchymal phenotype of tumor cells and drives PDA progression",
+      "povzetek_sl": "Mesenchymal traits are associated with poor prognosis in Pancreatic Ductal Adenocarcinoma (PDA), but direct targeting of mesenchymal tumor cells remains a challenge. Metabolic profiling of tumor cells isolated from murine PDA and liver metastases (LM) revealed that LM rely more on the methionine cycle than does primary PDA. This metabolic shift was specifically associated with increased activation of the methionine cycle in mesenchymal tumor cells compared to differentiated tumor cells. We show that the targeting of the key enzyme of the methionine cycle S-adenosylhomocysteine hydrolase (SAHH) in mesenchymal cells lowers the levels of homocysteine (Hcy) and glutathione, resulting in reduced antioxidant capacity, deregulated intracellular calcium homeostasis, and ultimately loss of mesenchymal markers. Together, these events decrease cell proliferation and invasion, blunting the tumorigenic and metastatic potential of SAHH-deficient cells, eventually impeding tumor growth and progression of the metastatic disease. Clinically, the high expression of SAHH in patients with mesenchymal PDA is correlated with poor survival, positioning SAHH as a potential therapeutic target to impede the",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The methionine cycle sustains the mesenchymal phenotype of tumor cells and drives PDA progression",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764593v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-novel-gene-therapy-lets-drug-dampen-brain-cell-activity-redu",
+      "date": "2026-11-07",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Novel gene therapy lets drug dampen brain cell activity, reducing seizures",
+      "povzetek_sl": "In first clinical result using “chemogenetic” strategy, a team in China treated three patients to control epilepsy",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Novel gene therapy lets drug dampen brain cell activity, reducing seizures",
+          "url": "https://www.science.org/content/article/novel-gene-therapy-lets-drug-dampen-brain-cell-activity-reducing-seizures"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-harvard-grad-students-strike-again-citing-inadequate-harassm",
+      "date": "2026-11-07",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Harvard grad students strike again, citing inadequate harassment protections",
+      "povzetek_sl": "Spring strike brought a return to the bargaining table, but negotiations stalled over key demands",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Harvard grad students strike again, citing inadequate harassment protections",
+          "url": "https://www.science.org/content/article/harvard-grad-students-strike-again-citing-inadequate-harassment-protections"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-californians-poised-to-approve-controversial-8-4-billion-ini",
+      "date": "2026-11-07",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Californians poised to approve controversial $8.4 billion initiative to fund immunology research",
+      "povzetek_sl": "Critics say ballot measure’s narrow language will funnel taxpayer money to a single, billionaire-backed nonprofit",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Californians poised to approve controversial $8.4 billion initiative to fund immunology research",
+          "url": "https://www.science.org/content/article/californians-poised-approve-controversial-8-4-billion-initiative-fund-immunology"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-ai-can-track-a-single-bird-over-timebased-solely-on-its-song",
+      "date": "2026-11-07",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "AI can track a single bird over time—based solely on its song",
+      "povzetek_sl": "Approach could provide scientists with a quicker, gentler way to gauge the health of bird populations",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "AI can track a single bird over time—based solely on its song",
+          "url": "https://www.science.org/content/article/ai-can-track-single-bird-over-time-based-solely-its-song"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-a-congressional-veteran-and-a-rookie-lay-out-a-possible-scie",
+      "date": "2026-11-07",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "A congressional veteran and a rookie lay out a possible science agenda for Democrats",
+      "povzetek_sl": "Representative Zoe Lofgren prepares to lead the House science committee that microbiologist Jasmine Clark hopes to serve on",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A congressional veteran and a rookie lay out a possible science agenda for Democrats",
+          "url": "https://www.science.org/content/article/congressional-veteran-and-rookie-lay-out-possible-science-agenda-democrats"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-partnering-with-hacktron-to-find-vulnerabilities-in-openais-",
+      "date": "2026-11-07",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "povzetek_sl": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "url": "https://openai.com/index/partnering-with-hacktron"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-measuring-how-ai-agents-handle-everyday-wet-lab-science",
+      "date": "2026-11-07",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Measuring how AI agents handle everyday wet-lab science",
+      "povzetek_sl": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Measuring how AI agents handle everyday wet-lab science",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-apod-2026-november-7-de-gerlache-kocher-massif",
+      "date": "2026-11-07",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/"
+        }
+      ]
+    }
+  ]
+}
