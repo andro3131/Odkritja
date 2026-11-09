@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-09",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-09-enhancing-academic-advisement-with-case-based-reasoning",
+      "date": "2026-11-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "povzetek_sl": "arXiv:2611.08572v1 Announce Type: new \nAbstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education. However, there is a widespread desire to improve the advisement services provided by many educational institutions (e.g., colleges and universities) around the world. In the last ten years, CBR expert systems have made important contributions in many domains by applying CBR methodology to a variety of areas of human problem solving. However, to date, expert advisement systems have not been successfully applied to academic advisement, which seems to be a very appropriate domain for this technology.\n  Academic advising is an important and time consuming task, and different tools and techniques must be used to make it an effective and efficient process. This thesis describes the design, development, and validation of a prototype case-based academic advisement recommender system that supplements the conventional advising process, and could eventually evolve to replace human academic advisors when its full potential is realised.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Enhancing Academic Advisement with Case-Based Reasoning",
+          "url": "https://arxiv.org/abs/2611.08572"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-normgym-evaluating-normative-competence-through-social-inter",
+      "date": "2026-11-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "NormGym: Evaluating Normative Competence through Social Interaction",
+      "povzetek_sl": "arXiv:2611.08613v1 Announce Type: new \nAbstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can recognize or apply norms they may already know, rather than whether they can acquire previously unknown norms from social interaction. We introduce NormGym, an interactive benchmark for normative competence in which a newcomer must infer a hidden, arbitrary norm while pursuing its own task in a multi-agent community. Success requires distinguishing what is possible from what is permitted, inferring the norm from observed behavior and sanctions, and applying it in new situations. NormGym contains diverse norms and distinct environments, allowing systematic evaluation of current agents, including large language model (LLM) agents. We find that normative competence remains challenging: the strongest evaluated LLM achieves a joint task-and-compliance success rate of 55.3%. Our analysis reveals that models can sometimes revise their behavior following sanctions for their own actions, but struggl",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "NormGym: Evaluating Normative Competence through Social Interaction",
+          "url": "https://arxiv.org/abs/2611.08613"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-llm-based-feature-extraction-for-multi-criteria-inventory-cl",
+      "date": "2026-11-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+      "povzetek_sl": "arXiv:2611.08626v1 Announce Type: new \nAbstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis rely primarily on annual dollar usage, while multi-criteria inventory classification (MCIC) methods extend this but still depend on structured quantitative data and do not utilize unstructured information available in modern supply chains. This paper proposes an LLM-based feature extraction approach that transforms unstructured sources such as customer reviews into quantitative features using vector embeddings and LLM-generated evaluation criteria. The enriched feature set is incorporated into an MCIC framework based on the Hadi-Vencheh model. Experimental results show measurable reclassification effects when customer sentiment signals are included, demonstrating that integrating unstructured data into MCIC can enhance inventory prioritization.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+          "url": "https://arxiv.org/abs/2611.08626"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-aspect-wise-pairwise-tournaments-for-test-time-selection",
+      "date": "2026-11-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+      "povzetek_sl": "arXiv:2611.08640v1 Announce Type: new \nAbstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the question: how can we select the best candidate? When humans make choices, we find it more natural to compare two options than judge each in isolation. Additionally, when the options become complex, we like to judge the options one aspect at a time, such as comparing two job candidates on experience, communication, etc. In the test-time setting, candidate solutions should be judged in the same way. Here we introduce Aspect-wise Pairwise Tournaments (APT), which verifies by comparison and compares by aspect. Each matchup of a single elimination tournament is decided by a vote over multiple off-the-shelf aspect verifiers, each expressing a pairwise preference along its own aspect. Across five domains and three generator LLMs, APT improves over binary multi-aspect approval, self-consistency and reward model verification, with the largest gains on open-ended tasks. We find that both components matter; neither binary approval over t",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+          "url": "https://arxiv.org/abs/2611.08640"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-decision-context-persistent-behavioral-learning-for-ai-agent",
+      "date": "2026-11-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "povzetek_sl": "arXiv:2611.08644v1 Announce Type: new \nAbstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational history, rather than procedural knowledge.\n  We present Forge Decision Context (forge_dc), a system that captures behavioral signals from human corrections and self-assessed tool-call failures, compiles them into imperative RULE directives, and injects them at the decision points where they apply. We evaluate forge_dc alongside four predecessor approaches on DC-Bench, a new benchmark of 71 scenarios across nine behavioral dimensions, built from real executed agent traces in a deterministic mocked-tool environment. forge_dc reaches 95% compliance, up from 55% with naive retrieval, while injecting approximately 10 times fewer tokens per query.\n  Across the five-stage progression, the strongest systems represent behavioral memory as explicit directives and deliver it at the decision points where it applies. The results identify representation, activation, and placement as central design choices for persistent beh",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Decision Context: Persistent Behavioral Learning for AI Agents",
+          "url": "https://arxiv.org/abs/2611.08644"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-iwibench-evaluating-gradient-free-model-driven-intra-weight-",
+      "date": "2026-11-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+      "povzetek_sl": "arXiv:2611.08647v1 Announce Type: new \nAbstract: Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been no systematic way to evaluate how well models perform them. We introduce IWIBench, which measures a large editor model's ability to modify the weights of a smaller target model (typically Gemma 3 4B IT) to achieve one of ten classical text-editing objectives while preserving its other capabilities. Editors are limited to four tools for reading and writing weights, with bounded tensor access and a fixed budget for generating and inspecting rollouts. A validator applies each proposed patch in a clean environment and compares the edited model against the unmodified target. Evaluating frontier closed- and open-weight models reveals sharply diverging capabilities, both across models and across tasks. A small number of models, most notably Astra and GPT-6.1 Sol, perform far ahead of the rest. The recency of this ability (little of it is evident i",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+          "url": "https://arxiv.org/abs/2611.08647"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-pdb-or-not-to-be-comparing-debugging-interfaces-with-pass-x-",
+      "date": "2026-11-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
+      "povzetek_sl": "arXiv:2611.08666v1 Announce Type: new \nAbstract: Interactive debuggers are indispensable to human software development, yet coding agents overwhelmingly rely on edit-execute-observe loops, using common bash tools, test scripts, and print statements to debug via repeated shell commands. Stepping through a debugger provides live access to runtime state, which may enable different problem-solving capabilities. However, prior work typically introduces the debugger as an additional tool or through a new subagent, making its individual contribution difficult to isolate from the associated scaffold changes. To address this, we compare a debugger-only agent against a bash-only agent on all 500 SWE-bench Verified instances, holding the rest of the scaffold fixed. We evaluate both architectures on two models, GPT-OSS-120B and Nemotron-3-Ultra-550B, with three independent runs per architecture $\\times$ model configuration. Crucially, to distinguish interface specialization from expanded coverage under repeated sampling, we introduce pass$_X$@$k$, a cross-agent pass@$k$ that provides an unbiased estimator of the probability that at least one of $k$ agents is successful. Although the bash and d",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
+          "url": "https://arxiv.org/abs/2611.08666"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-chainflow-few-step-latent-flow-matching-for-speculative-deco",
+      "date": "2026-11-09",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+      "povzetek_sl": "arXiv:2611.08669v1 Announce Type: new \nAbstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass. Existing drafters face trade-offs that limits their speedups: autoregressive drafters generate tokens one at a time, so drafting cost grows with draft length, while diffusion drafters generate tokens in parallel but predict each position independently, ignoring inter-token dependencies. We introduce ChainFlow, a new speculative decoding paradigm and the first flow-matching drafter conditioned on the target's hidden states. ChainFlow treats drafting as a short transport over hidden states, needing one or two flow steps instead of the many denoising steps of generation from noise. A variational autoencoder compresses these states so drafting cost barely grows with target size, lightweight feedback heads restore inter-token dependencies, and tree drafting raises acceptance. On Qwen3.5 models, at matched drafter size and training data, ChainFlow outperforms EAGLE-3 and DFlash in vLLM by 39% and 11%, respectively. These gains further widen as drafters are adapted to new languages",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+          "url": "https://arxiv.org/abs/2611.08669"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-q-oil-optimistic-exploration-in-learning-from-human-interven",
+      "date": "2026-11-09",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Q-OIL: Optimistic Exploration in Learning from Human Interventions",
+      "povzetek_sl": "arXiv:2611.08576v1 Announce Type: new \nAbstract: As robots are deployed in the real world, they will inevitably make mistakes. Human interventions provide valuable feedback for improving their behavior, enabling them to adapt online to new scenarios. However, studying human-in-the-loop robot learning is difficult: real-world experiments are slow and expensive, so most algorithm development relies on simulated human models. We show that common human modeling assumptions do not match how real people intervene in practice. Through analyzing intervention data from human participants, we find that humans tend to intervene when agent progress stalls, and that their corrective actions are often suboptimal. Motivated by these findings, we introduce a progress-based model of human intervention that achieves higher rank correlation with real-user algorithm rankings, enabling realistic algorithm benchmarking and development in simulation. Building on these insights, we propose Q-OIL, a method that adds optimistic bonuses to intervention transitions in reinforcement learning and softly guides exploration toward human corrections. We find that decoupled critics are critical for stability becaus",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Q-OIL: Optimistic Exploration in Learning from Human Interventions",
+          "url": "https://arxiv.org/abs/2611.08576"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-meituan-robotics-0-a-vision-language-action-foundation-model",
+      "date": "2026-11-09",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation",
+      "povzetek_sl": "arXiv:2611.08577v1 Announce Type: new \nAbstract: We present Meituan-Robotics-0 (MR0), a vision-language-action foundation model and embodied-agent system for stationary-base desktop manipulation. MR0 combines 147 million vision-language samples with 15,060 hours of curated robot trajectories spanning 12 embodiments. A three-stage training recipe aligns multimodal representations with robot behavior through discrete action-token pre-training, transfers these priors to continuous cross-embodiment control through flow-matching mid-training, and adapts the policy through real-world post-training. We introduce Rollback, which pairs replaced policy segments with human corrections to provide positive and negative supervision for CFG-DAgger without value learning or advantage labeling. A unified end-effector interface supports heterogeneous embodiments, while asynchronous action-chunk merging maintains smooth execution under variable inference latency. An event-driven agent maintains persistent task events and reassesses plans when progress or feasibility changes, enabling cross-task retrieval and conditional task resumption. MR0 achieves 93.6% success on RoboTwin 2.0 and ranks fifth in th",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation",
+          "url": "https://arxiv.org/abs/2611.08577"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-cs-pi-constraint-satisfying-flow-policy-sampling",
+      "date": "2026-11-09",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "CS-Pi: Constraint-Satisfying Flow Policy Sampling",
+      "povzetek_sl": "arXiv:2611.08654v1 Announce Type: new \nAbstract: A flow-matching policy deployed in the field must often satisfy a constraint that was absent from its demonstrations, such as avoiding an obstacle it has never seen. Retraining for every new constraint is impractical, so the constraint must be enforced at inference time. Enforcing it must not discard what the policy learned: an action the policy would rarely sample may avoid the obstacle yet fail the task. We therefore want actions that are both safe, satisfying the constraint, and plausible, remaining likely under the policy. Gradient guidance, the most common approach, steers noisy states, so it must evaluate its cost on the policy's running estimate of the clean action; when the policy is uncertain between passing left or right of an obstacle, this estimate is their average and can pass straight through it. We instead build on rejection and projection. Rejection redraws actions until one is safe: every output is plausible, but the wait is intractable when safe actions are rare. Projection moves an action to the nearest safe one: it is efficient, but the result need not be plausible. Our key insight is that flow-matching sampling l",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CS-Pi: Constraint-Satisfying Flow Policy Sampling",
+          "url": "https://arxiv.org/abs/2611.08654"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-forpc-force-aware-whole-body-control-for-precise-humanoid-ca",
+      "date": "2026-11-09",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
+      "povzetek_sl": "arXiv:2611.08664v1 Announce Type: new \nAbstract: Humanoid robots are expected to take over strenuous material handling in manufacturing, logistics, and healthcare, where operating existing wheeled carts would let them move heavy loads without modifying the workplace. However, humanoid cart pushing remains challenging because the bimanual grasp closes a force-coupled loop in which the contact wrenches that drive the cart also disturb the robot's balance, and payload changes alter the coupled dynamics. We propose ForPC, a force-aware whole-body control framework that regulates cart velocity through two-stage reinforcement learning. A locomotion prior is first trained under varied hand loads and upper-body postures to provide balance support. A force latent and a state latent are then inferred from onboard observations, without external force sensors, and fed to a residual policy that coordinates bounded arm, waist, and leg adjustments with base-velocity commands. Multi-objective rewards penalize bimanual internal opposition, grasp slip, and actuator saturation, encouraging the policy to apply contact force on demand without human demonstrations. Sim-to-sim experiments show that ForPC",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ForPC: Force-Aware Whole-Body Control for Precise Humanoid Cart Pushing",
+          "url": "https://arxiv.org/abs/2611.08664"
+        }
+      ]
+    }
+  ]
+}
