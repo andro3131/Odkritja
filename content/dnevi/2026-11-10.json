@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-10",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-10-don-t-blame-the-preferences-examining-the-emergence-of-sycop",
+      "date": "2026-11-10",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
+      "povzetek_sl": "arXiv:2611.10045v1 Announce Type: new \nAbstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence. Although prior work has benchmarked sycophancy in released models and proposed mitigations, its origins during training remain poorly understood. Preference alignment methods such as RLHF and DPO are often blamed, but their effects are rarely compared with earlier training stages. We investigate sycophancy across the training pipelines of three model families and three benchmarks. We find that sycophancy is largely established by the end of supervised fine-tuning (SFT), rather than introduced by preference alignment. Across all nine model benchmark combinations, SFT checkpoints attain at least 92% of preference aligned models' sycophancy scores and at least 85% of final models' scores; on average, they are about as sycophantic as final models. Preference alignment increases sycophancy in only four of nine cases, by an average of 4.2 percentage points when it does. To probe the underlying causes, we isolate model representations associated with s",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
+          "url": "https://arxiv.org/abs/2611.10045"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-veterans-mental-health-crisis-severity-annotation-do-llms-ag",
+      "date": "2026-11-10",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
+      "povzetek_sl": "arXiv:2611.10048v1 Announce Type: new \nAbstract: Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear. This study evaluates LLM-based crisis-severity annotation of veteran-related social media posts against annotations from eight Veteran Subject Matter Experts (SMEs). Using 149 tweets and five severity categories, we evaluate 15 open-source and 10 proprietary LLMs across eight prompt variants, examining annotation performance, inter-model agreement, prompt sensitivity, and high-severity crisis detection. Human reviewers showed higher ordinal than nominal agreement ({\\alpha} = 0.494), indicating that disagreements often occurred between neighboring severity levels. In contrast, selected LLMs demonstrated substantially higher inter-model consistency, with ordinal agreement ({\\alpha}) reaching 0.8336 under the baseline prompt. Proprietary models generally showed better agreement with expert annotations and greater stability than open-source models. GPT-5.6-Terra achieved the best overall performance, while the open-source Qwen2.5-7B showed the stronges",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
+          "url": "https://arxiv.org/abs/2611.10048"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-lorazor-trimming-adapter-execution-for-efficient-multi-lora-",
+      "date": "2026-11-10",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "LoRazor: Trimming Adapter Execution for Efficient Multi-LoRA Serving",
+      "povzetek_sl": "arXiv:2611.10049v1 Announce Type: new \nAbstract: LoRA offers a parameter-efficient adaptation strategy, supporting multi-user workloads via customized adapters on a shared backbone. However, serving concurrent requests with different adapters introduces substantial computation and memory-management overhead. We ask the research question: Do all requests need their adapters throughout the whole generation process? Our motivational study reveals that employing LoRA adapters at every decoding step is unnecessary, releasing them early has limited impact on accuracy while substantially accelerating generation. Although skipping adapters early offers theoretical workload reduction, translating these computational savings into concrete throughput gains requires tailored GPU kernels. We present LoRazor, a multi-LoRA serving framework that combines early adapter release with active-row aware GPU kernels. LoRazor determines when to permanently release a request's adapter and continue decoding with the backbone alone. By dynamically resizing LoRA kernel launches as adapters are released, LoRazor trims idle GPU blocks. Across two backbones and four tasks, LoRazor achieves up to 3.02x request t",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "LoRazor: Trimming Adapter Execution for Efficient Multi-LoRA Serving",
+          "url": "https://arxiv.org/abs/2611.10049"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-ayo-a-safe-and-privacy-preserving-platform-for-studying-chil",
+      "date": "2026-11-10",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "AYO: A Safe and Privacy-Preserving Platform for Studying Children's Interaction with LLMs",
+      "povzetek_sl": "arXiv:2611.10054v1 Announce Type: new \nAbstract: Children and adolescents are increasingly interacting with generative AI and large language models (LLMs), yet little is known about how these interactions may influence their development, beliefs, and behavior. Existing research has relied heavily on surveys, while direct study of children's interactions with LLMs presents substantial challenges related to safety, privacy, consent, and experimental control. We introduce AYO (AI Youth Open Science), an open-source platform designed for safe and systematic research on children's interactions with conversational AI. AYO provides a child-friendly interface, configurable age-based safety guardrails, researcher monitoring, and privacy-preserving data practices. These capabilities enable cross-sectional, longitudinal, and experimental research on how children use and respond to LLMs and how AI design may shape trust, epistemic judgment, curiosity, and other aspects of development. AYO provides the infrastructure to generate evidence that guides safer AI systems, educational practices, and policies for children growing up with AI.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "AYO: A Safe and Privacy-Preserving Platform for Studying Children's Interaction with LLMs",
+          "url": "https://arxiv.org/abs/2611.10054"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-meta-ir-meta-introspective-reasoning-for-adaptive-safety-ali",
+      "date": "2026-11-10",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "META-IR: Meta-Introspective Reasoning for Adaptive Safety Alignment in LLM",
+      "povzetek_sl": "arXiv:2611.10089v1 Announce Type: new \nAbstract: Large Language Models (LLMs) remain vulnerable to jailbreak attacks and harmful-content prompts, particularly under adversarial distribution shifts where static alignment pipelines fail to generalize. Although introspective methods such as STAIR strengthen refusal consistency, they depend on fixed self-evaluation policies that cannot rapidly adapt to evolving manipulation strategies. To overcome these limitations, this paper introduces META-IR, a meta-introspective reasoning framework that enhances safety alignment through meta-learning-driven adaptation. It employs a dual-loop architecture: an inner introspective loop that performs structured risk analysis, self-assessment, and reflective correction via SI-MCTS, and an outer meta-learning loop that optimizes the introspection policy across diverse jailbreak task families to enable rapid generalization to unseen attacks. A dynamic jailbreak simulation module further exposes the model to progressively harder adversarial prompts, enabling continual self-improvement without human supervision. Experiments across multiple models (Llama-3.1-8B-Instruct and Qwen-2-7B-Instruct) and a broad s",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "META-IR: Meta-Introspective Reasoning for Adaptive Safety Alignment in LLM",
+          "url": "https://arxiv.org/abs/2611.10089"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-the-infrastructure-divide-analyzing-community-stance-on-data",
+      "date": "2026-11-10",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "The Infrastructure Divide: Analyzing Community Stance on Data Center Development via Reddit",
+      "povzetek_sl": "arXiv:2611.10109v1 Announce Type: new \nAbstract: The rapid expansion of AI-driven data center construction has outpaced public engagement: an estimated $64 billion in U.S. data center projects were blocked or delayed by local opposition between May 2024 and March 2025, yet the concerns driving this resistance remain poorly characterized. Prior engagement methods such as surveys and hearings are introduced late in the planning process, and no study has systematically mined social media to measure community stance at scale. To address this gap, this study presents an LLM-powered opinion-mining framework and applies it to 798 Reddit posts and 102,328 associated comments spanning a decade. An open-source large language model, guided by a Chain-of-Stance prompting framework and three domain-specific labeling rules, classified stance at 83% of the human inter-reviewer agreement ceiling. Opposition dominated discourse volume rather than disapproval: against posts outnumbered favor posts 2.6:1 and generated 8.5 times more comments, and this gap widened significantly over 86 weeks. Topic modeling of opposition arguments resolved into four reproducible clusters, resource consumption and scar",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The Infrastructure Divide: Analyzing Community Stance on Data Center Development via Reddit",
+          "url": "https://arxiv.org/abs/2611.10109"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-homeopathic-learning-diluting-poisoned-fine-tuning-data-can-",
+      "date": "2026-11-10",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Homeopathic Learning: Diluting poisoned fine-tuning data can strengthen its effect",
+      "povzetek_sl": "arXiv:2611.10110v1 Announce Type: new \nAbstract: We study homeopathic learning, a phenomenon where poisoned training data with little effect on its own can create a hidden backdoor once clean, contrasting data is added. In our experiments, a model fine-tuned only on a \"poison\" dataset associated with a trait T (such as speaking German or being misaligned) does not learn T. Surprisingly, adding similarly formatted \"clean\" data not associated with T causes the model to learn T. This effect requires that the poison data have an identifying \"trigger\" feature that is absent from the clean data. We demonstrate this effect in a variety of settings: subliminal learning of backdoor behaviors, inoculation prompting of reward hacking transcripts, generalization from archaic bird names, and an MNIST classifier with mislabeled data. We propose a simple regression model as an explanation. In the poison data, the task and trigger always co-occur, and regularization favors attributing T to the task. Clean data without the trigger causes T to be attributed to the trigger instead. Consequently, the same training examples can have little effect as part of one training set but create a misalignment ba",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Homeopathic Learning: Diluting poisoned fine-tuning data can strengthen its effect",
+          "url": "https://arxiv.org/abs/2611.10110"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-what-is-the-value-of-ai-involved-art-evidence-from-a-juried-",
+      "date": "2026-11-10",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "What Is the Value of AI-Involved Art? Evidence From a Juried In-Person Exhibition",
+      "povzetek_sl": "arXiv:2611.10150v1 Announce Type: new \nAbstract: What is the value of AI-involved art, and to whom does it belong? We begin to answer these questions using data from an in-person, juried AI art exhibition. Our study involved artists, lawyers, and computer scientists (N=209) as either creators or evaluators of AI-involved artworks. We found that nearly half of evaluators reported willingness to buy an artwork, with pricing correlating with perceived artistic value---creativity and visual appeal---as well as the effort necessary to create it. In contrast, three-quarters of creators reported willingness to sell at prices correlating only with effort rather than artistic value. Both groups viewed prompting users and AI developers as deserving rewards and rights, leaving training data artists behind. Disciplinary training shaped these views: participants with legal training favored distributed reward models. These findings have implications for future research on human-AI creative collaboration and policy debates regarding AI-involved works.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "What Is the Value of AI-Involved Art? Evidence From a Juried In-Person Exhibition",
+          "url": "https://arxiv.org/abs/2611.10150"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-preference-augmented-distributional-reinforcement-learning-f",
+      "date": "2026-11-10",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Preference-Augmented Distributional Reinforcement Learning for Risk-Sensitive Navigation",
+      "povzetek_sl": "arXiv:2611.09932v1 Announce Type: new \nAbstract: Ensuring safe and reliable navigation under diverse sources of uncertainty remains a central challenge for autonomous systems. Within distributional reinforcement learning (DistRL), Implicit Quantile Networks (IQN) have attracted interest for navigation under uncertainty because they enable risk adaptation through flexible quantile sampling. Existing approaches, however, typically use a fixed or randomly sampled Conditional Value-at-Risk (CVaR) level during training and adjust the risk level during deployment using hand-tuned hyperparameters or external sensor signals. This scalar-CVaR formulation confines learning to a narrow family of tail-risk preferences, creating a mismatch between training-time preference exposure and deployment-time risk adjustment. We instead represent variations in risk preference as shifts in quantile-weight distributions and expose the agent to diverse preferences through preference-guided exploration. At deployment, we optimize against the worst-case preference distribution to derive a conservative policy that accounts for multiple risk profiles. This reduces hyperparameter tuning and reliance on limited",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Preference-Augmented Distributional Reinforcement Learning for Risk-Sensitive Navigation",
+          "url": "https://arxiv.org/abs/2611.09932"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-efficient-learning-of-differentiable-mpc-policies-on-the-gpu",
+      "date": "2026-11-10",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Efficient Learning of Differentiable MPC Policies on the GPU via Smoothed ADMM and First-Order Reinforcement Learning",
+      "povzetek_sl": "arXiv:2611.09937v1 Announce Type: new \nAbstract: Differentiable model predictive control (MPC) enables structured, constraint-aware policies to be optimized end-to-end. However, learning MPC policies faces two bottlenecks: (1) nonsmooth sensitivities at active-set transitions and (2) expensive policy evaluation, since each requires an optimization solve. We first introduce SmoothedTurboMPC, a GPU-parallel differentiable MPC solver combining sequential quadratic programming (SQP) with a log-barrier-smoothed alternating direction method of multipliers (ADMM) inner solver. Its design enables smooth gradients, exact sensitivities at convergence, and efficient execution on GPUs. Second, to efficiently train MPC policies, we pair our solver with first-order reinforcement learning (FORL) using Short-Horizon Actor-Critic (SHAC), which reuses rollout MPC solutions instead of repeatedly re-evaluating them. Comparisons with state of the art solvers show that the approach achieves up to $4.4\\times$ higher end-to-end training throughput. On a vehicle racing task, our method achieves higher returns than MPC PPO with a $46\\times$ speedup, training on 3.3 million transitions in only 7 minutes. Fin",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Efficient Learning of Differentiable MPC Policies on the GPU via Smoothed ADMM and First-Order Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2611.09937"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-unilatent-cross-embodiment-transfer-via-latent-observation-a",
+      "date": "2026-11-10",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "UniLatent: Cross-Embodiment Transfer via Latent Observation Alignment",
+      "povzetek_sl": "arXiv:2611.10061v1 Announce Type: new \nAbstract: Robot datasets are costly to collect and are usually tied to a specific embodiment, making it difficult to reuse demonstrations across robots with different geometry, appearance, and kinematics. We introduce UniLatent, a cross-embodiment transfer framework that reduces the embodiment-induced observation gap in a shared latent space. UniLatent renders paired source-target robot observations in simulation and aligns a source visual encoder to a frozen target encoder. A policy trained on encoded source demonstrations can then run directly on target observations, with no pixel-level image translation. Across three simulation tasks and two target robot arms, UniLatent reaches up to 93% zero-shot success, exceeding the strongest pixel-translation baseline by over 30 points on average. In real-world xArm-to-Franka transfer, fine-tuning with only 10 target demonstrations per task yields 27/30 successful rollouts. Code, videos and data are available at https://selina2023.github.io/unilatent/.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "UniLatent: Cross-Embodiment Transfer via Latent Observation Alignment",
+          "url": "https://arxiv.org/abs/2611.10061"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-beyond-semantic-classes-online-physical-parameter-estimation",
+      "date": "2026-11-10",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Beyond Semantic Classes: Online Physical Parameter Estimation via Embedding-Conditioned Gaussian Mixtures",
+      "povzetek_sl": "arXiv:2611.10107v1 Announce Type: new \nAbstract: Enabling robots to infer interaction-relevant physical properties from vision before contact would improve planning and control in unstructured environments. Vision provides useful pre-contact information, but appearance alone is often ambiguous: visually similar regions can induce different friction, stiffness, or sinkage responses upon contact. Existing approaches often collapse this ambiguity to a point estimate or aggregate experience through fixed semantic classes, limiting their ability to preserve distinct physical regimes. Instead, we propose a real-time estimator that replaces semantic class indexing with an interaction-grounded Gaussian-mixture posterior over latent physical parameters, conditioned directly on continuous visual embeddings. Our approach maintains interaction-derived Gaussian parameter estimates, typically from inverse modeling, as mixture components while using embedding similarity to retrieve and weight relevant past interactions for each new query region. A support-aware fusion mechanism incorporates a conditional generative prior model when interaction history is sparse, while a learned embedding refineme",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Beyond Semantic Classes: Online Physical Parameter Estimation via Embedding-Conditioned Gaussian Mixtures",
+          "url": "https://arxiv.org/abs/2611.10107"
+        }
+      ]
+    }
+  ]
+}
