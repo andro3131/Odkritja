@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-13",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-13-zugwise-domain-aware-game-reconstruction-for-digitizing-hand",
+      "date": "2026-11-13",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+      "povzetek_sl": "arXiv:2611.14544v1 Announce Type: new \nAbstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal. This framing misses the errors that matter most. A misread that yields an illegal move is loud. One that yields a legal-but-wrong move is silent, because a legality-only pipeline accepts it and reads every later move against a wrong position. We therefore treat the task as game reconstruction and present Zugwise, which repurposes computer-chess machinery (quiescence search, static exchange evaluation, pin detection) to ask not \"what should be played?\" but \"could a human plausibly have written this?\" An absurdity detector makes silent errors loud at or near where they occur, and a backward search traces late symptoms to their cause. Candidate ranking excludes chess-quality signals. A Needleman-Wunsch merge adds the second player's sheet as evidence, and review stops send every disagreement between the sheets' legal readings to a human. In oracle replay of two tournament sections, a release adding them cuts silent errors from 16 to 1 and from 50 to 13. Two learned signals, CTC re-scoring",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+          "url": "https://arxiv.org/abs/2611.14544"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-cleaning-an-agent-s-history-hurts-when-the-world-still-holds",
+      "date": "2026-11-13",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+      "povzetek_sl": "arXiv:2611.14654v1 Announce Type: new \nAbstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their effects stay in the world. Prior work cleans the history at a fixed world, where showing a corrected step and saying it is done move together. We ask whether the same correct content helps or hurts depending on how the history states it and what the world holds. We freeze an agent mid-task with its exact world state, edit the history or the world, and let a receiver model continue. On AgentCE-Bench, after the agent commits a wrong value, we hold the world fixed and add the correct value by two natural edits: a truthful note beside the preserved error or the agent's own completed action. The note raises recovery, the share of remaining targets the receiver gets right, from 51% under a matched neutral note to 66%. The completed action lowers it below the unedited history, from 50% to 44%, so the value's presence alone does not predict the effect. On AppWorld, after a database write, we vary whether its receipt reports success or failure and whe",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+          "url": "https://arxiv.org/abs/2611.14654"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-together-compiler-continual-compilation-for-ai-inference",
+      "date": "2026-11-13",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Together Compiler: Continual Compilation for AI Inference",
+      "povzetek_sl": "arXiv:2611.14681v1 Announce Type: new \nAbstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a deployment into an optimized forward pass is a challenge that is well-suited for agent hill-climbing. Existing systems struggle with continual compilation due to a tradeoff between measurement throughput and fidelity. Many systems use agents to optimize individual kernels from the inference forward pass using offline benchmarks, but timings are low-fidelity because of data-dependent behavior in primitives like mixture-of-experts (MoE). On the other hand, systems use agents to directly optimize end-to-end engines but suffer from slow engine launch times. To address these challenges, we build Together Compiler (TKCC), the first truly continual agent loop designed for AI inference optimization. To address the throughput-fidelity tradeoff, we propose: (1) a Tiered Persistent Engine that decouples engine launch overheads from forward pass computation; (2) a cost model",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Together Compiler: Continual Compilation for AI Inference",
+          "url": "https://arxiv.org/abs/2611.14681"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-when-should-semantic-priors-enter-partially-identified-causa",
+      "date": "2026-11-13",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+      "povzetek_sl": "arXiv:2611.14736v1 Announce Type: new \nAbstract: Observational causal discovery often leaves causal di- rections unresolved or unstable. Large language mod- els (LLMs) can provide semantic information to resolve these directions, but incorrect proposals can exclude the true causal graph and invalidate downstream inference. We study three separate decisions: where to allocate semantic queries, which proposals to admit, and which causal graphs to retain. Our framework distinguishes population non-identifiability from finite-sample insta- bility, evaluates semantic orientation against statistical and random controls, and examines calibrated admis- sion and error-tolerant DAG retention. Experiments across benchmark networks show that semantic infor- mation improves recovery over coin-flip orientations, but targeting unstable edges has no established ad- vantage over matched-random allocation. The tested admission certificate cannot support nontrivial admis- sion with the available calibration tasks. Moreover, downstream retention depends on reference adequacy: learned references contain the true DAG in only three of 80 planned tasks. These findings separate the value of semantic inform",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+          "url": "https://arxiv.org/abs/2611.14736"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-synthcorp-a-platform-for-creating-benchmarks-for-data-agents",
+      "date": "2026-11-13",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+      "povzetek_sl": "arXiv:2611.14765v1 Announce Type: new \nAbstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corporate data over time. Each data estate combines relational databases, a document store, and a data catalog, paired with evaluation tasks and executable gold programs. First, given a scenario and target complexity dimensions, SynthCorp synthesizes reusable event types and compiles each into a program over predefined simulation primitives. Second, SynthCorp schedules event instances on a virtual calendar, interleaving routine and disruption events so that tables, documents, and catalog entries remain consistent. Third, SynthCorp executes the calendar to materialize the data estate and records every operation in a simulation log. Fourth, SynthCorp generates analytical tasks and derives verified gold programs from the log. We use SynthCorp to generate initial evaluation benchmarks comprising seven data estates (up to 1K operational tables) and 256 tasks across five domains. The data estates pas",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+          "url": "https://arxiv.org/abs/2611.14765"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-rational-use-of-time-for-social-coordination-in-humans-and-a",
+      "date": "2026-11-13",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Rational Use of Time for Social Coordination in Humans and AI",
+      "povzetek_sl": "arXiv:2611.14766v1 Announce Type: new \nAbstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But how do humans use temporal cues for dynamic, fine-grained social coordination? And can AI systems do the same, without ``experiencing'' continuous real-time as humans do? We study these questions using a cooperative card game task called The Mind, which requires players to achieve a shared goal across repeated interactions but forbids explicit communication: the only available signal is the passage of time. We evaluate 150 humans, and two classes of AI models which reflect different ways of operationalizing time in artificial systems: computer-use agents (CUAs), and standard text-prompted LLMs. We find that human behavior is best captured by a Bayesian strategy that infers a partner's belief from their timing---and similarly for frontier models. However, unlike humans, none of the tested models seem to efficiently adapt their behaviors to their partners' over the course of the game. From a cognitive perspective, our findings suggest that huma",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Rational Use of Time for Social Coordination in Humans and AI",
+          "url": "https://arxiv.org/abs/2611.14766"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-leaderboard-hacking-preference-based-model-evaluations-are-v",
+      "date": "2026-11-13",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+      "povzetek_sl": "arXiv:2611.14769v1 Announce Type: new \nAbstract: Arena-style rankings of language models are a widely used evaluation framework in online leaderboards, research papers, and model evaluation in production. These rankings aim to realistically assess model performance using pairwise comparisons of anonymous models on user prompts, aggregating votes via the Bradley-Terry model to produce the final ranking. However, we find that these leaderboards are highly vulnerable to several manipulation strategies that unscrupulous providers could use to boost a model's rank: strategic voting (individual votes that boost a model's rank, including votes on irrelevant models), strategic prompting (choosing prompts that favor a model), and strategic nomination (boosting the rank of a model by inserting irrelevant models). We demonstrate these effects on public leaderboard data, analyze the circumstances that cause these vulnerabilities, and describe approaches to safeguard against each attack. Notably, these issues hold for any preference-based evaluation using the Bradley-Terry model that allows open prompting, voting, or model submission. These manipulations boost the rank of nearly every tested mo",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+          "url": "https://arxiv.org/abs/2611.14769"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-robust-task-aware-state-estimation-from-pre-trained-percepti",
+      "date": "2026-11-13",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Robust Task-Aware State Estimation from Pre-trained Perception",
+      "povzetek_sl": "arXiv:2611.14781v1 Announce Type: new \nAbstract: Agents that perform state estimation using pretrained perception models, e.g., Vision-Language Models (VLMs), face the fundamental challenge that predictions are uncertain. Still, most approaches determinize these predictions into a single best-guess state and make decisions as if it were ground truth. This is brittle because when the guess is wrong, the agent's decisions may be unsafe or infeasible. At the other extreme, maintaining a full probability distribution over symbolic states is often intractable. We propose a middle path, drawing on the underlying probabilities the perception model already produces (e.g., a VLM's output-layer token distributions) to construct a $\\theta$-confidence Minimal Belief Set (MBS$_\\theta$), a minimal subset of states whose cumulative probability meets a user-specified belief-mass threshold. The minimality of an MBS$_\\theta$ ensures that the agent considers only the most likely states, enhancing robustness in downstream decision-making while maintaining computational tractability. Using a novel three-layered belief system, we efficiently approximate individual state probabilities from per-feature pr",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Robust Task-Aware State Estimation from Pre-trained Perception",
+          "url": "https://arxiv.org/abs/2611.14781"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-terrain-aware-thompson-sampling-for-multi-drone-search-and-r",
+      "date": "2026-11-13",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Terrain-Aware Thompson Sampling for Multi-Drone Search and Rescue",
+      "povzetek_sl": "arXiv:2611.14685v1 Announce Type: new \nAbstract: In this work, we propose a decentralized terrain-aware multi-drone Thompson Sampling algorithm tailored for search and rescue (SAR) applications. A probability distribution of locating a lost person is informed by terrain data, using established SAR models (displacement ring, elevation, watershed, dispersion angle, and track offset) derived from historical SAR case data on lost person behavior. Exploration is conducted by a team of drones using Thompson Sampling, where candidate actions are selected by drawing samples from this probability distribution, represented by a per-cell Gaussian posterior whose mean and variance are updated through Bayesian inference. This approach balances exploration of uncertain regions with exploitation of high-probability areas to locate a lost person. Observation uncertainty is incorporated through fractional forest coverage, which measures the percentage of an observation occluded by tree coverage and accounts for reduced detection performance in densely vegetated areas. Simulations using real SAR case data (YOSAR) evaluate the proposed method against a coverage planner and a probabilistic active sear",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Terrain-Aware Thompson Sampling for Multi-Drone Search and Rescue",
+          "url": "https://arxiv.org/abs/2611.14685"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-sunlightbots-turning-sunlight-into-self-sustained-high-power",
+      "date": "2026-11-13",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "SunLightBots: Turning sunlight into self-sustained, high-power motion in soft robots",
+      "povzetek_sl": "arXiv:2611.14729v1 Announce Type: new \nAbstract: Soft robots built from active materials can directly convert environmental stimuli into motion, offering a route to energy autonomy and embodied control. However, environmental energy is generally harvested at low power, whereas rapid, mechanically demanding actions require high mechanical output power. Reconciling this mismatch while sustaining self-regulated cyclic actuation is challenging, particularly at the subgram scale, where limited payload capacity constrains the integration of conventional power and control hardware. Here, we present SunLightBots, a class of subgram, sunlight-powered, untethered soft robots that achieve autonomous locomotion under continuous illumination near 1 Sun (100 mW/cm2). Their operation is enabled by a self-resetting snapping (SRS) mechanism that integrates liquid crystal elastomers (LCEs) with snap-through instability to accumulate solar energy supplied at low power, release it as rapid, high-power motion, and reset through photothermal-mechanical feedback. Through coordinated optimization of the LCE actuation temperature, photothermal conversion, actuation stress, and structural energy barrier, th",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SunLightBots: Turning sunlight into self-sustained, high-power motion in soft robots",
+          "url": "https://arxiv.org/abs/2611.14729"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-open-source-transtibial-prosthetic-bypass-preserving-joint-a",
+      "date": "2026-11-13",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Open-Source Transtibial Prosthetic Bypass Preserving Joint Alignment: Gait Learning and Kinematic Evaluation",
+      "povzetek_sl": "arXiv:2611.14762v1 Announce Type: new Abstract: Prosthetic bypasses allow able-bodied individuals to walk with a prosthesis, enabling safe early-stage testing of new prosthetic devices before clinical trials. However, existing transtibial bypasses impose constraints, such as a contralateral shoe lift or a lateral offset of the prosthesis, and their effects on gait remain poorly documented. We present an open-source transtibial prosthetic bypass that preserves part of the sagittal knee mobility without these constraints. Six able-bodied participants familiarized themselves with the bypass for approximately 10~min, then walked on a treadmill with and without it, and joint kinematics were recorded with motion capture and then extracted with OpenSim. All participants were able to walk without handrail support, although single stance remained shorter on the bypass side (27% vs. 45% of the gait cycle). Bypass-side ankle kinematics were consistent with those reported for transtibial prosthesis users, whereas peak knee flexion during swing decreased from 61{\\deg} to 36{\\deg} (p<0.001) and hip range of the sound leg increased from 35{\\deg} to 51{\\deg} (p<0.01). Although gait with the bypass",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Open-Source Transtibial Prosthetic Bypass Preserving Joint Alignment: Gait Learning and Kinematic Evaluation",
+          "url": "https://arxiv.org/abs/2611.14762"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-13-learning-low-latency-action-verification-for-frozen-vision-l",
+      "date": "2026-11-13",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Learning Low-Latency Action Verification for Frozen Vision-Language-Action Models",
+      "povzetek_sl": "arXiv:2611.14834v1 Announce Type: new \nAbstract: Vision-language-action (VLA) models have made significant progress in general-purpose robotic manipulation. However, sampled action sequences can be ineffective, while evaluating alternatives with computationally expensive verifiers adds latency at each policy query. In this work, we propose HDH, a lightweight framework that uses hindsight from a frozen VLA's own deployments to improve action verification. The framework has three stages. First, we deploy the policy and collect its autonomous rollouts. We then train a compact action verifier to assign each action chunk a predicted task-success score. Finally, the frozen VLA generates action candidates, and the verifier selects the candidate with the highest score for execution. Across four LIBERO-10 tasks, HDH achieves an average success rate of 82.3\\% and on three real-world manipulation tasks, HDH improves average success over the baseline policy by 22.6\\%.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Learning Low-Latency Action Verification for Frozen Vision-Language-Action Models",
+          "url": "https://arxiv.org/abs/2611.14834"
+        }
+      ]
+    }
+  ]
+}
