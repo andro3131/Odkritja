@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-14",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-14-extinct-vampire-camel-once-stalked-north-american-plains",
+      "date": "2026-11-14",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Extinct ‘vampire camel’ once stalked North American plains",
+      "povzetek_sl": "New fossil survey shines light on this mysterious creature, as well as ancient camels’ ecological importance",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Extinct ‘vampire camel’ once stalked North American plains",
+          "url": "https://www.science.org/content/article/extinct-vampire-camel-once-stalked-north-american-plains"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-senate-spending-panel-backs-raises-for-science-agencies-and-",
+      "date": "2026-11-14",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Senate spending panel backs raises for science agencies and questions Trump policies",
+      "povzetek_sl": "Fate of 2027 budget bill is uncertain as Congress tries to avoid government shutdown next month",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Senate spending panel backs raises for science agencies and questions Trump policies",
+          "url": "https://www.science.org/content/article/senate-spending-panel-backs-raises-science-agencies-and-questions-trump-policies"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-long-overlooked-alzheimers-hypothesis-makes-a-comeback",
+      "date": "2026-11-14",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Long-overlooked Alzheimer’s hypothesis makes a comeback",
+      "povzetek_sl": "Decades after it fell out of fashion, researchers return to an idea linking the disease to the loss of crucial neurons",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Long-overlooked Alzheimer’s hypothesis makes a comeback",
+          "url": "https://www.science.org/content/article/long-overlooked-alzheimer-s-hypothesis-makes-comeback"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-as-food-becomes-scarce-asian-elephant-friendships-fall-apart",
+      "date": "2026-11-14",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "As food becomes scarce, Asian elephant friendships fall apart",
+      "povzetek_sl": "As food becomes scarce, Asian elephant friendships fall apart. Vir je RSS/inbox brez modela — to ni poln slovenski opis, samo sled. Odpri povezavo.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "As food becomes scarce, Asian elephant friendships fall apart",
+          "url": "https://www.science.org/content/article/food-becomes-scarce-asian-elephant-friendships-fall-apart"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-satellites-and-boots-on-the-ground-uncover-rampant-gas-flari",
+      "date": "2026-11-14",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Satellites and boots on the ground uncover rampant gas flaring in Ecuador’s Amazon",
+      "povzetek_sl": "Researchers find dozens of new sites violating a landmark Ecuadorian ruling that ordered the flares’ shutdown by 2030",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Satellites and boots on the ground uncover rampant gas flaring in Ecuador’s Amazon",
+          "url": "https://www.science.org/content/article/satellites-and-boots-ground-uncover-rampant-gas-flaring-ecuador-s-amazon"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-researchers-have-a-wish-list-can-the-new-congress-deliver",
+      "date": "2026-11-14",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Researchers have a wish list. Can the new Congress deliver?",
+      "povzetek_sl": "Researchers have a wish list. Can the new Congress deliver?. Vir je RSS/inbox brez modela — to ni poln slovenski opis, samo sled. Odpri povezavo.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Researchers have a wish list. Can the new Congress deliver?",
+          "url": "https://www.science.org/content/article/researchers-have-wish-list-can-new-congress-deliver"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-introducing-chatgpt-wallet",
+      "date": "2026-11-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Introducing ChatGPT Wallet",
+      "povzetek_sl": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Introducing ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-shield-helps-technicians-hand-off-legacy-portal-work-with-op",
+      "date": "2026-11-14",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "povzetek_sl": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "url": "https://openai.com/business/customer-stories/shield"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-outbursts-from-a-massive-star",
+      "date": "2026-11-14",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "Outbursts from a Massive Star",
+      "povzetek_sl": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026. The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth. Astronomers estimate the [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Outbursts from a Massive Star",
+          "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-gemini-astronaut-photos-inspired-early-earth-observation-pro",
+      "date": "2026-11-14",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+      "povzetek_sl": "Astronauts James A. Lovell Jr. and Edwin E. &#8220;Buzz&#8221; Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA&#8217;s Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+          "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-apod-2026-november-13-ngc-206-and-the-star-clouds-of-androme",
+      "date": "2026-11-14",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 November 13 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 206 [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-14-a-global-rebound-for-mangroves",
+      "date": "2026-11-14",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "A Global Rebound for Mangroves",
+      "povzetek_sl": "After decades of decline, this ecologically significant type of forest is making a comeback.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Global Rebound for Mangroves",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/"
+        }
+      ]
+    }
+  ]
+}
