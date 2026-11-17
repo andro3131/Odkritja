@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-17",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-17-agents-cannot-hand-over-what-they-have-not-yet-understood",
+      "date": "2026-11-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Agents Cannot Hand Over What They Have Not Yet Understood",
+      "povzetek_sl": "arXiv:2611.18642v1 Announce Type: new \nAbstract: Agents that work beyond a single context window, or in teams, hand their work to a successor as a short written summary. Evaluation has focused on whether an agent can solve a task, and relatively little is known about how much of what an agent has learned survives being written down. We study this in 56 interactive worlds with hidden rules, where an agent that is told nothing fails and an agent given a 300-character statement of the rules succeeds. We compare one agent that plays eight lives and keeps its whole history with a chain of eight agents that each play one life and inherit a 300-character note. All six models we test learn less in the chain: after eight generations it stands where the single agent stood after about four lives. Controlled variants of the chain decompose this handoff loss into three components: none from changing the agent, a smaller loss from compressing to 300 characters, and a larger loss from compressing repeatedly. When each note is written from the full record of earlier lives instead of from the previous note, the same 300 characters recover 70% to 82% of the loss. The loss is robust across model size",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Agents Cannot Hand Over What They Have Not Yet Understood",
+          "url": "https://arxiv.org/abs/2611.18642"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-how-to-make-a-moral-agent-sentimentalism-and-rationalism-as-",
+      "date": "2026-11-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
+      "povzetek_sl": "arXiv:2611.18714v1 Announce Type: new \nAbstract: Can AI systems be moral agents? That is, can they undertake actions that can be correctly assessed as morally right or wrong? There is no settled normative criterion of moral agency that applies neatly outside paradigm human cases. Because of the difficulties with a normative account, we instead propose a research program to explore descriptive moral agency. Most basically, we ask, what are the capabilities we humans possess that underlie our moral agency? To do so, we draw on historical scholarship in philosophy and moral psychology to isolate candidate capabilities. Then we suggest refining candidate capabilities so that they are testable in the context of AI systems. Finally, we offer specific empirical recommendations to test AI systems, especially large language models (LLMs), for those refined capabilities. Our approach offers several benefits. Firstly, it may demonstrate whether the behaviors of AI systems are aligned, or in a broad sense desirable. Secondly, the debate may inform policy questions (e.g., what models should be deployed in which contexts?). Thirdly, our approach may complement engineering and design efforts: whe",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
+          "url": "https://arxiv.org/abs/2611.18714"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-video-as-experience-learning-computer-use-via-audio-visual-u",
+      "date": "2026-11-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
+      "povzetek_sl": "arXiv:2611.18747v1 Announce Type: new \nAbstract: Multimodal large language models (LLMs) have enabled capable computer-use agents that perceive graphical user interfaces, reason over instructions, and execute actions. However, existing approaches to learning from video demonstrations typically convert videos into screenshot-based action trajectories, rather than directly leveraging their rich audio-visual information. We introduce VEX (Video as EXperience), a framework that uses audio-visual understanding to unify learning from external demonstrations and reflecting on an agent's own behavior. Following a watch-act-rewatch paradigm, the agent extracts procedural guidance from tutorial videos containing visual demonstrations and spoken explanations, executes tasks, and verifies its progress by rewatching its execution as video. We instantiate VEX with video-SALMONN-VEX, a 9B-scale audio-visual computer-use agent built on the video-SALMONN 2 architecture with a Qwen3.5-9B backbone. We further introduce Action-Grounded Guide Optimization (AGGO), a reinforcement learning method that optimizes video-derived guidance for downstream action prediction, and augment AgentNet, OSWorld, and CU",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
+          "url": "https://arxiv.org/abs/2611.18747"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-multimodal-fusion-a-review-of-breast-cancer-advanced-and-tra",
+      "date": "2026-11-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
+      "povzetek_sl": "arXiv:2611.18793v1 Announce Type: new \nAbstract: Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical principles and provide complementary information. No single modality can capture all the structural, functional, and biological information needed for accurate diagnosis and characterization. Methods: This review examines more than 15 imaging modalities used in breast cancer detection, including conventional techniques such as mammography, ultrasound, and magnetic resonance imaging (MRI), as well as emerging approaches such as thermal imaging, photoacoustic imaging, microwave imaging, and multimodal microscopy. Results: Mammography, ultrasound, and MRI remain among the most widely used modalities, providing complementary structural and functional information. Recent AI advances have enabled fusion at the data, feature, and decision levels, with applications in detection, classification, segmentation, prognosis, and personalized cancer management. Multimodal approaches increasingly combine imaging data with clinical, histopathological, and genomic informati",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
+          "url": "https://arxiv.org/abs/2611.18793"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-d-ecoupage-directorial-audio-visual-control-for-long-multi-s",
+      "date": "2026-11-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "D\\'ecoupage: Directorial Audio-Visual Control for Long Multi-Shot Video Generation",
+      "povzetek_sl": "arXiv:2611.18866v1 Announce Type: new \nAbstract: In cinematic storytelling, sound and visual transitions do not always coincide in lockstep: dialogue frequently bridges across cuts to reveal reactions or introduces new scenes via J- and L-cuts, while deliberate silences pace the scene. Existing audio-visual generative frameworks, however, lack explicit mechanisms to coordinate independent visual and acoustic timing over extended horizons. As narrative duration and shot complexity scale, these systems struggle to maintain long-range dialogue pacing, often hallucinating speech during intended silences or erroneously driving mouth movements on silent listeners. To enable fine-grained cinematic control, we present DECOUPAGE, a screenplay-driven framework for long-form, multi-shot, and multi-character joint audio-video generation. Rather than coupling modality boundaries by default, DECOUPAGE uncouples generation into independently bounded visual and acoustic tracks governed by persistent character identities. DECOUPAGE builds on a joint audio-video diffusion model with dual-schedule temporal cross-attention, incorporating a directorial Lip-sync mechanism that selectively decouples spee",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "D\\'ecoupage: Directorial Audio-Visual Control for Long Multi-Shot Video Generation",
+          "url": "https://arxiv.org/abs/2611.18866"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-splice-structured-prompt-local-iterative-combinatorial-evolu",
+      "date": "2026-11-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
+      "povzetek_sl": "arXiv:2611.18883v1 Announce Type: new \nAbstract: Natural language optimization (NLO) improves an agent by having a model critique and rewrite its natural language policy parameters: system prompts, tool instructions, reasoning directives, few-shot demonstrations. These artifacts are multi-section documents in which some sections encode contracts (safety clauses, tool schemas, output formats) that must not drift, while others are legitimate optimization targets. Most iterative NLO methods treat the artifact as a single editable string, producing three recurrent failure modes: unsafe global rewrites, beam collapse onto a single lineage, and unchecked bloat, none addressed by formal guarantees. We introduce SPLICE, a unified NLO framework that poses optimization as constrained combinatorial search over an edit graph of block-structured, selectively-mutable states. We map each failure mode to a matched guarantee: (i) per-block mutability preserves contract text verbatim, with a price-of-freezing bound; (ii) elitist beam search with diversity slots never lets the leader regress on validation, bounds regression under noisy re-evaluation by an exponential tail, and keeps a competitive can",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
+          "url": "https://arxiv.org/abs/2611.18883"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-bring-back-language-to-actions-restoring-vlm-capabilities-in",
+      "date": "2026-11-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Bring Back Language to Actions: Restoring VLM capabilities in VLA Models via Parameter Merging",
+      "povzetek_sl": "arXiv:2611.18891v1 Announce Type: new \nAbstract: Vision-Language-Action models (VLAs) are obtained by fine-tuning pre-trained Vision-Language Models (VLMs) on robot demonstration data, enabling action prediction from visual observations and language instructions. However, this fine-tuning induces catastrophic forgetting, substantially degrading the semantic and visual grounding capabilities of the original VLM. We address this by merging the parameters of a VLM and its VLA derivative without retraining either model. Concretely, we extract the task vector (the difference between VLA and VLM weights) and decompose it via Singular Value Decomposition. For each component, we learn a scalar mixing coefficient controlling how much of the VLA adaptation is retained, optimised to jointly preserve action prediction and vision-language capabilities. Experiments show that our merged model performs well on both axes simultaneously, consistently outperforming established merging baselines.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Bring Back Language to Actions: Restoring VLM capabilities in VLA Models via Parameter Merging",
+          "url": "https://arxiv.org/abs/2611.18891"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-ask-precisely-assume-wisely-interactive-evaluation-of-ambigu",
+      "date": "2026-11-17",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models",
+      "povzetek_sl": "arXiv:2611.18905v1 Announce Type: new \nAbstract: Ambiguity is a core challenge in human--AI interaction, where models must decide when to make assumptions and when to seek clarification. Existing approaches to ambiguity evaluation largely focus on coverage over multiple interpretations using static metrics, offering limited insight into how efficiently a model converges toward a single user-intended interpretation through interaction. We introduce a preference-grounded simulated user framework for controlled, multi-turn evaluation of ambiguity resolution, grounding simulator responses strictly in user disambiguation preferences to avoid hallucination and over-disclosure. Alongside this, we define three observable dissatisfaction signals --- incorrect assumptions, repeating clarifications, and irrelevant clarifications --- that characterize interaction quality beyond task accuracy. Our analysis reveals a clear trade-off: models that frequently seek clarification tend to over-clarify and prolong interactions, while assumption-driven models are more prone to misaligning with user intent. We demonstrate that system prompts optimized on these dissatisfaction signals achieve a Pareto-opt",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models",
+          "url": "https://arxiv.org/abs/2611.18905"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-robustness-as-a-transferable-skill-cross-task-adversarial-de",
+      "date": "2026-11-17",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Robustness as a Transferable Skill: Cross-Task Adversarial Defense for Vision-Language-Action Policies",
+      "povzetek_sl": "arXiv:2611.18702v1 Announce Type: new \nAbstract: Vision-Language-Action (VLA) policies are vulnerable to adversarial visual perturbations, while defenses often require task-specific adversarial fine-tuning. We investigate whether robustness learned on source manipulation tasks can protect independently specialized target policies without target-side adversarial training. We first show that even a single source defense update improves robustness on held-out tasks, establishing cross-task defense reuse independently of multi-source aggregation. To combine source updates, we introduce Source-Norm Transferable Robustness Vector (SN-TRV), which retains the direction of their mean while calibrating its magnitude using source-update norms. The resulting update is applied to the target visual encoder without target adversarial data, target-side gradient optimization, or additional inference modules. Evaluations across three VLA backbones, fixed and adaptive attacks, and different source defense recipes show improved robustness over naive averaging and identify limits in attack coverage. Physical PiPER trials increase average success under printed adversarial patches from 20.3% to 45.8%.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Robustness as a Transferable Skill: Cross-Task Adversarial Defense for Vision-Language-Action Policies",
+          "url": "https://arxiv.org/abs/2611.18702"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-technical-report-of-auriga-s-1-10-scale-autonomous-vehicle-r",
+      "date": "2026-11-17",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Technical Report of Auriga's 1:10 Scale Autonomous Vehicle Robot",
+      "povzetek_sl": "arXiv:2611.18855v1 Announce Type: new \nAbstract: This report presents the design and implementation of Auriga Robotics' 1:10 scale autonomous vehicle, developed at Shahid Beheshti University's Robotics and Intelligent Automation Laboratory. The platform integrates a custom mechanical chassis, a distributed embedded system based on ESP32 microcontrollers, and a Jetson Orin NX module for high-level perception and control. The embedded layer manages sensor interfacing, real-time data acquisition, and actuator control, while the Jetson handles environment perception through deep-learning--based lane, sign, and traffic light detection, as well as decision-making and trajectory control. System communication is achieved via structured UART links, ensuring synchronized operation between perception and control subsystems. The vehicle's software stack incorporates ROS, modular firmware design, and multiple control algorithms---Stanley, PID, and Pure Pursuit---to achieve stable autonomous navigation in structured driving scenarios. The overall system demonstrates robust performance and reliability in urban-like environments, serving as a modular research platform for future autonomous driving",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Technical Report of Auriga's 1:10 Scale Autonomous Vehicle Robot",
+          "url": "https://arxiv.org/abs/2611.18855"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-passage-focused-soft-coordination-for-hierarchical-multi-rob",
+      "date": "2026-11-17",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Passage-Focused Soft Coordination for Hierarchical Multi-Robot Navigation in Bottleneck Environments",
+      "povzetek_sl": "arXiv:2611.18877v1 Announce Type: new \nAbstract: In multi-robot navigation, rigid global schedules are sensitive to execution deviations, while local methods lack long-horizon coordination. We propose a passage-focused framework combining soft global coordination with flexible local execution. A passage-induced graph of convex sets supports priority-ordered planning with two levels of soft coordination. Passage-aware route selection accounts for passage usage and traversal directions, while route-restricted continuous space-time planning penalizes temporal conflicts. The resulting references guide a model predictive path integral controller that avoids collisions online. Adaptive temporal and geometric tracking accommodates execution deviations, while selective replanning maintains coordination without rigid trajectory reservations. Across 1,200 instances in 4 different environments with 5-30 robots, the framework achieves a near-perfect success rate and outperforms evaluated baselines in makespan and flowtime. Hardware experiments with 8 robots demonstrate successful completion of all trials without collisions. These results highlight the effectiveness of passage-focused coordinat",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Passage-Focused Soft Coordination for Hierarchical Multi-Robot Navigation in Bottleneck Environments",
+          "url": "https://arxiv.org/abs/2611.18877"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-correcting-persistent-failures-in-point-cloud-grasping-polic",
+      "date": "2026-11-17",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality",
+      "povzetek_sl": "arXiv:2611.18919v1 Announce Type: new \nAbstract: Robots in homes, warehouses and farms must pick up objects they have never seen, usually without a 3D model or a category label. A grasping policy that works directly on the point cloud from a depth sensor needs only the geometry the robot observes, so it applies to any new object. Offline grasp generators such as Contact-GraspNet work this way, but they rank grasps by learned plausibility rather than by whether the grasp actually lifts the object. Reinforcement learning (RL) can optimize for that directly and make a point-cloud grasping policy much better on average, yet it leaves specific grasps persistently unsolved. We present a human-in-the-loop failure loop that targets those grasps: situations an RL policy keeps failing are mined automatically, sent to a virtual-reality application where a person picks the object up with their own hands, and returned to training as two grasp points. The person contributes only where to grasp; the robot chooses its own approach. In simulation, RL raises success on unseen objects from 55% with Contact-GraspNet to 83%. Adding 58 human demonstrations nearly doubles success on the hard cases RL kep",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality",
+          "url": "https://arxiv.org/abs/2611.18919"
+        }
+      ]
+    }
+  ]
+}
