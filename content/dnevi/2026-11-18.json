@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-18",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-18-nebench-r1-a-reasoning-benchmark-for-evaluating-nuclear-doma",
+      "date": "2026-11-18",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "povzetek_sl": "arXiv:2611.21682v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extracted from U.S. Nuclear Regulatory Commission (NRC) reactor operator licensing examinations covering 18 nuclear facilities. Each question is classified according to the NRC Knowledge and Abilities catalogs and accompanied by an official explanation serving as a reference for reasoning evaluation. Six LLMs were evaluated, with overall accuracy ranging from 34.0% to 73.9% across three distinct performance tiers. To assess reasoning quality, an LLM-based judge evaluated correctly answered responses using a multidimensional rubric. Although responses generally demonstrated strong problem comprehension, they scored lower in factual and procedural accuracy and distractor analysis, indicating that",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+          "url": "https://arxiv.org/abs/2611.21682"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-chain-of-thought-controllability-can-reduce-chain-of-thought",
+      "date": "2026-11-18",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+      "povzetek_sl": "arXiv:2611.21799v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this risk through persona-control training: supervised fine-tuning on mathematical reasoning traces rewritten in the voices of diverse personas. This induces a broader ability to control CoT, even though training contains no monitor-evasion examples. In covert side-task evaluations, traces in which a gpt-oss-20b model organism completes the hidden side task contain less monitorable evidence than the base model's. Averaged across evaluations and CoT lengths, weighted by side-task-success counts, the CoT monitorability metric g-mean$^2$ falls from 0.94 for the base model to 0.68 for the model organism without a hiding instruction, and to 0.22 when explicitly instructed to hide. In intervention evaluations, explicit hiding often drives monitorability near zero. The effect extends to a Kimi-K2.6 model organism in agentic environments, though hidden objectives requiring extended reasoning or longer",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+          "url": "https://arxiv.org/abs/2611.21799"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-how-much-of-sar-vehicle-recognition-is-the-vehicle-backgroun",
+      "date": "2026-11-18",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
+      "povzetek_sl": "arXiv:2611.21827v1 Announce Type: new \nAbstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (ConvNeXt-Small, 3 seeds) we first reproduce the known MSTAR result: with the central 96x96 pixels zeroed out, accuracy is still 73.3% (chance 10%). The same shortcut is present in ATRNet-STAR, which was collected across several scenes: with the vehicle removed, accuracy is 63.3% on the 40-class SOC split (chance 2.5%). Under the official scene-change split, the background stops helping and starts hurting. Accuracy is 22.8% on full chips and 30.8% when only the vehicle is shown. A SAR foundation model, SARATR-X, leans on the background more than ConvNeXt does (+4 to +6 points with the vehicle removed, in every seed) and does not solve the scene change. We then hold the amount of training data fixed and vary the depression angles used for training. Accuracy is set mainly by the gap to the nearest training angle: 57% at 15 degrees, 39% at 30 degrees and 26% at 45 degrees. Adding more training angles does not help. Finally, when most",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ",
+          "url": "https://arxiv.org/abs/2611.21827"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-auditors-struggle-to-catch-sabotage-in-end-to-end-transcript",
+      "date": "2026-11-18",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
+      "povzetek_sl": "arXiv:2611.21832v1 Announce Type: new \nAbstract: As AI systems are increasingly used to automate AI R&amp;D, misaligned systems could sabotage research intended to improve model safety and alignment. To stress-test defenses against such sabotage, we use a human expert as a proxy saboteur on AI safety research. We conduct a red-team/blue-team game where a human researcher runs AI safety experiments from scratch and auditors try to tell which were sabotaged and how. Given access to the full research transcript and the ability to run experiments, human auditors mostly fail to distinguish sabotaged from benign research: they achieve an AUROC of 0.59, not significantly better than chance, and fully identify the specific sabotage in only 17% of cases. Despite not being allowed to run experiments, the best frontier models outperform human auditors (Fable 5.1: AUROC 0.73, 32% full identification) within noise and weaker models perform comparably. When the saboteur chooses which experiments are attacked, rather than being required to sabotage every question given, sabotage identification drops further. Our results suggest that research sabotage by expert-level agents is difficult to detect",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
+          "url": "https://arxiv.org/abs/2611.21832"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-language-models-can-rewrite-their-own-weights",
+      "date": "2026-11-18",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Language Models Can Rewrite Their Own Weights",
+      "povzetek_sl": "arXiv:2611.21885v1 Announce Type: new \nAbstract: Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to make itself better, and find that it can, by its own reasoning, with no gradients and no training; we call this self-rewriting. Given its weights, graded answers and the ability to run itself, a 27B model diagnoses its failure and edits the weights behind it. It surpasses itself: its own edit makes it 6.6 points more accurate on 490 problems it never saw, in a test fixed in advance, and another session's edit also makes it significantly better. It keeps getting better: it submits an edit only when its own tests support it, each edit replacing the last, and over its first eight such sessions its accuracy only rises. Unlike test-time scaling, the gain persists in its weights and adds no cost per answer; unlike training, it needs no pre- or post-training infrastructure, only an open model and hours on one GPU. It repairs a",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Language Models Can Rewrite Their Own Weights",
+          "url": "https://arxiv.org/abs/2611.21885"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-dneo-your-parallel-draft-model-needs-better-target-feature-e",
+      "date": "2026-11-18",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
+      "povzetek_sl": "arXiv:2611.21925v1 Announce Type: new \nAbstract: Speculative-diffusion decoding uses a small parallel drafter model to generate b draft tokens in one forward pass, which then undergo parallel verification via a larger target model. Faster inference can be achieved when multiple draft tokens pass verification simultaneously. Recent parallel draft architectures (DFlash, DSpark) improve draft quality by conditioning on rich features computed by the target, through a mechanism known as feature encoding. However, standard feature encoding mechanisms have three limitations: (1) they are lossy, applying encoding projections that are destructive to the underlying target feature-space via a discovered effect known as residual mixing, (2) they are memory-less, with no record of previously processed proposals, and (3) they utilize features sampled uniformly from across the target layers, omitting important hidden states. To address these issues, we propose Mixture-of-Features Attention (MoFA), a lightweight feature-encoding approach equipped with a working memory that encodes previously rejected proposals. Leveraging MoFA, rejection memory, and a set of further enhancements, including 2-tap c",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
+          "url": "https://arxiv.org/abs/2611.21925"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-sled-sensor-slicing-from-edge-to-datacenter",
+      "date": "2026-11-18",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "SLED: Sensor SLicing from Edge to Datacenter",
+      "povzetek_sl": "arXiv:2611.21937v1 Announce Type: new \nAbstract: Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sensor stream may have different network and compute requirements depending on its type and data volume. However, current wireless systems typically allocate resources at the device level, leading to contention among co-located sensor streams, where bulk data transfers may starve latency-critical telemetry. To this end, this paper introduces Sensor Slicing (SL). SL provides deterministic, medium access control (MAC)-level isolation for individual sensors within a single user equipment (UE) in open radio access networks (O-RAN). Using agentic coding techniques, SL is implemented in two O-RAN-compliant packages, reducing development time by 400 times (2 h 40 min [OCUDU] vs. 6.5 weeks [OAI]), 228-fold fewer human prompts (4 vs. 913), and less than half the tokens (0.64B vs. 1.43B). An associated end-to-end framework, SLED, is implemented to establish per-sensor radio and network isolation acros",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SLED: Sensor SLicing from Edge to Datacenter",
+          "url": "https://arxiv.org/abs/2611.21937"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-conserved-verdicts-drifting-commitments-identifying-harmful-",
+      "date": "2026-11-18",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Conserved Verdicts, Drifting Commitments: Identifying Harmful Overthinking",
+      "povzetek_sl": "arXiv:2611.21946v1 Announce Type: new \nAbstract: A reasoning model that has reached a correct answer can lose it by continuing to think. Deciding whether to stop means comparing two probabilities at the same point of a chain: that the answer the model would give if stopped now is correct (its commitment), and that the answer it will finish with is correct (its verdict). We show that the verdict alone, which is what final-correctness probes estimate, cannot make this comparison. As a forecast of a fixed outcome it has no predictable drift, whether continuing helps or hurts. The commitment-verdict gap equals the expected remaining change in answer quality and the accuracy gained by stopping. A second identity splits any accuracy-versus-budget curve into answer change within chains and change in which chains are still running. We measure both on MATH-500. At all 379 points where DeepSeek-R1-Distill-Qwen-1.5B holds a correct answer, selected without regard to how its chain ends, continuing loses 3.6 points on average (95% CI [2.2, 5.2]), and the loss concentrates in a few problems. In six reasoning models from three families, on MATH-500 and OlympiadBench and with budgets up to 16,384",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Conserved Verdicts, Drifting Commitments: Identifying Harmful Overthinking",
+          "url": "https://arxiv.org/abs/2611.21946"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-an-open-source-da-vinci-x-xi-instrument-module-for-laparosco",
+      "date": "2026-11-18",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "An Open-Source da Vinci X/Xi Instrument Module for Laparoscopic Surgery Research",
+      "povzetek_sl": "arXiv:2611.21771v1 Announce Type: new \nAbstract: Studying electrosurgical tasks on a research robot requires control of both instrument motion and energy activation, along with a record of when each action occurs. This paper presents an open-source module for da Vinci X/Xi instruments on a UR5/UR5e robotic arm. Five motors transmit torque through timing belts to spring-loaded drive discs. An electrosurgical interposer accepts software commands, gives the surgeon's foot pedals priority, and records the source of each activation request. In bench testing, the interposer recorded all 12 activation and deactivation events from six pedal presses. Ex vivo demonstrations included monopolar and bipolar coagulation of splenic tissue and monopolar cutting during gallbladder dissection. Optical tracking of the Fenestrated Bipolar Forceps showed that calibration brought pitch and yaw gains from 0.904 and 1.14 to 1.00 and 1.02, respectively. The module enables researchers to record instrument motion, video, and the timing and source of electrosurgical commands during laparoscopic tasks.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "An Open-Source da Vinci X/Xi Instrument Module for Laparoscopic Surgery Research",
+          "url": "https://arxiv.org/abs/2611.21771"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-better-calibrated-better-planned-uncertainty-aware-multi-asv",
+      "date": "2026-11-18",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Better Calibrated, Better Planned: Uncertainty-Aware Multi-ASV Informative Path Planning for Oil Spill Monitoring",
+      "povzetek_sl": "arXiv:2611.21783v1 Announce Type: new \nAbstract: Monitoring oil spills with fleets of Autonomous Surface Vehicles (ASVs) requires mapping a heterogeneous pollutant field from sparse, noisy measurements under tight time and energy budgets. Informative Path Planning (IPP) addresses this problem by coupling a reconstruction model, which infers the field and its uncertainty, with a planner that decides where to sample next. Prior work has focused on planning strategies and has largely relied on Gaussian Processes (GPs), leaving the calibration of the model's uncertainty underexplored. We study how uncertainty calibration conditions multi-vehicle IPP with a fleet of ASVs that coordinates online through a shared uncertainty map. We introduce Evidential Deep Learning (EDL) as an uncertainty-calibrated information model. We benchmark EDL, Monte Carlo Dropout and Deep Ensembles against a GP in closed loop with five planners on physics-based oil spill simulations. Across 60 maps, the choice of model dominates the outcome, explaining 80\\% of the variance of the final reconstruction error, against 1\\% for the planner among the deep models. EDL achieves the lowest error and the highest IoU unde",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Better Calibrated, Better Planned: Uncertainty-Aware Multi-ASV Informative Path Planning for Oil Spill Monitoring",
+          "url": "https://arxiv.org/abs/2611.21783"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-astra-asv-simulator-for-transferable-realistic-autonomy",
+      "date": "2026-11-18",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "ASTRA: ASV Simulator for Transferable Realistic Autonomy",
+      "povzetek_sl": "arXiv:2611.21789v1 Announce Type: new \nAbstract: Autonomy development for marine autonomous surface vehicles (ASVs) remains challenging because field testing is costly and difficult to reproduce. Existing marine simulation tools provide mature capabilities in vessel dynamics, robotics integration, and visual rendering, but these strengths are emphasized differently across platforms. This paper presents ASTRA, an ASV simulation framework built in NVIDIA Isaac Sim that combines marine vehicle dynamics, photorealistic perception, and Robot Operating System (ROS 2) autonomy interfaces within a common environment. ASTRA incorporates a Fossen-style marine dynamics model together with geometry-based buoyancy and programmable spectral wave disturbances, enabling non-planar hydrostatic and wave-induced motion. The simulator reproduces the sensor configuration of a physical BlueBoat testbed, including GPS, IMU, LiDAR, and RGB-D sensing exposed through ROS 2. This allows localization, perception, planning, and control software to be developed against interfaces consistent with the physical platform. The BlueBoat's existing ROS 2 localization and perception modules were ported directly into AS",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ASTRA: ASV Simulator for Transferable Realistic Autonomy",
+          "url": "https://arxiv.org/abs/2611.21789"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-a-probabilistic-lateral-motion-prediction-model-with-improve",
+      "date": "2026-11-18",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "A Probabilistic Lateral Motion Prediction Model with Improved Response Fidelity for Vehicle-in-the-Loop Simulation",
+      "povzetek_sl": "arXiv:2611.21806v1 Announce Type: new \nAbstract: Vehicle-in-the-loop (VIL) simulation requires a lateral dynamics model that accurately reproduces vehicle responses and reliably generates horizontal lateral-position and heading commands through recursive integration. This paper presents a probabilistic lateral motion prediction model with improved response fidelity. A two-degree-of-freedom vehicle model provides the physical prior, while a recurrent neural network learns correlated residual corrections to lateral acceleration and yaw rate. To maintain prediction fidelity during recursive motion generation, multistep rollout training feeds corrected responses into subsequent states and histories and directly penalizes accumulated lateral-velocity error. A conditional Gaussian characterizes response uncertainty, which is propagated to lateral-response, position, and heading predictions through augmented-state linearization. Evaluation results demonstrate improved lateral-response and integrated-motion prediction. Compared with the Deep Dynamics lateral adaptation, the proposed model reduces mean lateral-position root-mean-square error (RMSE) from 0.596 m to 0.483 m, an improvement of",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Probabilistic Lateral Motion Prediction Model with Improved Response Fidelity for Vehicle-in-the-Loop Simulation",
+          "url": "https://arxiv.org/abs/2611.21806"
+        }
+      ]
+    }
+  ]
+}
