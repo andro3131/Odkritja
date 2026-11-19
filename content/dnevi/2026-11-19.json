@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-19",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-19-human-ai-mutualism-is-unstable-under-capability-asymmetry",
+      "date": "2026-11-19",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+      "povzetek_sl": "arXiv:2611.23322v1 Announce Type: new \nAbstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability grows. Bargaining guarantees each side only what it would get if bargaining failed. For humans, this can be less than they had before AI. In a simple game-theoretic model, humans stay as well off as before AI without alignment only while they have leverage over the AI: either the AI depends on what they supply, or they can impose costs on the AI that are large relative to what the AI can produce. Once humans have neither kind of leverage, they stay as well off as before AI only if the AI is aligned with them. If the AI's goals are insatiable, the alignment required approaches perfect alignment as AI capability grows. Thus, mutualism is not a substitute for alignment. And when AI variants that keep more resources spread faster, alignment lasts only while misaligned variants are reliably sanctioned. In these two senses, human-AI mutualism is unstable.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+          "url": "https://arxiv.org/abs/2611.23322"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-training-language-models-for-introspective-oversight",
+      "date": "2026-11-19",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Training Language Models for Introspective Oversight",
+      "povzetek_sl": "arXiv:2611.23365v1 Announce Type: new \nAbstract: Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy. Asking the assistant follow-up questions about its actions is unreliable, since models are generally not trained to report their own misbehavior. As a result, approaches to oversight typically involve querying external models. These face limitations: external transcript monitoring operates only on visible model outputs, and activation decoders lack full context and are prone to confabulation. We introduce introspective oversight, which trains a new role in the model to answer arbitrary questions about the assistant, rewarding answers that are verified against the assistant's actual behavior. We implement this by adding a separate, third-person observer role that answers these queries, which we can train solely for accuracy and separately from the assistant. On five held-out oversight evaluations, an observer trained on Qwen3.6-27B obtains a mean AUROC of 0.907, outperforming honesty training (0.864), transcript monitoring (0.828), and activation oracles (0.796). We further find that training a",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Training Language Models for Introspective Oversight",
+          "url": "https://arxiv.org/abs/2611.23365"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-where-the-tokens-go-heat-entropy-and-error-in-agentic-coding",
+      "date": "2026-11-19",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+      "povzetek_sl": "arXiv:2611.23375v1 Announce Type: new \nAbstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys. Here we introduce a theory of software thermodynamics. The theory draws analogues from classical and stochastic thermodynamics, extends them, and applies them to modern agentic coding. We count the tokens an agent generates as its cost and divide that cost into work and heat. The test suite acts as a software Maxwell's daemon that judges every coding change. We test the theory with an analogue of the experiments in which a single molecule is pulled open and let fold again: an agent makes a change to a repository (coding) and then undoes it (uncoding), many times over, and we count the tokens of every model call. The cycle returns the requested edits to where they began, with each direction started from a stored reference tree, and the spread of its cost over repeated cycles defines a software temperature, which rose with the sampling temperature of the model. About 80 per cent of the tokens of a successful run are generated in model calls that leave the requested change where it was, and we call these tokens heat. The free e",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+          "url": "https://arxiv.org/abs/2611.23375"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-hardwaredx-a-foundational-graph-model-system-for-datacenter-",
+      "date": "2026-11-19",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+      "povzetek_sl": "arXiv:2611.23398v1 Announce Type: new \nAbstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy. Since hardware failures in hyper-scale AI clusters can stall multi-million dollar training workloads, the downtime of individual machines can cause outsized economic losses. Minimizing machine downtime, therefore, is more important than ever.\n  To address this, we present Hardware Diagnoser (HardwareDx), an AI-driven hardware diagnosis system that applies a graph foundation model approach to automated datacenter maintenance. It allows a single model to diagnose many platforms and accelerate onboarding of new hardware products. Deployed at production scale at Google, HardwareDx yields substantial efficiency gains across diverse compute architectures. Real-world evaluations demonstrate that it reduces production downtime by 18.3% on GPU platforms and 16.1% on TPUs. Furthermore, it significantly accelerates hardware deployment, cutting quality assurance (QA) time by 28.3% for GPUs and 25.1% for TPUs. These results establish HardwareDx as a field-tested solution for maximizing the reliability and cost efficiency of next ge",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+          "url": "https://arxiv.org/abs/2611.23398"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-rfbench-a-simulator-grounded-multimodal-benchmark-for-passiv",
+      "date": "2026-11-19",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+      "povzetek_sl": "arXiv:2611.23410v1 Announce Type: new \nAbstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and electromagnetic behavior remains largely untested. To address this gap, we introduce RFBench, a simulator-grounded dataset and benchmark for passive RF layout design and understanding. The dataset contains 10,000 two-port planar layouts simulated using ADS Momentum, with each layout represented by editable geometric primitives, a raster image, a 16x16 occupancy grid, complex S-parameters at 201 frequency points, a structural category, and an RF response label. Building on these aligned representations, we define seven tasks spanning specification-conditioned layout generation, representation translation, response prediction, simulator-based validation, design diagnosis and improvement, structural understanding, and response classification. Extensive baselines across seven multimodal language models reveal systematic weaknesses in generating structurally valid layouts and predicting electromagnetically faithful responses. We show that RF-specific fine-tuning",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+          "url": "https://arxiv.org/abs/2611.23410"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-why-sub-4-bit-vision-cnns-collapse-and-where-mixed-precision",
+      "date": "2026-11-19",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops",
+      "povzetek_sl": "arXiv:2611.23445v1 Announce Type: new \nAbstract: Deep vision models operating in resource-constrained environments depend heavily on low-bit quantization, yet compressing weights below 4 bits frequently induces catastrophic accuracy collapse. While mixed-precision recovery strategies aim to rescue accuracy by selectively retaining high-precision parameters, the fundamental mechanics of where and why these models collapse remain poorly understood. In this study, we systematically analyze the anatomy of quantization collapse across standard Vision CNNs (including ResNet and EfficientNet backbones) evaluated on the full 50,000-image ImageNet-1k validation set. First, we map the exact progression of degradation, demonstrating that collapse is highly non-linear and concentrated in late-stage pointwise projections and depthwise layers. Second, we introduce a structured, multi-step recovery waterfall that evaluates selective integer precision (INT4/INT8) and selective floating-point scales. We show that keeping less than 5% of critical layer activations in 8-bit precision recovers up to 92% of the accuracy lost during aggressive sub-4-bit compression. Finally, we bridge the hardware reali",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops",
+          "url": "https://arxiv.org/abs/2611.23445"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-lusoclin-a-synthetic-clinical-note-dataset-for-medical-infor",
+      "date": "2026-11-19",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese",
+      "povzetek_sl": "arXiv:2611.23454v1 Announce Type: new \nAbstract: Access to large-scale clinical text collections is crucial for advancing medical information retrieval research, including clinical note search, patient cohort identification, and domain-adapted retrieval models. However, real clinical notes are rarely available due to privacy regulations, which particularly limits progress for low-resource languages such as European Portuguese. We present LusoClin, a publicly released dataset of synthetic clinical notes in European Portuguese, created to support privacy-preserving research on clinical text retrieval. LusoClin was generated by pre-processing real clinical data, fine-tuning the open-source Llama 3.2 (3B) instruction-tuned model using Quantized Low-Rank Adaptation, and applying prompt-based clinical note generation. To facilitate semantic indexing and clinical search, the notes are automatically annotated with clinical entities using a BERT-based model. We evaluate LusoClin in terms of utility, fidelity, diversity, and privacy using automatic metrics and human evaluation. Results indicate that the dataset captures clinically relevant language patterns and can support downstream IR appl",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese",
+          "url": "https://arxiv.org/abs/2611.23454"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-verimath-human-in-the-loop-generation-and-verification-of-cu",
+      "date": "2026-11-19",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
+      "povzetek_sl": "arXiv:2611.23456v1 Announce Type: new \nAbstract: Automatic generation of mathematics assessment items is a growing area in educational artificial intelligence, yet classroom deployment remains challenging. Generated questions must satisfy multiple constraints: mathematical correctness, curriculum alignment, appropriate cognitive difficulty, and educator reviewability. While prior work has advanced text generation, reliable assessment authoring requires granular control over localized examination formats and expert educational judgment. To address this challenge, we present VeriMath, a generalized, human-in-the-loop framework for generating rigorous, curriculum-constrained mathematics assessment drafts. Using annotated reference items, the framework anchors generation to the requested examination section and cognitive reasoning level, then applies sequential automated verification and guided repair before submitting drafts for expert review. We evaluate VeriMath through a national curriculum case study using 4,555 mathematics items from the Vietnamese Grade 12 curriculum and 50 distinct generation requirements covering multiple-choice, true/false, and short-answer formats. Across tw",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
+          "url": "https://arxiv.org/abs/2611.23456"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-bicat-bimanual-coordination-action-tokenization",
+      "date": "2026-11-19",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "BiCAT: Bimanual Coordination Action Tokenization",
+      "povzetek_sl": "arXiv:2611.23499v1 Announce Type: new \nAbstract: Autoregressive vision-language-action (VLA) models predict discrete action tokens with the next-token objective of their vision-language backbone, so the action tokenizer defines the interface between the policy and the robot. In bimanual manipulation, the two arms share a repertoire of movements yet coordinate through complementary roles, and an action representation should capture both. However, most existing tokenizers encode both arms as a single concatenated action vector, in which motion patterns common to the two arms are not shared and cross-arm dependencies remain entangled within each token. The policy must therefore learn both aspects implicitly. We propose Bimanual Coordination Action Tokenization (BiCAT), which shares one motion representation across arms while conditioning each arm's tokens on its partner through symmetric cross-arm attention and a joint decoder. The policy then predicts all tokens of each arm in parallel, generating the left arm first and the right arm conditioned on it. Across ten RoboTwin 2.0 tasks and six real-world tasks on three embodiments, BiCAT achieves the highest success among the compared to",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "BiCAT: Bimanual Coordination Action Tokenization",
+          "url": "https://arxiv.org/abs/2611.23499"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-learning-and-control-in-physically-coupled-dynamical-systems",
+      "date": "2026-11-19",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Learning and Control in Physically Coupled Dynamical Systems",
+      "povzetek_sl": "arXiv:2611.23502v1 Announce Type: new \nAbstract: We introduce TAG (Testbed for Autonomous Games), a compact, low-cost robotic platform for studying learning and control in physically coupled dynamical systems. TAG combines an actively tilted and steered ball-in-maze board with a top-mounted rotary inverted pendulum. The pendulum's reaction torque and vibration disturb the board and marble, while the board's tilt, driven by the maze-solving policy, simultaneously disturbs the pendulum's balance. The main challenge in learning control policies for each subsystem is accounting for the impact of one subsystem's dynamics on the other's learning process. To address this challenge, we present complementary reinforcement learning paradigms, leveraging model-based and model-free approaches to learn the control policies for the maze and pendulum, respectively. Our key finding is that introducing the pendulum causes an immediate, sharp drop in the maze policy's success rate, but the policy adapts online and recovers to its pre-coupling performance within a small number of learning episodes. Experimental results show that both policies, trained independently, successfully control the maze boar",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Learning and Control in Physically Coupled Dynamical Systems",
+          "url": "https://arxiv.org/abs/2611.23502"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-ragevla-augmentation-trained-perception-and-action-for-state",
+      "date": "2026-11-19",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "RageVLA: Augmentation-Trained Perception and Action for State-of-the-Art Robustness on LIBERO",
+      "povzetek_sl": "arXiv:2611.23517v1 Announce Type: new \nAbstract: Vision-language-action (VLA) models look saturated on LIBERO, yet most of them fall apart on LIBERO-PRO as soon as an object moves or the instruction asks for something new. We argue that what is missing is not scale but decoupling.\n  In these policies, what to do is tied to where things were during training, to the scene around them and to the wording of the instruction. We cut these ties in two places. In the data, LIBERO demonstrations are re-arranged by general rules: every object and fixture is moved and rotated, tasks are carried into other environments and onto other surfaces, and every instruction is paraphrased. In the policy, a perception engine on frozen DINOv3 features, trained on this augmented data, hands the action model the scene in decoupled form: a list of objects with their positions, and a compact code of what the gripper is looking at, next to image and instruction embeddings from TinyCLIP. A flow-matching diffusion transformer, trained from scratch, acts on this view.\n  We call this combination of Robust Augmentation and Grounded Encoding RageVLA. With 0.21 billion parameters, RageVLA sets a new state of the art",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RageVLA: Augmentation-Trained Perception and Action for State-of-the-Art Robustness on LIBERO",
+          "url": "https://arxiv.org/abs/2611.23517"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-rescue-jumper-a-centimeter-scale-rolling-and-jumping-robot-f",
+      "date": "2026-11-19",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "RESCUE Jumper: A Centimeter-Scale Rolling and Jumping Robot for Search and Rescue",
+      "povzetek_sl": "arXiv:2611.23531v1 Announce Type: new \nAbstract: Centimeter-scale robots are promising for urban search and rescue because they can enter confined spaces that are inaccessible or unsafe for humans. However, their small size limits obstacle traversal after deployment. This paper presents the RESCUE Jumper, a 125 g mobile robot with a 6.2 cm width and 6.2 cm diameter wheels that combines ground rolling with jumping to traverse steps and gaps that exceeds its rolling capability. The RESCUE Jumper uses its two actuators for both rolling mode and jumping by reversing the direction of wheel motion. Forward wheel motion enables rolling, while reverse wheel motion winds a spring steel tail to store elastic potential energy and release it for jumping. The RESCUE Jumper varies tail winding speed to control jump direction, transitioning from backward to forward jumps as winding speed increases from 0.75 rad/s to 8.73 rad/s. The launch angle of the jumps ranges from 45 degree to -11 degree with respect to the vertical axis, reaching a maximum height of 9.2 cm and a maximum lateral displacement of 11.2 cm. We model the winding speed-dependent jumping behavior in three phases: tail release to de",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "RESCUE Jumper: A Centimeter-Scale Rolling and Jumping Robot for Search and Rescue",
+          "url": "https://arxiv.org/abs/2611.23531"
+        }
+      ]
+    }
+  ]
+}
