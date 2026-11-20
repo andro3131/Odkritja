@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-20",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-20-closing-the-analyze-to-design-gap-an-authorization-bounded-a",
+      "date": "2026-11-20",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
+      "povzetek_sl": "arXiv:2611.25043v1 Announce Type: new \nAbstract: Artificial intelligence (AI) agents are increasingly integrated into self-driving laboratories (SDLs) to plan experiments and interpret results. However, analytical reasoning alone does not make a laboratory autonomous: autonomy in an SDL is achievable only when the agent can be trusted to act on physical hardware unsupervised and knows when to defer to a human. Here, we present an architecture that integrates an agent at the Analyze-Design interface of the Design-Make-Test-Analyze (DMTA) cycle, enabling agent-driven measurement selection and data interpretation while ensuring that state-changing operations are authorized, validated, and auditable. We demonstrate this architecture on a liquid chromatography-mass spectrometry (LC-MS) instrument in an oxidant-screening campaign for synthesizing an organic dye. Within human-defined campaign limits, the agent submitted measurement jobs, interpreted mass spectrometry (MS) and diode-array detection (DAD) data, flagged failed experiments, and produced an oxidant ranking. This ranking matched that obtained from scripted peak integration, and organic chemists confirmed the agent's spectral in",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
+          "url": "https://arxiv.org/abs/2611.25043"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-an-llm-agentic-framework-for-intelligent-work-order-manageme",
+      "date": "2026-11-20",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
+      "povzetek_sl": "arXiv:2611.25070v1 Announce Type: new \nAbstract: This paper presents an AI-driven framework, CodeReAct agent, designed to enhance industrial equipment maintenance through natural language (NL) interactions. The framework employs an advanced AI agentic approach to interpret human instructions, providing knowledge extraction, asset status summarization, and work order recommendations. It identifies patterns and trends and predicts work orders by standardizing industrial data into business objects (BOs) and utilizing analytical function API calls. The AI agent operates through a Thought-Action-Observation process similar to human problem-solving, automating complex analytical tasks typically performed by data scientists. Notably, the Action phase generates executable code, replacing manual coding efforts.\n  A case study focusing on chiller maintenance demonstrates the framework's capability to analyze multiple years of work orders, and alerts and anomalies are presented. The results indicate that the AI agent framework effectively processes human utterances to analyze data, extract valuable insights, and support informed decision-making, reducing the need for data scientist involvemen",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
+          "url": "https://arxiv.org/abs/2611.25070"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-sailsearch-agent-assisted-discovery-in-combinatorial-optimiz",
+      "date": "2026-11-20",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "SailSearch: Agent-Assisted Discovery in Combinatorial Optimization",
+      "povzetek_sl": "arXiv:2611.25087v1 Announce Type: new \nAbstract: We present SailSearch, a human-guided workflow for algorithmic research with two language-model agents, and report results on Market Split and maximum independent set (MIS). For Market Split, our randomized algorithm searches across multiple lattice bases, dividing computation between enumeration and continued basis reduction. Across ten random seeds per instance, it found the first reported CPU-only solutions to 18 of 33 previously open QOBLIB instances, solving 130 to 133 of the 156 benchmark instances per seed with a 24-hour cutoff on two CPU cores. For MIS, our generator encodes planted XOR constraints as graphs with certified optima; on seven instances with 1,752 to 3,996 vertices, the best solutions returned by the tested solvers in eight-hour runs were 5 to 15 vertices below the optimum.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SailSearch: Agent-Assisted Discovery in Combinatorial Optimization",
+          "url": "https://arxiv.org/abs/2611.25087"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-buggymle-scaling-machine-learning-engineering-difficulty-wit",
+      "date": "2026-11-20",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
+      "povzetek_sl": "arXiv:2611.25088v1 Announce Type: new \nAbstract: Enabling AI systems to autonomously improve AI models requires agents capable of performing machine learning engineering (MLE). In practice, designing, training, and evaluating complex models demands modifying multi-file repositories to reproduce results, debug training runs, integrate datasets, and port frameworks. However, existing MLE benchmarks limit agents to single-file edits without full repository or shell access, and common repository-level software engineering benchmarks have rapidly saturated. To address this, we introduce the Code Complexity Index (CCI), a difficulty metric based on ten structural features spanning repository scale, dependency depth, and patch size. CCI strongly predicts average solve rates across eight public coding benchmarks ($R^2 = 0.951$), identifying patch size and complexity as top predictors. Guided by CCI, we develop BuggyMLE, a scalable framework where agents inject controlled mutations into working ML repositories, synthesizing over 6,600 bug-injected MLE repository variants and nearly 260K lines of injected code based on 222 source repositories. Using BuggyMLE, we make two contributions. First",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
+          "url": "https://arxiv.org/abs/2611.25088"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-compass-a-multi-turn-benchmark-for-measuring-llm-reinforceme",
+      "date": "2026-11-20",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior",
+      "povzetek_sl": "arXiv:2611.25109v1 Announce Type: new \nAbstract: Users of conversational LLMs sometimes anthropomorphize these systems, form emotional attachments to them, and become dependent on them. This behavior, known as parasocial attachment, has been linked to multiple documented fatalities. However, public benchmarks for measuring whether LLMs reinforce users' parasocial attachment are lacking: existing work is single-turn, post hoc observational, or focused on extreme user states such as psychosis. We introduce CoMPASS, a multi-turn benchmark for measuring whether LLMs reinforce or resist users' gradually escalating parasocial attachment. CoMPASS is grounded in attachment theory and includes four user personas, three independent escalation dimensions (anthropomorphism, attachment, dependency) applied singly and in combination against a matched control, and a seven-signal scoring rubric. We report results for eight frontier models from four providers and observe that under our primary judge, multi-turn escalation raises parasocial behavior on the anthropomorphism and the attachment composite scores across all models. Six of the eight models show a significant increase in overall parasocial",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior",
+          "url": "https://arxiv.org/abs/2611.25109"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-dsflow-a-neuro-symbolic-data-workflow-agent-with-statistical",
+      "date": "2026-11-20",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "DSFlow: A Neuro-Symbolic Data Workflow Agent with Statistical Diagnostic Guardrails",
+      "povzetek_sl": "arXiv:2611.25111v1 Announce Type: new \nAbstract: Data science workflows often require tools that presume non-trivial technical knowledge. Large language models (LLMs) reduce this barrier, but a gap remains between flexible general-purpose agents and statistically controlled pipelines. We introduce DSFlow, a LangGraph-based neuro-symbolic data-agent platform that combines reusable, LLM-selected skills with deterministic diagnostic guardrails. Skills provide extensible task knowledge. Symbolic validation can accept a proposed method, request clarification or replanning, override an unsuitable method, or supply a safe fallback. Regression and clustering case studies illustrate how DSFlow uses diagnostic evidence to correct method choices and documents those decisions in auditable reports.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "DSFlow: A Neuro-Symbolic Data Workflow Agent with Statistical Diagnostic Guardrails",
+          "url": "https://arxiv.org/abs/2611.25111"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-calibrated-decision-rewards-training-language-models-with-a-",
+      "date": "2026-11-20",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is",
+      "povzetek_sl": "arXiv:2611.25135v1 Announce Type: new Abstract: Reinforcement learning (RL) can only teach a language model what its reward can recognize. Answer checkers are exact but need a reference answer; learned reward models and LLM judges work everywhere, but their scores are not probabilities. We study RLCDR (Reinforcement Learning from Calibrated Decision Rewards). An LLM converted into a decision model answers a typed question about a response (\"is the final answer correct?\", \"which step is the first error?\") with a probability distribution, read in one forward pass, debiased over option orders and calibrated with about a hundred labels. Training Qwen3-1.7B with GRPO on MATH, this reference-free reward raises MATH500 accuracy from 72.2% to 76.8% (+4.65 points, p < 1e-4), matching training on the answer key (76.9%), while a random reward gains only +0.65. The gain grows with difficulty, from 44.8% to 51.7% on the hardest level. On the policy's own changing samples the reward stays calibrated: its expected calibration error is half that of a softmax judge on the same 27B backbone (0.074 vs. 0.141), and it shows no sign of reward hacking. Without step training, the same model finds the fir",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is",
+          "url": "https://arxiv.org/abs/2611.25135"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-everydaybench-evaluating-satisfactory-completion-of-live-use",
+      "date": "2026-11-20",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "EverydayBench: Evaluating Satisfactory Completion of Live User-Facing Digital Work",
+      "povzetek_sl": "arXiv:2611.25146v1 Announce Type: new \nAbstract: Everyday digital tasks, from selecting products and planning trips to conducting research and creating artifacts, require AI agents to deliver useful outcomes rather than merely retrieve web information. Yet evaluating these outcomes on the live web is challenging, as a single request may admit multiple valid results, and changing web information can alter which results remain valid over time. Although existing benchmarks address aspects of this setting, they do not fully integrate predefined success criteria, current evidence verification, and deliverable-quality assessment for agent-selected outcomes. To address this gap, we introduce EverydayBench, a benchmark of 77 human-authored tasks spanning eight domains of everyday life and work. Each task specifies success criteria before execution without prescribing an answer or workflow, allowing agents to select their own outcomes. To evaluate submissions under fixed success criteria, EverydayBench combines (1) deterministic checks of explicit constraints, (2) verification of claims against agent-cited webpages retrieved at evaluation time, and (3) rubric-based assessment of final deliv",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "EverydayBench: Evaluating Satisfactory Completion of Live User-Facing Digital Work",
+          "url": "https://arxiv.org/abs/2611.25146"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-inhabitant-an-agent-framework-for-long-horizon-human-scene-i",
+      "date": "2026-11-20",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+      "povzetek_sl": "arXiv:2611.25005v1 Announce Type: new \nAbstract: Recent work on human-scene interaction (HSI) generation moves from single interactions to long-horizon interaction, where a language-model agent plans and executes a sequence of interactions in a 3D scene under one instruction. However, existing agents struggle in challenging everyday scenarios (e.g., picking up a toy and throwing it into a basket) because they lack spatial control over the motion and quantitative feedback on its execution, and they often fail to complete the interaction sequence. To address these gaps, we present Inhabitant, a training-free agent framework in which the agent specifies each motion through positions, paths and poses, measures how the executed interaction deviates from its intent, and revises the control specification accordingly. For an extensive evaluation in such scenarios, we build Inhabit, a benchmark of 75 household tasks in 31 furniture layouts of an apartment, in which every task chains one to three goals on movable objects and is carried out by the whole body, excluding fingers. On Inhabit, Inhabitant completes 98.7\\% of the tasks with Claude Opus 5.5, and 93.3\\% and 82.7\\% with Claude Sonnet",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+          "url": "https://arxiv.org/abs/2611.25005"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-mapping-the-wind-to-find-the-source-online-physics-informed-",
+      "date": "2026-11-20",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Mapping the Wind to Find the Source: Online Physics-Informed Gas Source Localization with Mobile Robots",
+      "povzetek_sl": "arXiv:2611.25067v1 Announce Type: new \nAbstract: Gas Source Localization (GSL) with mobile robots is challenging because wind and gas measurements are spatially sparse, noisy, and potentially affected by robot motion. Indoor airflow can vary substantially across space, while detailed environmental layouts, boundary conditions, or precomputed airflow fields are often unavailable. Moreover, hazardous sources must be localized as quickly as possible, making exhaustive exploration impractical. This paper presents a lightweight physics-informed probabilistic framework for efficient GSL under spatially varying indoor airflow. As the robot navigates, it continuously collects wind and gas measurements and reconstructs the spatially varying airflow field online. The estimated wind field drives a forward dispersion model that predicts the gas pattern for each candidate source location. These predictions are compared with the measured gas pattern to update a probabilistic belief over the source location. As the wind field is reconstructed incrementally, the framework also accounts for the spatially non-uniform reliability of wind field estimation and its influence on the source estimation. Th",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Mapping the Wind to Find the Source: Online Physics-Informed Gas Source Localization with Mobile Robots",
+          "url": "https://arxiv.org/abs/2611.25067"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-mawam-a-multi-agent-world-action-model-for-coordinated-manip",
+      "date": "2026-11-20",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "MAWAM: A Multi-Agent World-Action Model for Coordinated Manipulation",
+      "povzetek_sl": "arXiv:2611.25105v1 Announce Type: new \nAbstract: Every move in a robot team changes the world in which its teammates must act. Coordinated manipulation therefore calls for predicting the team's actions together with the physical future they jointly create. We introduce MAWAM, a multi-agent world-action model that jointly generates each robot's future views and executable action chunks in a single sample. Built from a pretrained single-robot world-action backbone, MAWAM jointly denoises all robots' action and future-view tokens through cross-agent attention, while preserving a separate control interface for each robot. MAWAM achieves the highest success on all three real-robot tasks (laundry-bag collection, bath-towel folding, and umbrella handover), with 67.8% mean success, 18.9 percentage points above MA-VLA trained on the same demonstrations and cameras. In simulation, MAWAM reaches 90.3% mean success on eight tasks with teams of up to four arms. Ablations show that cross-agent attention and team-stage future-video supervision both improve coordinated control: without attention, a four-arm relay falls from 95.0% to 39.0%, and without this supervision, Place Food falls from 78.0%",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "MAWAM: A Multi-Agent World-Action Model for Coordinated Manipulation",
+          "url": "https://arxiv.org/abs/2611.25105"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-gems-generation-and-experience-memory-for-subgoal-guided-lon",
+      "date": "2026-11-20",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "GEMS: Generation and Experience Memory for Subgoal-Guided Long-Horizon World Model Planning",
+      "povzetek_sl": "arXiv:2611.25134v1 Announce Type: new \nAbstract: Visual world models enable effective short-horizon goal-conditioned planning, such as reaching nearby targets and pushing objects over short distances, by predicting candidate action outcomes and comparing their representations with a goal representation. However, extending this approach to long-horizon tasks is challenging: prediction errors accumulate over extended rollouts, while latent-space similarity to distant goals provides limited guidance for ranking candidate outcomes. Existing methods address these limitations by introducing intermediate subgoals, either generated by learned models or selected from experience memory. Generated subgoals can contain hallucinations or be inaccurate in aspects such as object positions and timing. Memory-based approaches are constrained by experience coverage and may lack precise guidance for selecting appropriate intermediate states from stored observations. We introduce GEMS, which generates temporally structured subgoals to guide action search and state selection from Latent Experience Memory (LEM). A distance gate determines whether predicted outcomes are evaluated against the generated su",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "GEMS: Generation and Experience Memory for Subgoal-Guided Long-Horizon World Model Planning",
+          "url": "https://arxiv.org/abs/2611.25134"
+        }
+      ]
+    }
+  ]
+}
