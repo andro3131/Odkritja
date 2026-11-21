@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-21",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-21-scientists-control-a-virtual-fruit-fly-with-map-of-insects-b",
+      "date": "2026-11-21",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Scientists control a virtual fruit fly with map of insect’s brain",
+      "povzetek_sl": "Scientists control a virtual fruit fly with map of insect’s brain. Vir je RSS/inbox brez modela — to ni poln slovenski opis, samo sled. Odpri povezavo.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Scientists control a virtual fruit fly with map of insect’s brain",
+          "url": "https://www.science.org/content/article/scientists-control-virtual-fruit-fly-map-insect-s-brain"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-ai-may-have-solved-maths-greatest-mystery-can-humans-underst",
+      "date": "2026-11-21",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "AI may have solved math’s greatest mystery. Can humans understand the answer?",
+      "povzetek_sl": "Anthropic researcher says Claude cracked 166-year-old Riemann hypothesis, but sprawling proof could take years to decipher",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "AI may have solved math’s greatest mystery. Can humans understand the answer?",
+          "url": "https://www.science.org/content/article/ai-may-have-solved-math-s-greatest-mystery-can-humans-understand-answer"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-combatting-adversarial-distillation",
+      "date": "2026-11-21",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Combatting adversarial distillation",
+      "povzetek_sl": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Combatting adversarial distillation",
+          "url": "https://openai.com/index/combatting-adversarial-distillation"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-apod-2026-november-21-voyagers-neptune",
+      "date": "2026-11-21",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 November 21 – Voyager’s Neptune",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager&#8217;s Neptune Explanation: [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 November 21 – Voyager’s Neptune",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-curiosity-spots-drifting-twilight-clouds",
+      "date": "2026-11-21",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "Curiosity Spots Drifting Twilight Clouds",
+      "povzetek_sl": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Curiosity Spots Drifting Twilight Clouds",
+          "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-new-nasa-seed-funding-primes-small-businesses-for-innovation",
+      "date": "2026-11-21",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "New NASA Seed Funding Primes Small Businesses for Innovation",
+      "povzetek_sl": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "New NASA Seed Funding Primes Small Businesses for Innovation",
+          "url": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-nasa-honor-awards-ceremony-recognizes-employees-at-stennis-s",
+      "date": "2026-11-21",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
+      "povzetek_sl": "Employees contributing to NASA’s mission at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, were recognized during the center’s Honor Awards ceremony on Nov. 18.&#160;&#160; Presenting the awards were Christine Powell, NASA Stennis center director, and Jeremy Parsons, the agency’s Artemis program manager responsible for management and oversight of NASA’s initiative to return [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
+          "url": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-nasas-curiosity-mars-rover-collects-samples",
+      "date": "2026-11-21",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "NASA’s Curiosity Mars Rover Collects Samples",
+      "povzetek_sl": "This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. Learn more [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "NASA’s Curiosity Mars Rover Collects Samples",
+          "url": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-apod-2026-november-20-v-g-r",
+      "date": "2026-11-21",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 November 20 – V-G-R",
+      "povzetek_sl": "APODScienceAPODAPOD: 2026 November…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss  APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. V-G-R Explanation: On November 17, fans of interstellar spaceflight around planet Earth were invited to shine a message into [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 November 20 – V-G-R",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-the-stormy-southwest-pacific",
+      "date": "2026-11-21",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "The Stormy Southwest Pacific",
+      "povzetek_sl": "The Stormy Southwest Pacific. Vir je RSS/inbox brez modela — to ni poln slovenski opis, samo sled. Odpri povezavo.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The Stormy Southwest Pacific",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/"
+        }
+      ]
+    }
+  ]
+}
