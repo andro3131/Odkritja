@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-22",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": "Tedenski recap watchlista:\nZapadle napovedi: Starship Flight 14 poleti najkasneje 30. 9. 2026 (NET 15. 9. drži kot tla, ne ko; TCMV 6. 10. 2026 ne bo dal FSD Supervised za vseh 27 držav (premalo prebivalstva",
+  "kartice": [
+    {
+      "id": "2026-11-22-remarkable-biosynthetic-diversity-in-the-bionectriaceae-unco",
+      "date": "2026-11-22",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Remarkable Biosynthetic Diversity in the Bionectriaceae: Uncovering the genomic basis of antipathogen bioactivity of cacao fungal endophytes Clonostachys rosea and Waltergamsia zey",
+      "povzetek_sl": "Cacao (Theobroma cacao) production in tropical countries is threatened by fungal diseases caused by Moniliophthora roreri and M. perniciosa. Two cacao pod endophytes from Bionectriaceae, Clonostachys rosea TCF417 and Waltergamsia zeylanica TCF400, exhibit growth antagonism towards M. roreri; however, the genetic basis underlying the bioactivity of these strains has not been addressed. Here, we aimed to identify biosynthetic gene clusters (BGCs) potentially associated with the antifungal bioactivity of these two strains and performed a comparative analysis with 30 publicly available Bionectriaceae genomes using BiG-SCAPE. Whole-genome sequencing using Oxford Nanopore and Illumina technologies, resulted in assemblies of 52.9 Mb (C. rosea TCF417) and 31 Mb (W. zeylanica TCF400). Genome annotation was conducted using Funannotate, and secondary metabolite BGCs were predicted using antiSMASH. The two cacao endophytes harbored 92 BGCs (C. rosea: 67; W. zeylanica: 25), indicating remarkable biosynthetic diversity. Across all 32 genomes, 1,523 BGC-containing regions were identified, most belonging to T1PKS clusters. Network-based clustering revealed 209 gene cluster families (GCFs), of whic",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Remarkable Biosynthetic Diversity in the Bionectriaceae: Uncovering the genomic basis of antipathogen bioactivity of cac",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767117v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno",
+      "date": "2026-11-22",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22-live-coverage-spacex-to-launch-intelligence-gathering-satell",
+      "date": "2026-11-22",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office",
+      "povzetek_sl": "The NROL-136 mission will be the fourth launch of the year supporting the agency’s proliferated architecture satellite constellation in low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 4:23 a.m. PST (7:23 a.m. EST / 1223 UTC).",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office",
+          "url": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/"
+        }
+      ]
+    }
+  ]
+}
