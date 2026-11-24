@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-24",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-24-sama-training-free-consensus-ridge-tracking-for-camera-based",
+      "date": "2026-11-24",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
+      "povzetek_sl": "arXiv:2611.28185v1 Announce Type: new \nAbstract: Remote photoplethysmography (rPPG) is usually benchmarked by one heart rate per video, a figure that hides the short windows in which a tele-consultation would actually read the pulse. We present SAMA, a training-free estimator that (i) forms a quality-weighted consensus of POS and CHROM chrominance spectra, (ii) discounts frequencies occupied by pulse-free references derived from the same frames (frame motion, skin-mask geometry and background brightness), (iii) follows the heart rate through time with a Viterbi ridge under a random-walk prior, and (iv) returns a track-filtered, amplitude-normalised waveform with a per-window confidence. No parameter is learned and no dataset-specific tuning is used. On 218 recordings from 111 participants in five public datasets (UBFC-rPPG, PURE, SUMS, M3PD and a two-participant subset of MMPD), all processed with the same fixed face box and scored with a re-implementation of the rPPG-Toolbox protocol, SAMA has the lowest mean absolute error (MAE) averaged over datasets at every protocol level: 4.40 against 5.13,bpm for POS per video, 4.80 against 5.43 on 30,s windows and 5.05 against 6.59 on 10,s",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
+          "url": "https://arxiv.org/abs/2611.28185"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-torchtsetlin-fast-interpretable-tsetlin-machines-for-pytorch",
+      "date": "2026-11-24",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
+      "povzetek_sl": "arXiv:2611.28195v1 Announce Type: new \nAbstract: The Tsetlin machine learns propositional rules with teams of Tsetlin automata that are driven by reward and penalty rather than gradients, so its models are interpretable by construction and cheap to evaluate. Its software, however, consists of C and CUDA kernels behind scikit-learn-style wrappers that sit outside the deep learning ecosystem. torchtsetlin implements the Tsetlin machine family as ordinary PyTorch modules: vanilla and weighted, coalesced, regression, convolutional over sequences, images and volumes, and dense per-pixel segmentation. The automata are a tensor buffer, so a model moves with .to(device), is saved with state_dict() and learns from a mini-batch with one update(x,y) call. Its core technique is a batched formulation of Type I and Type II feedback, in which automaton transitions become event counts realised as binomial draws, with one commit per mini-batch. On ten benchmarks taken from the existing libraries, it matches their accuracy, and on all but the two smallest it trains 2.4-10.9X faster than PyTsetlinMachineCUDA and 10.3-81.2X faster than tmu on the same GPU. The package is pure Python, MIT-licensed and",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
+          "url": "https://arxiv.org/abs/2611.28195"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-from-point-clouds-to-engineering-models-benchmarking-agentic",
+      "date": "2026-11-24",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
+      "povzetek_sl": "arXiv:2611.28197v1 Announce Type: new \nAbstract: Coding agents can translate 3D measurements into CAD geometry, but reconstructing engineering models for the built environment demands semantic interpretation and consistent construction constraints beyond surface fitting. We formulate scene-level Scan-to-BIM (Building Information Modeling) as an agentic 3D coding task and introduce S2Bench, comprising public and proprietary scans of 128 real-world scenes across five domains, paired with expert-curated reference models spanning diverse spatial scales. A shared framework lets agents measure scans in Python, build class-labeled components in a live CAD/BIM kernel, and iteratively refine their code. We also propose parallel asynchronous collaboration, where a lead delegates versioned tasks, continues modeling while workers execute, and integrates revision-bound proposals. Evaluating five agents and a collaborative team across 1,028 reconstructions shows that scan-to-model residuals directly guide geometric repair, whereas inferring semantic classes and construction relations requires joint geometric, visual, and engineering reasoning that agents struggle to ground and verify. Consequent",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
+          "url": "https://arxiv.org/abs/2611.28197"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-autopilot-a-visual-agent-harness-for-real-time-gameplay",
+      "date": "2026-11-24",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+      "povzetek_sl": "arXiv:2611.28202v1 Announce Type: new \nAbstract: Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time. Existing harnesses such as VISTA improve the first two, yet turn each model call into at most one action, so the agent acts only as often as its model thinks. We introduce AutoPILOT, which changes the third: in each model call, the model can send a primitive action, start an open-loop macro, or write a closed-loop controller that keeps playing from the screen without further model calls until it hands control back. To evaluate agents in real-time games, we build AFK-Bench, 120 diverse browser games grouped by how they respond to inaction and playable in real time or with the clock paused. With GPT-6.1 Sol under the same budgets, AutoPILOT reaches 68.6% real-time success against 38.3% for VISTA, and on GameWorld it keeps 80.0% in real time while VISTA drops from 84.1% to 42.9%. Its gains hold across models, and it reaches VISTA's final success rate at a fifth of its",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+          "url": "https://arxiv.org/abs/2611.28202"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-finevo-recursive-self-improvement-for-long-horizon-financial",
+      "date": "2026-11-24",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
+      "povzetek_sl": "arXiv:2611.28239v1 Announce Type: new \nAbstract: Advances in large language models (LLMs) have expanded their role in high-value productivity tasks, including financial analysis and modeling, while enabling models to play an increasingly active role in their own improvement. This motivates two complementary lines of inquiry: can financial modeling capabilities provide a foundation for model self-evolution, and can self-evolution, in turn, advance financial capabilities? We introduce FinEvo, a self-evolution framework that integrates autonomous experience construction with financial capability improvement. FinEvo prepares financial models, iteratively evolves challenges through self-play, and learns from the resulting interactions using executable rewards, relying on the same model throughout. An end-to-end execution with Qwen3.6-27B shows that solving feedback supports both increasing reasoning demands and identifying specification issues that executable checks can miss. Learning from these experiences raises whole-task success from 22.73 to 29.09 on held-out within-source tasks and from 13.13 to 19.19 on SpreadsheetBench 2 Financial. Comparable gains across task sources and evalua",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
+          "url": "https://arxiv.org/abs/2611.28239"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-demystifying-the-autoresearch-harness-how-context-and-skills",
+      "date": "2026-11-24",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "povzetek_sl": "arXiv:2611.28244v1 Announce Type: new \nAbstract: Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to performance. We systematically study harness design for long-horizon, self-evolving autoresearch agents along two dimensions: context management, which determines what an agent retains from its past attempts, and skill management, which governs how it stores and reuses lessons from those attempts. Across MLE-Bench and KernelBench with gpt-oss-120b, gpt-6-luna, and gpt-6-sol, we isolate the effects of individual harness design choices by evaluating each against a recency-truncation baseline within a shared agent framework. For context management, we find that preserving individually accessible records of past attempts is more effective than maintaining a rolling summary, with context folding performing best across all six settings and improving upon the baseline by up to 19.2%. For skill management, selectively discarding persistently unused less",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+          "url": "https://arxiv.org/abs/2611.28244"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-a-nepali-accented-english-evaluation-dataset-for-automatic-s",
+      "date": "2026-11-24",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "A Nepali-Accented English Evaluation Dataset for Automatic Speech Recognition",
+      "povzetek_sl": "arXiv:2611.28263v1 Announce Type: new \nAbstract: Automatic speech recognition (ASR) systems perform strongly on native-English benchmarks, yet their accuracy degrades sharply when the input speech comes from under represented non-native accents. Nepali-accented English is particularly under-served: existing resources either focus on native Nepali speech, cover broader multi-accent settings without dedicated Nepali evaluation, or provide only limited Nepali-accent coverage. This paper presents a Nepali-accented English evaluation dataset designed to support robust ASR benchmarking under accent mismatch. The corpus was collected through a web-based platform that did not collect directly identifying metadata and contains recordings from 57 speakers. Each session follows a fixed 22-prompt protocol consisting of 11 phonetic prompts, 10 domain prompts, and 1 spontaneous prompt, providing complementary coverage of pronunciation, topical vocabulary, and natural speaking style. In addition to transcribed speech, the dataset includes participant metadata for coarse exploratory subgroup analysis and speaker-level manual recording-quality labels. Manual quality assessment shows that 50.9% of s",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Nepali-Accented English Evaluation Dataset for Automatic Speech Recognition",
+          "url": "https://arxiv.org/abs/2611.28263"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-temporal-logic-tensor-networks-foundations-of-temporal-reaso",
+      "date": "2026-11-24",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks",
+      "povzetek_sl": "arXiv:2611.28277v1 Announce Type: new \nAbstract: In dynamic scenes---football matches, traffic streams, surgery, or assembly---actions unfold at fundamentally different time scales: in football, a kick happens in milliseconds, a possession lasts seconds, and complex events such as a successful pass followed by a goal combine multiple atomic actions over extended durations. Models trained solely on visual data struggle to learn effectively across different time scales, lacking a principled way of reasoning across fine-grained instants and broader intervals. Neither point-wise nor purely interval semantics suffices: the former fragments events into frame-level snapshots lacking overall event identification; the latter treats intervals as atomic truth-values, ignoring state trajectories. We introduce Temporal Logic Tensor Networks (tLTN), a differentiable neuro-symbolic framework addressing this duality via a formal, multi-sorted logic where events and states are structurally interdependent. Extending Interval Logic Tensor Networks (ILTN), tLTN grounds state predicates as fuzzy truth-value paths over time points, while events are first-class entities with learnable trapezoidal fuzzy d",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks",
+          "url": "https://arxiv.org/abs/2611.28277"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-5g-nr-sensing-of-robotic-arm-motion-in-indoor-factory-enviro",
+      "date": "2026-11-24",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "5G NR Sensing of Robotic Arm Motion in Indoor Factory Environments",
+      "povzetek_sl": "arXiv:2611.28053v1 Announce Type: new \nAbstract: This paper investigates the performance of monostatic Integrated Sensing and Communication (ISAC) systems for tracking robotic arm kinematics in industrial factory (InF) environments. Building on a part-specific quasi-deterministic channel model previously derived from high-resolution robotic-arm measurements using our context-aware channel sounder and digital twin, we develop a framework for generating arbitrary articulated motion profiles through hierarchical kinematic transformations. By integrating this high-fidelity target model with the standardized 3GPP InF channel model, we employ 5G New Radio (NR) Positioning Reference Signals (PRS) as the sensing waveform to enable comprehensive system-level evaluation. Simulations are conducted for both sparse clutters (InF-SH) and dense clutters (InF-DH) scenarios using 3GPP-compliant antenna radiation patterns and analog beamforming, allowing us to assess the impact of industrial clutter on sensing performance. The results show that while high estimation accuracy is achievable under Line-of-Sight (LOS) conditions, dense clutter in InF-DH environments introduces severe blockage that signi",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "5G NR Sensing of Robotic Arm Motion in Indoor Factory Environments",
+          "url": "https://arxiv.org/abs/2611.28053"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-flowpac-flow-guided-visual-pruning-and-action-caching-for-ef",
+      "date": "2026-11-24",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
+      "povzetek_sl": "arXiv:2611.28256v1 Announce Type: new \nAbstract: Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied AI, yet their high inference latency and memory footprint remain major barriers to edge deployment. Existing training-free acceleration techniques, such as visual token pruning and action caching, typically rely on static resource allocation. This mismatch with dynamic robotic interactions not only degrades control performance but also causes severe hardware inefficiencies, including fragmented KV-cache layouts and wasted compute on non-critical regions. To address this, we propose FlowPAC, a locality-aware framework that leverages task-aware optical flow as a shared physical signal to jointly optimize visual and action computation. Specifically, we introduce Direction-Aware Trajectory Propagation (DATP) and Locality-Aware Contiguous Token Selection (LACT) to jointly handle visual token dynamics and enforce spatial locality, reducing memory fragmentation and enabling efficient KV-cache compression. This is complemented by Flow-Conditioned Action-Block Refresh (FCAR) for adaptive action computation based on motion dynamics. Extensive closed-loop evalu",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
+          "url": "https://arxiv.org/abs/2611.28256"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-neural-fidelity-calibration-turning-field-anomalies-into-sim",
+      "date": "2026-11-24",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Neural Fidelity Calibration: Turning Field Anomalies into Simulation Fine-Tuning",
+      "povzetek_sl": "arXiv:2611.28260v1 Announce Type: new \nAbstract: A policy that transfers from simulation to a lab robot often fails in the field. Calibrating a simulator from real-world data typically targets only a few hand-picked parameters, and even calibrated simulators fail to capture unmodeled dynamics, while environments reconstructed via onboard perception inherit sensing noise and artifacts. We propose Neural Fidelity Calibration (NFC), a framework based on conditional flow matching that infers online, directly from a robot's execution data, both simulator physical parameters and residual fidelity - the remaining dynamics discrepancy and the gap between perceived and true environment geometry. A simulation-trained anomaly detector determines when recalibration or fine-tuning is required using onboard sensory signals alone, while an exploration policy actively modulates posterior uncertainty using optimism in the face of uncertainty. Across five robot platforms with up to 39 calibrated parameters and a 128x128 residual terrain map, NFC achieves the most accurate posterior distributions compared to established simulation-based inference baselines. In physical outdoor experiments with a whee",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Neural Fidelity Calibration: Turning Field Anomalies into Simulation Fine-Tuning",
+          "url": "https://arxiv.org/abs/2611.28260"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-neural-fidelity-calibration-for-informative-sim-to-real-adap",
+      "date": "2026-11-24",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Neural Fidelity Calibration for Informative Sim-to-Real Adaptation",
+      "povzetek_sl": "arXiv:2611.28274v1 Announce Type: new \nAbstract: Deep reinforcement learning (RL) can transfer agile robot skills from simulation to the real world, but closing the sim-to-real gap by domain randomization requires expert physics knowledge, and simulator calibration from real data typically targets a few hand-picked parameters. Even then, simulators miss real-world effects, and environments reconstructed from onboard perception inherit sensing errors that limit policy improvement. We propose Neural Fidelity Calibration (NFC), which uses conditional flow matching to calibrate simulator physical parameters and residual fidelity domains online during deployment. Residual fidelity captures sim-to-real dynamics discrepancies and perception-induced environment uncertainty. NFC operates in a latent space so that realistic environments can be sampled from the inferred posterior for real-to-sim policy fine-tuning. The framework is informative: the pretrained policy is fine-tuned only when an anomaly is detected, sequential NFC seeds its proposal from the simulation-pretrained estimator, and a hallucination policy modulates posterior uncertainty following optimism in the face of uncertainty.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Neural Fidelity Calibration for Informative Sim-to-Real Adaptation",
+          "url": "https://arxiv.org/abs/2611.28274"
+        }
+      ]
+    }
+  ]
+}
