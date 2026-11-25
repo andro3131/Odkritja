@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-25",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-25-irreducible-governance-structure-for-autonomous-agent-system",
+      "date": "2026-11-25",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+      "povzetek_sl": "arXiv:2611.31284v1 Announce Type: new \nAbstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act.\n  In this paper, we show that allocation is not an auxiliary concern but a structural component of governance. When multiple agents compete for execution under constrained resources, any allocation mechanism introduces unavoidable trade-offs between fairness, efficiency, and resistance to strategic manipulation. We formalize this through a set of impossibility results, including Sybil amplification and the incompatibility of desirable allocation properties.\n  We then show that these allocation constraints cannot be resolved within a single layer of control. Instead, they propagate across the system, interacting with execution atomicity, state enforcement, and behavioral drift. This leads to a multi-scale governance structure composed of four orthogonal dimensions: temporal (atomicity), state (enforcement), behavioral (drift monitoring), and population (allocation).\n  Our main result is an irreducibility theorem: under finite ob",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Comp",
+          "url": "https://arxiv.org/abs/2611.31284"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-mozaic-an-audio-video-deepfake-benchmark-for-telling-what-is",
+      "date": "2026-11-25",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+      "povzetek_sl": "arXiv:2611.31301v1 Announce Type: new \nAbstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired benchmark with a 4-way label in which every source clip is released in all four combinations of real or fake video and real or fake audio so each modality contribution can be measured directly. Fakes cover inner-face swapping, whole-frame video diffusion and voice conversion. MOZAIC has 137,745 clips from 15,014 source pairs and four tasks: T1 AV authenticity, T2 manipulation type, T3 identity verification and T4 explanation. We evaluate 12 AV multimodal LLMs (MLLMs), train four detectors and fine-tune MLLMs with LoRA. Overall, the best MLLM reaches only 35.6% on the four-way T1 and catches far more video-only fakes than voice-only fakes (43.6% vs 7.5%). Trained detectors reach 98.4% on T1, and LoRA fine-tuning raises explanation scores (OmniVinci 4.17 to 7.40, Qwen2.5-Omni 4.42 to 6.98), but the best T1 detector falls to 78.3% when the face-swap generator is held out of training, so generaliza",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+          "url": "https://arxiv.org/abs/2611.31301"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-conservative-overlap-fuzzy-rough-sets-for-incomplete-data",
+      "date": "2026-11-25",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
+      "povzetek_sl": "arXiv:2611.31329v1 Announce Type: new Abstract: Attribute reduction in incomplete information systems is difficult because missing values break the equivalence-class structure of rough set theory. We propose the Conservative Overlap Fuzzy Rough Set (COFRS) model. Each object is described by its set of present attributes. The similarity of two objects is a weighted overlap on the attributes present in both, divided by the fixed number of attributes |A| instead of the size of their union, so missing values are penalised globally and are not matched as wildcards. From this similarity we define a soft dependency degree based on weighted granule consistency, and we search for reducts by greedy backward elimination in O(|U|^2 |A|^2) time. We show that the relation is symmetric and non-reflexive, that the dependency degree is not monotone, and we give a sufficient condition under which monotonicity holds. On 11 UCI benchmarks with missing rates from 0.15% to 20.46%, COFRS gives the smallest reducts on average (4.1 attributes, against 5.0-11.2 for Tolerance-RS, a range-threshold variant Tol-RS_tau, Zhou-RS and the min-aggregation variant COFRS-min). The difference is significant against To",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
+          "url": "https://arxiv.org/abs/2611.31329"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-beyond-static-charts-benchmarking-interactive-chart-to-code-",
+      "date": "2026-11-25",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+      "povzetek_sl": "arXiv:2611.31345v1 Announce Type: new \nAbstract: In recent years, multimodal large language models (MLLMs) have achieved significant progress in chart-to-code generation. However, existing benchmarks mainly focus on static charts, overlooking interactive charts that enable richer and more expressive data exploration. Unlike static chart-to-code generation, which emphasizes visual consistency, interactive chart-to-code evaluation targets behavioral consistency, requiring chart states to evolve correctly under sequences of user interactions, thereby rendering traditional one-step evaluation paradigms ineffective. To address this gap, we introduce ChartInt, the first benchmark specifically designed for interactive chart-to-code generation. ChartInt consists of 2,779 carefully annotated examples covering common interaction patterns such as hover, highlight, and tooltips. Additionally, ChartInt incorporates editing tasks such as data updates, style adjustments, and cross-chart style transfer to expand real-world application scenarios. To enable reliable evaluation of interaction behavior, we propose a preset state snapshot protocol that predefines target interaction states and determini",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+          "url": "https://arxiv.org/abs/2611.31345"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-what-people-choose-not-to-say-a-multimodal-benchmark-for-fin",
+      "date": "2026-11-25",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+      "povzetek_sl": "arXiv:2611.31346v1 Announce Type: new \nAbstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained emotion recognition or binary truth-deception detection, overlooking the diverse ways people manipulate information in conversations, such as withholding, leakage, fabrication, evasion, and defensive counterclaim. Understanding these behaviors requires reasoning about underlying facts, participant knowledge, and conversational context, making them difficult to evaluate reliably. To address this gap, we introduce InfoCon, a multimodal benchmark for fine-grained information manipulation in conversations. InfoCon identifies six fine-grained strategies and derives a coarse consistency label from their factual and interactional relations. We develop an evidence-grounded multi-agent annotation framework to construct and verify reliable labels from rich contextual evidence. We benchmark representative multimodal models and systematically analyze their fine-grained information manipulation understanding, providing a testbed beyond bin",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+          "url": "https://arxiv.org/abs/2611.31346"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-antares-smaug-adversarial-names-tokens-and-attack-rewrites-s",
+      "date": "2026-11-25",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
+      "povzetek_sl": "arXiv:2611.31347v1 Announce Type: new \nAbstract: Laya is an open decision model: given a text, a question and K named options with descriptions, it returns one probability per option in a single pass, and software may act on the answer unseen. We attack six Laya models with 81 programmatic edits of 566 synthetic items (injected sentences, label leaks, edited descriptions, decoy options, invisible and look-alike characters, floods) and report the share of correctly answered items hijacked or lost, with bootstrap intervals. Attack wordings that no defence was built from win the attacker's option on 59% of items for released Laya and 36% for fine-tune v1 (trained on 109 written injections). An injection works through the option name: a sentence naming an option steers the released model even when negated (32%), while an imperative naming no option does not (5%). Option descriptions barely matter (2%). Character edits alone cost v1 up to 72% of right answers. A sanitiser frozen before any held-out result cuts the attacks it was built from by 72% but held-out sentence attacks by 27%, and an attacker who picks the best of 34 held-out strings per item restores success to 84% (mean string",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
+          "url": "https://arxiv.org/abs/2611.31347"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-contextlure-exploiting-benign-conversation-history-for-indir",
+      "date": "2026-11-25",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
+      "povzetek_sl": "arXiv:2611.31424v1 Announce Type: new \nAbstract: As LLMs become more capable, agents can perform more complex tasks with tools and maintain longer interactions with users. These benign conversations contain evidence on task results, user concerns, and operational constraints. The risk is that attackers who can observe benign conversations (evidence) may construct stronger indirect prompt injections without increasing the attackers' control over prior turns or the later injection. However, we still lack a clear study of how effectively attackers can select and use this evidence. To address this gap, we introduce ContextLure, a red-teaming framework in which an attacker silently observes an existing benign conversation, extracts evidence, and constructs an injection. The challenges are twofold: (a) selecting useful evidence and (b) presenting it as reasons for an unauthorized action, without changing the prior benign conversation. To efficiently exploit (a) the effect of evidence on attack success, our framework selects evidence across 2 dimensions: User/System Preferences with 3 selection policies. And to enhance (b) the process of turning the selected information into the malicious",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
+          "url": "https://arxiv.org/abs/2611.31424"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-learning-what-vs-learning-how-decomposing-task-and-interface",
+      "date": "2026-11-25",
+      "teme": [
+        "ai"
+      ],
+      "naslov": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+      "povzetek_sl": "arXiv:2611.31427v1 Announce Type: new \nAbstract: LLM agents operate through harnesses that define system prompts, action formats, feedback loops, and resource constraints. A model may possess the knowledge needed to solve a task yet fail to express that knowledge through a particular harness. This raises a basic question: when a policy fails under a given harness, is it missing task knowledge or the competence to operate the interface? We distinguish two components of agentic competence: task competence, the knowledge and reasoning needed to solve a task, and interface competence, the ability to act on that knowledge through a given harness. Across four reasoning and agentic benchmarks, we show that harness-conditioned training yields vastly different outcomes depending on how these interact. Multi-harness distillation aggregates task knowledge from trajectories collected through different harnesses into a shared policy, but this knowledge is realised only when training preserves or improves competence on the inference-time interface. Otherwise, single-harness training can induce interference in interface competence, sometimes catastrophically collapsing performance on a held-out h",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+          "url": "https://arxiv.org/abs/2611.31427"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-evomisty-building-optimizing-and-evolving-capabilities-on-a-",
+      "date": "2026-11-25",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "EvoMisty: Building, Optimizing, and Evolving Capabilities on a Social Robot",
+      "povzetek_sl": "arXiv:2611.31341v1 Announce Type: new \nAbstract: Social robots face diverse and changing tasks in companionship and education. LLM-based methods can generate task programs, but they still rely on manually developed control interfaces and predefined capabilities. They also lack a general mechanism to optimize completed tasks based on user-specified metrics and reuse performance improvements across tasks.We present EvoMisty, a plugin-based framework that enables coding agents to build and continually improve robot capabilities. EvoMisty builds a control program from official documentation and verifies candidate capabilities on a physical robot. Verified capabilities are stored in an atomic capability library and combined with existing skills to solve tasks. After task completion, EvoMisty can collect execution data, measure user-specified metrics, and iteratively improve task programs. It then distills reusable skills from final solutions into a skill library for future tasks.We evaluate EvoMisty on a physical Misty II robot using Claude Code and Codex. The two agents construct 109 and 107 verified atomic capabilities, respectively. Both complete all 28 AutoMisty benchmark tasks and",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "EvoMisty: Building, Optimizing, and Evolving Capabilities on a Social Robot",
+          "url": "https://arxiv.org/abs/2611.31341"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-learning-from-human-corrections-through-temporal-preferences",
+      "date": "2026-11-25",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Learning from Human Corrections through Temporal Preferences",
+      "povzetek_sl": "arXiv:2611.31446v1 Announce Type: new \nAbstract: When people intervene to correct a robot, they provide information not only through how they correct its behavior, but also through when they choose to intervene. Existing approaches to Learning from Corrections focus on comparing the new trajectory to the robot's originally intended behavior, thus underutilizing the context of the robot's behavior before the intervention. In this work, we investigate how both pre- and post-intervention behavior can be translated into preference pairs for learning value functions that approximate a human's latent reward. We construct post-intervention preferences by comparing corrected behavior with the behavior it replaces, and pre-intervention preferences from temporal relationships among states leading up to an intervention. We evaluate the learned value representations through two downstream tasks: goal inference and correction forecasting. Our results show that post-intervention preferences are particularly effective for goal inference, while pre-intervention preferences provide strong correction-forecasting performance. Combining both sources of information performs strongly across both tasks,",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Learning from Human Corrections through Temporal Preferences",
+          "url": "https://arxiv.org/abs/2611.31446"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-geometric-control-analysis-of-an-internally-actuated-flying-",
+      "date": "2026-11-25",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "Geometric Control Analysis of an Internally Actuated Flying Wing",
+      "povzetek_sl": "arXiv:2611.31463v1 Announce Type: new \nAbstract: This paper presents a rigorous geometric accessibility and controllability analysis for a fixed-wing Uncrewed Aircraft System (UAS) actuated solely by an internal moving mass, a momentum wheel, and external thrust. This configuration eliminates traditional control surfaces, which in turn reduces the combinatorial set of computational fluid dynamics (CFD) studies necessary for high-fidelity modeling of flight through unsteady flow fields. Using Lie bracket computations and the strong Lie Algebra Rank Condition, it is shown that the full nonlinear dynamics are generically small-time locally accessible, with singular configurations explicitly characterized and shown to be immediately escapable by direct mass actuation. The stronger property of small-time local controllability is shown to hold for the attitude subsystem at equilibrium points, using Sussmann's condition. A key contribution is the explicit treatment of the time-varying inertia tensor via the Huygens-Steiner Theorem, which introduces nontrivial coupling between the control vector fields. The momentum wheel provides direct yaw authority that, combined with inertia variation",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Geometric Control Analysis of an Internally Actuated Flying Wing",
+          "url": "https://arxiv.org/abs/2611.31463"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-crab-h-task-centric-certification-for-healthcare-autonomous-",
+      "date": "2026-11-25",
+      "teme": [
+        "robotika",
+        "ai"
+      ],
+      "naslov": "CRAB-H: Task-Centric Certification for Healthcare Autonomous Systems",
+      "povzetek_sl": "arXiv:2611.31470v1 Announce Type: new \nAbstract: This paper introduces CRAB H as a task-centric certification methodology for healthcare autonomous systems. CRAB H extends the ARC governance architecture by introducing the task as a first-class governance object, represented through Task Requirement Profiles TRP H. Each profile defines the cognitive capabilities, governance constraints, evidentiary requirements, and operational assumptions necessary for the safe execution of a specific healthcare activity. Rather than asking whether a robot achieves a sufficiently high benchmark score, CRAB H asks whether demonstrated capabilities satisfy the requirements of the task. Certification becomes a comparison between demonstrated capability and required capability. A reliability-gated assurance allocation mechanism routes cognitive dimensions that cannot be reproducibly evaluated to LEA operational requirements rather than discarding them. Governance integrity is preserved: unreliable dimensions are governed, not ignored. The Capability Margin is defined as the threshold-based conjunction of per-dimension compliance determinations, not as a subtracted scalar preserving non compensatory go",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "CRAB-H: Task-Centric Certification for Healthcare Autonomous Systems",
+          "url": "https://arxiv.org/abs/2611.31470"
+        }
+      ]
+    }
+  ]
+}
