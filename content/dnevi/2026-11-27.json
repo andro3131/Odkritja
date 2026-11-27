@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-27",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-27-top-down-prefrontal-connectivity-accompanies-perceptual-brea",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Top-down prefrontal connectivity accompanies perceptual breakthrough after interocular suppression",
+      "povzetek_sl": "The role of the prefrontal cortex (PFC) in the emergence of visual stimuli into conscious awareness remains contested. Additionally, whether top-down prefrontal connectivity is shaped by prior expectations during this process is not well understood. To address these questions, we applied dynamic causal modelling (DCM) to an EEG dataset during breaking continuous flash suppression (bCFS), which offers tight control over when a stimulus breaks into conscious perception. Our network comprised bilateral PFC, primary visual cortex, fusiform gyrus and motor cortex. Because perceptual breakthrough precedes behavioural report, we used a temporally resolved classifier to empirically define each participants moment of perceptual breakthrough (M = 1250ms, SD = 100ms). DCMs were then inverted over this time window up until each individuals breakthrough point. Parametric empirical Bayes revealed that top-down connectivity from the PFC to all regions was necessary to explain the observed neural dynamics (posterior probability [pp] > 0.99), though evidence that this top-down influence was modulated by expectation was inconclusive (pp = 0.74). Together, these findings suggest that top-down PFC con",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Top-down prefrontal connectivity accompanies perceptual breakthrough after interocular suppression",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.765589v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-paternal-transmission-of-the-appps1-transgene-is-associated-",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Paternal transmission of the APPPS1 transgene is associated with increased amyloid pathology and a small Thy1.2-APP methylation difference",
+      "povzetek_sl": "Maternal transmission of the APP transgene lowers amyloid burden in 5xFAD mice. We examined whether APPPS1-21 shows a similar parent-of-origin association and whether Thy1.2 methylation contributes. F1 offspring inheriting the transgene from the mother had less A{beta}42, fewer plaques, less gliosis, and less human APP at intermediate ages. The A{beta}42 difference was not detected in the F2 cohort at 100 days. Non-transgenic off-spring of APPPS1 mothers did not differ in glial counts, and serum anti-A{beta} antibody levels were not higher at 40 days. In an exploratory methylation analysis of 32 brains, parent-of-origin-associated differences were sex-specific and enriched on chromosome X, not chromosome 2. The Thy1.2-APP cassette showed an approximately three-percentage-point paternal increase; the PSEN1 cassette did not. These findings establish an association with parental transmission but do not show that methylation causes the pathology differences.\n\nHIGHLIGHTSO_LIMaternal transmission is associated with lower amyloid pathology\nC_LIO_LIThe amyloid-beta 42 difference was not detected in the second generation\nC_LIO_LIAmyloid precursor protein cassette methylation is higher with",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Paternal transmission of the APPPS1 transgene is associated with increased amyloid pathology and a small Thy1.2-APP meth",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768387v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-proteobridge-connects-proteomics-quantification-outputs-to-r",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "ProteoBridge Connects Proteomics Quantification Outputs to Reusable Analysis Workflows",
+      "povzetek_sl": "Quantification tools for bottom-up label-free proteomics, including DIA-NN, Spectronaut, MaxQuant, and FragPipe, use different table layouts, column headers, modification notations, and parameter files. Downstream applications maintain separate readers for these outputs. ProteoBridge lets an application request the same quantity, such as unnormalized ion intensity, across reports from different quantification tools. JSON parsing rules describe each tools tables, and software-specific parameter parsers read the settings. The rules currently cover 14 tools and are tested on public inputs. A shared parser organizes the reported quantities into one level for each feature type the tool reports (fragments, ions, peptidoforms, peptides, or proteins) and writes the result as AnnData/MuData, Parquet, or DuckDB. A JSON summary records the structure, provenance, and conversion warnings, such as unmapped modifications. Applications can use the apb-catalog API in Python, R, or TypeScript to map the requested quantity to the field that holds it for each tool and version. Researchers can supply a sample table to add the experimental design and a FASTA database to check peptide sequences. ProteoBr",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "ProteoBridge Connects Proteomics Quantification Outputs to Reusable Analysis Workflows",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768141v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-prethalamus-integrates-neocortical-and-hypothalamic-input-to",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Prethalamus integrates neocortical and hypothalamic input to promote courage",
+      "povzetek_sl": "Courage, the ability to act despite potential danger, is essential for adaptive behavior, yet the circuit mechanisms that balance caution and risk-taking under threat are not fully understood. Here we identify the ventral lateral geniculate nucleus (vLGN), an inhibitory prethalamic structure, as a key node in this process. High vLGN activity predicts courageous behavior, such as leaving a shelter to enter a potentially threatening environment, and optogenetic activation of vLGN neurons promotes risk-taking under diverse aversive conditions. Inputs to vLGN from retrosplenial cortex (RSC) and ventromedial hypothalamus (VMH) modulate this behavior in opposing directions: RSC input promotes leaving safety, while VMH input suppresses it. These inputs target largely distinct vLGN populations that interact to integrate these opposing drives: a hypothalamic signal promoting defensive caution and a neocortical signal promoting action despite potential threat.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Prethalamus integrates neocortical and hypothalamic input to promote courage",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768550v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-lifespan-remodeling-of-cerebral-biomechanical-network-organi",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Lifespan Remodeling of Cerebral Biomechanical Network Organization Reveals Coordinated Maturation and Aging-Related Convergence",
+      "povzetek_sl": "Brain biomechanical connectivity (BC) captures shared regional viscoelastic properties that may support functional interactions. Although functional and structural brain networks are well characterized, the systems-level organization of brain biomechanics remains unknown. Using in-vivo magnetic resonance elastography (MRE) and community detection, we established BC and its network organization across the mouse lifespan, spanning seven stages from early adolescence (4 weeks) to old age (72 weeks). BC was benchmarked against established functional and structural connectivity, revealing shared connectivity features. Biomechanical network organization showed increasing segregation during adolescence, peaking in late adolescence, followed by progressive reintegration with aging. Biomechanical network dynamics defined by the pace of age-related change showed coordinated maturation during adolescence, regionally differentiated trajectories throughout adulthood, and partial reconvergence in aging. These findings establish a lifespan framework for cerebral biomechanical connectivity in mice and reveal age-dependent systems-level network reorganization that may underlie critical windows of b",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Lifespan Remodeling of Cerebral Biomechanical Network Organization Reveals Coordinated Maturation and Aging-Related Conv",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767305v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-closed-loop-control-of-sensorimotor-aperiodic-neural-dynamic",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Closed-loop control of sensorimotor aperiodic neural dynamics can manipulate excitatory-inhibitory balance in humans",
+      "povzetek_sl": "A ubiquitous property of physical and biological systems is scale-free dynamics in which spectral power decreases as a function of frequency, showing a 1/f spectral slope. The 1/f slope of neural power spectra has been proposed as a marker of cortical excitation-inhibition (E/I) balance, based on pharmacological experiments and computational models of synaptic activity in cortical networks. However, whether or not the spectral slope in the human population recordings, influenced by biophysical or experimental factors, can be utilized as an index of cortical E/I is debatable. Here, we show that this slope can be volitionally modulated and that its modulation is accompanied by changes in motor cortical activity reflecting E/I balance. To this end, we used a closed-loop paradigm in which real-time changes in the sensorimotor 1/f slope during neurofeedback trigger transcranial magnetic stimulation to probe intracortical circuits in the primary motor cortex. We found lower facilitatory effects in the steeper 1/f state than in both the flatter state and at rest, despite no significant between-state differences in 1/f-adjusted band power. These findings establish the physiological relevan",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Closed-loop control of sensorimotor aperiodic neural dynamics can manipulate excitatory-inhibitory balance in humans",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765129v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-evidence-supporting-resting-state-power-spectrum-exponent-as",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Evidence supporting resting-state power spectrum exponent as a non-invasive measure of neural-circuit excitation:inhibition balance in children with and without autism",
+      "povzetek_sl": "IntroductionAn ongoing neural circuit excitation (E) and inhibition (I) imbalance is thought to be a major contributor to clinical conditions such as autism, schizophrenia, and epilepsy. Current methods for directly measuring E:I dynamics require invasive procedures that are difficult to perform in non-human animals and nearly impossible in humans. A non-invasive measure of E:I balance is of great interest as a diagnostic as well as therapeutic marker, and as a means of studying relevant pathological and intervention mechanisms. Scientists have recently developed a computational model to show that, using resting-state (RS) MEG or EEG recordings, the E:I balance can be estimated from the power law exponent (slope) of the electrophysiological power spectrum. In their model, the RS power spectrum exponent is hypothesized to reflect the integration of synaptic currents in the brain, an index of E:I balance driven largely by excitatory (glutamate, Glu) and inhibitory (gamma-aminobutyric acid, GABA) neurotransmitter levels. Glu and GABA are the principal excitatory and inhibitory neurotransmitters in the brain, together shaping the balance between neural circuit excitation and inhibition",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Evidence supporting resting-state power spectrum exponent as a non-invasive measure of neural-circuit excitation:inhibit",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.767072v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-from-cellular-synaptic-input-profiles-to-population-level-re",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "From cellular synaptic input profiles to population-level respiratory circuitry",
+      "povzetek_sl": "Breathing depends on coordinated activity among brainstem neurons. Their discharge patterns show when populations are active but do not specify the synaptic inputs that generate these patterns. Assuming that respiratory pattern generation involves a small number of interacting populations distinguished by discharge timing and excitatory or inhibitory output, we used synaptic conductances as readouts of their convergent activity. We reconstructed excitatory and inhibitory conductances from our previously described in situ rat brainstem-spinal cord recording archive (168 recordings, 150 neurons). We represented candidate presynaptic activity by five independently recorded population discharge patterns, assuming that phase-dependent inputs originated within these populations. We fitted each conductance time course as a nonnegative weighted sum of these patterns and tested whether candidate inputs could be omitted from the population mean, using variation across cells.\n\nPost-inspiratory inhibition was supported in all three inspiratory populations.\n\nRamp-inspiratory neurons also showed augmenting-expiratory inhibition, and pre-inspiratory/inspiratory neurons showed augmenting-expirator",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "From cellular synaptic input profiles to population-level respiratory circuitry",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768629v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-the-haunting-loveliness-of-boglands-books-in-brief",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "The haunting loveliness of boglands: Books in brief",
+      "povzetek_sl": "Nature, Published online: 27 November 2026; doi:10.1038/d41586-026-03885-4 Andrew Robinson reviews five of the best science picks.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "The haunting loveliness of boglands: Books in brief",
+          "url": "https://www.nature.com/articles/d41586-026-03885-4"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-brain-areas-mysterious-role-in-speech-decoded-at-last",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Brain area’s mysterious role in speech decoded at last",
+      "povzetek_sl": "Nature, Published online: 27 November 2026; doi:10.1038/d41586-026-03800-x Wernicke’s area is known for processing spoken words, but brain recordings reveal that it also makes a crucial contribution to a related cognitive task.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Brain area’s mysterious role in speech decoded at last",
+          "url": "https://www.nature.com/articles/d41586-026-03800-x"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-life-saving-cancer-drug-pumped-out-by-a-plant",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Life-saving cancer drug pumped out by a plant",
+      "povzetek_sl": "Nature, Published online: 27 November 2026; doi:10.1038/d41586-026-03801-w In a proof-of-concept study, scientists have coaxed a tobacco-related plant to synthesize the chemotherapy drug paclitaxel.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Life-saving cancer drug pumped out by a plant",
+          "url": "https://www.nature.com/articles/d41586-026-03801-w"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-postcards-from-your-graves",
+      "date": "2026-11-27",
+      "teme": [
+        "medicina",
+        "fizika"
+      ],
+      "naslov": "Postcards from your graves",
+      "povzetek_sl": "Nature, Published online: 27 November 2026; doi:10.1038/d41586-026-03523-z A disastrous outcome.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Postcards from your graves",
+          "url": "https://www.nature.com/articles/d41586-026-03523-z"
+        }
+      ]
+    }
+  ]
+}
