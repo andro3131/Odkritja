@@ -1,0 +1,259 @@
+{
+  "date": "2026-11-28",
+  "naslov_dneva": "Surovi zadetki (brez sintaze)",
+  "recap": null,
+  "kartice": [
+    {
+      "id": "2026-11-28-computational-and-structure-based-analysis-of-the-conserved-",
+      "date": "2026-11-28",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Computational and structure-based analysis of the conserved 5'-3' exoribonuclease (XRN) family in plant species suggests seven potentially functional amino acid motifs within the N",
+      "povzetek_sl": "Plant diseases and pests cause substantial crop losses worldwide, underscoring the need for safe and effective plant protection measures. One potential approach is the foliar spraying of mRNA to induce transient protein expression in plants, but RNA instability limits its use. Plant 5'-3' exoribonucleases (XRNs) could degrade exogenous RNA after uptake, thereby contributing to an intracellular barrier, while viral exoribonuclease-resistant RNAs (xrRNAs) could protect exogenous RNA. However, the molecular mechanisms remain unclear. Here, XRNs from Arabidopsis thaliana, Zea mays, Hordeum vulgare, Nicotiana tabacum, and Nicotiana benthamiana were investigated using computational methods such as phylogenetic, sequence-based and structure-based analyses. Phylogenetic analysis of eleven plant XRN candidates, together with the A. thaliana XRNs, grouped into two clades designated XRN4-like and XRN2/3-like, and an outgroup comprising two monocot sequences. In twelve of fifteen predicted plant XRN structures in complex with a 5 nucleotide (nt) single-stranded RNA (ssRNA) and two magnesium ions, the active center reproduced the architecture described for homologous XRN crystal structures. Con",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Computational and structure-based analysis of the conserved 5'-3' exoribonuclease (XRN) family in plant species suggests",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769122v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-meiotic-recombination-rate-in-drosophila-melanogaster-is-rob",
+      "date": "2026-11-28",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Meiotic recombination rate in Drosophila melanogaster is robust to hypoxic conditions",
+      "povzetek_sl": "Meiotic recombination is often described as a plastic trait that responds to environmental stress, but the evidence across stressors is mixed and the role of oxygen availability in particular remains poorly resolved. We tested whether chronic, mild hypoxia alters the rate of meiotic recombination on the X chromosome of Drosophila melanogaster. F1 females were reared from oviposition through eclosion under one of three conditions: an outside-chamber normoxic control (PO2 21 kPa), an in-chamber normoxic control (PO2 21 kPa), and a hypoxic treatment (PO2 8 kPa). To separate genuine meiotic effects from the confounding influence of differential survival, we paired a six-point multiply-marked test cross with marker-free crosses on identical outcrossed backgrounds, directly measured F1 fecundity and F2 egg-to-adult viability, and fit the resulting phenotypic class counts to an extended Cx(Co)m model that accounts for asymmetric meiosis and treatment, marker, and sex-specific mortality. Ovary RNA-seq from unmated F1 females showed broad transcriptional changes in the Chamber PO2 8 kPa treatment relative to the outside-chamber control, part of which was shared with the in-chamber PO2 21 kP",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Meiotic recombination rate in Drosophila melanogaster is robust to hypoxic conditions",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.768981v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-genetic-regulation-of-hepatic-retinoid-storage-is-associated",
+      "date": "2026-11-28",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Genetic regulation of hepatic retinoid storage is associated with distinct transcriptional networks and liver cellular composition in mice",
+      "povzetek_sl": "Background & AimsVitamin A status is determined by both dietary intake and genetic factors. While genetic variations influencing circulating retinol levels have been reported in humans, the genetic determinants of hepatic vitamin A storage and their biological significance remain poorly understood. We investigated the molecular and cellular mechanisms underlying physiological variation in circulating and hepatic vitamin A levels using a genetically diverse inbred mouse population.\n\nApproach & ResultsSerum and hepatic retinol (ROH) as well as hepatic retinyl ester (RE) concentrations were quantified in 20 inbred mouse strains (n=100). Significant strain-dependent variation was observed for all retinoid (vitamin A and its metabolites) measures, with heritability estimates of 0.488 for serum ROH, 0.504 for hepatic ROH, and 0.624 for hepatic RE. Multiomics analyses were performed, including liver transcriptomics, liver untargeted metabolomics, weighted gene and metabolite correlation network analyses, dietary vitamin A supplementation studies on two inbred mouse strains, and single-nucleus RNA sequencing, to identify pathways associated with genetically determined retinoid variations.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Genetic regulation of hepatic retinoid storage is associated with distinct transcriptional networks and liver cellular c",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767435v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-how-reliable-are-reconstructions-of-complex-polyploid-histor",
+      "date": "2026-11-28",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "How Reliable Are Reconstructions of Complex Polyploid Histories? A Benchmark of Phylogenetic Inference Methods",
+      "povzetek_sl": "Polyploid phylogenetic inference methods are regularly applied to reconstruct allo- and autopolyploidization events in clades with complex evolutionary histories. To date, however, they have been evaluated mainly on small, simulated networks containing a handful of species and very few polyploidization events. Moreover, the extent to which different methods recover the same evolutionary history from the same data is largely unexplored. Here, we benchmark five existing methods, PADRE, AlloppNET, GRAMPA, MPAllopp and Polyphest, together with GRAMPAIter, an automated extension of GRAMPA developed here that enables its application to histories involving more than a single polyploidization event. We evaluated their agreement on 12 empirical datasets and their accuracy on simulations based on 21 published phylogenetic networks encompassing dozens of species. Simulations varied incomplete lineage sorting, rates of gene duplication and loss, and extent of fractionation. To compare inferred networks, we introduce two measures that separately quantify disagreement in the descendant taxa and parental lineages associated with reticulation events. Only Polyphest, GRAMPA and GRAMPAIter consisten",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "How Reliable Are Reconstructions of Complex Polyploid Histories? A Benchmark of Phylogenetic Inference Methods",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769415v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-a-method-to-correct-internal-standard-normalization-errors-i",
+      "date": "2026-11-28",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "A Method to Correct Internal Standard Normalization Errors in Sequencing Data",
+      "povzetek_sl": "Measuring the absolute abundances of microbial communities using only sequencing requires the introduction of an internal DNA standard to all samples. However, any error in the measurement of the internal standard becomes a systematic error propagated to all taxa in a sample. In this work we present a method utilizing random combinations of low-count sequences to detect and correct these systematic errors. When applied to sequencing data from Lee et al. (2025), the method reduced replicate-replicate variance in 66% of samples and did not increase replicate-replicate variance in the remaining samples. This is consistent with a systematic error that is not present in all samples but can be significant when it occurs. Additionally, we show that prior expectations based on the experiment can be incorporated into the method to improve corrections further.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "A Method to Correct Internal Standard Normalization Errors in Sequencing Data",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768725v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-ubr5-sustains-effector-regulatory-t-cell-fitness-by-restrain",
+      "date": "2026-11-28",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "UBR5 sustains effector regulatory T cell fitness by restraining the p53 checkpoint",
+      "povzetek_sl": "Regulatory T cells (Tregs) restrain antitumor immunity, yet the mechanisms that sustain their effector functions remain incompletely understood. Here, we identify the E3 ubiquitin ligase UBR5 as a key regulator of effector Treg (eTreg) fitness. Conditional and mosaic genetic models reveal that UBR5 supports Treg proliferation, effector differentiation, and suppressive function. Treg-specific UBR5 deletion inhibits tumor growth and sensitizes tumors to PD-1 blockade. Mechanistically, UBR5 promotes p53 protein turnover through its HECT domain, limiting activation of the p53-p21 checkpoint. Genetic deletion of p53 or p21 rescues key defects in UBR5-deficient Tregs. Single-cell transcriptomic profiling reveals impaired effector-associated transcriptional programs in UBR5-deficient tumor Tregs. Analysis of human tumors further reveals an association of UBR5 expression with eTreg features and nonresponse to immune checkpoint blockade. Together, these findings identify a mechanism linking ubiquitin-dependent protein homeostasis to Treg proliferative fitness and immune suppression, with implications for cancer immunotherapy.",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "UBR5 sustains effector regulatory T cell fitness by restraining the p53 checkpoint",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769189v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-integrative-transcriptomic-and-experimental-analysis-reveals",
+      "date": "2026-11-28",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Integrative Transcriptomic and Experimental Analysis Reveals Stage-Associated Molecular Changes and Context-Dependent Expression Responses of CDKN1A and c-MYC in NAFLD Progression",
+      "povzetek_sl": "Background and Aims: Non alcoholic fatty liver disease (NAFLD) progression involves complex molecular changes across disease stages, but the regulatory programs underlying these transitions remain incompletely understood. This study aimed to characterize stage associated molecular changes and investigate the expression responses associated with CDKN1A and c-MYC overexpression. Materials and Methods: Transcriptomic data from 114 human liver samples across five NAFLD stages were analyzed using differential gene expression, weighted gene coexpression network analysis (WGCNA), and protein protein interaction (PPI) network analysis. CDKN1A and MYC were further investigated through overexpression experiments in normal and fatty-acid-treated HepG2 cells, followed by quantitative PCR analysis of selected genes. Results: A total of 3,663 differentially expressed genes (DEGs) were identified across four consecutive disease-stage transitions, with the largest transcriptional changes occurring between NASH and mild fibrosis. WGCNA identified stage-associated co-expression modules enriched in inflammatory, cell cycle, and tissue remodeling pathways. PPI analysis revealed stage dependent changes",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Integrative Transcriptomic and Experimental Analysis Reveals Stage-Associated Molecular Changes and Context-Dependent Ex",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769377v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-witnessing-others-suffering-is-associated-with-divergent-mit",
+      "date": "2026-11-28",
+      "teme": [
+        "medicina"
+      ],
+      "naslov": "Witnessing others' suffering is associated with divergent mitochondrial transcriptonal programs in human monocytes",
+      "povzetek_sl": "Witnessing others' suffering can elicit a physiological stress response, yet its effects on the broader transcriptional programs of human immune cells remain poorly characterized. To characterize these responses at the cellular level, we examined monocyte transcriptional responses to witnessing others' suffering in 55 participants using a counterbalanced, within-subject experiment. Participants viewed documentaries depicting animal suffering (observed trauma, OT) or positive human-animal interactions (observed community, OC) on separate days, with circulating monocytes collected before and after each viewing for RNA sequencing. Mitochondrial DNA-encoded protein-coding transcripts (mt-mRNAs) showed greater pre-to-post increases following OT than OC, whereas nine nuclear-encoded mitochondrial pathways (MitoPathways), involved in metabolism, detoxification, and signaling, showed lower post-viewing expression under OT. The association between baseline and post-viewing expression was also weaker under OT for the mt-mRNAs and selected MitoPathways, suggesting baseline-dependent transcriptional responses. Genome-wide principal component analysis identified a stable axis of transcriptional",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Witnessing others' suffering is associated with divergent mitochondrial transcriptonal programs in human monocytes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.762555v1?rss=1"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-apod-2026-november-28-apollo-17-vip-site-anaglyph",
+      "date": "2026-11-28",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 November 28 – Apollo 17 VIP Site Anaglyph",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 November 28 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Apollo 17 VIP [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 November 28 – Apollo 17 VIP Site Anaglyph",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-artemis-iii-astronaut-andre-douglas-visits-vab",
+      "date": "2026-11-28",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "Artemis III Astronaut Andre Douglas Visits VAB",
+      "povzetek_sl": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov. 17, 2026. During Artemis III, four RS-25 engines will power the SLS (Space Launch System) rocket core stage to send the Orion [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "Artemis III Astronaut Andre Douglas Visits VAB",
+          "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-nasas-ng-25-mission-to-launch-pioneering-space-crops-researc",
+      "date": "2026-11-28",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+      "povzetek_sl": "NASA experiments, including a first-of-its-kind space crop production system, will travel to the International Space Station aboard Northrop Grumman’s 25th Commercial Resupply Services mission for the agency. Investigations from NASA’s Biological and Physical Sciences Division will advance research that benefits life on Earth and future exploration, expanding knowledge of space crops and human health. Groundbreaking […]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+          "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-apod-2026-november-27-the-moon-watchers",
+      "date": "2026-11-28",
+      "teme": [
+        "spacex"
+      ],
+      "naslov": "APOD: 2026 November 27 – The Moon Watchers",
+      "povzetek_sl": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Moon Watchers [&#8230;]",
+      "zakaj_je_vazno": "Brez LLM sintaze (ni API ključa).",
+      "status": "paper",
+      "zaupanje": 2,
+      "watch_id": null,
+      "viri": [
+        {
+          "tip": "rss",
+          "handle": null,
+          "naslov": "APOD: 2026 November 27 – The Moon Watchers",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/"
+        }
+      ]
+    }
+  ]
+}
